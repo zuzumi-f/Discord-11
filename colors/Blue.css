@@ -1,0 +1,48 @@
+/* Blue */
+[data-popout-root], html {
+    --brand-experiment-100: hsl(202, 77.8%, 98.2%);
+    --brand-experiment-130: hsl(208, 87.5%, 96.9%);
+    --brand-experiment-160: hsl(207, 84.6%, 94.9%);
+    --brand-experiment-200: hsl(208, 83.3%, 92.9%);
+    --brand-experiment-230: hsl(208, 87%, 91%);
+    --brand-experiment-260: hsl(207, 86.2%, 88.6%);
+    --brand-experiment-300: hsl(207, 86.1%, 85.9%);
+    --brand-experiment-330: hsl(207, 85.1%, 81.6%);
+    --brand-experiment-360: hsl(207, 86.1%, 77.5%);
+    --brand-experiment-400: hsl(207, 86.1%, 71.8%);
+    --brand-experiment-430: hsl(207, 85.7%, 69.8%);
+    --brand-experiment-460: hsl(207, 85.5%, 67.5%);
+    --brand-experiment: hsl(207, 86%, 65%);
+    --brand-experiment-500: hsl(207, 85.6%, 64.7%);
+    --brand-experiment-530: hsl(207, 66.7%, 58.8%);
+    --brand-experiment-560: hsl(207, 51.4%, 52.4%);
+    --brand-experiment-600: hsl(207, 46.7%, 44.1%);
+    --brand-experiment-630: hsl(207, 46.7%, 38.2%);
+    --brand-experiment-660: hsl(207, 47.1%, 33.3%);
+    --brand-experiment-700: hsl(207, 47%, 25.9%);
+    --brand-experiment-730: hsl(207, 46.8%, 24.3%);
+    --brand-experiment-760: hsl(206, 46.9%, 22.2%);
+    --brand-experiment-800: hsl(207, 47.5%, 19.4%);
+    --brand-experiment-830: hsl(207, 47.4%, 14.9%);
+    --brand-experiment-860: hsl(207, 46.9%, 9.6%);
+    --brand-experiment-900: hsl(206, 50%, 3.1%);
+    --brand-experiment-05a: hsla(207, 85.6%, 64.7%, 0.05);
+    --brand-experiment-10a: hsla(207, 85.6%, 64.7%, 0.1);
+    --brand-experiment-15a: hsla(207, 85.6%, 64.7%, 0.15);
+    --brand-experiment-20a: hsla(207, 85.6%, 64.7%, 0.2);
+    --brand-experiment-25a: hsla(207, 85.6%, 64.7%, 0.25);
+    --brand-experiment-30a: hsla(207, 85.6%, 64.7%, 0.3);
+    --brand-experiment-35a: hsla(207, 85.6%, 64.7%, 0.35);
+    --brand-experiment-40a: hsla(207, 85.6%, 64.7%, 0.4);
+    --brand-experiment-45a: hsla(207, 85.6%, 64.7%, 0.45);
+    --brand-experiment-50a: hsla(207, 85.6%, 64.7%, 0.5);
+    --brand-experiment-55a: hsla(207, 85.6%, 64.7%, 0.55);
+    --brand-experiment-60a: hsla(207, 85.6%, 64.7%, 0.6);
+    --brand-experiment-65a: hsla(207, 85.6%, 64.7%, 0.65);
+    --brand-experiment-70a: hsla(207, 85.6%, 64.7%, 0.7);
+    --brand-experiment-75a: hsla(207, 85.6%, 64.7%, 0.75);
+    --brand-experiment-80a: hsla(207, 85.6%, 64.7%, 0.8);
+    --brand-experiment-85a: hsla(207, 85.6%, 64.7%, 0.85);
+    --brand-experiment-90a: hsla(207, 85.6%, 64.7%, 0.9);
+    --brand-experiment-95a: hsla(207, 85.6%, 64.7%, 0.95);
+}
