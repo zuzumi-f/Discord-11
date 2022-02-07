@@ -1629,20 +1629,6 @@ div[style*="52.08"] {
     backdrop-filter: blur(24px);
 }
 
-/* Custom CSS */
-#bd-editor-panel {
-    background-color: hsla(0, 0%, 6%, 0.6);
-    border: 1px solid hsla(0, 0%, 50%, 0.4);
-    border-radius: 8px;
-}
-
-#bd-editor-panel #bd-editor-controls {
-    border-radius: 8px 8px 0 0;
-}
-#bd-editor-panel .editor-wrapper, #bd-editor-panel .editor, .monaco-editor:not(.rename-box), .monaco-editor .overflow-guard, .monaco-editor .overlayWidgets, #bd-customcss-editor>div>.overflow-guard>div:nth-child(3), .monaco-editor .overflow-guard {
-    border-radius: 0 0 8px 8px;
-}
-
 /* BD button */
 .bd-button, .bd-addon-views .bd-view-button.selected {
     background-color: var(--brand-experiment-530);
