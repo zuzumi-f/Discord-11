@@ -1,0 +1,18 @@
+/**
+ * @name Discord 11
+ * @description Based in Windows 11 UI
+ * @author zuzumi#8097
+ * @authorId 403725623161257984
+ * @version 1
+ * @invite PsNtzGeHuW
+*/
+
+/* Theme Import [DON'T TOUCH] */
+@import url(https://zuzumi-f.github.io/Discord-11/base.css);
+
+/* Colors *//* Change colors with Purple.css or Green.css ⬇️⬇️ */
+@import url(https://zuzumi-f.github.io/Discord-11/colors/Blue.css);
+
+/*----------------------------------------------------
+                anything else down here
+------------------------------------------------------*/
