@@ -423,7 +423,7 @@
     border-radius: 8px;
     border: 1px solid hsla(0, 0%, 50%, 0.36);
 }
-.headerBar-1dSpQr:before, .tabBody-2dgbAs:before {
+.headerBar-1dSpQr:before, .tabBody-2dgbAs:before, .content-1jQy2l:before {
     display: none;
 }
 .applicationStore-2nk7Lo .children-3xh0VB:after {
@@ -1860,4 +1860,24 @@ div[style*="52.08"] {
     border: 1px solid hsla(0, 0%, 50%, 0.4);
     border-radius: 5px;
     margin-top: 0;
+}
+
+/* disable discord's laggy settings animation by Xyhlo [edit] */
+.layer-86YKbF {transform: none !important;opacity: 1 !important;}
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {pointer-events: auto !important;will-change: unset;}
+.animating-1rIrGV.stop-animations {z-index: 100 !important;}
+.layers-OrUESM>.layer-86YKbF {position: unset;}
+.platform-win .layer-86YKbF {top: unset;padding-top: unset;}
+
+.platform-win .standardSidebarView-E9Pc3j {
+    top: 0;
+    left: 72px;
+    width: calc(100% - 72px);
+    border-top-left-radius: 8px;
+    border-left: 1px solid hsla(0, 0%, 50%, 0.36);
+    border-top: 1px solid hsla(0, 0%, 50%, 0.36);
+}
+.sidebarRegionScroller-FXiQOh {
+    border-top-left-radius: 8px;
 }
