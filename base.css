@@ -885,6 +885,12 @@
 .scroller-29cQFV::-webkit-scrollbar {
     width: 10px;
 }
+#app-mount .applicationStore-2nk7Lo .scroller-29cQFV, #app-mount .applicationStore-2nk7Lo .container-ZMc96U.themed-Hp1KC_ {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .applicationStore-2nk7Lo .premiumContainer-3GGa8Q {
+    max-width: none;
+}
 
 .scroller-1ox3I2::-webkit-scrollbar {
     width: 6px;
