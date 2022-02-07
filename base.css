@@ -1659,7 +1659,7 @@ div[style*="52.08"] {
 #app-mount .message-2CShn3[data-is-author-self="true"] .repliedMessage-3Z6XBG {
     margin-left: auto;
 }
-#app-mount .replying-eZ7p5z[data-is-author-self="true"] .contents-2MsGLg::before {
+#app-mount .replying-eZ7p5z[data-is-author-self="true"] .contents-2MsGLg::before, #app-mount .mentioned-Tre-dv[data-is-author-self="true"] .contents-2MsGLg::before {
     left: unset;
     right: 46px;
 }
