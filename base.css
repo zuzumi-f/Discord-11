@@ -1030,6 +1030,13 @@
     padding-right: 2px !important;
 }
 
+.scroller-14hecM::-webkit-scrollbar {
+    width: 10px;
+}
+.scroller-14hecM {
+    margin-right: 10px;
+}
+
 /* Resent mentions, unread, pinned messages & threads */
 #app-mount .messagesPopoutWrap-3zryHW, #app-mount .container-2ebMPP {
     background-color: hsla(0, 0%, 6%, 0.6);
