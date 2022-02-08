@@ -423,7 +423,7 @@
     border-radius: 8px;
     border: 1px solid hsla(0, 0%, 50%, 0.36);
 }
-.headerBar-1dSpQr:before, .tabBody-2dgbAs:before, .content-1jQy2l:before {
+.headerBar-1dSpQr:before, .tabBody-2dgbAs:before, .content-1jQy2l:before, .chat-1rZYgu:before {
     display: none;
 }
 .applicationStore-2nk7Lo .children-3xh0VB:after {
@@ -444,6 +444,14 @@
 }
 #app-mount .container-ZMc96U {
     border-bottom: 1px solid hsla(0, 0%, 50%, 0.36);
+}
+
+#app-mount .container-3XgAHv {
+    margin-bottom: 8px;
+    margin-top: 0;
+    margin-right: 8px;
+    border-radius: 8px;
+    border: 1px solid hsla(0, 0%, 50%, 0.36);
 }
 
 /* Chatbar */
