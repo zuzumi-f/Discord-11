@@ -1889,3 +1889,17 @@ div[style*="52.08"] {
 .sidebarRegionScroller-FXiQOh {
     border-top-left-radius: 8px;
 }
+
+/* Server Boost */
+#app-mount .perksModal-CLcR1c {
+    height: calc(100% - 50px);
+    width: calc(100% - 72px);
+    top: 50px;
+    left: 72px;
+    border-top-left-radius: 8px;
+    border-left: 1px solid hsla(0, 0%, 50%, 0.36);
+    border-top: 1px solid hsla(0, 0%, 50%, 0.36);
+}
+.perksModal-CLcR1c::-webkit-scrollbar {
+    width: 10px;
+}
