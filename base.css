@@ -1960,3 +1960,59 @@ div[style*="52.08"] {
 .container-ZMc96U [fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
   fill: var(--offline-color);
 }
+
+/* ChannelDms */
+#app-mount .ChannelDms-channelmembers-wrap {
+    width: 260px;
+}
+#app-mount .ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
+    border-radius: 0;
+    border: none;
+}
+
+#app-mount .ChannelDms-channelpopout-popout {
+    background-color: hsla(0, 0%, 6%, 0.6);
+    border: 1px solid hsla(0, 0%, 50%, 0.4);
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
+#app-mount .ChannelDms-channelpopout-popout .ChannelDms-channelpopout-header {
+    box-shadow: none;
+    border-bottom: 1px solid hsla(0, 0%, 50%, 0.4);
+    padding: 8px;
+    padding-right: 36px;
+}
+#app-mount .ChannelDms-channelpopout-popout .ChannelDms-channelpopout-collapseButton {
+    top: 4px;
+    left: 4px;
+}
+#app-mount .ChannelDms-channelpopout-popout .ChannelDms-channelpopout-removeButton {
+    top: 8px;
+    right: 8px;
+    background-color: transparent;
+    width: 26px;
+    box-shadow: none;
+    border-radius: 0;
+    background-position: right;
+    border-left: 1px solid hsla(0, 0%, 50%, 0.4);
+}
+#app-mount .ChannelDms-channelpopout-popout .form-3gdLxP:before {
+    display: none;
+}
+
+.ChannelDms-channelpopout-headerStatus [fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"] {
+    fill: var(--streaming-color);
+}
+.ChannelDms-channelpopout-headerStatus [fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
+    fill: var(--online-color);
+}
+.ChannelDms-channelpopout-headerStatus [fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
+    fill: var(--idle-color);
+}
+.ChannelDms-channelpopout-headerStatus [fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
+    fill: var(--dnd-color);
+}
+.ChannelDms-channelpopout-headerStatus [fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
+    fill: var(--offline-color);
+}
