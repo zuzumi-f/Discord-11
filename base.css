@@ -1681,6 +1681,11 @@ div[style*="52.08"] {
     border: 1px solid var(--background-primary);
 }
 
+#app-mount .root-g14mjS .grabber-2GQyvM::before {
+    left: 5px;
+    top: 5px;
+}
+
 /* Roles Settings */
 #app-mount .titleContainer-3fPic2, #app-mount .header-JUTO-g {
     background-color: var(--background-secondary-alt);
