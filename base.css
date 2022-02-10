@@ -2028,3 +2028,8 @@ div[style*="52.08"] {
 .ChannelDms-channelpopout-headerStatus [fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
     fill: var(--offline-color);
 }
+
+/* When error */
+#app-mount .errorPage-2pZ2Kq {
+    -webkit-app-region: no-drag;
+}
