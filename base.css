@@ -208,6 +208,8 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    display: flex;
+    word-break: break-all;
 }
 
 .userPopout-2j1gM4 .body-2wLx-E::-webkit-scrollbar {
@@ -297,10 +299,11 @@
     margin-bottom: 40px;
 }
 .customStatusActivity-WKWGD- {
-  padding-right: 16px !important;
-  justify-content: center;
-  text-align: center;
-  display: block;
+    padding-right: 16px !important;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    word-break: break-all;
 }
 
 #app-mount .header-S26rhB .actionButton-iarQTd {
