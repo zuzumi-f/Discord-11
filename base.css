@@ -320,6 +320,21 @@
   margin-left: 16px;
 }
 
+#app-mount .userProfileActivity-sal5no {
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+#app-mount .userProfileActivity-sal5no .bodyNormal-250CQK, #app-mount .userProfileActivity-sal5no .bodyAlignCenter-3E27PU {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: var(--background-secondary-alt);
+    border: 1px solid hsla(0, 0%, 50%, 0.4);
+}
+.theme-dark .newProfileActivityStyles .platformIcon-k3yytQ, .theme-light .newProfileActivityStyles .platformIcon-k3yytQ {
+    top: 40px;
+}
+
 /* Role selector */
 .container-2O1UgZ {
     background-color: hsla(0, 0%, 6%, 0.6);
