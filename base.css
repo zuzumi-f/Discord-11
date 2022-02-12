@@ -1621,7 +1621,6 @@ div[style*="52.08"] {
 .featuresHeader-2bjq5B {
     text-align: center;
 }
-
 .feature-2IUcBI {
     border: 1px solid hsla(0, 0%, 50%, 0.18);
 }
@@ -2106,4 +2105,34 @@ div[style*="52.08"] {
 /* When error */
 #app-mount .errorPage-2pZ2Kq {
     -webkit-app-region: no-drag;
+}
+
+/* Always bottom server list buttons by Gibbu [edit] */
+.scroller-3X7KbA {
+    contain: unset;
+    height: calc(100% - 120px);
+    padding-bottom: 40px;
+}
+.scroller-3X7KbA::before {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    width: 72px;
+    height: 168px;
+    background: linear-gradient(transparent, var(--background-tertiary) 30%);
+    z-index: 1;
+}
+.tutorialContainer-2jwoiB {
+    position: fixed;
+    bottom: 2px;
+    z-index: 1;
+}
+.tutorialContainer-2jwoiB + .listItem-3SmSlK {
+    position: fixed;
+    bottom: 58px;
+    contain: none;
+    z-index: 1;
+}
+.guilds-2JjMmN .unreadMentionsIndicatorBottom-3RJMnQ {
+    bottom: 120px;
 }
