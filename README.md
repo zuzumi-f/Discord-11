@@ -2,7 +2,7 @@
 Theme based in windows 11 new UI
 
 # Preview
-![Discord_pT0jrwxFkU](https://user-images.githubusercontent.com/79029257/152862039-c894997d-a543-4935-8cc5-efb95259aacf.png)
+![Discord_Kv8dONTbRh](https://user-images.githubusercontent.com/79029257/153726443-03dd24ea-58ba-45c2-96af-ac5bdf793c68.png)
 
 # Settings
 ![Discord_8QPx4Amnbk](https://user-images.githubusercontent.com/79029257/152886315-7e2afff1-ec2a-4af3-855d-7141d26ff932.png)
