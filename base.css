@@ -472,6 +472,39 @@
     border: 1px solid hsla(0, 0%, 50%, 0.36);
 }
 
+#app-mount .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK, #app-mount .animatedContainer-2laTjx {
+    box-shadow: none;
+    border-bottom: 1px solid hsla(0, 0%, 50%, 0.36);
+}
+
+/* Discover */
+.thin-31rlnD:not(.scroller-1ox3I2) {
+    border-radius: 8px;
+    border: 1px solid hsla(0, 0%, 50%, 0.36);
+}
+#app-mount .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4 {
+    background-color: var(--background-modifier-selected);
+}
+#app-mount .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4::before {
+    left: 8px;
+}
+
+#app-mount .pageWrapper-2PwDoS {
+    margin-left: 8px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    margin-right: 8px;
+    border-radius: 8px;
+    border: 1px solid hsla(0, 0%, 50%, 0.36);
+}
+
+.scroller-3j5xK2::-webkit-scrollbar {
+    width: 10px;
+}
+#app-mount .scroller-3j5xK2 {
+    padding-right: 24px !important;
+}
+
 /* Chatbar */
 .scrollableContainer-15eg7h {
     background-color: hsla(0, 0%, 10%, 0.6);
@@ -927,6 +960,17 @@
     max-width: 241px;
 }
 
+.modeSelected-3DmyhH .content-1gYQeQ::before {
+    content: "";
+    background-color: var(--brand-experiment);
+    position: absolute;
+    height: 24px;
+    width: 4px;
+    top: 5px;
+    left: 0;
+    border-radius: 8px;
+}
+
 .animatedContainer-2laTjx, .bannerImage-ubW8K-, .bannerImg-2PzH6z {
     width: 100%;
 }
@@ -936,14 +980,6 @@
 
 .containerDefault-YUSmu3 .content-1gYQeQ {
     height: 34px;
-}
-.containerDefault-YUSmu3 .unread-36eUEm {
-    background-color: var(--brand-experiment);
-    height: 24px;
-    width: 4px;
-    top: 10px;
-    left: 2px;
-    border-radius: 8px;
 }
 
 /* Scrollers */
@@ -1451,6 +1487,14 @@ div[style*="52.08"] {
 /* Unread channel */
 #app-mount .modeUnread-3Cxepe .name-28HaxV {
     color: var(--brand-experiment);
+    text-decoration: underline;
+}
+
+.containerDefault-YUSmu3 .unread-36eUEm {
+    background-color: var(--brand-experiment);
+    left: 4px;
+    width: 8px;
+    border-radius: 50%;
 }
 
 /* Settings */
@@ -1576,6 +1620,15 @@ div[style*="52.08"] {
 }
 .featuresHeader-2bjq5B {
     text-align: center;
+}
+
+.feature-2IUcBI {
+    border: 1px solid hsla(0, 0%, 50%, 0.18);
+}
+
+.theme-dark .codeRedemptionRedirect-3SBiCp {
+    background-color: var(--background-primary);
+    border: 1px solid hsla(0, 0%, 50%, 0.18);
 }
 
 /* Server Boost */
