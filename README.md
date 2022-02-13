@@ -2,7 +2,7 @@
 Theme based in windows 11 new UI
 
 # Preview
-![Discord_Kv8dONTbRh](https://user-images.githubusercontent.com/79029257/153726443-03dd24ea-58ba-45c2-96af-ac5bdf793c68.png)
+![Discord_vhCjONNn79](https://user-images.githubusercontent.com/79029257/153735127-c8014930-70ba-48dc-b20b-a7c698b418d0.png)
 
 # Settings
 ![Discord_8QPx4Amnbk](https://user-images.githubusercontent.com/79029257/152886315-7e2afff1-ec2a-4af3-855d-7141d26ff932.png)
@@ -17,3 +17,4 @@ Theme based in windows 11 new UI
 Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
 
 Settings Icons by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css)**
+
