@@ -1802,13 +1802,19 @@ div[style*="52.08"] {
 #app-mount .message-2CShn3[data-is-author-self="true"] .repliedMessage-3Z6XBG {
     margin-left: auto;
 }
-#app-mount .replying-eZ7p5z[data-is-author-self="true"] .contents-2MsGLg::before, #app-mount .mentioned-Tre-dv[data-is-author-self="true"] .contents-2MsGLg::before {
+
+#app-mount .replying-eZ7p5z[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI::before, #app-mount .mentioned-Tre-dv[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI::before {
     left: unset;
-    right: 46px;
+    right: -10px;
 }
+
 #app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg {
     margin-left: auto;
 }
+#app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI {
+    overflow: visible;
+}
+
 #app-mount .message-2CShn3[data-is-author-self="true"] a:not(.embed-hKpSrO .embedAuthorNameLink-1NK1y6) {
     margin-left: auto;
 }
@@ -1837,7 +1843,7 @@ div[style*="52.08"] {
 #app-mount .contents-2MsGLg {
     background-color: var(--background-secondary);
     padding: 8px;
-    border-radius: 5px;
+    border-radius: 3px;
     width: fit-content;
 }
 #app-mount .message-2CShn3 {
@@ -1865,18 +1871,17 @@ div[style*="52.08"] {
 #app-mount .mentioned-Tre-dv:hover .contents-2MsGLg {
     background-color: var(--background-mentioned-hover);
 }
-#app-mount .mentioned-Tre-dv .contents-2MsGLg::before {
+#app-mount .mentioned-Tre-dv .contents-2MsGLg .messageContent-2t3eCI::before {
     background-color: var(--info-warning-foreground);
     content: "";
     position: absolute;
     display: block;
     top: 0;
-    left: 70px;
+    left: 62px;
     bottom: 0;
     pointer-events: none;
     width: 4px;
     border-radius: 8px;
-    transform: scale(0.78);
     z-index: 1;
 }
 #app-mount .mentioned-Tre-dv:before {
@@ -1898,18 +1903,17 @@ div[style*="52.08"] {
 #app-mount .replying-eZ7p5z:hover .contents-2MsGLg {
     background-color: var(--brand-experiment-10a);
 }
-#app-mount .replying-eZ7p5z .contents-2MsGLg::before {
+#app-mount .replying-eZ7p5z .contents-2MsGLg .messageContent-2t3eCI::before {
     background-color: var(--brand-experiment);
     content: "";
     position: absolute;
     display: block;
     top: 0;
-    left: 70px;
+    left: 62px;
     bottom: 0;
     pointer-events: none;
     width: 4px;
     border-radius: 8px;
-    transform: scale(0.78);
     z-index: 1;
 }
 .replying-eZ7p5z:before {
