@@ -813,17 +813,17 @@
     top: 8px;
     left: calc(50% - 288px);
 }
-.searchBar-zdmu7v {
+.searchBar-jGtisZ {
     height: 32px;
     width: 580px;
     border-radius: 5px;
     border: 1px solid var(--background-accent);
 }
-.focused-8aNhVB .searchBar-zdmu7v, .open-3y3yI_ .searchBar-zdmu7v {
+#app-mount .focused-1xh-wG .searchBar-jGtisZ, #app-mount .open-1F8u2c .searchBar-jGtisZ {
     width: 580px;
 }
 
-.icon-1nNws_.iconLayout-SqV3nb.small-1hw8IT {
+.icon-tZMHgY.iconLayout-SqV3nb.small-1hw8IT {
     position: relative;
     left: -4px;
     top: 3px;
@@ -845,13 +845,13 @@
     -webkit-box-shadow: 0 0 0 1px rgba(22, 29, 41, 0.6), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 0 1px rgba(22, 29, 41, 0.6), 0 2px 10px 0 rgba(0,0,0,.2);
 }
-.theme-dark .option-2KkUJO:after, .theme-dark .option-2KkUJO.selected-rZcOL-:after {
+.option-ayUoaq:after, .option-ayUoaq[aria-selected=true]:after {
     background: none !important;
 }
 .theme-dark .resultsGroup-1BPR25 .header-3A13BX, .theme-dark .resultsGroup-1BPR25 .plusIcon-2V7coV, .theme-dark .resultsGroup-1BPR25 .searchClearHistory-2Be-92, .theme-dark .resultsGroup-1BPR25 .searchLearnMore-7__o_n a {
     color: var(--header-secondary);
 }
-.theme-dark .option-2KkUJO.selected-rZcOL- {
+.theme-dark .option-ayUoaq[aria-selected=true] {
     background-color: var(--background-modifier-selected);
 }
 .theme-dark .searchOption-351dTI .filter-5YbOzJ, .theme-dark .option-2KkUJO .nonText-3_4gtu {
@@ -1413,6 +1413,27 @@ div[style*="52.08"] {
     backdrop-filter: blur(24px);
 }
 
+#app-mount .controlButton-2PMNom {
+    border-radius: 3px;
+}
+#app-mount .wrapper-3t3Yqv .colorable-3rVGna.primaryDark-2UJt1G {
+    background: var(--background-mobile-secondary);
+}
+#app-mount .controlButton-2PMNom.contextMenuContainer-1RO4DQ foreignObject {
+    mask: none;
+}
+#app-mount .controlButton-2PMNom.contextMenuContainer-1RO4DQ button {
+    border-radius: 3px;
+    height: 38px;
+    margin-bottom: 1px;
+}
+.contextMenuNub-NuTZ_U {
+    border-radius: 3px;
+    height: 12px;
+    width: 52px;
+    margin-top: 1px;
+}
+
 /* Spectators call */
 .popoutWrapper-3ks_kl .scroller-3b1p7z {
     background-color: hsla(0, 0%, 6%, 0.6);
@@ -1474,7 +1495,7 @@ div[style*="52.08"] {
 #app-mount .search-1FM8Qc {
     border-radius: 2px;
 }
-#app-mount .search-1FM8Qc.open-3y3yI_.focused-8aNhVB {
+#app-mount .focused-1xh-wG .searchBar-jGtisZ, #app-mount .search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ {
     border-bottom: 2px solid var(--brand-experiment-530);
 }
 
