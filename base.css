@@ -970,6 +970,16 @@
     left: 0;
     border-radius: 8px;
 }
+.interactiveSelected-29CP8y::before {
+    content: "";
+    background-color: var(--brand-experiment);
+    position: absolute;
+    height: 26px;
+    width: 4px;
+    top: 8px;
+    left: 0;
+    border-radius: 8px;
+}
 
 .animatedContainer-2laTjx, .bannerImage-ubW8K-, .bannerImg-2PzH6z {
     width: 100%;
