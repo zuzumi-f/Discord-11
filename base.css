@@ -153,10 +153,10 @@
 .theme-dark .checkbox-f1HnKB {
     border-color: hsla(0, 0%, 50%, 0.4);
 }
-.checkbox-f1HnKB path {
+.checkbox-f1HnKB path:not([fill*="transparent"]) {
     fill: #000;
 }
-.checkboxWrapper-2fDzaA {
+.contentRegion-3HkfJJ .checkboxWrapper-2fDzaA {
     margin-bottom: 8px;
 }
 
