@@ -16,6 +16,14 @@
 /* Colors *//* Change colors with Purple.css or Green.css ⬇️⬇️ */
 @import url(https://zuzumi-f.github.io/Discord-11/colors/Blue.css);
 
+/*--------------------------------------------------------------
+Message bubble styles [If you don't want any place a /* in both]
+---------------------------------------------------------------*/
+/* Default Message bubble */
+@import url(https://zuzumi-f.github.io/Discord-11/messagebubble11.css);
+/* New Message bubble */
+@import url(https://zuzumi-f.github.io/Discord-11/messagebubblenew.css);
+
 /*----------------------------------------------------
                 anything else down here
 ------------------------------------------------------*/
