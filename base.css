@@ -171,6 +171,15 @@
     background-color: var(--control-brand-foreground);
 }
 
+/* ColorPicker */
+.theme-dark .colorPickerCustom-1swUKF {
+    background-color: hsla(0, 0%, 6%, 0.6);
+    border: 1px solid hsla(0, 0%, 50%, 0.4);
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    border-radius: 8px;
+}
+
 /* Invite thing */
 .inviteRow-3vmB7i {
     margin-right: 0;
