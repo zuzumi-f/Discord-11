@@ -1826,6 +1826,9 @@ div[style*="52.08"] {
     margin-left: auto;
     width: auto;
 }
+#app-mount .message-2CShn3.selected-2LX7Jy[data-is-author-self=true] .contents-2MsGLg {
+    width: 100%;
+}
 #app-mount .message-2CShn3[data-is-author-self="true"] .timestamp-p1Df1m {
     left: unset;
     right: -4px;
@@ -1865,10 +1868,7 @@ div[style*="52.08"] {
 
 #app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya>* {
     place-self: flex-end;
-}
-
-#app-mount .message-2CShn3.selected-2LX7Jy[data-is-author-self=true] .contents-2MsGLg {
-    width: 100%;
+    width: fit-content;
 }
 
 #app-mount .contents-2MsGLg {
