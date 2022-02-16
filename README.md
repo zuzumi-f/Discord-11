@@ -18,4 +18,8 @@ Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
 
 Settings Icons by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css)**
 
+# Default Message bubble
+![Discord_w7aD6JvjrK](https://user-images.githubusercontent.com/79029257/154285188-bfe40ed2-d9c1-4663-a1a3-e3a9ade69039.png)
 
+# New Message bubble
+![Discord_4lJCltyPR7](https://user-images.githubusercontent.com/79029257/154285247-adc8630f-e0ad-4afb-a0c2-692a2520fa0c.png)
