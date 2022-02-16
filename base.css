@@ -1453,6 +1453,34 @@ div[style*="52.08"] {
     backdrop-filter: blur(24px);
 }
 
+/* Stage */
+#app-mount .container-a_NK-C .colorable-3rVGna.primaryDark-2UJt1G {
+    background: var(--background-mobile-secondary);
+}
+#app-mount .leaveQuietlyButton-3Vhswc, #app-mount .container-a_NK-C .centerButton-1IShs7 {
+    border-radius: 3px;
+}
+#app-mount .avControls-1rQROI .contextMenuContainer-1RO4DQ foreignObject {
+    mask: none;
+}
+#app-mount .avControls-1rQROI .contextMenuContainer-1RO4DQ button {
+    border-radius: 3px;
+    height: 38px;
+    margin-bottom: 1px;
+}
+
+.container-lqPArA, .sidebarVisible-3bgZKv {
+    border-radius: 0;
+}
+.headerContainer-21E-jZ {
+    box-shadow: none;
+    height: 24px;
+    border-bottom: 1px solid hsla(0, 0%, 50%, 0.36);
+}
+.contentContainer-dKJ2Bn {
+    padding-top: 8px;
+}
+
 /* QuickSwitcher */
 .quickswitcher-pKcM9U {
     height: 366px;
