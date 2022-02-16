@@ -2067,7 +2067,7 @@ div[style*="52.08"] {
     bottom: 120px;
 }
 
-/* BetterMessageLinks */
+/* BetterMessageLinks Compatibility */
 #app-mount .betterMessageLinks.Popout {
     background-color: hsla(0, 0%, 6%, 0.6);
     border: 1px solid hsla(0, 0%, 50%, 0.4);
