@@ -2199,3 +2199,12 @@ div[style*="52.08"] {
 .guilds-2JjMmN .unreadMentionsIndicatorBottom-3RJMnQ {
     bottom: 120px;
 }
+
+/* BetterMessageLinks */
+#app-mount .betterMessageLinks.Popout {
+    background-color: hsla(0, 0%, 6%, 0.6);
+    border: 1px solid hsla(0, 0%, 50%, 0.4);
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
