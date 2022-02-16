@@ -1535,6 +1535,8 @@ div[style*="52.08"] {
 }
 #app-mount .focused-1xh-wG .searchBar-jGtisZ, #app-mount .search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ {
     border-bottom: 2px solid var(--brand-experiment-530);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 /* BD emote category */
