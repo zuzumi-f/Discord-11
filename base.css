@@ -1168,6 +1168,38 @@
     left: -2px;
 }
 
+/* Inbox Button */
+.scroller-3X7KbA > .listItem-3SmSlK:first-child {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 170px;
+    margin-top: 8px;
+    -webkit-app-region: no-drag;
+}
+.scroller-3X7KbA .iconButton-2z1iK7 {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    transform: scale(0.88);
+    border-radius: 50%;
+    border: 1px solid hsla(0, 0%, 50%, 0.4);
+    transform-origin: center;
+    -webkit-app-region: no-drag;
+}
+.scroller-3X7KbA .iconButton-2z1iK7:hover, .scroller-3X7KbA .iconButton-2z1iK7.selected-1WnveH {
+    background-color: hsla(0, 0%, 30%, 0.8);
+}
+
+#app-mount .recentMentionsPopout-2bI1ZN {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.header-145e10.expanded-2H1xJ-.header-1w9Q93 {
+    -webkit-app-region: no-drag;
+}
+
 /* Top drag */
 body, .appMount-2yBXZl {
     -webkit-app-region: drag;
@@ -1659,27 +1691,27 @@ div[style*="52.08"] {
 }
 
 /* Connections */
-#app-mount .accountList-305sx3 {
+#app-mount .accountList-Wii_T5 {
     background-color: var(--background-secondary);
     border: 1px solid hsla(0, 0%, 50%, 0.18);
     border-radius: 5px;
 }
 
-#app-mount .accountBtn-1YkMgV .accountBtnInner-3XK70s {
+#app-mount .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
     background-color: hsl(227, 4%, 14%);
     border-top: 1px solid hsl(227, 4%, 24%);
     border-radius: 5px;
 }
-#app-mount .accountBtn-1YkMgV .accountBtnInner-3XK70s:hover {
+#app-mount .accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover {
     background-color: hsl(227, 4%, 18%);
 }
 
-#app-mount .connection-107AGH {
+#app-mount .connection-YOVI9j {
     background-color: var(--background-primary);
     border: 1px solid hsla(0, 0%, 50%, 0.18);
     border-radius: 5px;
 }
-#app-mount .connectionHeader-2rV1ze {
+#app-mount .connectionHeader-Ixbb1s {
     background: var(--background-primary);
     border-bottom: 1px solid var(--background-secondary);
 }
