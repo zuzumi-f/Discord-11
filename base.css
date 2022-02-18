@@ -441,6 +441,10 @@
     background-color: transparent;
 }
 
+#app-mount .expandedMarkAllReadContainer-3G9M6a {
+    background-color: transparent;
+}
+
 /* Chat, server, etc */
 #app-mount .chat-2ZfjoI, #app-mount .container-2cd8Mz, #app-mount .applicationStore-2nk7Lo {
     margin-left: 8px;
@@ -1169,7 +1173,7 @@
 }
 
 /* Inbox Button */
-.scroller-3X7KbA > .listItem-3SmSlK:first-child {
+.guilds-2JjMmN:first-child .scroller-3X7KbA > .listItem-3SmSlK:first-child {
     position: fixed;
     right: 0;
     top: 0;
@@ -2116,4 +2120,10 @@ div[style*="52.08"] {
     border-radius: 8px;
     -webkit-backdrop-filter: blur(24px);
     backdrop-filter: blur(24px);
+}
+
+/* Creaton date, last message and joined */
+.topSection-13QKHs .date-YN6TCS {
+    text-align: center;
+    margin-right: 16px;
 }
