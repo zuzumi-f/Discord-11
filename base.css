@@ -89,6 +89,22 @@
     height: 10vh !important;
     right: 20px;
     bottom: 20px;
+    padding: 8px;
+}
+
+/* Notice normal */
+#app-mount .notice-2HEN-u:not(.noticeWrapper-8z511t) {
+    position: fixed;
+    border-radius: 8px;
+    width: 40vh;
+    height: 10vh;
+    right: 20px;
+    bottom: 20px;
+    display: grid;
+    padding: 8px;
+}
+#app-mount .notice-2HEN-u:not(.noticeWrapper-8z511t) .button-1iHNQ2 {
+    margin-right: 10px;
 }
 
 /* Search & Add Server Button Style */
@@ -1753,13 +1769,13 @@ div[style*="52.08"] {
     border: 1px solid hsla(0, 0%, 50%, 0.18);
 }
 
-.theme-dark .codeRedemptionRedirect-3SBiCp {
+.theme-dark .codeRedemptionRedirect-2hYMSQ {
     background-color: var(--background-primary);
     border: 1px solid hsla(0, 0%, 50%, 0.18);
 }
 
 /* Server Boost */
-#app-mount .cardWrapper-CyvwQv {
+#app-mount .cardWrapper-1bSePP {
     border: 1px solid hsla(0, 0%, 50%, 0.18);
     border-radius: 5px;
 }
