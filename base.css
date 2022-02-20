@@ -21,7 +21,7 @@
     --interactive-hover: hsl(190, 0%, 87%);
     --interactive-active: hsl(0, 0%, 100%);
     --interactive-muted: hsl(197, 0%, 34%);
-    --background-primary: hsl(190, 0%, 16%);
+    --background-primary: hsl(190, 0%, 15%);
     --background-secondary: hsl(193, 0%, 11%);
     --background-secondary-alt: hsl(190, 0%, 9%);
     --background-tertiary: hsl(196, 0%, 5%);
@@ -71,7 +71,7 @@
 }
 
 /* When you dont use var(--) */
-.theme-dark .container-2cd8Mz, .theme-dark .root-g14mjS, .theme-dark .footer-1hTRRZ, .theme-dark .pageWrapper-2PwDoS, .theme-dark .selected-3H3-RC, .theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk, .theme-dark .perksModal-1pSu7w, .theme-dark .perksModal-CLcR1c {
+.theme-dark .container-2cd8Mz, .theme-dark .root-g14mjS, .theme-dark .footer-1hTRRZ, .theme-dark .pageWrapper-2PwDoS, .theme-dark .selected-3H3-RC, .theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk, .theme-dark .perksModal-1pSu7w {
     background-color: var(--background-primary);
 }
 .theme-dark .footer-31IekZ, .theme-dark .autocomplete-3NRXG8, .theme-dark .separator-2OaeRP, .theme-dark .inset-SbsSFp, .theme-dark .footer-VCsJQY {
@@ -1785,6 +1785,17 @@ div[style*="52.08"] {
 #app-mount .cardWrapper-1bSePP {
     border: 1px solid hsla(0, 0%, 50%, 0.18);
     border-radius: 5px;
+}
+
+.theme-dark .tierHeaderLocked-30MLlO, .theme-dark .tierHeaderLocked-3ItHYn, .theme-dark .perk-19D_HN {
+    background-color: var(--background-secondary);
+}
+.theme-dark .tierBody-1d3UiS, .theme-dark .tierBody-3ju-rc {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .perksModal-CLcR1c {
+    background-color: var(--background-secondary-alt);
 }
 
 /* Voice & Video */
