@@ -1148,6 +1148,13 @@
     padding-right: 2px !important;
 }
 
+.popout-1KHNAq.thin-31rlnD::-webkit-scrollbar {
+    width: 6px;
+}
+.popout-1KHNAq.searchableSelect-3JyTyn.auto-2K3UW5::-webkit-scrollbar {
+    width: 10px;
+}
+
 /* Resent mentions, unread, pinned messages & threads */
 #app-mount .messagesPopoutWrap-3zryHW, #app-mount .container-2ebMPP {
     background-color: hsla(0, 0%, 6%, 0.6);
