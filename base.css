@@ -297,16 +297,6 @@
 #app-mount .profileBanner-1owKI5 {
     height: 240px;
 }
-.profileBanner-1owKI5::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url("https://mspoweruser.com/wp-content/uploads/2021/08/Windows-Terminal-Preview-1.11.jpg");
-    background-position: center;
-    background-size: 158%;
-    filter: brightness(0.8);
-}
 
 .headerTop-1PNKck {
   left: 414px;
