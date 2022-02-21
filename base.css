@@ -89,7 +89,7 @@
     height: 10vh !important;
     right: 20px;
     bottom: 20px;
-    padding: 8px;
+    padding: 16px;
 }
 
 /* Notice normal */
@@ -100,8 +100,10 @@
     height: 10vh;
     right: 20px;
     bottom: 20px;
-    display: grid;
-    padding: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 #app-mount .notice-2HEN-u:not(.noticeWrapper-8z511t) .button-1iHNQ2 {
     margin-right: 10px;
