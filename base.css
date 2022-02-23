@@ -723,6 +723,17 @@
     backdrop-filter: blur(24px);
 }
 
+.upsellTooltipWrapper-1wqikQ {
+    background-color: hsla(0, 0%, 6%, 0.6);
+    border: 1px solid hsla(0, 0%, 50%, 0.4);
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+}
+.upsellTooltipWrapper-1wqikQ::after {
+    display: none;
+}
+
 /* Upload Modal */
 #app-mount .upload-3GTSF9 {
     background-color: hsla(0, 0%, 6%, 0.6);
