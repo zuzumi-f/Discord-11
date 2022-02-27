@@ -207,6 +207,10 @@
     border-bottom: 1px solid hsla(0, 0%, 50%, 0.4);
 }
 
+.theme-dark .contentWrapper-3oy4Xo {
+    background: none;
+}
+
 /* User popout little */
 .userPopout-2j1gM4 {
     border: 1px solid hsla(0, 0%, 50%, 0.4);
