@@ -994,6 +994,9 @@
 .sidebar-1tnWFu, .members-3WRCEx {
     width: 260px;
 }
+.membersWrap-3NUR2t {
+    background-color: var(--background-secondary);
+}
 
 #app-mount .member-2gU6Ar {
     margin-right: 8px;
