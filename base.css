@@ -2207,3 +2207,8 @@ div[style*="52.08"] {
     text-align: center;
     margin-right: 16px;
 }
+
+/* NotifX */
+.xenoLib-notification-content {
+    border-radius: 5px;
+}
