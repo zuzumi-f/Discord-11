@@ -46,6 +46,9 @@
     place-self: flex-end;
     width: fit-content;
 }
+#app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya .imageWrapper-oMkQl4 {
+    margin-left: auto;
+}
 
 #app-mount .contents-2MsGLg {
     background-color: var(--background-secondary);
