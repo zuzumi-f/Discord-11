@@ -2214,7 +2214,11 @@ div[style*="52.08"] {
 
 /* NotifX */
 .xenoLib-notification-content {
-    border-radius: 5px;
+    border-radius: 3px;
+    -webkit-app-region: no-drag;
+}
+.qwert-toasts {
+    -webkit-app-region: no-drag;
 }
 
 /* ChannelDetails tooltip fix */
