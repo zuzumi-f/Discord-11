@@ -2216,3 +2216,8 @@ div[style*="52.08"] {
 .xenoLib-notification-content {
     border-radius: 5px;
 }
+
+/* ChannelDetails tooltip fix */
+.ChannelDetails-tooltip-tooltip.voiceActivities {
+    padding: 14px 0;
+}
