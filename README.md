@@ -2,16 +2,19 @@
 Theme based in windows 11 new UI
 
 # Preview
-![Discord_vhCjONNn79](https://user-images.githubusercontent.com/79029257/153735127-c8014930-70ba-48dc-b20b-a7c698b418d0.png)
+![Discord_9fmJpGrjXQ](https://user-images.githubusercontent.com/79029257/157095240-92a3493e-e5da-4b71-96b5-a7ecb9bc57b1.png)
+
+# Preview (Glass Effect)
+![Discord_Ka4QmfdVJz](https://user-images.githubusercontent.com/79029257/157095340-f14b0ca7-ad44-4d2f-a9d5-48dc42c71982.png)
 
 # Settings
-![Discord_xINYD3DeiQ](https://user-images.githubusercontent.com/79029257/153735765-ef6cb9a4-3342-4b2f-89b9-15c68bbae5d7.png)
+![Discord_vC47XtJP1k](https://user-images.githubusercontent.com/79029257/157095398-21274917-f540-40ed-ae64-0e07cb13280d.png)
 
 # Popout (little)
-![Discord_iMcaKWwRvK](https://user-images.githubusercontent.com/79029257/152786377-b1a25615-c15e-44a6-9947-318f8731b7ad.png)
+![Discord_D5KbntDXYR](https://user-images.githubusercontent.com/79029257/157095444-54eba5cd-302a-4929-92c7-37cb67afa101.png)
 
 # Popout (Big)
-![Discord_PAfVj3J4fo](https://user-images.githubusercontent.com/79029257/152786422-d7995c16-ff12-47a0-9b92-ed5d44e17119.png)
+![Discord_JcpxuII4mf](https://user-images.githubusercontent.com/79029257/157095476-a021fb12-8d24-49b2-aef0-3d5c09cbc45e.png)
 
 # Addons
 Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
@@ -19,7 +22,7 @@ Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
 Settings Icons by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css)**
 
 # Default Message bubble
-![Discord_w7aD6JvjrK](https://user-images.githubusercontent.com/79029257/154285188-bfe40ed2-d9c1-4663-a1a3-e3a9ade69039.png)
+![Discord_8jK3W5PyLw](https://user-images.githubusercontent.com/79029257/157095586-50f0995e-9878-40f2-964f-6e1864313f0e.png)
 
 # New Message bubble
-![Discord_4lJCltyPR7](https://user-images.githubusercontent.com/79029257/154285247-adc8630f-e0ad-4afb-a0c2-692a2520fa0c.png)
+![Discord_nvXHiVWXFU](https://user-images.githubusercontent.com/79029257/157095553-661735a0-69a1-48b4-adf7-451cea592abc.png)
