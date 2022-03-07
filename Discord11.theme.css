@@ -32,6 +32,7 @@ Message bubble styles [If you don't want any place a /* in both]
 :root {
     --wallpaper-is: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/06/Windows-11-Wallpaper-1-1-scaled.jpg);
     --blur-size: 24px;
+      opacity: var(--opacity-thing);
 }
 
 /*----------------------------------------------------
