@@ -1,0 +1,86 @@
+.app-2CXKsg, .panels-3wFtMD, .scroller-3X7KbA, .wrapper-1_HaEi, .membersWrap-3NUR2t {
+    background-color: transparent;
+}
+.scroller-3X7KbA {
+    height: calc(100% - 124px) !important;
+}
+.scroller-3X7KbA::before {
+    background: none !important;
+    height: 124px;
+}
+#app-mount .bg-1QIAus {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: -56px;
+}
+
+.appMount-2yBXZl, body {
+    background-color: transparent;
+}
+
+div#app-mount.appMount-2yBXZl::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(var(--blur-size));
+    background-image: var(--wallpaper-is);
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-dark .container-2cd8Mz, .applicationStore-2nk7Lo {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.container-ZMc96U.themed-Hp1KC_, .nowPlayingColumn-1eCBCN, .container-1oAagU {
+    background-color: transparent !important;
+}
+.children-3xh0VB:after {
+    display: none;
+}
+
+.scroller-WSmht3 {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.privateChannels-oVe7HL {
+    background-color: transparent;
+}
+.sidebar-1tnWFu {
+    background: none;
+}
+
+.container-YkUktl {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.expandedFolderBackground-1kSAf6 {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.folder-241Joy {
+    background-color: transparent;
+}
+.circleIconButton-1VxDrg {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.childWrapper-1j_1ub {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header, .container-2o3qEW {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+.members-3WRCEx, .members-3WRCEx > div {
+    background-color: transparent !important;
+}
+#dv-mount, #MemberCount {
+    background-color: transparent !important;
+}
+
+.theme-dark .form-3gdLxP:before {
+    display: none;
+}
+.chat-2ZfjoI {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.container-1NXEtd {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
