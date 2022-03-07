@@ -2151,7 +2151,6 @@ div[style*="52.08"] {
 .scroller-3X7KbA {
     contain: unset;
     height: calc(100% - 120px);
-    padding-bottom: 40px;
 }
 .scroller-3X7KbA::before {
     content: "";
