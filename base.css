@@ -579,7 +579,6 @@
 /* New Messages */
 #app-mount .isUnread-3Lojb- {
     border-color: var(--brand-experiment-80a);
-    margin-right: 48px;
 }
 #app-mount .divider-IqmEqJ .unreadPill-3nEWYM {
     padding: 0 8px;
@@ -587,7 +586,7 @@
     font-size: 14px;
     color: var(--brand-experiment-80a);
     position: absolute;
-    right: -46px;
+    top: -20px;
 }
 
 #app-mount .isUnread-3Lojb- .content-3spvdd {
