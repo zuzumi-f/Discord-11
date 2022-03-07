@@ -534,16 +534,18 @@
 .scrollableContainer-15eg7h {
     background-color: hsla(0, 0%, 10%, 0.6);
     border: 1px solid;
+    border-bottom: 2px solid;
     border-color: hsla(0, 0%, 50%, 0.4);
-    border-radius: 8px;
-    -webkit-backdrop-filter: blur(24px);
-    backdrop-filter: blur(24px);
+    border-radius: 5px;
 }
 #app-mount .form-3gdLxP:focus-within .scrollableContainer-15eg7h {
     border-color: hsla(0, 0%, 50%, 0.8);
+    border-bottom-color: var(--brand-experiment);
+    border-radius: 3px;
 }
 #app-mount .form-3gdLxP:hover .scrollableContainer-15eg7h:not(:focus-within) {
     border-color: hsla(0, 0%, 50%, 0.6);
+    border-radius: 3px;
 }
 #app-mount .form-3gdLxP .scrollableContainer-15eg7h {
     -webkit-transition: all 500ms;
@@ -559,23 +561,24 @@
 .attachedBars-2BCP3l {
   margin-bottom: 4px;
   border: 1px solid hsla(0, 0%, 50%, 0.4);
-  border-radius: 8px;
-  -webkit-backdrop-filter: blur(24px);
-  backdrop-filter: blur(24px);
+  border-radius: 5px;
 }
 .clipContainer-31nYlH {
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 /* New Messages */
 #app-mount .isUnread-3Lojb- {
     border-color: var(--brand-experiment-80a);
+    margin-right: 48px;
 }
 #app-mount .divider-IqmEqJ .unreadPill-3nEWYM {
     padding: 0 8px;
-    background: var(--background-primary);
+    background-color: transparent;
     font-size: 14px;
     color: var(--brand-experiment-80a);
+    position: absolute;
+    right: -46px;
 }
 
 #app-mount .isUnread-3Lojb- .content-3spvdd {
@@ -952,32 +955,7 @@
 }
 
 #app-mount .lowerBadge-3WTshO div, #app-mount .upperBadge-1V6Iyi div {
-    border-radius: 20% !important;
-}
-
-.upperBadge-1V6Iyi::before {
-    content: "";
-    position: absolute;
-    width: calc(100% + 3px);
-    height: calc(100% + 3px);
-    background-color: var(--background-tertiary);
-    border-bottom-left-radius: 22%;
-    border-top-right-radius: 22%;
-    left: -3px;
-    bottom: -3px;
-    z-index: -1;
-}
-.lowerBadge-3WTshO::before {
-    content: "";
-    position: absolute;
-    width: calc(100% + 3px);
-    height: calc(100% + 3px);
-    background-color: var(--background-tertiary);
-    border-top-left-radius: 22%;
-    border-bottom-right-radius: 22%;
-    left: -3px;
-    bottom: 0px;
-    z-index: -1;
+    border-radius: 3px !important;
 }
 
 /* Channels and members */
