@@ -9,7 +9,7 @@
     height: 124px;
 }
 #app-mount .bg-1QIAus {
-    background-color: var(--background-primary);
+    background-color: #000;
     top: -56px;
     opacity: var(--opacity-thing);
 }
