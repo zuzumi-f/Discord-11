@@ -9,8 +9,9 @@
     height: 124px;
 }
 #app-mount .bg-1QIAus {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--background-primary);
     top: -56px;
+    opacity: var(--opacity-thing);
 }
 
 .appMount-2yBXZl, body {
