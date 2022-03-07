@@ -571,6 +571,11 @@
     margin-top: unset;
 }
 
+.sprite-2lxwfc {
+    transform: scale(1) !important;
+    filter: grayscale(0) !important;
+}
+
 /* New Messages */
 #app-mount .isUnread-3Lojb- {
     border-color: var(--brand-experiment-80a);
