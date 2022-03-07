@@ -24,6 +24,16 @@ Message bubble styles [If you don't want any place a /* in both]
 /* New Message bubble *//*
 @import url(https://zuzumi-f.github.io/Discord-11/messagebubblenew.css);
 
+/*--------------------------------------------------------------
+      Glass effect [You actually can't see the desk]
+---------------------------------------------------------------*/
+@import url(https://zuzumi-f.github.io/Discord-11/glass-effect.css);
+
+:root {
+    --wallpaper-is: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/06/Windows-11-Wallpaper-1-1-scaled.jpg);
+    --blur-size: 24px;
+}
+
 /*----------------------------------------------------
                 anything else down here
 ------------------------------------------------------*/
