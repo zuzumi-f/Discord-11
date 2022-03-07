@@ -567,6 +567,10 @@
   border-radius: 5px;
 }
 
+#app-mount .form-3gdLxP {
+    margin-top: unset;
+}
+
 /* New Messages */
 #app-mount .isUnread-3Lojb- {
     border-color: var(--brand-experiment-80a);
