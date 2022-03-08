@@ -132,3 +132,7 @@ div#app-mount.appMount-2yBXZl::before {
 .activityPanel-9icbyU, .container-1zzFcN, .container-6sXIoE {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
+
+.scroller-29cQFV {
+    background-color: transparent !important;
+}
