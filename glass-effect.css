@@ -39,7 +39,7 @@ div#app-mount.appMount-2yBXZl::before {
     display: none;
 }
 
-.scroller-WSmht3 {
+.sidebar-1tnWFu .scroller-WSmht3 {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 .privateChannels-oVe7HL {
@@ -91,4 +91,44 @@ div#app-mount.appMount-2yBXZl::before {
 
 .wrapper-3HVHpV, .wrapper-15CKyy {
     background-color: transparent !important;
+}
+
+.container-2oNtJn {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    background-color: transparent !important;
+}
+.sidebar-1tnWFu .searchBar-3TnChZ, .searchBar-jGtisZ {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+#app-mount .ChannelDms-channelmembers-wrap .scroller-WSmht3 {
+    background-color: transparent;
+}
+#app-mount .ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.emptyCard-KDifrB {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.itemCard-3Etziu {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.theme-dark .inset-SbsSFp {
+    background-color: transparent !important;
+}
+.section-3G9aLW {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.actionButton-3-B2x- {
+    background-color: transparent !important;
+}
+.actionButton-3-B2x-:hover {
+    background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+.activityPanel-9icbyU, .container-1zzFcN, .container-6sXIoE {
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
