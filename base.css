@@ -604,6 +604,12 @@
     display: none;
 }
 
+#app-mount .jumpToPresentBar-1cEnH0 {
+    padding-bottom: 0;
+    border-radius: 5px;
+    bottom: 4px;
+}
+
 /* Some popouts */
 #app-mount .toolbar-37BrJ5 {
     background-color: hsla(0, 0%, 6%, 0.6);
