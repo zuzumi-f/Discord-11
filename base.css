@@ -1508,21 +1508,21 @@ div[style*="52.08"] {
     backdrop-filter: blur(24px);
 }
 
-#app-mount .controlButton-2PMNom {
+#app-mount .controlButton-2PMNom, #app-mount .actionButton-2S7dMn {
     border-radius: 3px;
 }
 #app-mount .wrapper-3t3Yqv .colorable-3rVGna.primaryDark-2UJt1G {
     background: var(--background-mobile-secondary);
 }
-#app-mount .controlButton-2PMNom.contextMenuContainer-1RO4DQ foreignObject {
+#app-mount .controlButton-2PMNom.contextMenuContainer-1RO4DQ foreignObject, #app-mount .actionButton-2S7dMn foreignObject {
     mask: none;
 }
-#app-mount .controlButton-2PMNom.contextMenuContainer-1RO4DQ button {
+#app-mount .controlButton-2PMNom.contextMenuContainer-1RO4DQ button, #app-mount .actionButton-2S7dMn.contextMenuContainer-1RO4DQ button {
     border-radius: 3px;
     height: 38px;
     margin-bottom: 1px;
 }
-.contextMenuNub-NuTZ_U {
+#app-mount .contextMenuContainer-1RO4DQ .contextMenuNub-NuTZ_U {
     border-radius: 3px;
     height: 12px;
     width: 52px;
