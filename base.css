@@ -1995,6 +1995,40 @@ div[style*="52.08"] {
     display: none;
 }
 
+/* Added code from Zseni */
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma svg{
+	position: absolute !important;
+	top: -3px !important;
+	left: 2.5px !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V {
+	position: fixed !important;
+	top: 22px !important;
+	z-index: -1 !important;
+}
+
 /* Make PermissionViewers text more consistent with Discords [by christian] */
 .member-perms-title {
     text-transform: uppercase;
