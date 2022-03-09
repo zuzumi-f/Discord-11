@@ -1978,21 +1978,57 @@ div[style*="52.08"] {
 /* Esc */
 #app-mount .closeButton-PCZcma path {
     d: path("M 20 10.9378 H 14.2199 H 8.06628 L 10.502 8.50202 L 9 7 L 4 12 L 9 17 L 10.502 15.498 L 8.06628 13.0622 H 20 V 10.9378 Z");
+    transform: scale(0.6666);
+    transform-origin: center;
 }
 #app-mount .closeButton-PCZcma svg {
-    width: 24px;
-    height: 24px;
-}
-#app-mount .closeButton-PCZcma {
+    width: 36px;
+    height: 36px;
+    margin-left: 8px;
+    margin-top: 8px;
     border-radius: 5px;
-    border: none;
-    position: fixed;
-    top: 6px;
-    left: 6px;
     -webkit-app-region: no-drag;
 }
+#app-mount .closeButton-PCZcma svg:hover {
+    background-color: rgba(114, 118, 125, 0.3);
+}
+
 #app-mount .container-O54IuJ .keybind-13vtq8 {
     display: none;
+}
+
+/* Added code from Zseni [Better Close Mec] */
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma svg{
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V {
+	position: fixed !important;
+	top: 0 !important;
+	z-index: -1 !important;
 }
 
 /* Make PermissionViewers text more consistent with Discords [by christian] */
