@@ -2250,3 +2250,198 @@ div[style*="52.08"] {
 .ChannelDetails-tooltip-tooltip.voiceActivities {
     padding: 14px 0;
 }
+
+/* ChannelTabs Lined by Disease [edited] */
+#channelTabs-container {
+    margin-bottom: 4px;
+    border-bottom: 2px solid hsla(0, 0%, 50%, 0.6);
+    margin-top: -4px !important;
+}
+
+#channelTabs-container {
+    --channelTab-height: 32px;
+    --channelTab-width: 224px;
+}
+
+.platform-osx #channelTabs-container>:nth-child(2) {
+    padding: 7px 72px 3px 72px;
+}
+
+.channelTabs-tabContainer,
+.channelTabs-favContainer {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 8px;
+    -webkit-app-region: drag;
+}
+
+.channelTabs-favContainer {
+    background-color: hsla(0, 0%, 6%, 0.6);
+}
+
+.channelTabs-tabContainer>*,
+.channelTabs-favContainer>*,
+.menu-1QACrS {
+    -webkit-app-region: no-drag;
+}
+
+.channelTabs-fav>div {
+    margin: 0 6px 0 0 !important;
+}
+
+#channelTabs-settingsMenu {
+    width: var(--channelTab-height) !important;
+    height: var(--channelTab-height) !important;
+    margin-top: 4px;
+    border-radius: 5px 5px 0 0 !important;
+    margin-right: 3px;
+}
+#channelTabs-settingsMenu:hover {
+    background-color: hsla(0, 0%, 6%, 0.4) !important;
+}
+
+.channelTabs-tab,
+.channelTabs-fav {
+    display: flex !important;
+    align-items: center;
+    min-width: 0;
+    height: var(--channelTab-height) !important;
+    border-radius: 0;
+
+    /* remove */
+    position: unset !important;
+    width: unset !important;
+    margin: unset !important;
+    margin-left: unset !important;
+    padding: unset !important;
+    background: unset !important;
+    color: unset !important;
+    border: unset !important;
+    font-size: unset !important;
+}
+
+.channelTabs-tab {
+    flex: 0 1 var(--channelTab-width);
+}
+.channelTabs-tab {
+    margin-bottom: -3px !important;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+.channelTabs-fav {
+    flex: 0 1 1;
+    max-width: var(--channelTab-width);
+}
+
+.channelTabs-tab:not(.channelTabs-selected):hover,
+.channelTabs-fav:hover {
+    background: hsla(0, 0%, 6%, 0.4) !important;
+}
+
+.channelTabs-tab.channelTabs-selected {
+    background: hsla(0, 0%, 6%, 0.6) !important;
+
+    /* remove */
+    color: unset !important;
+}
+
+.channelTabs-tab>div:first-child {
+    display: flex;
+    width: calc(100% - 14px);
+    align-items: center;
+
+    /* remove */
+    margin-right: unset !important;
+}
+
+.channelTabs-tabIcon.channelTabs-onlineIcon {
+    border: var(--channelTabs-tabStatusBorderThickness) solid rgb(67, 181, 129);
+}
+
+.channelTabs-tabIcon.channelTabs-noneIcon,
+.channelTabs-favIcon.channelTabs-noneIcon {
+    /* remove */
+    border: unset !important;
+    left: unset !important;
+    top: unset !important;
+}
+
+.channelTabs-tabIcon,
+.channelTabs-favIcon {
+    border-radius: 50% !important;
+    height: 20px !important;
+    margin: 0 6px;
+
+    /* remove */
+    display: unset !important;
+    position: unset !important;
+}
+
+.channelTabs-tabName,
+.channelTabs-favName {
+    margin: 0 6px 0 0 !important;
+    font-size: 14px;
+    color: var(--interactive-normal);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    /* remove */
+    display: unset !important;
+    position: unset !important;
+    width: unset !important;
+    height: unset !important;
+    top: unset !important;
+    left: unset !important;
+    bottom: unset !important;
+    right: unset !important;
+}
+
+.channelTabs-selected .channelTabs-tabName {
+    color: var(--text-normal);
+}
+
+.channelTabs-TypingContainer {
+    order: 1;
+}
+
+.channelTabs-closeTab {
+    position: relative !important;
+    width: 14px !important;
+    height: 14px !important;
+    font-size: 14px !important;
+    line-height: 12px !important;
+    right: 6px !important;
+    text-align: center;
+    border-radius: 50% !important;
+    color: var(--interactive-normal) !important;
+    cursor: pointer;
+
+    /* remove */
+    display: unset !important;
+    background: unset !important;
+    top: unset !important;
+}
+
+.channelTabs-newTab {
+    width: 30px !important;
+    min-width: 30px !important;
+    height: 30px !important;
+    margin: 1px 0 -1px 6px !important;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    text-align: center;
+    border-radius: 5px !important;
+    cursor: pointer;
+    color: var(--interactive-normal) !important;
+
+    /* remove */
+    background: unset !important;
+    display: unset !important;
+    position: unset !important;
+    padding: unset !important;
+    bottom: unset !important;
+}
+.channelTabs-newTab:hover {
+    background-color: hsla(0, 0%, 50%, 0.4) !important;
+}
