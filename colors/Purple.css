@@ -47,6 +47,8 @@
     --brand-experiment-95a: hsla(271, 85.6%, 64.7%, 0.95);
 }
 .theme-dark, .theme-light {
+    --text-link: hsl(271, 100%, 47.8%);
+    --text-link-low-saturation: hsl(271, 100%, 52.9%);
     --control-brand-foreground: hsl(271, 86.1%, 77.5%);
     --control-brand-foreground-new: hsl(271, 86.1%, 77.5%);
     --info-help-foreground: hsl(281, 100%, 47.8%);
