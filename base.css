@@ -81,32 +81,10 @@
     background-color: var(--background-tertiary);
 }
 
-/* BD Notice */
-#app-mount .noticeWrapper-8z511t {
-    position: fixed;
-    border-radius: 8px !important;
-    width: 40vh;
-    height: 10vh !important;
-    right: 20px;
-    bottom: 20px;
-    padding: 16px;
-}
-
 /* Notice normal */
-#app-mount .notice-2HEN-u:not(.noticeWrapper-8z511t) {
-    position: fixed;
-    border-radius: 8px;
-    width: 40vh;
-    height: 10vh;
-    right: 20px;
-    bottom: 20px;
-    padding: 16px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-#app-mount .notice-2HEN-u:not(.noticeWrapper-8z511t) .button-1iHNQ2 {
-    margin-right: 10px;
+#app-mount .notice-2HEN-u {
+    border-radius: 8px !important;
+    margin: 2px 10px;
 }
 
 /* Search & Add Server Button Style */
