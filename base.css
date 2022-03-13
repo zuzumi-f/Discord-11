@@ -953,10 +953,10 @@
     background-color: var(--brand-experiment);
     content: "";
     position: absolute;
-    width: 4px;
-    height: 32px;
-    border-radius: 8px;
-    left: -2px;
+    width: 3px;
+    height: 25px;
+    border-radius: 1.5px;
+    left: 0;
 }
 
 .sidebar-1tnWFu, .members-3WRCEx {
@@ -977,25 +977,23 @@
     max-width: 241px;
 }
 
-.modeSelected-3DmyhH .content-1gYQeQ::before {
+.modeSelected-3DmyhH .content-1gYQeQ:before {
     content: "";
-    background-color: var(--brand-experiment);
+    background-color: var(--brand-experiment-530);
     position: absolute;
-    height: 24px;
-    width: 4px;
-    top: 5px;
+    width: 3px;
+    height: 16px;
     left: 0;
-    border-radius: 8px;
+    border-radius: 1.5px;
 }
 .interactiveSelected-29CP8y::before {
     content: "";
     background-color: var(--brand-experiment);
     position: absolute;
     height: 26px;
-    width: 4px;
-    top: 8px;
+    width: 3px;
     left: 0;
-    border-radius: 8px;
+    border-radius: 1.5px;
 }
 
 .animatedContainer-2laTjx, .bannerImage-ubW8K-, .bannerImg-2PzH6z {
@@ -1634,9 +1632,8 @@ div[style*="52.08"] {
     background-color: var(--brand-experiment);
     height: 20px;
     width: 3px;
-    border-radius: 30%;
+    border-radius: 1.5px;
     left: 0;
-    top: 6px;
 }
 
 #app-mount .contentRegionScroller-2_GT_N, .repoHeader-2KfNvH, #app-mount .sidebarScrollable-2mW9Ls .scroller-3_YDR2 {
