@@ -1,4 +1,14 @@
-.app-2CXKsg, .panels-3wFtMD, .scroller-3X7KbA, .wrapper-1_HaEi, .membersWrap-3NUR2t {
+/* Glass Effect */
+:root {
+    --wallpaper-is: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/06/Windows-11-Wallpaper-1-1-scaled.jpg);
+    --blur-size: 32px;
+    --opacity-thing: 0.4;
+}
+
+.app-2CXKsg,
+.scroller-3X7KbA,
+.wrapper-1_HaEi,
+.membersWrap-3NUR2t {
     background-color: transparent;
 }
 .scroller-3X7KbA {
@@ -29,10 +39,13 @@ div#app-mount.appMount-2yBXZl::before {
     background-size: cover;
 }
 
-.theme-dark .container-2cd8Mz, .applicationStore-2nk7Lo {
-    background-color: rgba(0, 0, 0, 0.4) !important;
+.theme-dark .container-2cd8Mz,
+.applicationStore-2nk7Lo {
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
-.container-ZMc96U.themed-Hp1KC_, .nowPlayingColumn-1eCBCN, .container-1oAagU {
+.container-ZMc96U.themed-Hp1KC_,
+.nowPlayingColumn-1eCBCN,
+.container-1oAagU {
     background-color: transparent !important;
 }
 .children-3xh0VB:after {
@@ -40,7 +53,7 @@ div#app-mount.appMount-2yBXZl::before {
 }
 
 .sidebar-1tnWFu .scroller-WSmht3 {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
 .privateChannels-oVe7HL {
     background-color: transparent;
@@ -48,26 +61,31 @@ div#app-mount.appMount-2yBXZl::before {
 .sidebar-1tnWFu {
     background: none;
 }
-
-.container-YkUktl {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+.scroller-3X7KbA {
+    padding-bottom: 0 !important;
 }
 
+.panels-3wFtMD {
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
+}
+
+.folder-241Joy.hover-3m7-WT,
 .expandedFolderBackground-1kSAf6 {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
 .folder-241Joy {
     background-color: transparent;
 }
 .circleIconButton-1VxDrg {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
 .childWrapper-1j_1ub {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: hsla(0, 0%, 6%, 0.6);
 }
 
-.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header, .container-2o3qEW {
-    background: rgba(0, 0, 0, 0.3) !important;
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header,
+.container-2o3qEW {
+    background: hsla(0, 0%, 8%, 0.3) !important;
 }
 .members-3WRCEx, .members-3WRCEx > div {
     background-color: transparent !important;
@@ -79,11 +97,12 @@ div#app-mount.appMount-2yBXZl::before {
 .theme-dark .form-3gdLxP:before {
     display: none;
 }
-.chat-2ZfjoI, .container-3XgAHv {
-    background-color: rgba(0, 0, 0, 0.4) !important;
+.chat-2ZfjoI,
+.container-3XgAHv {
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
 .container-1NXEtd {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
 .channelTextArea-1FufC0 {
     background-color: transparent !important;
@@ -94,45 +113,73 @@ div#app-mount.appMount-2yBXZl::before {
 }
 
 .container-2oNtJn {
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
-.searchBar-3TnChZ .searchBarComponent-3N7dCG {
-    background-color: transparent !important;
+.searchBar-3TnChZ .searchBarComponent-3N7dCG,
+.searchBar-jGtisZ {
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
-.sidebar-1tnWFu .searchBar-3TnChZ, .searchBar-jGtisZ {
-    background-color: rgba(0, 0, 0, 0.6) !important;
+.sidebar-1tnWFu .searchBar-3TnChZ {
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
+    border-bottom-color: transparent !important;
 }
 #app-mount .ChannelDms-channelmembers-wrap .scroller-WSmht3 {
     background-color: transparent;
 }
+#app-mount .ChannelDms-channelmembers-wrap .searchBar-3TnChZ {
+    background-color: transparent !important;
+    border-bottom-color: transparent !important;
+}
 #app-mount .ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: hsla(0, 0%, 8%, 0.3) !important;
 }
 
 .emptyCard-KDifrB {
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    background-color: hsla(0, 0%, 6%, 0.4) !important;
 }
+
 .itemCard-3Etziu {
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    background-color: hsla(0, 0%, 6%, 0.4) !important;
 }
+.itemCard-3Etziu:hover {
+    background-color: hsla(0, 0%, 8%, 0.6) !important;
+}
+
 .theme-dark .inset-SbsSFp {
     background-color: transparent !important;
 }
 .section-3G9aLW {
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: hsla(0, 0%, 8%, 0.3) !important;
 }
 
 .actionButton-3-B2x- {
     background-color: transparent !important;
 }
 .actionButton-3-B2x-:hover {
-    background-color: rgba(255, 255, 255, 0.06) !important;
+    background-color: hsla(0, 0%, 100%, 0.06) !important;
 }
 
-.activityPanel-9icbyU, .container-1zzFcN, .container-6sXIoE {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+.container-YkUktl,
+.activityPanel-9icbyU,
+.container-1zzFcN,
+.container-6sXIoE {
+    background-color: hsla(0, 0%, 0%, 0.28) !important;
 }
 
 .scroller-29cQFV {
     background-color: transparent !important;
+}
+
+#app-mount .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+    --background-modifier-selected: hsla(0, 0%, 40%, 0.4);
+}
+
+.sidebar-1tnWFu .thin-31rlnD[dir=ltr] {
+    background-color: hsla(0, 0%, 6%, 0.6);
+}
+.theme-dark .pageWrapper-2PwDoS {
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
+}
+.theme-dark .card-2TuZPZ {
+    background-color: hsla(0, 0%, 12%, 0.6) !important;
 }
