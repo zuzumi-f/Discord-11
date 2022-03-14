@@ -187,6 +187,12 @@
     background: none;
 }
 
+.lookOutlined-3yKVGo.colorGreen-3y-Z79 {
+    color: var(--brand-experiment);
+    border-color: var(--brand-experiment);
+    border-radius: 5px;
+}
+
 /* User popout little */
 .userPopout-2j1gM4 {
     border: 1px solid hsla(0, 0%, 50%, 0.4);
@@ -281,7 +287,7 @@
     margin-left: 260px;
 }
 
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .tabBar-2hXqzU {
+#app-mount .topSection-13QKHs .tabBar-2hXqzU {
     width: 236px;
     flex-direction: column;
     position: fixed;
@@ -291,18 +297,18 @@
     background-color: var(--background-tertiary);
     padding: 12px;
 }
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .top-K_jibn .item-3XjbnG {
+#app-mount .topSection-13QKHs .top-K_jibn .item-3XjbnG {
     margin: 0;
     padding: 8px;
     margin-bottom: 4px;
     border-bottom: 0;
     border-radius: 5px;
 }
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
+.topSection-13QKHs .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
+.topSection-13QKHs .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
     background-color: var(--background-modifier-selected);
 }
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .tabBarItem-30Te4-.item-3XjbnG.selected-g-kMVV.themed-2-lozF::before {
+.topSection-13QKHs .tabBarItem-30Te4-.item-3XjbnG.selected-g-kMVV.themed-2-lozF::before {
     content: "";
     width: 3px;
     height: 22px;
@@ -311,7 +317,7 @@
     left: 0;
     background-color: var(--brand-experiment);
 }
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
+.topSection-13QKHs .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
     background-color: var(--background-modifier-hover);
 }
 
@@ -363,6 +369,13 @@
 }
 #app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .buttonsWrapper-2ARRp1:empty {
     display: none;
+}
+
+/* In Guild Profile */
+#app-mount .guild-profile .guild-profile-body {
+    min-height: 240px;
+    height: 240px;
+    max-height: 240px;
 }
 
 /* Role selector */
