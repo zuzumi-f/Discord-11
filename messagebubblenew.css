@@ -55,7 +55,7 @@
     background-color: var(--background-secondary);
     padding: 8px;
     margin-left: unset;
-    border-radius: 8px;
+    border-radius: 5px;
     width: fit-content;
 }
 #app-mount .message-2CShn3 {
@@ -93,7 +93,7 @@
     bottom: 0;
     pointer-events: none;
     width: 3px;
-    border-radius: 8px;
+    border-radius: 5px;
     z-index: 1;
 }
 #app-mount .mentioned-Tre-dv:before {
@@ -104,7 +104,7 @@
     background-color: var(--background-message-hover);
     margin-bottom: 0;
     padding: 6px;
-    border-radius: 8px;
+    border-radius: 5px;
     width: fit-content;
     max-width: 80vh;
 }
@@ -125,7 +125,7 @@
     bottom: 0;
     pointer-events: none;
     width: 3px;
-    border-radius: 8px;
+    border-radius: 5px;
     z-index: 1;
 }
 .replying-eZ7p5z:before {
