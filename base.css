@@ -1371,13 +1371,6 @@ body, .appMount-2yBXZl {
     background-color: var(--background-modifier-hover) !important;
 }
 
-#app-mount .pendingIncoming-3g05VP .actionButton-iarQTd {
-    width: 100px;
-    position: relative;
-    top: 88px;
-    right: 148px;
-}
-
 /* New unreads */
 .unread-2wipsx {
     background-color: hsla(0, 0%, 16%, 0.8);
@@ -1421,7 +1414,7 @@ body, .appMount-2yBXZl {
 
 /* Message options */
 .wrapper-2vIMkT {
-    background-color: hsla(0, 0%, 0%, 0.98);
+    background-color: hsla(0, 0%, 12%, 0.98);
     border: 1px solid hsla(0, 0%, 50%, 0.4);
     border-radius: 8px;
 }
@@ -1606,16 +1599,6 @@ body, .appMount-2yBXZl {
 #app-mount .searchBar-3aIzc- {
     -webkit-transition: all 500ms;
     transition: all 500ms;
-}
-#app-mount .searchBar-2M9mRP .iconLayout-SqV3nb {
-    position: absolute;
-    left: calc(100% - 32px);
-    bottom: 0;
-}
-#app-mount .searchBar-3aIzc- .iconLayout-3Bjizv {
-    position: absolute;
-    left: calc(100% - 32px);
-    bottom: 2px;
 }
 
 #app-mount .DraftEditor-root {
@@ -2259,12 +2242,6 @@ body, .appMount-2yBXZl {
     border-radius: 8px;
     -webkit-backdrop-filter: blur(24px);
     backdrop-filter: blur(24px);
-}
-
-/* Creaton date, last message and joined */
-.topSection-13QKHs .date-YN6TCS {
-    text-align: center;
-    margin-right: 16px;
 }
 
 /* NotifX */
