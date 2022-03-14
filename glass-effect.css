@@ -183,3 +183,8 @@ div#app-mount.appMount-2yBXZl::before {
 .theme-dark .card-2TuZPZ {
     background-color: hsla(0, 0%, 12%, 0.6) !important;
 }
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
+}
