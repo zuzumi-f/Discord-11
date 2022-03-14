@@ -3,14 +3,17 @@
  * @description Based in Windows 11 UI
  * @author zuzumi#8097
  * @authorId 403725623161257984
- * @version 1.1
+ * @version 2
  * @invite PsNtzGeHuW
  * @donate https://www.paypal.me/hurtyoutube
  * @website https:github.com/zuzumi-f
  * @source https://github.com/zuzumi-f/Discord-11/blob/main/base.css
 */
 
-/* Theme Import [DON'T TOUCH] */
+/*------------------------------------------------------------
+   Theme Import change styles with base.css or base-old.css
+      you can't disable this, is the full theme dummy
+------------------------------------------------------------*/
 @import url(https://zuzumi-f.github.io/Discord-11/base.css);
 
 /*--------------------------------------------------------------
@@ -30,12 +33,18 @@ Message bubble styles [If you don't want any place a /* in both]
 /*--------------------------------------------------------------
       Glass effect [You actually can't see the desk]
 ---------------------------------------------------------------*/
+/* Yes you can disable this */
 @import url(https://zuzumi-f.github.io/Discord-11/glass-effect.css);
 
 :root {
     --wallpaper-is: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/06/Windows-11-Wallpaper-1-1-scaled.jpg);
     --blur-size: 24px;
     --opacity-thing: 0.6;
+}
+
+/*-Watermark-*/
+:root {
+    --watermark-code: display; /* This indicate what code are you using, "none" to disable it */
 }
 
 /*----------------------------------------------------
