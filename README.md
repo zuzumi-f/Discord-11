@@ -2,19 +2,19 @@
 Theme based in windows 11 new UI
 
 # Preview
-![Discord_9fmJpGrjXQ](https://user-images.githubusercontent.com/79029257/157095240-92a3493e-e5da-4b71-96b5-a7ecb9bc57b1.png)
+![Discord_1TNWBBrgAL](https://user-images.githubusercontent.com/79029257/158089984-0dce4a61-605c-459f-82c3-388c50129203.png)
 
 # Preview (Glass Effect)
-![Discord_Ka4QmfdVJz](https://user-images.githubusercontent.com/79029257/157095340-f14b0ca7-ad44-4d2f-a9d5-48dc42c71982.png)
+![Discord_SBohHXf3Jg](https://user-images.githubusercontent.com/79029257/158089998-66665d45-44a2-43ba-b5bc-c3994a671762.png)
 
 # Settings
-![Discord_vC47XtJP1k](https://user-images.githubusercontent.com/79029257/157095398-21274917-f540-40ed-ae64-0e07cb13280d.png)
+![Discord_9UlGFgpsO2](https://user-images.githubusercontent.com/79029257/158090009-21c8dd71-ecd8-47a3-97bd-8d999d7910b0.png)
 
-# Popout (little)
-![Discord_D5KbntDXYR](https://user-images.githubusercontent.com/79029257/157095444-54eba5cd-302a-4929-92c7-37cb67afa101.png)
+# Profile (Little)
+![Discord_HStM68e7Am](https://user-images.githubusercontent.com/79029257/158090020-c800e1b7-1b40-43d5-90c7-62c4aace3404.png)
 
-# Popout (Big)
-![Discord_JcpxuII4mf](https://user-images.githubusercontent.com/79029257/157095476-a021fb12-8d24-49b2-aef0-3d5c09cbc45e.png)
+# Profile (Big)
+![Discord_4vmWCMNRQe](https://user-images.githubusercontent.com/79029257/158090029-82744df5-4fe5-4fe4-b36e-ba594c6ec700.png)
 
 # Addons
 Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
