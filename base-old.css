@@ -1226,14 +1226,15 @@ body, .appMount-2yBXZl {
 }
 
 .wordmarkWindows-2dq6rw {
+    padding: 0;
+    width: 0;
+}
+.wordmarkWindows-2dq6rw svg {
     display: none;
 }
 .withFrame-2dL45i {
     margin-top: 0;
     height: 50px;
-    width: 144px;
-    left: calc(100% - 144px);
-    position: relative;
 }
 #app-mount .titleBar-1it3bQ {
     z-index: 2;
@@ -2393,6 +2394,31 @@ body, .appMount-2yBXZl {
     background-color: hsla(0, 0%, 50%, 0.4) !important;
 }
 
+/* Design and Changes */
+.bd-addon-card[id="Discord 11-card"] .bd-description-wrap::after {
+    content: "14-03-2022 The theme now have two styles! click the pencil to edit and see the options";
+    width: 100%;
+    height: 100%;
+    color: var(--header-primary);
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.wordmarkWindows-2dq6rw::before {
+    display: var(--watermark-code);
+    content: "- Classic Code";
+    font-family: var(--font-display);
+    width: 100vh;
+    height: 14px;
+    position: absolute;
+    color: hsla(0, 0%, 78%, 0.98);
+    font-weight: 600;
+    font-size: 14px;
+    top: 18px;
+    left: 0;
+    margin-left: 8px;
+}
+
 /* When glass */
 #app-mount .panels-3wFtMD {
     background-color: transparent !important;
@@ -2401,5 +2427,5 @@ body, .appMount-2yBXZl {
 #app-mount .activityPanel-9icbyU,
 #app-mount .container-1zzFcN,
 #app-mount .container-6sXIoE {
-    background-color: hsla(0, 0%, 15%, 0.6) !important;
+    background-color: hsla(0, 0%, 8%, 0.6) !important;
 }
