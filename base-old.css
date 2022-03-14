@@ -1252,33 +1252,7 @@ body, .appMount-2yBXZl {
     ry: 2;
 }
 
-/* User *//*
-.panels-3wFtMD .avatarWrapper-1B9FTW {
-    position: fixed;
-    right: 0;
-    top: 0;
-    margin-right: 190px;
-    margin-top: 8px;
-    transform: scale(0.88);
-    transform-origin: center;
-    -webkit-app-region: no-drag;
-}
-
-.panels-3wFtMD .avatarWrapper-1B9FTW .wrapper-1VLyxH foreignObject {
-    border-radius: 50%;
-    border: 1px solid var(--text-normal);
-}
-
-#app-mount #status-picker {
-    width: 324px;
-}
-
-div[style*="52.08"] {
-    right: 194px !important;
-    width: 324px !important;
-    left: unset !important;
-}
-*/
+/* User */
 .panels-3wFtMD {
     min-height: 80px;
     background-color: var(--background-tertiary);
