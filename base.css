@@ -2481,3 +2481,28 @@ body, .appMount-2yBXZl {
 .tabBar-ra-EuL .badge-3wMLmL {
     background-color: var(--brand-experiment-400);
 }
+
+/* Design and Changes */
+.bd-addon-card[id="Discord 11-card"] .bd-description-wrap::after {
+    content: "14-03-2022 The theme now have two styles! click the pencil to edit and see the options";
+    width: 100%;
+    height: 100%;
+    color: var(--header-primary);
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.wordmarkWindows-2dq6rw::before {
+    display: var(--watermark-code);
+    content: "- New Code";
+    font-family: var(--font-display);
+    width: 100vh;
+    height: 14px;
+    position: absolute;
+    color: hsla(0, 0%, 78%, 0.98);
+    font-weight: 600;
+    font-size: 14px;
+    top: 10px;
+    left: 0;
+    margin-left: calc(100vh - 112px);
+}
