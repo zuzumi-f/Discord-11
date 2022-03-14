@@ -85,6 +85,13 @@
     margin: 2px 8px;
 }
 
+/* Home Button */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    color: var(--brand-experiment);
+    background-color: var(--background-primary);
+}
+
 /* Search & Add Server Button Style */
 .circleIconButton-1VxDrg {
     color: var(--interactive-normal);
