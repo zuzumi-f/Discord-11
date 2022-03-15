@@ -1639,6 +1639,7 @@ body, .appMount-2yBXZl {
 /* My account */
 #app-mount .accountProfileCard-lbN7n- .banner-1YaD3N {
     background-color: transparent !important;
+    background-image: none !important;
     height: 20px;
 }
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
@@ -2415,8 +2416,7 @@ body, .appMount-2yBXZl {
     font-weight: 600;
     font-size: 14px;
     top: 18px;
-    left: 0;
-    margin-left: 8px;
+    left: 80px;
 }
 
 /* When glass */
