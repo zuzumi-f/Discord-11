@@ -1717,17 +1717,56 @@ body, .appMount-2yBXZl {
 }
 
 /* My account */
-#app-mount .accountProfileCard-lbN7n- .banner-1YaD3N {
-    background-color: transparent !important;
-    height: 20px;
+/* Banner Code by MintLily */
+#app-mount .accountProfileCard-lbN7n- {
+    background-color: transparent;
 }
+
+#app-mount .accountProfileCard-lbN7n- .banner-1YaD3N[style^="background-color: "] {
+    height: 126px;
+    border-radius: 8px;
+}
+#app-mount .accountProfileCard-lbN7n- .banner-1YaD3N:not([style^="background-image: "])::before {
+    background-image: url("https://styles.redditmedia.com/t5_388p4/styles/bannerBackgroundImage_plntm9perxy61.png?width=4000&s=134426b56d6f01c91e9598e4d3c8ddbedca18bec");
+    background-position: center -24px;
+    background-size: calc(100% + 100px);
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 8px;
+}
+#app-mount .accountProfileCard-lbN7n- .banner-1YaD3N[style^="background-image: "] {
+    height: 500px;
+}
+
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
-    top: 3px;
+    top: 22px;
+    left: 22px;
+    border: 1px solid var(--header-primary);
+    background-color: transparent;
+    filter: drop-shadow(0px 0px 6px hsla(0, 0%, 0%, 0.1));
+}
+#app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ foreignObject {
+    mask: none;
+    border-radius: 50%;
+}
+#app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ rect {
+    display: none;
+}
+#app-mount .userInfo-regn9W {
+    padding-left: 16px;
+    margin-top: 8px;
+    background-color: var(--background-tertiary);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 #app-mount .background-3d_SjE, #app-mount .fieldList-in8WkP {
     padding: 0;
-    background-color: transparent;
+    background-color: var(--background-tertiary);
+    margin: 0;
+    padding: 8px 16px 16px;
 }
 #app-mount .fieldSpacer-cxjVL1 {
     margin-top: 4px;
