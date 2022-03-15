@@ -1755,7 +1755,7 @@ body, .appMount-2yBXZl {
     display: none;
 }
 #app-mount .userInfo-regn9W {
-    padding-left: 16px;
+    padding: 16px 33px 0 33px;
     margin-top: 8px;
     background-color: var(--background-tertiary);
     border-top-left-radius: 8px;
