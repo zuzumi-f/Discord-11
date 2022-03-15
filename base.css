@@ -1336,6 +1336,10 @@ body, .appMount-2yBXZl {
     border-top-right-radius: 8px;
 }
 
+.panels-3wFtMD .nameTag-sc-gpq {
+    max-width: calc(100% - 44px);
+}
+
 /* What? */
 #app-mount .toolbar-37BrJ5 .inactive-3WMCpS {
     background-color: transparent !important;
