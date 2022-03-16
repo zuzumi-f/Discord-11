@@ -1768,6 +1768,9 @@ body, .appMount-2yBXZl {
     margin: 0;
     padding: 8px 16px 16px;
 }
+#app-mount .background-3d_SjE {
+    border-radius: 0 0 8px 8px;
+}
 #app-mount .fieldSpacer-cxjVL1 {
     margin-top: 4px;
 }
