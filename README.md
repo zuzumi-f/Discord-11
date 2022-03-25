@@ -29,3 +29,18 @@ Settings Icons by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/
 
 # New Message bubble
 ![Discord_nvXHiVWXFU](https://user-images.githubusercontent.com/79029257/157095553-661735a0-69a1-48b4-adf7-451cea592abc.png)
+
+# I use Horizontal Server List
+This code made HSL compatible with the theme
+```css
+
+#app-mount .standardSidebarView-E9Pc3j {
+    border-radius: 0;
+    border-left: none;
+    width: 100%;
+    left: 0;
+    height: calc(100% - 60px);
+    top: unset;
+    bottom: 0;
+}
+```
