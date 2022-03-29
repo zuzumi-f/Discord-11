@@ -68,11 +68,11 @@
     margin-left: -64px;
     padding-left: 4rem;
 }
-#app-mount .mentioned-Tre-dv.compact-2Nkcau .contents-2MsGLg::before {
-    left: 0;
+#app-mount .mentioned-Tre-dv.compact-2Nkcau .contents-2MsGLg .messageContent-2t3eCI::before {
+    left: -4px;
 }
-#app-mount .replying-eZ7p5z.compact-2Nkcau .contents-2MsGLg::before {
-    left: 0;
+#app-mount .replying-eZ7p5z.compact-2Nkcau .contents-2MsGLg .messageContent-2t3eCI::before {
+    left: -4px;
 }
 
 #app-mount .mentioned-Tre-dv .contents-2MsGLg {
