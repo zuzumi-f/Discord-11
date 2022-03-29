@@ -66,15 +66,20 @@
     background-color: var(--background-secondary-alt);
 }
 
-#app-mount .compact-2Nkcau .messageContent-2t3eCI {
-    margin-left: -64px;
-    padding-left: 4rem;
+#app-mount .message-2CShn3.compact-2Nkcau.wrapper-30-Nkg[data-is-author-self="true"] .messageContent-2t3eCI {
+    display: flex;
 }
-#app-mount .mentioned-Tre-dv.compact-2Nkcau .messageContent-2t3eCI::before {
-    left: 0;
+
+#app-mount .compact-2Nkcau.wrapper-30-Nkg {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-#app-mount .replying-eZ7p5z.compact-2Nkcau .messageContent-2t3eCI::before {
-    left: 0;
+
+#app-mount .mentioned-Tre-dv.compact-2Nkcau .contents-2MsGLg .messageContent-2t3eCI::before:not([data-is-author-self="true"]) {
+    left: 4px;
+}
+#app-mount .replying-eZ7p5z.compact-2Nkcau .contents-2MsGLg .messageContent-2t3eCI::before:not([data-is-author-self="true"]) {
+    left: 4px;
 }
 
 #app-mount .mentioned-Tre-dv .contents-2MsGLg .messageContent-2t3eCI {
@@ -93,7 +98,7 @@
     bottom: 0;
     pointer-events: none;
     width: 3px;
-    border-radius: 5px;
+    border-radius: 1.5px;
     z-index: 1;
 }
 #app-mount .mentioned-Tre-dv:before {
@@ -125,7 +130,7 @@
     bottom: 0;
     pointer-events: none;
     width: 3px;
-    border-radius: 5px;
+    border-radius: 1.5px;
     z-index: 1;
 }
 .replying-eZ7p5z:before {
