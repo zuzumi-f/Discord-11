@@ -3894,17 +3894,35 @@
 }
 
 /* Design and Changes */
-:root {
-    --watermark-code: display;
-}
-
 .bd-addon-card[id="Discord 11-card"] .bd-description-wrap::after {
-    content: "14-03-2022 The theme now have two styles! click the pencil to edit and see the options";
+    content: "Updates:";
+    width: 100%;
+    height: 100%;
+    color: var(--focus-primary);
+    margin-bottom: 8px;
+}
+.bd-addon-card[id="Discord 11-card"] .bd-footer {
+    display: grid;
+}
+.bd-addon-card[id="Discord 11-card"] .bd-controls {
+    position: absolute;
+    right: 58px;
+    margin-top: 18px;
+}
+.bd-addon-card[id="Discord 11-card"] .bd-controls::before {
+    content: "Click ➡️";
+    width: 100%;
+    height: 100%;
+    color: var(--header-primary);
+    position: relative;
+    top: 7px;
+}
+.bd-addon-card[id="Discord 11-card"] .bd-footer::before {
+    content: "30-03-2022 Redo with oficial Windows 11 values";
     width: 100%;
     height: 100%;
     color: var(--header-primary);
     margin-bottom: 8px;
-    text-decoration: underline;
 }
 
 .wordmarkWindows-2dq6rw::before {
