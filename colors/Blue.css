@@ -46,10 +46,20 @@
     --brand-experiment-90a: hsla(206, 85.6%, 64.7%, 0.9);
     --brand-experiment-95a: hsla(206, 85.6%, 64.7%, 0.95);
 }
+.theme-dark {
+    --control-brand-foreground: hsl(206, 86%, 77%);
+}
 .theme-dark, .theme-light {
     --text-link: hsl(206, 100%, 47.8%);
     --text-link-low-saturation: hsl(206, 100%, 52.9%);
-    --control-brand-foreground: hsl(206, 86%, 77%);
     --control-brand-foreground-new: hsl(206, 86%, 77%);
     --info-help-foreground: hsl(206, 100%, 47.8%);
+}
+.theme-light {
+    --blue-button-bg: hsl(209, 100%, 36%);
+    --blue-button-hover: hsl(209, 77%, 42%);
+    --blue-button-border: hsl(209, 80%, 41%);
+    --blue-button-top: hsl(209, 81%, 41%);
+    --blue-button-bottom: hsl(209, 85%, 31%);
+    --control-brand-foreground: hsl(209, 100%, 36%);
 }
