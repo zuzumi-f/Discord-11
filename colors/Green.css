@@ -1,4 +1,3 @@
-/* Green */
 [data-popout-root], html {
     --brand-experiment-100: hsl(138, 77.8%, 98.2%);
     --brand-experiment-130: hsl(144, 87.5%, 96.9%);
@@ -46,10 +45,20 @@
     --brand-experiment-90a: hsla(143, 85.6%, 64.7%, 0.9);
     --brand-experiment-95a: hsla(143, 85.6%, 64.7%, 0.95);
 }
+.theme-dark {
+    --control-brand-foreground: hsl(143, 86%, 77%);
+}
 .theme-dark, .theme-light {
     --text-link: hsl(143, 100%, 47.8%);
     --text-link-low-saturation: hsl(143, 100%, 52.9%);
-    --control-brand-foreground: hsl(143, 86%, 77%);
     --control-brand-foreground-new: hsl(143, 86.1%, 77.5%);
     --info-help-foreground: hsl(137, 92%, 47.8%);
+}
+.theme-light {
+    --blue-button-bg: hsl(143, 100%, 36%);
+    --blue-button-hover: hsl(143, 77%, 42%);
+    --blue-button-border: hsl(143, 80%, 41%);
+    --blue-button-top: hsl(143, 81%, 41%);
+    --blue-button-bottom: hsl(143, 85%, 27%);
+    --control-brand-foreground: hsl(143, 100%, 36%);
 }
