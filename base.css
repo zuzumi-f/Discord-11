@@ -253,7 +253,6 @@
 }
 #app-mount .footer-31IekZ,
 #app-mount .separator-2OaeRP,
-#app-mount .inset-SbsSFp,
 #app-mount .footer-VCsJQY,
 #app-mount .buttonContainer-28osRq {
     background-color: var(--background-secondary);
@@ -261,9 +260,7 @@
 #app-mount .outer-2JOHae.active-1W_Gl9,
 #app-mount .outer-2JOHae.interactive-2zD88a:hover,
 #app-mount .interactive-2zD88a:hover .separator-2OaeRP,
-#app-mount .interactive-2zD88a:hover .inset-SbsSFp,
 #app-mount .outer-2JOHae.active-1W_Gl9 .separator-2OaeRP,
-#app-mount .outer-2JOHae.active-1W_Gl9 .inset-SbsSFp,
 #app-mount .autocompleteArrow-jJE9TQ,
 #app-mount .header-3i_Csh,
 #app-mount .inviteBannerUpsell-1t_LYM {
@@ -2852,6 +2849,28 @@
 }
 .theme-light .actions-YHvpIT .actionButton-3-B2x-:last-of-type {
     border-left: 1px solid rgba(0, 0, 0, 0.0578);
+}
+
+/* Active Now */
+.theme-dark .wrapper-2RrXDg {
+    background-color: var(--windark-button-bg) !important;
+}
+.theme-dark .wrapper-2RrXDg:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light .wrapper-2RrXDg {
+    background-color: var(--winlight-button-bg) !important;
+}
+.theme-light .wrapper-2RrXDg:hover {
+    background-color: var(--winlight-button-hover) !important;
+}
+
+#app-mount .inset-SbsSFp {
+    background-color: transparent;
+}
+#app-mount .section-3G9aLW {
+    background-color: var(--background-modifier-accent);
 }
 
 /* Bottom bar in search */
