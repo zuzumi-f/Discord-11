@@ -3507,7 +3507,7 @@
 }
 
 /* BD button */
-.theme-dark .bd-button,
+.theme-dark .bd-button:not(.bd-controls .bd-button),
 .theme-dark .bd-addon-views .bd-view-button.selected {
     background-color: var(--brand-experiment) !important;
     border: 1px solid var(--brand-experiment-430) !important;
@@ -3521,7 +3521,7 @@
     border-bottom-color: var(--brand-experiment-600) !important;
 }
 
-.theme-light .bd-button,
+.theme-light .bd-button:not(.bd-controls .bd-button),
 .theme-light .bd-addon-views .bd-view-button.selected {
     background-color: var(--blue-button-bg) !important;
     border: 1px solid var(--blue-button-border) !important;
