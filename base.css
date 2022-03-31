@@ -4030,9 +4030,9 @@
     margin-right: 144px;
 }
 
-/* Better FriendList */
-.tabBar-ra-EuL .badge-3wMLmL {
-    background-color: var(--brand-experiment-400);
+/* User Details */
+.theme-light .UserDetails-dates-container.UserDetails-dates-icons {
+    filter: invert(1);
 }
 
 /* Design and Changes */
