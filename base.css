@@ -4040,11 +4040,11 @@
 }
 
 .theme-light .UserDetails-connections-connections [src="/assets/6a853b4c87fce386cbfef4a2efbacb09.svg"] {
-    content: url("/assets/3ff98ad75ac94fa883af5ed62d17c459.svg");
+    content: url("https://discord.com/assets/3ff98ad75ac94fa883af5ed62d17c459.svg");
 }
 
 .theme-light .UserDetails-connections-connections [src="/assets/7bab4490382024b0c8c29b5378eeaf8f.svg"] {
-    content: url("/assets/8b20979429c0e2d40e0d620f939989cf.svg");
+    content: url("https://discord.com/assets/8b20979429c0e2d40e0d620f939989cf.svg");
 }
 
 /* Channel details popout */
