@@ -2286,10 +2286,14 @@
     max-height: 90vh !important;
 }
 
-#app-mount .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
+#app-mount .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy,
+#app-mount .header-3_zmOb .tabBar-2WhZ9G .tab-2Jo-cu.active-346HgG,
+#app-mount .list-1uSVgu .tabBar-3N44FC .tab-1tp4jL.active-3WMEyE {
     background-color: transparent;
 }
-#app-mount .header-145e10 .tab-TRrPC8.item-3XjbnG.themed-2-lozF::after {
+#app-mount .header-145e10 .tab-TRrPC8.item-3XjbnG.themed-2-lozF::after,
+#app-mount .header-3_zmOb .tab-2Jo-cu.item-3XjbnG.themed-2-lozF::after,
+#app-mount .list-1uSVgu .tab-1tp4jL.item-3XjbnG.themed-2-lozF::after {
     bottom: 0;
 }
 
