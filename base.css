@@ -2286,6 +2286,13 @@
     max-height: 90vh !important;
 }
 
+#app-mount .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
+    background-color: transparent;
+}
+#app-mount .header-145e10 .tab-TRrPC8.item-3XjbnG.themed-2-lozF::after {
+    bottom: 0;
+}
+
 #app-mount .browser-mnQ1T7 {
     border-radius: var(--winrad3);
     backdrop-filter: blur(var(--winblur1));
