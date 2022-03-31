@@ -3957,6 +3957,10 @@
     fill: var(--offline-color);
 }
 
+.theme-light .ChannelDms-channelpopout-popout {
+    color: hsl(0, 0%, 13%);
+}
+
 /* When error */
 #app-mount .errorPage-2pZ2Kq {
     -webkit-app-region: no-drag;
@@ -4031,8 +4035,21 @@
 }
 
 /* User Details */
-.theme-light .UserDetails-dates-container.UserDetails-dates-icons {
+.theme-light .UserDetails-dates-container svg:not(.UserDetails-dates-container .UserDetails-dates-errorIcon) {
     filter: invert(1);
+}
+
+.theme-light .UserDetails-connections-connections [src="/assets/6a853b4c87fce386cbfef4a2efbacb09.svg"] {
+    content: url("/assets/3ff98ad75ac94fa883af5ed62d17c459.svg");
+}
+
+.theme-light .UserDetails-connections-connections [src="/assets/7bab4490382024b0c8c29b5378eeaf8f.svg"] {
+    content: url("/assets/8b20979429c0e2d40e0d620f939989cf.svg");
+}
+
+/* Channel details popout */
+.theme-light .ChannelDetails-modal-header .ChannelDetails-modal-title {
+    color: #000;
 }
 
 /* Design and Changes */
