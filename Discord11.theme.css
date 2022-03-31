@@ -3,7 +3,7 @@
  * @description Based in Windows 11 UI
  * @author zuzumi#8097
  * @authorId 403725623161257984
- * @version 2
+ * @version 2.2
  * @invite PsNtzGeHuW
  * @donate https://www.paypal.me/hurtyoutube
  * @website https:github.com/zuzumi-f
@@ -23,17 +23,22 @@
 @import url(https://zuzumi-f.github.io/Discord-11/colors/Blue.css);
 
 /*--------------------------------------------------------------
-Message bubble styles [If you don't want any place a /* in both]
+Message bubble styles [If you don't want any place a /* in all]
 ----------------------------------------------------------------*/
-/* Default Message bubble */
+/* Message Bubble in Left Side */
+@import url(https://zuzumi-f.github.io/Discord-11/messagebubbleleft.css);
+/* Default Message Bubble *//*
 @import url(https://zuzumi-f.github.io/Discord-11/messagebubble11.css);
-/* New Message bubble *//*
+/* New Message Bubble *//*
 @import url(https://zuzumi-f.github.io/Discord-11/messagebubblenew.css);
 
 /*--------------------------------------------------------------
-      Glass effect [You actually can't see the desk]
+                           Glass effect
+         [To see your desk put "none" in --wallpaper-is:
+                               and
+               enable Transparency in BD Settings]
 ---------------------------------------------------------------*/
-/* Yes you can disable this */
+/*--Yes you can enable/disable this--*//*
 @import url(https://zuzumi-f.github.io/Discord-11/glass-effect.css);
 
 :root {
@@ -42,9 +47,13 @@ Message bubble styles [If you don't want any place a /* in both]
     --opacity-thing: 0.6;
 }
 
-/*-Watermark-*/
+/*--------------------------------------------------------------
+                        Code Watermark
+            [This indicate what code are you using
+         replace "display" with "none" to disable it]
+---------------------------------------------------------------*/
 :root {
-    --watermark-code: display; /* This indicate what code are you using, "none" to disable it */
+    --watermark-code: display;
 }
 
 /*----------------------------------------------------
