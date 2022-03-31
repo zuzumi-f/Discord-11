@@ -746,17 +746,18 @@
     border-radius: var(--winrad3);
     flex-direction: column;
     align-items: unset;
+    box-shadow: var(--elevation-low);
 }
 
 .theme-dark .userProfileActivity-sal5no .bodyNormal-250CQK,
 .theme-dark .userProfileActivity-sal5no .bodyAlignCenter-3E27PU {
-    background: var(--noise256), var(--windark-box1);
+    background-color: var(--windark-acrylic);
     border: var(--windarkborder4);
 }
 
 .theme-light .userProfileActivity-sal5no .bodyNormal-250CQK,
 .theme-light .userProfileActivity-sal5no .bodyAlignCenter-3E27PU {
-    background-color: var(--noise256), var(--winlight-box1);
+    background-color: var(--winlight-acrylic);
     border: var(--winlightborder2);
 }
 
