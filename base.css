@@ -121,6 +121,7 @@
     --background-nested-floating: var(--windark3);
     --background-mobile-primary: var(--windark4);
     --background-mobile-secondary: var(--windark3);
+    --input-background: var(--windark3);
     --background-modifier-hover: rgba(255, 255, 255, 0.0605);
     --background-modifier-active: rgba(255, 255, 255, 0.0419);
     --background-modifier-selected: rgba(255, 255, 255, 0.0419);
