@@ -4047,6 +4047,18 @@
     content: url("https://discord.com/assets/8b20979429c0e2d40e0d620f939989cf.svg");
 }
 
+.theme-dark .UserDetails-connections-connections [src="/assets/29b4af8bf13fa73258692008d25b4f0d.png"] {
+    content: url("https://discord.com/assets/1fa6585cbb8c0fe21188e26d19fc6609.svg");
+}
+
+.theme-light .UserDetails-connections-connections [src="/assets/29b4af8bf13fa73258692008d25b4f0d.png"] {
+    content: url("https://discord.com/assets/cab5339904e625728f75e3b7bc32a347.svg");
+}
+
+.theme-dark .UserDetails-connections-connections [src="/assets/1f07067017f955a0cde4e994e945f417.svg"] {
+    content: url("https://discord.com/assets/d897626dfa2016ea3ad0af935acb6070.svg");
+}
+
 /* Channel details popout */
 .theme-light .ChannelDetails-modal-header .ChannelDetails-modal-title {
     color: #000;
