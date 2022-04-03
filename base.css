@@ -446,6 +446,9 @@
 .contentRegion-3HkfJJ .checkboxWrapper-2fDzaA {
     margin-bottom: 8px;
 }
+#app-mount .box-BHImcZ {
+    border-radius: var(--winrad2);
+}
 
 .theme-dark .checkbox-f1HnKB {
     border-color: var(--windark-check1);
