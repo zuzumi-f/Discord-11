@@ -192,14 +192,16 @@ div#app-mount.appMount-2yBXZl::before {
 .theme-dark .itemCard-3Etziu {
     background-color: hsla(0, 0%, 6%, 0.4) !important;
 }
-.theme-dark .itemCard-3Etziu:hover {
+.theme-dark .itemCard-3Etziu:hover,
+.theme-dark .itemCard-3Etziu.active-1W_Gl9 {
     background-color: hsla(0, 0%, 8%, 0.6) !important;
 }
 
 .theme-light .itemCard-3Etziu {
     background-color: hsla(0, 0%, 96%, 0.2) !important;
 }
-.theme-light .itemCard-3Etziu:hover {
+.theme-light .itemCard-3Etziu:hover,
+.theme-light .itemCard-3Etziu.active-1W_Gl9 {
     background-color: hsla(0, 0%, 98%, 0.3) !important;
 }
 
@@ -215,11 +217,32 @@ div#app-mount.appMount-2yBXZl::before {
     background-color: hsla(0, 0%, 98%, 0.15) !important;
 }
 
-.actionButton-3-B2x- {
-    background-color: transparent !important;
+.theme-dark .peopleColumn-1wMU14 .peopleListItem-u6dGxF {
+    background-color: hsla(0, 0%, 8%, 0.3) !important;
 }
-.actionButton-3-B2x-:hover {
-    background-color: hsla(0, 0%, 100%, 0.06) !important;
+
+.theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF {
+    background-color: hsla(0, 0%, 98%, 0.15) !important;
+}
+
+.theme-dark .actions-YHvpIT .actionButton-3-B2x- {
+    background-color: hsla(0, 0%, 16%, 0.6) !important;
+    border: 1px solid hsla(0, 0%, 17%, 0.6) !important;
+    border-top-color: hsla(0, 0%, 19%, 0.6) !important;
+    border-bottom-color: hsla(0, 0%, 17%, 0.6) !important;
+}
+.theme-dark .actions-YHvpIT .actionButton-3-B2x-:hover {
+    background-color: hsla(0, 0%, 18%, 0.6) !important;
+}
+
+.theme-light .actions-YHvpIT .actionButton-3-B2x- {
+    background-color: hsla(0, 0%, 99%, 0.3) !important;
+    border: 1px solid hsla(0, 0%, 93%, 0.3) !important;
+    border-top-color: hsla(0, 0%, 93%, 0.3) !important;
+    border-bottom-color: hsla(0, 0%, 86%, 0.3) !important;
+}
+.theme-light .actions-YHvpIT .actionButton-3-B2x-:hover {
+    background-color: hsla(0, 0%, 98%, 0.3) !important;
 }
 
 .theme-dark .container-YkUktl,
