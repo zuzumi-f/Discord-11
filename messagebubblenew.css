@@ -5,6 +5,13 @@
     padding-right: 72px !important;
 }
 
+#app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 8px;
+}
+
 #app-mount .message-2CShn3[data-is-author-self="true"] .timestamp-p1Df1m {
     left: unset;
     right: 8px;
