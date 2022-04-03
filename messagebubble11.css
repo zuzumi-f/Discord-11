@@ -56,9 +56,12 @@
     border-radius: 3px;
     width: fit-content;
 }
+#app-mount .contents-2MsGLg {
+    display: inline-block;
+    max-width: 100%;
+}
 #app-mount .message-2CShn3 {
-    width: fit-content;
-    background-color: unset;
+    max-width: 100%;
 }
 #app-mount .message-2CShn3:hover .contents-2MsGLg {
     background-color: var(--background-secondary-alt);
