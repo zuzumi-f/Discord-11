@@ -2,6 +2,9 @@
     margin-left: auto;
     width: auto;
 }
+#app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg {
+    display: block;
+}
 #app-mount .message-2CShn3.selected-2LX7Jy[data-is-author-self=true] .contents-2MsGLg {
     width: 100%;
 }
