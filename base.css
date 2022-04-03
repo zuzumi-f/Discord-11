@@ -295,7 +295,7 @@
     background: none;
 }
 #app-mount .noticeWrapper-8z511t .button-1iHNQ2:hover {
-    text-decoration: underline;
+    background: var(--background-modifier-hover);
 }
 
 /* Home Button */
