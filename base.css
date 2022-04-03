@@ -3760,7 +3760,7 @@
     color: #000 !important;
     border-radius: var(--winrad2) !important;
 }
-.theme-dark .bd-button:hover {
+.theme-dark .bd-button:hover:not(.bd-controls .bd-button) {
     background-color: var(--brand-experiment-530) !important;
     border-color: var(--brand-experiment-500) !important;
     border-bottom-color: var(--brand-experiment-600) !important;
@@ -3775,7 +3775,7 @@
     color: #fff !important;
     border-radius: var(--winrad2) !important;
 }
-.theme-light .bd-button:hover {
+.theme-light .bd-button:hover:not(.bd-controls .bd-button) {
     background-color: var(--blue-button-hover) !important;
 }
 
