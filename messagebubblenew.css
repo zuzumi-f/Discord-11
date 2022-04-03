@@ -55,12 +55,15 @@
     background-color: var(--background-secondary);
     padding: 8px;
     margin-left: unset;
-    border-radius: 5px;
-    width: fit-content;
+    border-radius: 7px;
+    width: 100%;
+}
+#app-mount .contents-2MsGLg {
+    display: inline-block;
+    max-width: 100%;
 }
 #app-mount .message-2CShn3 {
-    width: fit-content;
-    background-color: unset;
+    max-width: 100%;
 }
 #app-mount .message-2CShn3:hover:not(.replying-eZ7p5z):not(.mentioned-Tre-dv) .contents-2MsGLg .messageContent-2t3eCI {
     background-color: var(--background-secondary-alt);
