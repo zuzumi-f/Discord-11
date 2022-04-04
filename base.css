@@ -3025,6 +3025,11 @@
     border: var(--windarkborder2);
 }
 
+.theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF {
+    background: var(--winlight-acrylic);
+    border: var(--winlightborder2);
+}
+
 .peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover,
 .peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh {
     box-shadow: var(--elevation-medium);
