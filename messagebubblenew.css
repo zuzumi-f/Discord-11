@@ -72,7 +72,8 @@
 #app-mount .message-2CShn3 {
     max-width: 100%;
 }
-#app-mount .message-2CShn3:hover:not(.replying-eZ7p5z):not(.mentioned-Tre-dv) .contents-2MsGLg .messageContent-2t3eCI {
+#app-mount .message-2CShn3:hover:not(.replying-eZ7p5z):not(.mentioned-Tre-dv) .contents-2MsGLg .messageContent-2t3eCI,
+#app-mount .message-2CShn3.selected-2LX7Jy:not(.replying-eZ7p5z):not(.mentioned-Tre-dv) .contents-2MsGLg .messageContent-2t3eCI {
     background-color: var(--background-secondary-alt);
 }
 
@@ -95,7 +96,8 @@
 #app-mount .mentioned-Tre-dv .contents-2MsGLg .messageContent-2t3eCI {
     background-color: var(--background-mentioned);
 }
-#app-mount .mentioned-Tre-dv:hover .contents-2MsGLg  .messageContent-2t3eCI {
+#app-mount .mentioned-Tre-dv:hover .contents-2MsGLg  .messageContent-2t3eCI,
+#app-mount .mentioned-Tre-dv.selected-2LX7Jy .contents-2MsGLg .messageContent-2t3eCI {
     background-color: var(--background-mentioned-hover);
 }
 #app-mount .mentioned-Tre-dv .contents-2MsGLg .messageContent-2t3eCI::before {
@@ -127,7 +129,8 @@
 #app-mount .replying-eZ7p5z .contents-2MsGLg .messageContent-2t3eCI {
     background-color: var(--brand-experiment-05a);
 }
-#app-mount .replying-eZ7p5z:hover .contents-2MsGLg .messageContent-2t3eCI {
+#app-mount .replying-eZ7p5z:hover .contents-2MsGLg .messageContent-2t3eCI,
+#app-mount .replying-eZ7p5z.selected-2LX7Jy .contents-2MsGLg .messageContent-2t3eCI {
     background-color: var(--brand-experiment-10a);
 }
 #app-mount .replying-eZ7p5z .contents-2MsGLg .messageContent-2t3eCI::before {
