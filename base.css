@@ -3027,7 +3027,8 @@
     margin-bottom: 64px;
     position: relative;
     margin-left: 18px;
-    width: calc(100%);
+    width: calc(100% - 16px);
+    margin-right: 16px;
 }
 
 .peopleColumn-1wMU14 .actions-YHvpIT,
