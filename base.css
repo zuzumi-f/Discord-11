@@ -255,19 +255,20 @@
     background-color: var(--background-primary);
 }
 #app-mount .footer-31IekZ,
-#app-mount .separator-2OaeRP,
 #app-mount .footer-VCsJQY,
 #app-mount .buttonContainer-28osRq {
     background-color: var(--background-secondary);
 }
 #app-mount .outer-2JOHae.active-1W_Gl9,
 #app-mount .outer-2JOHae.interactive-2zD88a:hover,
-#app-mount .interactive-2zD88a:hover .separator-2OaeRP,
-#app-mount .outer-2JOHae.active-1W_Gl9 .separator-2OaeRP,
 #app-mount .autocompleteArrow-jJE9TQ,
 #app-mount .header-3i_Csh,
 #app-mount .inviteBannerUpsell-1t_LYM {
     background-color: var(--background-tertiary);
+}
+
+#app-mount .separator-2OaeRP {
+    background-color: transparent;
 }
 
 /* Notice BD */
