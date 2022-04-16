@@ -5,9 +5,24 @@
     width: 100%;
 }
 
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .header-2jRmjb {
+    padding: 8px;
+    padding-bottom: 4px;
+}
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .messageContent-2t3eCI:not(:empty) {
+    padding-top: 0;
+}
+#app-mount .cozy-VmLDNB .contents-2MsGLg > .messageContent-2t3eCI:not(:empty) {
+    margin-left: 0;
+    padding: 8px;
+}
+
+#app-mount .compact-2Nkcau .contents-2MsGLg {
+    padding: 8px;
+}
+
 #app-mount .contents-2MsGLg {
     background-color: var(--background-secondary);
-    padding: 8px;
     border-radius: 4px;
     width: fit-content;
 }
@@ -17,6 +32,8 @@
 }
 #app-mount .message-2CShn3 {
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 #app-mount .message-2CShn3:hover .contents-2MsGLg,
 #app-mount .message-2CShn3.selected-2LX7Jy .contents-2MsGLg {
@@ -47,8 +64,8 @@
     position: absolute;
     display: block;
     top: 0;
-    left: 64px;
-    bottom: 0;
+    left: 0;
+    bottom: 8px;
     pointer-events: none;
     width: 3px;
     border-radius: 1.5px;
@@ -80,8 +97,8 @@
     position: absolute;
     display: block;
     top: 0;
-    left: 64px;
-    bottom: 0;
+    left: 0;
+    bottom: 8px;
     pointer-events: none;
     width: 3px;
     border-radius: 1.5px;
