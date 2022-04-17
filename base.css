@@ -3671,10 +3671,10 @@
     border: var(--winlightborder2);
 }
 
-.theme-dark .gameNameInput-2wbDJ9:focus,
-.theme-dark .gameNameInput-2wbDJ9:hover {
-    background-color: hsla(0, 0%, 6%, 0.4);
-    border: 1px solid hsla(0, 0%, 50%, 0.4);
+#app-mount .gameNameInput-2wbDJ9:focus,
+#app-mount .gameNameInput-2wbDJ9:hover {
+    background-color: var(--background-primary);
+    border: var(--windarkborder1);
 }
 
 .game-2f2vPC .removeGame-3V7nss {
@@ -3683,7 +3683,7 @@
     top: 22px;
     right: 16px;
     width: 28px;
-    box-shadow: none;
+    box-shadow: none !important;
     border-radius: 0;
     background-position: right;
     background-color: transparent;
@@ -3692,16 +3692,15 @@
 
 #app-mount .addGamePopout-2SKNIV {
     border-radius: var(--winrad2);
-    backdrop-filter: blur(var(--winblur1));
 }
 
 .theme-dark .addGamePopout-2SKNIV {
-    background-color: var(--noise256), var(--windark-box1);
+    background-color: var(--windark-mica);
     border: var(--windarkborder2);
 }
 
 .theme-light .addGamePopout-2SKNIV {
-    background-color: var(--noise256), var(--winlight-box1);
+    background-color: var(--winlight-mica);
     border: var(--winlightborder2);
 }
 
