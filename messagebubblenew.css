@@ -11,6 +11,9 @@
     margin-left: auto;
     margin-right: 8px;
 }
+#app-mount .message-2CShn3.selected-2LX7Jy[data-is-author-self="true"] .contents-2MsGLg {
+    width: 100%;
+}
 
 #app-mount .message-2CShn3[data-is-author-self="true"] .timestamp-p1Df1m {
     left: unset;
@@ -20,7 +23,8 @@
     margin-left: auto;
 }
 
-#app-mount .replying-eZ7p5z[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI::before, #app-mount .mentioned-Tre-dv[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI::before {
+#app-mount .replying-eZ7p5z[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI::before,
+#app-mount .mentioned-Tre-dv[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI::before {
     left: unset;
     right: 0;
 }
@@ -63,7 +67,7 @@
     padding: 8px;
     margin-left: unset;
     border-radius: 7px;
-    width: 100%;
+    width: fit-content;
 }
 #app-mount .contents-2MsGLg {
     display: inline-block;
