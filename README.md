@@ -27,6 +27,8 @@ Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
 
 Settings Icons by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css)**
 
+Emoji Replace by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/EmojiReplace/EmojiReplace.theme.css)**
+
 FriendGrid by **[CorellanStoma](https://github.com/CreArts-Community/Friends-Grid)**
 
 # Default Message bubble
