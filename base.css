@@ -1,5 +1,7 @@
 /* Icons settings */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+/* Windows 11 emojis */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 /* Discolored by Nyri4 */
 @import url("https://nyri4.github.io/Discolored/main.css");
 
@@ -391,6 +393,7 @@
 /* Toggle Switch */
 .container-2nx-BQ {
     height: 20px;
+    transition: var(--wintransition);
 }
 .container-2nx-BQ .slider-32CRPX {
     top: -3px;
@@ -411,7 +414,8 @@
     x: 3 !important;
 }
 
-.theme-dark .container-2nx-BQ[style*="background-color: hsl(1"] {
+.theme-dark .container-2nx-BQ[style*="background-color: hsl(1"],
+.theme-dark .container-2nx-BQ[style*="background-color: hsl(235"] {
     background-color: var(--control-brand-foreground) !important;
     border: 1px solid transparent;
 }
@@ -419,7 +423,7 @@
     fill: #000000 !important;
 }
 
-.theme-dark .container-2nx-BQ[style*="background-color: hsl(2"] {
+.theme-dark .container-2nx-BQ[style*="background-color: hsl(2"]:not([style*="background-color: hsl(235"]) {
     background-color: rgba(0, 0, 0, 0.1) !important;
     border: 1px solid var(--windark-check1) !important;
 }
@@ -427,7 +431,8 @@
     fill: var(--windark-toggle-off) !important;
 }
 
-.theme-light .container-2nx-BQ[style*="background-color: hsl(1"] {
+.theme-light .container-2nx-BQ[style*="background-color: hsl(1"],
+.theme-light .container-2nx-BQ[style*="background-color: hsl(235"] {
     background-color: var(--blue-button-bg) !important;
     border: 1px solid transparent;
 }
@@ -435,7 +440,7 @@
     fill: #FFFFFF !important;
 }
 
-.theme-light .container-2nx-BQ[style*="background-color: hsl(2"] {
+.theme-light .container-2nx-BQ[style*="background-color: hsl(2"]:not([style*="background-color: hsl(235"]) {
     background-color: rgba(0, 0, 0, 0.0241) !important;
     border: 1px solid var(--winlight-check1) !important;
 }
