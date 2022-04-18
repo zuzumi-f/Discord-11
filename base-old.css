@@ -1,5 +1,7 @@
 /* Icons settings */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+/* Windows 11 emojis */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 /* Discolored by Nyri4 */
 @import url("https://nyri4.github.io/Discolored/main.css");
 
