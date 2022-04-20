@@ -2423,6 +2423,143 @@
     left: -2px;
 }
 
+/* Media Player */
+#app-mount .metadata-3IncIG {
+    margin: 4px;
+    padding: 8px;
+    border-radius: var(--winrad2);
+    top: 0;
+    height: auto;
+    backdrop-filter: blur(var(--winblur1));
+}
+#app-mount .videoControls-2NzHnF {
+    margin: 4px;
+    padding: 4px;
+    border-radius: var(--winrad2);
+    bottom: 0;
+    backdrop-filter: blur(var(--winblur1));
+    width: auto;
+}
+#app-mount .videoControls-2NzHnF .durationTimeWrapper-LdSEv8 {
+    display: none;
+}
+#app-mount .metadata-3IncIG[style="transform: translateY(-100%);"] {
+    transform: translateY(calc(-100% - 10px)) !important;
+}
+#app-mount .videoControls-2NzHnF[style="transform: translateY(100%);"] {
+    transform: translateY(calc(100% + 10px)) !important;
+}
+#app-mount .wrapper-x4po40 {
+    border-radius: var(--winrad2);
+    backdrop-filter: blur(var(--winblur1));
+}
+
+#app-mount .mediaBarInteraction-tUE5dq:hover .mediaBarWrapper-33h1oY,
+#app-mount .mediaBarInteractionDragging-3XLL8k:hover .mediaBarWrapper-33h1oY {
+    box-shadow: none !important;
+}
+
+#app-mount .buffer-3eVqKK,
+#app-mount .buffer-3eVqKK:after,
+#app-mount .buffer-3eVqKK:before {
+    background-color: transparent;
+}
+
+#app-mount .bubble-3XikHF:before {
+    display: none;
+}
+
+#app-mount .volumeButtonSlider-2OrZ9e.volumeSliderWrapper-17tnjX.sliderVisible-2sHyUq {
+    transform: rotate(-270deg);
+    right: -124px;
+    top: 4px;
+}
+#app-mount .mediaBarInteractionVolume-zGrOSh {
+    border-radius: var(--winrad2);
+    padding: 8px 10px;
+    backdrop-filter: blur(var(--winblur1));
+    box-shadow: var(--elevation-low);
+}
+
+.theme-dark .metadata-3IncIG {
+    background: var(--noise256), var(--windark-box1);
+    color: #fff;
+}
+.theme-dark .metadata-3IncIG svg path {
+    fill: #fff;
+}
+
+.theme-dark .wrapper-x4po40 {
+    background: var(--noise256), var(--windark-box1);
+}
+.theme-dark .wrapper-x4po40 svg polygon {
+    fill: #fff;
+}
+
+.theme-dark .videoControls-2NzHnF {
+    background: var(--noise256), var(--windark-box1);
+    color: #fff;
+}
+
+.theme-dark .mediaBarWrapper-33h1oY,
+.theme-dark .mediaBarWrapper-33h1oY:after,
+.theme-dark .mediaBarWrapper-33h1oY:before {
+    background-color: rgba(255, 255, 255, 0.5442);
+}
+
+.theme-dark .bubble-3XikHF {
+    background: var(--noise256), var(--windark-box1);
+    color: #fff;
+    border: var(--windarkborder4);
+    backdrop-filter: blur(var(--winblur1));
+    border-radius: var(--winrad2);
+}
+
+.theme-dark .mediaBarInteractionVolume-zGrOSh {
+    background: var(--noise256), var(--windark-box1);
+}
+
+.theme-light .metadata-3IncIG {
+    background: var(--noise256), var(--winlight-box1);
+    color: #000;
+}
+.theme-light .metadata-3IncIG svg path {
+    fill: #000;
+}
+
+.theme-light .wrapper-x4po40 {
+    background: var(--noise256), var(--winlight-box1);
+}
+.theme-light .wrapper-x4po40 svg polygon {
+    fill: #000;
+}
+
+.theme-light .videoControls-2NzHnF {
+    background: var(--noise256), var(--winlight-box1);
+    color: #000;
+}
+
+.theme-light .mediaBarWrapper-33h1oY,
+.theme-light .mediaBarWrapper-33h1oY:after,
+.theme-light .mediaBarWrapper-33h1oY:before {
+    background-color: rgba(0, 0, 0, 0.4458);
+}
+
+.theme-light .mediaBarGrabber-FvJKJg,
+.theme-light .mediaBarProgress-38I317,
+.theme-light .mediaBarProgress-38I317:after,
+.theme-light .mediaBarProgress-38I317:before {
+    background-color: var(--blue-button-bg);
+}
+
+.theme-light .bubble-3XikHF {
+    background: var(--noise256), var(--winlight-box1);
+    color: #000;
+    border: var(--winlightborder2);
+    backdrop-filter: blur(var(--winblur1));
+    border-radius: var(--winrad2);
+}
+
 /* Top drag */
 .wordmarkWindows-2dq6rw {
     padding: 0;
@@ -2943,13 +3080,17 @@
 }
 
 /* Spectators Call */
-.popoutWrapper-3ks_kl .scroller-3b1p7z {
+#app-mount .memberListItem-3V-x8Q:not(.popoutDisabled-PP2QdB):hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.theme-dark .popoutWrapper-3ks_kl .scroller-3b1p7z {
     background-color: var(--windark-acrylic);
     border: var(--windarkborder2);
     border-radius: var(--winrad3);
 }
 
-.popoutWrapper-3ks_kl .scroller-3b1p7z {
+.theme-light .popoutWrapper-3ks_kl .scroller-3b1p7z {
     background-color: var(--winlight-acrylic);
     border: var(--winlightborder2);
     border-radius: var(--winrad3);
