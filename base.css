@@ -843,7 +843,7 @@
 .theme-dark .tooltipPrimary-3qLMbS,
 .theme-dark .tooltipBlack-vMYxvw,
 .theme-dark .tooltipGrey-lpLZjh,
-.theme-dark .bd-toast:not(.toast-success) {
+.theme-dark .bd-toast:not(.toast-success):not(.toast-danger):not(.toast-error) {
     background: var(--noise256), var(--windark-box1);
     color: #fff;
     border: var(--windarkborder4);
@@ -854,7 +854,7 @@
 .theme-light .tooltipPrimary-3qLMbS,
 .theme-light .tooltipBlack-vMYxvw,
 .theme-light .tooltipGrey-lpLZjh,
-.theme-light .bd-toast:not(.toast-success) {
+.theme-light .bd-toast:not(.toast-success):not(.toast-danger):not(.toast-error) {
     background: var(--noise256), var(--winlight-box1);
     color: #000;
     border: var(--winlightborder2);
@@ -874,6 +874,13 @@
     background-color: var(--info-positive-background);
     border: 1px solid var(--info-positive-foreground);
     color: var(--info-positive-text);
+}
+
+.bd-toast.toast-danger,
+.bd-toast.toast-error {
+    background-color: var(--info-danger-background);
+    border: 1px solid var(--info-danger-foreground);
+    color: var(--info-danger-text);
 }
 
 /* Menus popouts */
