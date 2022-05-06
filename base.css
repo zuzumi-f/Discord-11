@@ -820,6 +820,20 @@
     display: none;
 }
 
+#app-mount .UserDetails-dates-container.UserDetails-dates-icons.UserDetails-dates-userProfile {
+    margin-top: -9px;
+    margin-bottom: 6px;
+    padding-left: 11px;
+}
+
+.UserDetails-dates-container.UserDetails-dates-icons.UserDetails-dates-userProfile > div {
+    height: 30px;
+}
+
+div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
+    background-color: var(--background-primary);
+}
+
 /* In Guild Profile */
 #app-mount .guild-profile .guild-profile-body {
     min-height: 240px;
@@ -1872,10 +1886,6 @@
 .contentWrapper-3vHNP2 .wrapper-1NNaWG:after,
 .emojiPicker-6YCk8a .wrapper-1NNaWG:after {
     display: none;
-}
-.contentWrapper-3vHNP2 .scroller-2MALzE,
-.emojiPicker-6YCk8a .scroller-2MALzE {
-    margin-top: 8px;
 }
 
 /* The searchbar */
