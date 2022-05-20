@@ -3,7 +3,7 @@
  * @description Based in Windows 11 UI
  * @author zuzumi#8097
  * @authorId 403725623161257984
- * @version 2.2
+ * @version 2.2.1
  * @invite PsNtzGeHuW
  * @donate https://www.paypal.me/hurtyoutube
  * @website https:github.com/zuzumi-f
@@ -22,15 +22,20 @@
 /*---Change colors with Purple.css, Green.css or Red.css ⬇️⬇️---*/
 @import url(https://zuzumi-f.github.io/Discord-11/colors/Blue.css);
 
+/*-------------------------------------------------------------------------------------------------
+                                        Windows 11 emojis
+--------------------------------------------------------------------------------------------------*/
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
+
 /*--------------------------------------------------------------
 Message bubble styles [If you don't want any place a /* in all]
 ----------------------------------------------------------------*/
 /* Message Bubble in Left Side */
 @import url(https://zuzumi-f.github.io/Discord-11/messagebubbleleft.css);
-/* Default Message Bubble *//*
-@import url(https://zuzumi-f.github.io/Discord-11/messagebubble11.css);
-/* New Message Bubble *//*
-@import url(https://zuzumi-f.github.io/Discord-11/messagebubblenew.css);
+/* Default Message Bubble */
+/* @import url(https://zuzumi-f.github.io/Discord-11/messagebubble11.css); */
+/* New Message Bubble */
+/* @import url(https://zuzumi-f.github.io/Discord-11/messagebubblenew.css); */
 
 /*--------------------------------------------------------------
                            Glass effect
@@ -38,8 +43,8 @@ Message bubble styles [If you don't want any place a /* in all]
                                and
                enable Transparency in BD Settings]
 ---------------------------------------------------------------*/
-/*--Yes you can enable/disable this--*//*
-@import url(https://zuzumi-f.github.io/Discord-11/glass-effect.css);
+/*--Yes you can enable/disable this--*/
+/* @import url(https://zuzumi-f.github.io/Discord-11/glass-effect.css); */
 
 :root {
     --wallpaper-is: url(https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/06/Windows-11-Wallpaper-1-1-scaled.jpg);
@@ -50,10 +55,10 @@ Message bubble styles [If you don't want any place a /* in all]
 /*--------------------------------------------------------------
                         Code Watermark
             [This indicate what code are you using
-         replace "display" with "none" to disable it]
+         replace "none" with "display" to enable it]
 ---------------------------------------------------------------*/
 :root {
-    --watermark-code: display;
+    --watermark-code: none;
 }
 
 /*----------------------------------------------------
