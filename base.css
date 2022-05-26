@@ -4510,25 +4510,3 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     margin-bottom: 66px;
     margin-left: 64px;
 }
-
-.wordmarkWindows-2dq6rw::before {
-    display: var(--watermark-code);
-    content: "- New Code";
-    font-family: var(--font-display);
-    width: 100vh;
-    height: 14px;
-    position: absolute;
-    font-weight: 600;
-    font-size: 14px;
-    top: 10px;
-    left: 0;
-    margin-left: calc(100vh - 112px);
-}
-
-.theme-dark .wordmarkWindows-2dq6rw::before {
-    color: hsla(0, 0%, 78%, 0.98);
-}
-
-.theme-light .wordmarkWindows-2dq6rw::before {
-    color: hsla(0, 0%, 0%, 0.98);
-}
