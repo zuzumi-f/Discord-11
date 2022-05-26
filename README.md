@@ -4,9 +4,6 @@ Theme based in windows 11 new UI
 # Preview
 ![Discord_JPLRlCisFL](https://user-images.githubusercontent.com/79029257/160949149-61a1a76e-8b2b-40c0-b133-bf7d636b81a0.png)
 
-# Preview (Classic Style)
-![Discord_obwcZHSdaT](https://user-images.githubusercontent.com/79029257/158279303-78d8b03d-ff5f-49ff-aff7-8c75842dfc80.png)
-
 # Preview (Glass Effect + Light Theme)
 ![Discord_TzBGIPYFbO](https://user-images.githubusercontent.com/79029257/160949219-ecd6c5a1-0f18-4110-87cd-b94c7816af90.png)
 
