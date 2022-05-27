@@ -2034,7 +2034,7 @@ body, .appMount-2yBXZl {
     --idle-color: #FAA61A;
     --dnd-color: #F04747;
     --offline-color: #99AAB5;
-    --streaming-color: #9B84EE;
+    --streaming-color: #D261FF;
 }
 /* Status Picker thing */
 #app-mount #status-picker #status-picker-online:not(.focused-3qFvc8) .status-2DiCMd {
