@@ -62,6 +62,10 @@
     margin-left: auto;
 }
 
+#app-mount .contents-2MsGLg code {
+    width: max-content;
+}
+
 #app-mount .contents-2MsGLg .messageContent-2t3eCI {
     background-color: var(--background-secondary);
     padding: 8px;
