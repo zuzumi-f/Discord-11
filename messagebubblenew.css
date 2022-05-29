@@ -62,8 +62,13 @@
     margin-left: auto;
 }
 
+#app-mount .contents-2MsGLg pre {
+    max-width: 100%;
+}
 #app-mount .contents-2MsGLg code {
-    width: max-content;
+    min-width: max-content;
+    max-width: 100%;
+    display: table-cell;
 }
 
 #app-mount .contents-2MsGLg .messageContent-2t3eCI {
