@@ -70,6 +70,10 @@
     padding: 8px;
 }
 
+#app-mount .contents-2MsGLg code {
+    width: max-content;
+}
+
 #app-mount .contents-2MsGLg {
     background-color: var(--background-secondary);
     border-radius: 3px;
