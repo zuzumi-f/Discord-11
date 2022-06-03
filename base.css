@@ -1592,6 +1592,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 /* Call Activity Popout */
 .container-8Futzw {
     border-radius: var(--winrad3);
+    max-height: calc(100% - 34px);
 }
 
 .theme-dark .container-8Futzw {
@@ -2010,6 +2011,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .dim-2Uxgxb span {
     background-color: var(--brand-experiment);
     color: var(--header-primary);
+}
+
+#app-mount .searchHeaderTabList-3CZMQB .item-3XjbnG::after {
+    top: calc(50%/2);
 }
 
 /* Calendar */
