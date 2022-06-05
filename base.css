@@ -2604,6 +2604,13 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: var(--winrad2);
 }
 
+/* Embed link */
+.embedFull-1HGV2S {
+    border: 2px solid;
+    background: var(--noise256);
+    border-radius: var(--winrad3);
+}
+
 /* Top drag */
 .wordmarkWindows-2dq6rw {
     padding: 0;
