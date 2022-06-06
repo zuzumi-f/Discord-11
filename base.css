@@ -1150,6 +1150,11 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-bottom: var(--winlightborder1);
 }
 
+/* Fix in scroll */
+#app-mount .scrolling-20Of9p .content-2a4AW9 {
+    pointer-events: auto;
+}
+
 /* Discover */
 .sidebar-1tnWFu .thin-31rlnD[dir=ltr] {
     background-color: var(--background-secondary);
@@ -1297,43 +1302,43 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* New Simple TextBox */
-#app-mount .input-2g-os5:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5) {
+#app-mount .input-2g-os5:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5, .search-25t1e9 .input-2g-os5) {
     border-radius: var(--winrad2);
 }
 
-.theme-dark .input-2g-os5:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5) {
+.theme-dark .input-2g-os5:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5, .search-25t1e9 .input-2g-os5) {
     background-color: var(--textdark-bg);
     border: var(--textdark-border);
     border-bottom: var(--textdark-border-static);
 }
-.theme-dark .input-2g-os5:hover:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5) {
+.theme-dark .input-2g-os5:hover:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5, .search-25t1e9 .input-2g-os5) {
     background-color: var(--textdark-bg-hover);
     border: var(--textdark-border-hover);
     border-bottom: var(--textdark-border-static);
 }
-.theme-dark .input-2g-os5:focus-within:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5) {
+.theme-dark .input-2g-os5:focus-within:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5, .search-25t1e9 .input-2g-os5) {
     background-color: var(--textdark-bg-focus);
     border: var(--textdark-border-focus);
     border-bottom: var(--winborder-bottom) var(--brand-experiment);
 }
 
-.theme-light .input-2g-os5:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5) {
+.theme-light .input-2g-os5:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5, .search-25t1e9 .input-2g-os5) {
     background-color: var(--textlight-bg);
     border: var(--textlight-border);
     border-bottom: var(--textlight-border-static);
 }
-.theme-light .input-2g-os5:hover:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5) {
+.theme-light .input-2g-os5:hover:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5, .search-25t1e9 .input-2g-os5) {
     background-color: var(--textlight-bg-hover);
     border: var(--textlight-border-hover);
     border-bottom: var(--textlight-border-static);
 }
-.theme-light .input-2g-os5:focus-within:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5) {
+.theme-light .input-2g-os5:focus-within:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5, .search-25t1e9 .input-2g-os5) {
     background-color: var(--textlight-bg-focus);
     border: var(--textlight-border-focus);
     border-bottom: var(--winborder-bottom) var(--blue-button-bg);
 }
 
-#app-mount .input-2g-os5:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5) {
+#app-mount .input-2g-os5:not(.copyInput-1dXbXE > .input-2g-os5, .input-2g-os5 .input-2g-os5, .addFriendInputWrapper-kkoSV9 .input-2g-os5, .search-25t1e9 .input-2g-os5) {
     -webkit-transition: var(--wintransition);
     transition: var(--wintransition);
 }
@@ -4410,6 +4415,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     height: 168px;
     background: linear-gradient(transparent, var(--background-tertiary) 30%);
     z-index: 1;
+    pointer-events: none;
 }
 .tutorialContainer-2jwoiB {
     position: fixed;
