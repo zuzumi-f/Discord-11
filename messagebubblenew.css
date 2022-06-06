@@ -136,7 +136,7 @@
     padding: 6px;
     border-radius: 5px;
     width: fit-content;
-    max-width: 80vh;
+    max-width: 100%;
 }
 
 #app-mount .replying-eZ7p5z .contents-2MsGLg .messageContent-2t3eCI {
