@@ -4402,9 +4402,11 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* Always bottom server list buttons by Gibbu [edit] */
+.wrapper-1_HaEi {
+    height: calc(100% - 120px);
+}
 .scroller-3X7KbA {
     contain: unset;
-    height: calc(100% - 120px);
     padding-bottom: 40px;
 }
 .scroller-3X7KbA::before {
@@ -4427,9 +4429,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     bottom: 58px;
     contain: none;
     z-index: 1;
-}
-.guilds-2JjMmN .unreadMentionsIndicatorBottom-3RJMnQ {
-    bottom: 120px;
 }
 
 /* BetterMessageLinks */
