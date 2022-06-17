@@ -2402,20 +2402,6 @@ body, .appMount-2yBXZl {
     text-decoration: underline;
 }
 
-.wordmarkWindows-2dq6rw::before {
-    display: var(--watermark-code);
-    content: "- Classic Code";
-    font-family: var(--font-display);
-    width: 100vh;
-    height: 14px;
-    position: absolute;
-    color: hsla(0, 0%, 78%, 0.98);
-    font-weight: 600;
-    font-size: 14px;
-    top: 18px;
-    left: 80px;
-}
-
 /* When glass */
 #app-mount .panels-3wFtMD {
     background-color: transparent !important;
