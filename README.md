@@ -2,16 +2,13 @@
 Theme based in windows 11 new UI
 
 # Preview
-![Discord_JPLRlCisFL](https://user-images.githubusercontent.com/79029257/160949149-61a1a76e-8b2b-40c0-b133-bf7d636b81a0.png)
+![Discord_cWkr450feG](https://user-images.githubusercontent.com/79029257/174322739-eb0cd7da-0a46-4998-a22b-2fe4a164499c.png)
 
 # Preview (Glass Effect + Light Theme)
-![Discord_TzBGIPYFbO](https://user-images.githubusercontent.com/79029257/160949219-ecd6c5a1-0f18-4110-87cd-b94c7816af90.png)
+![Discord_HqfPJ73fhy](https://user-images.githubusercontent.com/79029257/174323411-3667e16d-9192-4e64-8775-e52d78095b17.png)
 
 # Settings
-![Discord_4NFyl5cUuv](https://user-images.githubusercontent.com/79029257/160949228-6651beb0-e1b9-4393-8328-5f21f7b1c136.png)
-
-# Theme Updates
-![Discord_wlzagReg9L](https://user-images.githubusercontent.com/79029257/160950006-cd999f2f-ec9f-4a46-9e15-5c5d766d15bb.png)
+![Discord_UulJyTV6tS](https://user-images.githubusercontent.com/79029257/174322848-0c175f8d-906d-4496-a6ff-f0dd904c76ec.png)
 
 # Profile (Little)
 ![Discord_OQFvg5LDH2](https://user-images.githubusercontent.com/79029257/160949252-ddb250b0-3a0c-4660-83f2-2cb676ebf1d9.png)
@@ -22,17 +19,20 @@ Theme based in windows 11 new UI
 # Addons
 Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
 
-Settings Icons by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css)**
+Fluent Icons Fork from **[Stickfab](https://github.com/stickfab/pc-fluenticons)**
 
 Emoji Replace by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/EmojiReplace/EmojiReplace.theme.css)**
 
 FriendGrid by **[CorellanStoma](https://github.com/CreArts-Community/Friends-Grid)**
 
+# Left Message bubble
+![Discord_fNH64T7fvr](https://user-images.githubusercontent.com/79029257/174322112-318e087f-9544-4e84-bf07-b7c388ad4f0a.png)
+
 # Default Message bubble
-![Discord_8jK3W5PyLw](https://user-images.githubusercontent.com/79029257/157095586-50f0995e-9878-40f2-964f-6e1864313f0e.png)
+![Discord_sDWbRBd2ji](https://user-images.githubusercontent.com/79029257/174322280-abeb26c8-f33c-4dac-be7b-953dab09482f.png)
 
 # New Message bubble (Not work with Compact Mode)
-![Discord_nvXHiVWXFU](https://user-images.githubusercontent.com/79029257/157095553-661735a0-69a1-48b4-adf7-451cea592abc.png)
+![Discord_vyPV5Jbt4t](https://user-images.githubusercontent.com/79029257/174322307-7d75edb8-3ab2-43da-a0af-682038bbffee.png)
 
 # I use Horizontal Server List
 This code made HSL compatible with the theme
