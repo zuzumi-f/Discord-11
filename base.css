@@ -1,5 +1,6 @@
-/* Icons settings */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+/* Fluent Icons */
+@import url('https://zuzumi-f.github.io/Fluent-Icons-Discord/src/fluenticons-base.css');
+@import url("https://zuzumi-f.github.io/Fluent-Icons-Discord/src/fluenticons-settings.css");
 /* Discolored by Nyri4 */
 @import url("https://nyri4.github.io/Discolored/main.css");
 
@@ -231,6 +232,12 @@
     --deprecated-text-input-border-hover: #b9bbbe;
     --deprecated-text-input-border-disabled: #dcddde;
     --deprecated-text-input-prefix: #b9bbbe;
+}
+
+/* Fix Settings Icons */
+[aria-controls="delete-tab"] svg,
+[aria-controls="logout-tab"] svg {
+    display: none;
 }
 
 /* Cursor */
