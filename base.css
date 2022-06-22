@@ -1837,6 +1837,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     backdrop-filter: blur(var(--winblur1));
 }
 
+#app-mount .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+    background-color: var(--background-modifier-active);
+}
+
 .theme-dark .contentWrapper-3vHNP2 {
     background: var(--noise256), var(--windark-box1);
     border: var(--windarkborder1);
@@ -2396,6 +2400,20 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 [id="gif-picker-tab-panel"] .container-3eG4QA::-webkit-scrollbar,
 [id="gif-picker-tab-panel"] .results-2CQlZp::-webkit-scrollbar {
     width: 6px;
+}
+
+.scroller-39BnzZ {
+    margin-right: 10px;
+}
+.scroller-39BnzZ::-webkit-scrollbar {
+    width: 10px;
+}
+
+.list-38_JVu {
+    margin-right: 10px;
+}
+.list-38_JVu::-webkit-scrollbar {
+    width: 10px;
 }
 
 /* Resent mentions, unread, pinned messages & threads */
