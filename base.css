@@ -236,7 +236,8 @@
 
 /* Fix Settings Icons */
 [aria-controls="delete-tab"] svg,
-[aria-controls="logout-tab"] svg {
+[aria-controls="logout-tab"] svg,
+.closeButton-30b1gR svg{
     display: none;
 }
 
@@ -4063,6 +4064,37 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .titleContainer-3fPic2,
 #app-mount .header-JUTO-g {
     background-color: var(--background-secondary-alt);
+}
+
+/* Role Image Upload */
+.theme-dark .rolePreviewArea-3eeTql .lookOutlined-3yKVGo.colorWhite-1H92hK {
+    background-color: var(--brand-experiment) !important;
+    border: 1px solid var(--brand-experiment-430) !important;
+    border-bottom-color: var(--brand-experiment-560) !important;
+    color: #000 !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-dark .rolePreviewArea-3eeTql .lookOutlined-3yKVGo.colorWhite-1H92hK:hover {
+    background-color: var(--brand-experiment-530) !important;
+    border-color: var(--brand-experiment-500) !important;
+    border-bottom-color: var(--brand-experiment-600) !important;
+}
+
+.theme-light .rolePreviewArea-3eeTql .lookOutlined-3yKVGo.colorWhite-1H92hK {
+    background-color: var(--blue-button-bg) !important;
+    border: 1px solid var(--blue-button-border) !important;
+    border-top-color: var(--blue-button-top) !important;
+    border-bottom-color: var(--blue-button-bottom) !important;
+    color: #fff !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-light .rolePreviewArea-3eeTql .lookOutlined-3yKVGo.colorWhite-1H92hK:hover {
+    background-color: var(--blue-button-hover) !important;
+}
+
+/* View as Role */
+#app-mount .notice-2olXi7 {
+    background-color: var(--focus-primary);
 }
 
 /* Fix in roles */
