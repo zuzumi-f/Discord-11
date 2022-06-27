@@ -1838,7 +1838,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     backdrop-filter: blur(var(--winblur1));
 }
 
-#app-mount .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+#app-mount .emojiItem-277VFM.emojiItemSelected-2Lg50V,
+#app-mount .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {
     background-color: var(--background-modifier-active);
 }
 
@@ -2517,9 +2518,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     backdrop-filter: blur(var(--winblur1));
     width: auto;
 }
-#app-mount .videoControls-2NzHnF .durationTimeWrapper-LdSEv8 {
-    display: none;
-}
+
 #app-mount .metadata-3IncIG[style="transform: translateY(-100%);"] {
     transform: translateY(calc(-100% - 10px)) !important;
 }
@@ -2529,6 +2528,43 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .wrapper-x4po40 {
     border-radius: var(--winrad2);
     backdrop-filter: blur(var(--winblur1));
+}
+
+#app-mount .videoControls-2NzHnF .durationTimeWrapper-LdSEv8 span {
+    font: var(--font-display);
+    font-size: 12px;
+}
+
+#app-mount .mediaBarGrabber-FvJKJg {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-top: -10px;
+    border: 1px solid var(--background-primary);
+}
+#app-mount .mediaBarGrabber-FvJKJg::before {
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    border: 1px solid var(--background-primary);
+}
+
+.theme-dark .mediaBarGrabber-FvJKJg {
+    background-color: #454545 !important;
+}
+.theme-dark .mediaBarGrabber-FvJKJg::before {
+    background-color: var(--brand-experiment) !important;
+}
+
+.theme-light .mediaBarGrabber-FvJKJg {
+    background: #fff !important;
+}
+.theme-light .mediaBarGrabber-FvJKJg::before {
+    background-color: var(--blue-button-bg) !important;
 }
 
 #app-mount .mediaBarInteraction-tUE5dq:hover .mediaBarWrapper-33h1oY,
@@ -2963,12 +2999,14 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--windark-acrylic);
     border: var(--windarkborder2);
     border-radius: var(--winrad1);
+    color: var(--text-normal);
 }
 
 .theme-light .unread-2wipsx {
     background-color: var(--winlight-acrylic);
     border: var(--winlightborder2);
     border-radius: var(--winrad1);
+    color: var(--text-normal);
 }
 
 #app-mount .mention-3XBnnZ {
