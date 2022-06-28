@@ -840,11 +840,34 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--background-primary);
 }
 
+/* Linked Account */
+#app-mount .connectedAccountOpenIcon-1yfBsb {
+    color: var(--focus-primary);
+}
+
 /* In Guild Profile */
 #app-mount .guild-profile .guild-profile-body {
     min-height: 240px;
     height: 240px;
     max-height: 240px;
+}
+
+/* Ctrl / */
+#app-mount .keyboardShortcutsModal-2CRmCm {
+    background-color: var(--background-primary);
+    border: var(--windarkborder1);
+    border-radius: var(--winrad3);
+}
+#app-mount .keyboardShortcutsModal-2CRmCm .modalTitle-2skSKy,
+#app-mount .keyboardShortcutsModal-2CRmCm .modalSubtitle-2lx7qk {
+    background-color: var(--background-tertiary);
+}
+#app-mount .keyboardShortcutsModal-2CRmCm .modalTitle-2skSKy {
+    margin: unset;
+    padding-bottom: 5px;
+}
+#app-mount .keyboardShortcutsModal-2CRmCm [class="auto-2K3UW5 scrollerBase-_bVAAt fade-1R6FHN"]::-webkit-scrollbar {
+    width: 10px;
 }
 
 /* Role selector */
