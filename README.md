@@ -10,11 +10,17 @@ Theme based in windows 11 new UI
 # Settings
 ![Discord_UulJyTV6tS](https://user-images.githubusercontent.com/79029257/174322848-0c175f8d-906d-4496-a6ff-f0dd904c76ec.png)
 
-# Profile (Little)
-![Discord_OQFvg5LDH2](https://user-images.githubusercontent.com/79029257/160949252-ddb250b0-3a0c-4660-83f2-2cb676ebf1d9.png)
-
 # Profile (Big)
-![Discord_yxYOkD2Qva](https://user-images.githubusercontent.com/79029257/160949269-3d847d86-928a-4198-b474-3a17262a23a9.png)
+![Discord_6BI8RMbrhX](https://user-images.githubusercontent.com/79029257/177872238-2c620c24-fabd-4550-8f13-6fa0880fe6fb.png)
+
+# Left Message bubble
+![Discord_fNH64T7fvr](https://user-images.githubusercontent.com/79029257/174322112-318e087f-9544-4e84-bf07-b7c388ad4f0a.png)
+
+# Default Message bubble
+![Discord_sDWbRBd2ji](https://user-images.githubusercontent.com/79029257/174322280-abeb26c8-f33c-4dac-be7b-953dab09482f.png)
+
+# New Message bubble (Not work with Compact Mode)
+![Discord_vyPV5Jbt4t](https://user-images.githubusercontent.com/79029257/174322307-7d75edb8-3ab2-43da-a0af-682038bbffee.png)
 
 # Addons
 Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
@@ -25,14 +31,7 @@ Emoji Replace by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/b
 
 FriendGrid by **[CorellanStoma](https://github.com/CreArts-Community/Friends-Grid)**
 
-# Left Message bubble
-![Discord_fNH64T7fvr](https://user-images.githubusercontent.com/79029257/174322112-318e087f-9544-4e84-bf07-b7c388ad4f0a.png)
-
-# Default Message bubble
-![Discord_sDWbRBd2ji](https://user-images.githubusercontent.com/79029257/174322280-abeb26c8-f33c-4dac-be7b-953dab09482f.png)
-
-# New Message bubble (Not work with Compact Mode)
-![Discord_vyPV5Jbt4t](https://user-images.githubusercontent.com/79029257/174322307-7d75edb8-3ab2-43da-a0af-682038bbffee.png)
+BearableIbox by **[Disease](https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css)**
 
 # I use Horizontal Server List
 This code made HSL compatible with the theme
