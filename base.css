@@ -714,6 +714,19 @@
     padding-left: 260px;
 }
 
+#app-mount [class="connectedAccounts-fvr7-7 userInfoSection-2u2hir"] {
+    display: grid;
+}
+
+#app-mount .connectedAccountsColumn-2LgTkZ+.connectedAccountsColumn-2LgTkZ {
+    margin-left: 0;
+}
+
+#app-mount .connectedAccountContainer-SlCC-S {
+    width: auto;
+    border: var(--windarkborder1);
+}
+
 #app-mount .topSection-13QKHs .tabBar-2hXqzU {
     width: 236px;
     flex-direction: column;
@@ -841,7 +854,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* Linked Account */
-#app-mount .connectedAccountOpenIcon-1yfBsb {
+#app-mount .connectedAccountsColumn-2LgTkZ .connectedAccountOpenIcon-QgWKH8 {
     color: var(--focus-primary);
 }
 
