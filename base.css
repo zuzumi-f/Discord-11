@@ -2161,8 +2161,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .searchResultsWrap-5RVOkx {
     position: fixed;
     border-radius: var(--winrad3);
-    top: 76px;
-    right: 8px;
+    top: 90px;
+    right: 10px;
     z-index: 2;
     height: 80vh;
     backdrop-filter: blur(var(--winblur1));
@@ -2486,13 +2486,125 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     width: 10px;
 }
 
+/* BearableInbox [by Disease] */
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz,
+.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz {
+    padding-right: unset;
+}
+
+.recentMentionsPopout-2bI1ZN .messagesPopout-eVzQcI {
+    padding: 16px;
+}
+
+.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    margin: 16px 8px 16px 0;
+    padding-bottom: 0;
+}
+
+.recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
+    background-color: var(--background-primary);
+    height: fit-content;
+    padding: 6px 16px;
+    border-bottom: thin solid var(--background-modifier-accent);
+}
+
+.recentMentionsPopout-2bI1ZN .messageContainer-3VTXBC,
+.recentMentionsPopout-2bI1ZN .messages-23can0 {
+    margin-left: unset;
+    background: none;
+    border-radius: unset;
+}
+
+/* header icon */
+.recentMentionsPopout-2bI1ZN .iconSizeMedium-2vzSua {
+    width: 24px;
+    height: 24px;
+}
+
+.recentMentionsPopout-2bI1ZN .iconActiveMedium-27_R5B {
+    border-radius: 7px;
+}
+
+.recentMentionsPopout-2bI1ZN .dmIcon-1ZeAqq,
+.recentMentionsPopout-2bI1ZN .guildIcon-IklRcj {
+    margin-right: 6px;
+}
+
+/* channel name section */
+.recentMentionsPopout-2bI1ZN .channelName-3APnhp svg path {
+    fill: var(--channel-icon);
+}
+
+.recentMentionsPopout-2bI1ZN .channelName-3APnhp svg {
+    margin: 0 4px;
+}
+
+.recentMentionsPopout-2bI1ZN .channelNameSection-3OgeRa {
+    -webkit-box-orient: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+}
+
+.recentMentionsPopout-2bI1ZN .heading-md-medium-2DVCeJ,
+.recentMentionsPopout-2bI1ZN .heading-md-normal-3Ytn6I {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.recentMentionsPopout-2bI1ZN .subtext-2-lYzF,
+.recentMentionsPopout-2bI1ZN .subtextContainer-1jbEbB {
+    margin-left: 4px;
+    line-height: 20px;
+    width: fit-content;
+}
+
+/* buttons */
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz .closeButton-3CiW2j {
+    opacity: 0;
+}
+
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz:hover .closeButton-3CiW2j {
+    opacity: 1;
+}
+
+.recentMentionsPopout-2bI1ZN .tertiary-1e-lAP:not(.disabled-184-il),
+.recentMentionsPopout-2bI1ZN .tertiary-1e-lAP:hover:not(.disabled-184-il) {
+    background: none;
+}
+
+.recentMentionsPopout-2bI1ZN .collapseButton-39-IRc:hover {
+    color: var(--interactive-active);
+}
+
+.recentMentionsPopout-2bI1ZN .collapseButton-39-IRc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: unset;
+    width: 32px;
+    height: 32px;
+    padding: unset;
+    margin-left: 12px;
+}
+
+.recentMentionsPopout-2bI1ZN .messages-23can0>button:last-of-type {
+    margin-left:auto;
+}
+
 /* Resent mentions, unread, pinned messages & threads */
 #app-mount .messagesPopoutWrap-3zryHW,
 #app-mount .container-2ebMPP {
     border-radius: var(--winrad3);
     backdrop-filter: blur(var(--winblur1));
-    width: 422px;
-    max-height: 90vh !important;
+    max-height: 80vh !important;
+    margin-top: 8px;
 }
 
 #app-mount .tab-TRrPC8.item-3XjbnG.themed-2-lozF {
@@ -2539,10 +2651,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-bottom: var(--winlightborder2);
 }
 
-#app-mount .recentMentionsPopout-2bI1ZN {
-    width: calc(45vw + 2px) !important;
-    height: 90vh !important;
-}
 .container-iA3Qrz {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -2564,9 +2672,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .channel-3NJZ1V {
     padding-bottom: 8px;
     padding-top: 8px;
-}
-.channelHeader-DFRX8q .collapseButton-39-IRc {
-    left: -2px;
 }
 
 /* Media Player */
