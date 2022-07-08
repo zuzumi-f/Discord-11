@@ -31,10 +31,10 @@ Emoji Replace by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/b
 
 FriendGrid by **[CorellanStoma](https://github.com/CreArts-Community/Friends-Grid)**
 
-BearableIbox by **[Disease](https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css)**
+BearableInbox by **[Disease](https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css)**
 
 # I use Horizontal Server List
-This code made HSL compatible with the theme
+This code make HSL compatible with the theme
 ```css
 
 #app-mount .standardSidebarView-E9Pc3j {
