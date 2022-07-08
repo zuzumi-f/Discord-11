@@ -839,14 +839,22 @@
     display: none;
 }
 
+#app-mount .UserDetails-dates-container .UserDetails-dates-errorIcon {
+    fill: var(--info-danger-foreground) !important;
+}
+
 #app-mount .UserDetails-dates-container.UserDetails-dates-icons.UserDetails-dates-userProfile {
-    margin-top: -9px;
+    margin-top: -12px;
     margin-bottom: 6px;
     padding-left: 11px;
 }
 
 .UserDetails-dates-container.UserDetails-dates-icons.UserDetails-dates-userProfile > div {
     height: 30px;
+}
+
+.userInfoSection-2u2hir+.userInfoSection-2u2hir:not(.connectedAccounts-fvr7-7) {
+    padding-top: 16px;
 }
 
 div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
