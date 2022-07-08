@@ -2486,16 +2486,31 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     width: 10px;
 }
 
-/* BearableInbox [by Disease] */
-.recentMentionsPopout-2bI1ZN .container-iA3Qrz,
-.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
-    background-color: var(--background-primary);
-    border-radius: 8px;
+/* BearableInbox [by Disease] edited */
+#app-mount .recentMentionsPopout-2bI1ZN .container-iA3Qrz,
+#app-mount .recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    border-radius: var(--winrad3);
     overflow: hidden;
+    margin-right: 4px;
+    border: var(--windarkborder1);
+}
+
+.theme-dark .recentMentionsPopout-2bI1ZN .container-iA3Qrz,
+.theme-dark .recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    background-color: var(--windark-acrylic);
+}
+
+.theme-light .recentMentionsPopout-2bI1ZN .container-iA3Qrz,
+.theme-light .recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    background-color: var(--winlight-acrylic);
 }
 
 .recentMentionsPopout-2bI1ZN .container-iA3Qrz {
     padding-right: unset;
+}
+
+#app-mount .recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+    padding-top: 0;
 }
 
 .recentMentionsPopout-2bI1ZN .messagesPopout-eVzQcI {
@@ -3477,7 +3492,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .peopleColumn-1wMU14 {
     padding-top: 40px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-bottom: 20px;
 }
 .peopleColumn-1wMU14 .scrollerBase-_bVAAt {
@@ -4756,37 +4771,11 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     content: url("https://discord.com/assets/d897626dfa2016ea3ad0af935acb6070.svg");
 }
 
+.theme-dark .UserDetails-connections-connections [src="/assets/ffa3415a151587879c5537015fa59521.svg"] {
+    content: url("https://discord.com/assets/db9e2406158133f91e1fe24bb56425c2.svg");
+}
+
 /* Channel details popout */
 .theme-light .ChannelDetails-modal-header .ChannelDetails-modal-title {
     color: #000;
-}
-
-/* Design and Changes */
-.bd-addon-card[id="Discord 11-card"] .bd-description-wrap::after {
-    content: "Updates:";
-    width: 100%;
-    height: 100%;
-    color: var(--focus-primary);
-}
-.bd-addon-card[id="Discord 11-card"] .bd-controls {
-    position: relative;
-    left: 0;
-    margin-top: 8px;
-}
-.bd-addon-card[id="Discord 11-card"] .bd-controls::before {
-    content: "Click ➡️";
-    width: fit-content;
-    height: 100%;
-    color: var(--header-primary);
-    position: relative;
-    top: 8px;
-}
-.bd-addon-card[id="Discord 11-card"] .bd-footer::before {
-    content: "30-03-2022 Redo with oficial Windows 11 values";
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    color: var(--header-primary);
-    margin-bottom: 66px;
-    margin-left: 64px;
 }
