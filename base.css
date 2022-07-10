@@ -1121,8 +1121,12 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 /* Chat, server, etc */
 #app-mount .sidebar-1tnWFu .searchBar-3TnChZ {
     box-shadow: none;
-    border-bottom: var(--windarkborder1);
     height: 47px;
+}
+
+#app-mount .sidebar-1tnWFu .searchBarComponent-3N7dCG {
+    height: 34px;
+    filter: brightness(1.06);
 }
 
 .theme-dark .searchBar-3TnChZ .searchBarComponent-3N7dCG {
@@ -1173,10 +1177,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .sidebar-1tnWFu {
     background-color: transparent;
 }
-#app-mount .container-1NXEtd .animatedContainer-2laTjx {
-    border-top-left-radius: var(--winrad4);
-    border-top-right-radius: 0;
-}
 
 .theme-dark .container-ZMc96U {
     border-bottom: var(--windarkborder1);
@@ -1211,19 +1211,34 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     box-shadow: none;
 }
 
-#app-mount .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK {
-    box-shadow: none;
-    height: 48px;
+#app-mount .header-3OsQeK {
+    padding: 6px 8px;
+    margin: 5px 7px;
+    filter: brightness(1.08);
 }
 
-.theme-dark .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
-.theme-dark .animatedContainer-2laTjx {
-    border-bottom: var(--windarkborder1);
+.theme-dark .header-3OsQeK {
+    background-color: var(--windark-button-bg) !important;
+    color: #fff !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-dark .header-3OsQeK:hover {
+    background-color: var(--windark-button-hover) !important;
 }
 
-.theme-light .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
-.theme-light .animatedContainer-2laTjx {
-    border-bottom: var(--winlightborder1);
+.theme-light .header-3OsQeK {
+    background-color: var(--winlight-button-bg) !important;
+    color: #000 !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-light .header-3OsQeK:hover {
+    background-color: var(--winlight-button-hover) !important;
 }
 
 /* Fix in scroll */
@@ -2254,6 +2269,18 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--blue-button-bg);
 }
 
+.sidebar-1tnWFu {
+    border-right: var(--windarkborder1);
+}
+
+.membersWrap-3NUR2t {
+    border-left: var(--windarkborder1);
+}
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+    border-left: var(--windarkborder1);
+}
+
 .sidebar-1tnWFu,
 .members-3WRCEx {
     width: 260px;
@@ -2318,17 +2345,51 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--blue-button-bg);
 }
 
-.animatedContainer-2laTjx,
-.bannerImage-ubW8K-,
-.bannerImg-2PzH6z {
-    width: 100%;
+#app-mount .container-1NXEtd .bannerImg-2PzH6z {
+    border-radius: var(--winrad2);
+    border: 1px solid hsla(0, 0%, 100%, 0.06);
 }
-.bannerImg-2PzH6z {
-    height: 145px;
+
+#app-mount .animatedContainer-2laTjx {
+    background-color: transparent;
+    margin-top: 48px;
+    padding-bottom: 2px;
+}
+
+.bannerImage-ubW8K- {
+    margin-left: 9px;
+}
+
+#app-mount .bannerImage-ubW8K-:before {
+    background: none;
 }
 
 .containerDefault-YUSmu3 .content-1gYQeQ {
     height: 34px;
+}
+
+[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"],
+[class="container-1-ERn5 clickable-vvKY2q selected-1GtAC5 hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"] {
+    height: 274px;
+}
+
+#app-mount .container-2giAcK {
+    border-radius: var(--winrad2);
+    padding-top: 4px;
+    width: auto;
+    border: var(--windarkborder1);
+}
+
+.theme-dark .container-2giAcK {
+    background-color: var(--windark-mica);
+}
+
+.theme-light .container-2giAcK {
+    background-color: var(--winlight-mica);
+}
+
+.container-2giAcK .divider-3qUeLQ {
+    display: none;
 }
 
 /* Scrollers */
