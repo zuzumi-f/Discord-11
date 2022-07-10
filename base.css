@@ -2798,6 +2798,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: 50%;
     margin-top: -10px;
     border: 1px solid var(--background-primary);
+    transform: scale(1);
 }
 #app-mount .mediaBarGrabber-FvJKJg::before {
     content: "";
