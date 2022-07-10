@@ -1046,13 +1046,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     color: #000;
 }
 
-#user-settings-cog-BetterDiscord--Settings + .layer-2aCOJ3 .submenu-1apzyU .scroller-1bVxF5,
-#user-settings-cog-BetterDiscord--Emotes + .layer-2aCOJ3 .submenu-1apzyU .scroller-1bVxF5,
-#user-settings-cog-BetterDiscord--Plugins + .layer-2aCOJ3 .submenu-1apzyU .scroller-1bVxF5,
-#user-settings-cog-BetterDiscord--Themes + .layer-2aCOJ3 .submenu-1apzyU .scroller-1bVxF5 {
-    max-height: calc(100vh - 32px) !important;
-}
-
 /* Code by rmkx [edited] */
 .menu-1QACrS::before,
 .menu-1QACrS.submenu-1apzyU::before {
@@ -1118,39 +1111,57 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: var(--winrad1);
 }
 
+/* Alt WinButtons */
+:root {
+    --windark-button-bg-alt: hsl(0, 0%, 18%);
+    --windark-button-hover-alt: hsl(0, 0%, 20%);
+    --windark-button-border-alt: hsl(0, 0%, 19%);
+    --windark-button-top-alt: hsl(0, 0%, 21%);
+    --windark-button-bottom-alt: hsl(0, 0%, 19%);
+
+    --winlight-button-bg-alt: hsl(0, 0%, 100%);
+    --winlight-button-hover-alt: hsl(0, 0%, 99%);
+    --winlight-button-border-alt: hsl(0, 0%, 95%);
+    --winlight-button-top-alt: hsl(0, 0%, 95%);
+    --winlight-button-bottom-alt: hsl(0, 0%, 88%);
+}
+
 /* Chat, server, etc */
 #app-mount .sidebar-1tnWFu .searchBar-3TnChZ {
     box-shadow: none;
     height: 47px;
+    padding: 0;
 }
 
 #app-mount .sidebar-1tnWFu .searchBarComponent-3N7dCG {
-    height: 34px;
-    filter: brightness(1.06);
+    height: 38px;
+    width: 100%;
+    margin: 0 6px;
+    transition: var(--wintransition);
 }
 
 .theme-dark .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-    background-color: var(--windark-button-bg) !important;
-    color: #fff !important;
-    border: 1px solid var(--windark-button-border) !important;
-    border-top-color: var(--windark-button-top) !important;
-    border-bottom-color: var(--windark-button-bottom) !important;
-    border-radius: var(--winrad2) !important;
+    background-color: var(--windark-button-bg-alt);
+    color: #fff;
+    border: 1px solid var(--windark-button-border-alt);
+    border-top-color: var(--windark-button-top-alt);
+    border-bottom-color: var(--windark-button-bottom-alt);
+    border-radius: var(--winrad2);
 }
 .theme-dark .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {
-    background-color: var(--windark-button-hover) !important;
+    background-color: var(--windark-button-hover-alt);
 }
 
 .theme-light .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-    background-color: var(--winlight-button-bg) !important;
-    color: #000 !important;
-    border: 1px solid var(--winlight-button-border) !important;
-    border-top-color: var(--winlight-button-top) !important;
-    border-bottom-color: var(--winlight-button-bottom) !important;
-    border-radius: var(--winrad2) !important;
+    background-color: var(--winlight-button-bg-alt);
+    color: #000;
+    border: 1px solid var(--winlight-button-border-alt);
+    border-top-color: var(--winlight-button-top-alt);
+    border-bottom-color: var(--winlight-button-bottom-alt);
+    border-radius: var(--winrad2);
 }
 .theme-light .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {
-    background-color: var(--winlight-button-hover) !important;
+    background-color: var(--winlight-button-hover-alt);
 }
 
 .theme-dark .base-2jDfDU {
@@ -1214,31 +1225,30 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .header-3OsQeK {
     padding: 6px 8px;
     margin: 5px 7px;
-    filter: brightness(1.08);
 }
 
 .theme-dark .header-3OsQeK {
-    background-color: var(--windark-button-bg) !important;
-    color: #fff !important;
-    border: 1px solid var(--windark-button-border) !important;
-    border-top-color: var(--windark-button-top) !important;
-    border-bottom-color: var(--windark-button-bottom) !important;
-    border-radius: var(--winrad2) !important;
+    background-color: var(--windark-button-bg-alt);
+    color: #fff;
+    border: 1px solid var(--windark-button-border-alt);
+    border-top-color: var(--windark-button-top-alt);
+    border-bottom-color: var(--windark-button-bottom-alt);
+    border-radius: var(--winrad2);
 }
 .theme-dark .header-3OsQeK:hover {
-    background-color: var(--windark-button-hover) !important;
+    background-color: var(--windark-button-hover-alt);
 }
 
 .theme-light .header-3OsQeK {
-    background-color: var(--winlight-button-bg) !important;
-    color: #000 !important;
-    border: 1px solid var(--winlight-button-border) !important;
-    border-top-color: var(--winlight-button-top) !important;
-    border-bottom-color: var(--winlight-button-bottom) !important;
-    border-radius: var(--winrad2) !important;
+    background-color: var(--winlight-button-bg-alt);
+    color: #000;
+    border: 1px solid var(--winlight-button-border-alt);
+    border-top-color: var(--winlight-button-top-alt);
+    border-bottom-color: var(--winlight-button-bottom-alt);
+    border-radius: var(--winrad2);
 }
 .theme-light .header-3OsQeK:hover {
-    background-color: var(--winlight-button-hover) !important;
+    background-color: var(--winlight-button-hover-alt);
 }
 
 /* Fix in scroll */
@@ -4848,4 +4858,29 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 /* Channel details popout */
 .theme-light .ChannelDetails-modal-header .ChannelDetails-modal-title {
     color: #000;
+}
+
+/* Read All style */
+.theme-dark [class="listItem-3SmSlK frame-oXWS21"] div.childWrapper-1j_1ub.button-Jt-tIg {
+    background-color: var(--windark-button-bg) !important;
+    color: #fff !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-dark [class="listItem-3SmSlK frame-oXWS21"] div.childWrapper-1j_1ub.button-Jt-tIg:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light [class="listItem-3SmSlK frame-oXWS21"] div.childWrapper-1j_1ub.button-Jt-tIg {
+    background-color: var(--winlight-button-bg) !important;
+    color: #000 !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-light [class="listItem-3SmSlK frame-oXWS21"] div.childWrapper-1j_1ub.button-Jt-tIg:hover {
+    background-color: var(--winlight-button-hover) !important;
 }
