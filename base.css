@@ -2291,6 +2291,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-left: var(--windarkborder1);
 }
 
+#app-mount .ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
+    border-left: var(--windarkborder1) !important;
+}
+
 .sidebar-1tnWFu,
 .members-3WRCEx {
     width: 260px;
