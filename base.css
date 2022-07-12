@@ -626,8 +626,7 @@
 }
 
 .userPopout-2j1gM4 .avatarWrapper-eenWra {
-    left: unset;
-    align-self: center;
+    left: calc(50% - 92px/2);
 }
 
 .profileBadges-2pItdR.container-1gYwHN {
@@ -1280,13 +1279,13 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .theme-dark .card-2TuZPZ,
 .theme-dark .iconMask-2fMR98 {
-    background: var(--noise256), var(--windark-box1) !important;
+    background: var(--windark-mica) !important;
     border: var(--windarkborder1);
 }
 
 .theme-light .card-2TuZPZ,
 .theme-light .iconMask-2fMR98 {
-    background: var(--noise256), var(--winlight-box1) !important;
+    background: var(--winlight-mica) !important;
     border: var(--winlightborder1);
 }
 
@@ -4106,6 +4105,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 .featuresHeader-2bjq5B {
     text-align: center;
+}
+
+.theme-dark .feature-2IUcBI {
+    border: var(--windarkborder1);
 }
 
 /* Server Boost */
