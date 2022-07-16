@@ -168,6 +168,6 @@
     display: none;
 }
 
-#app-mount .a11y-font-scaled-down .cozy-VmLDNB .header-2jRmjb {
-    margin-left: 0;
+.a11y-font-scaled-down .cozy-VmLDNB .header-2jRmjb {
+    margin-left: 0 !important;
 }
