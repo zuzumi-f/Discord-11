@@ -4111,6 +4111,15 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border: var(--windarkborder1);
 }
 
+#app-mount [class="premiumTab-39eQzY item-3XjbnG selected-g-kMVV themed-2-lozF"] .selectedBackground-1t6xXq {
+    background-color: unset;
+}
+
+#app-mount .serverBoostTabItem-3QwA3W[aria-selected=true] {
+    background-color: var(--background-modifier-selected) !important;
+    color: var(--interactive-active) !important;
+}
+
 /* Server Boost */
 .theme-dark .cardWrapper-1bSePP {
     background-color: var(--windark3);
