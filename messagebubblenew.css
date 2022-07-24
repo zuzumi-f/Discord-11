@@ -5,6 +5,10 @@
     padding-right: 72px !important;
 }
 
+#app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya {
+    justify-items: right;
+}
+
 #app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg {
     display: block;
     width: fit-content;
