@@ -1,6 +1,6 @@
 ## Discord 11
 
-### Version 2.2.2!!!
+### [Version 2.2.2!!!](https://github.com/zuzumi-f/Discord-11/releases)
 
 A theme based in windows 11 new UI
 
