@@ -1,40 +1,68 @@
-# Discord-11
-Theme based in windows 11 new UI
+## Discord 11
 
-# Preview
-![Discord_cWkr450feG](https://user-images.githubusercontent.com/79029257/174322739-eb0cd7da-0a46-4998-a22b-2fe4a164499c.png)
+### Version 2.2.2!!!
 
-# Preview (Glass Effect + Light Theme)
-![Discord_HqfPJ73fhy](https://user-images.githubusercontent.com/79029257/174323411-3667e16d-9192-4e64-8775-e52d78095b17.png)
+A theme based in windows 11 new UI
 
-# Settings
-![Discord_UulJyTV6tS](https://user-images.githubusercontent.com/79029257/174322848-0c175f8d-906d-4496-a6ff-f0dd904c76ec.png)
+* [Requirements](#requirements)
+* [Preview](#preview)
+* [Message Style](#message-style)
+    * [Default](#left-message-bubble)
+    * [Default(No Autor)](#default-message-bubble)
+    * [New](#new-message-bubble)
+* [Customization](#customization)
+    * [Compatible HSL](#i-use-horizontal-server-list)
+* [Addons](#addons)
 
-# Profile (Big)
-![Discord_6BI8RMbrhX](https://user-images.githubusercontent.com/79029257/177872238-2c620c24-fabd-4550-8f13-6fa0880fe6fb.png)
+## Preview
 
-# Left Message bubble
-![Discord_fNH64T7fvr](https://user-images.githubusercontent.com/79029257/174322112-318e087f-9544-4e84-bf07-b7c388ad4f0a.png)
+### Dark Mode
+![image](https://user-images.githubusercontent.com/79029257/183246536-b696e1dd-ad92-4804-9ef1-dea38c225a75.png)
+![image](https://user-images.githubusercontent.com/79029257/183246569-ff33efae-e051-485f-8a77-d6cc796e0e6e.png)
 
-# Default Message bubble
-![Discord_sDWbRBd2ji](https://user-images.githubusercontent.com/79029257/174322280-abeb26c8-f33c-4dac-be7b-953dab09482f.png)
+### Light Mode + Glass Effect
+![image](https://user-images.githubusercontent.com/79029257/183246599-3d61919c-3a0f-4b84-9062-02458f239de1.png)
+![image](https://user-images.githubusercontent.com/79029257/183246629-6051c0d1-aeef-412d-b271-9a5b6364cc93.png)
 
-# New Message bubble (Not work with Compact Mode)
-![Discord_vyPV5Jbt4t](https://user-images.githubusercontent.com/79029257/174322307-7d75edb8-3ab2-43da-a0af-682038bbffee.png)
+## Message Style
 
-# Addons
-Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
+### Left Message bubble
+![image](https://user-images.githubusercontent.com/79029257/183246736-7c229bb6-c064-4870-a6eb-744d4bd8d951.png)
 
-Fluent Icons Fork from **[Stickfab](https://github.com/stickfab/pc-fluenticons)**
+### Default Message bubble
+![image](https://user-images.githubusercontent.com/79029257/183246763-c3824133-3e38-4ec1-a7a2-ae415670eff7.png)
 
-Emoji Replace by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/EmojiReplace/EmojiReplace.theme.css)**
+### New Message bubble
 
-FriendGrid by **[CorellanStoma](https://github.com/CreArts-Community/Friends-Grid)**
+(Not work with Compact Mode)
 
-BearableInbox by **[Disease](https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css)**
+![image](https://user-images.githubusercontent.com/79029257/183246798-c534587b-37f6-403e-9547-fb46dced9f25.png)
 
-# I use Horizontal Server List
+## Customization
+
+For better customization please use [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings)
+
+![image](https://user-images.githubusercontent.com/79029257/183246831-7820dbef-89a6-439e-a640-56d50a9e3019.png)
+
+## Addons
+* Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
+
+* Fluent Icons by **[Stickfab](https://github.com/stickfab/pc-fluenticons)**
+
+* Emoji Replace by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/EmojiReplace/EmojiReplace.theme.css)**
+
+* FriendGrid by **[CorellanStoma](https://github.com/CreArts-Community/Friends-Grid)**
+
+* BearableInbox by **[Disease](https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css)**
+
+## Requirements
+* [BDFDB](https://betterdiscord.app/plugin/BDFDB)
+* [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings)
+
+### I use Horizontal Server List
+
 This code make HSL compatible with the theme
+
 ```css
 
 #app-mount .standardSidebarView-E9Pc3j {
