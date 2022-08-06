@@ -126,6 +126,9 @@
     width: fit-content;
     max-width: 100%;
 }
+.repliedMessage-3Z6XBG:before {
+    display: none;
+}
 
 #app-mount .replying-eZ7p5z .contents-2MsGLg {
     background-color: var(--brand-experiment-05a);
