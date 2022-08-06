@@ -59,7 +59,7 @@ For better customization please use [ThemeSettings](https://betterdiscord.app/pl
 * [BDFDB](https://betterdiscord.app/plugin/BDFDB)
 * [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings)
 
-### I use Horizontal Server List
+## I use Horizontal Server List
 
 This code make HSL compatible with the theme
 
