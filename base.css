@@ -2361,6 +2361,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .container-1NXEtd .bannerImg-2PzH6z {
     border-radius: var(--winrad2);
     border: 1px solid hsla(0, 0%, 100%, 0.06);
+    margin-left: 8px;
+    width: 241px;
 }
 
 #app-mount .animatedContainer-2laTjx {
@@ -2370,7 +2372,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 .bannerImage-ubW8K- {
-    margin-left: 9px;
+    margin-left: 100%;
 }
 
 #app-mount .bannerImage-ubW8K-:before {
@@ -2383,7 +2385,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 [class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"],
 [class="container-1-ERn5 clickable-vvKY2q selected-1GtAC5 hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"] {
-    height: 274px;
+    height: 156px;
 }
 
 #app-mount .container-2giAcK {
@@ -2424,7 +2426,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     width: 6px;
 }
 .scroller-1ox3I2 {
-    padding-right: 4px !important;
+    padding-right: 3px !important;
 }
 
 .members-3WRCEx::-webkit-scrollbar {
@@ -3091,6 +3093,33 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .panels-3wFtMD .nameTag-sc-gpq {
     max-width: calc(100% - 44px);
+}
+
+/* New UserBar Update */
+[class="avatarWrapper-1B9FTW withTagAsButton-OsgQ9L"] {
+    margin: 0;
+    width: -webkit-fill-available;
+}
+[class="avatarWrapper-1B9FTW withTagAsButton-OsgQ9L"]:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+#account.menu-1QACrS [id="account-style-your-profile"] {
+    display: none;
+}
+
+/* Revert user popout 2 by Disease */
+#account.menu-1QACrS {
+    width: 220px;
+}
+
+#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
+    max-width: 220px;
+}
+
+#account.menu-1QACrS .profileGroup-1yKk23,
+#account.menu-1QACrS .profileGroup-1yKk23 + .separator-1So4YB {
+    display:none;
 }
 
 /* Setting User Profile */
