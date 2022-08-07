@@ -3108,7 +3108,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     display: none;
 }
 
-/* Revert user popout 2 by Disease */
+/* Revert user popout by Disease */
 #account.menu-1QACrS {
     width: 220px;
 }
@@ -4678,16 +4678,20 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     --streaming-color: #D261FF;
 }
 /* Status Picker thing */
-#app-mount #status-picker #status-picker-online:not(.focused-3qFvc8) .status-2DiCMd {
+#app-mount #account-status-picker:not(.focused-3qFvc8) [mask="url(#svg-mask-status-online)"] .status-2DiCMd,
+#app-mount [aria-activedescendant*="account-status-picker"] #account-status-picker--online:not(.focused-3qFvc8) .status-2DiCMd {
     background-color: var(--online-color) !important;
 }
-#app-mount #status-picker #status-picker-idle:not(.focused-3qFvc8) .status-2DiCMd {
+#app-mount #account-status-picker:not(.focused-3qFvc8) [mask="url(#svg-mask-status-idle)"] .status-2DiCMd,
+#app-mount [aria-activedescendant*="account-status-picker"] #account-status-picker--idle:not(.focused-3qFvc8) .status-2DiCMd {
     background-color: var(--idle-color) !important;
 }
-#app-mount #status-picker #status-picker-dnd:not(.focused-3qFvc8) .status-2DiCMd {
+#app-mount #account-status-picker:not(.focused-3qFvc8) [mask="url(#svg-mask-status-dnd)"] .status-2DiCMd,
+#app-mount [aria-activedescendant*="account-status-picker"] #account-status-picker--dnd:not(.focused-3qFvc8) .status-2DiCMd {
     background-color: var(--dnd-color) !important;
 }
-#app-mount #status-picker #status-picker-invisible:not(.focused-3qFvc8) .status-2DiCMd {
+#app-mount #account-status-picker:not(.focused-3qFvc8) [mask="url(#svg-mask-status-offline)"] .status-2DiCMd,
+#app-mount [aria-activedescendant*="account-status-picker"] #account-status-picker--invisible:not(.focused-3qFvc8) .status-2DiCMd {
     background-color: var(--offline-color) !important;
 }
 /* Status Colors */
