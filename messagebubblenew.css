@@ -62,7 +62,6 @@
     place-self: flex-end;
     width: fit-content;
     margin-left: auto;
-    flex-direction: row-reverse;
 }
 #app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya .imageWrapper-oMkQl4 {
     margin-left: auto;
