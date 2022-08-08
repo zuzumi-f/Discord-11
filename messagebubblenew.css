@@ -1,3 +1,4 @@
+/* New Messages bubble */
 #app-mount .message-2CShn3[data-is-author-self="true"] {
     margin-left: auto;
     width: auto;
@@ -6,7 +7,7 @@
 }
 
 #app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya {
-    justify-items: right;
+    direction: rtl;
 }
 
 #app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg {
@@ -40,6 +41,10 @@
     margin-left: auto;
 }
 
+#app-mount .message-2CShn3[data-is-author-self="true"] .embedAuthor-TJIHp5 {
+    direction: ltr;
+}
+
 #app-mount .message-2CShn3[data-is-author-self="true"] .avatar-2e8lTP {
     left: unset;
     right: 16px;
@@ -56,15 +61,6 @@
 
 #app-mount .message-2CShn3[data-is-author-self="true"] .repliedMessage-3Z6XBG:before {
     display: none;
-}
-
-#app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya>* {
-    place-self: flex-end;
-    width: fit-content;
-    margin-left: auto;
-}
-#app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya .imageWrapper-oMkQl4 {
-    margin-left: auto;
 }
 
 #app-mount .contents-2MsGLg pre {
