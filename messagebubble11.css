@@ -45,13 +45,11 @@
     display: none;
 }
 
-#app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya>* {
-    place-self: flex-end;
-    width: fit-content;
-    margin-left: auto;
+#app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya {
+    direction: rtl;
 }
-#app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya .imageWrapper-oMkQl4 {
-    margin-left: auto;
+#app-mount .message-2CShn3[data-is-author-self="true"] .embedAuthor-TJIHp5 {
+    direction: ltr;
 }
 
 #app-mount .cozy-VmLDNB.wrapper-30-Nkg .contents-2MsGLg .header-2jRmjb {
