@@ -7,11 +7,13 @@ A theme based in windows 11 new UI
 * [Requirements](#requirements)
 * [Preview](#preview)
 * [Message Style](#message-style)
-    * [Default](#left-message-bubble)
-    * [Default(No Autor)](#default-message-bubble)
-    * [New](#new-message-bubble)
+    * [Default Style](#left-message-bubble)
+    * [Right (No Autor)](#default-message-bubble)
+    * [Right (Autor)](#new-message-bubble)
 * [Customization](#customization)
-    * [Compatible HSL](#i-use-horizontal-server-list)
+* [Compatibility](#compatibility)
+    * [Compatibility HSL](#horizontalserverlist)
+    * [Compatibility DSC](#displayserversaschannels)
 * [Addons](#addons)
 
 ## Preview
@@ -59,9 +61,13 @@ For better customization please use [ThemeSettings](https://betterdiscord.app/pl
 * [BDFDB](https://betterdiscord.app/plugin/BDFDB)
 * [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings)
 
-## I use Horizontal Server List
+## Compatibility
 
-This code make HSL compatible with the theme
+Copy and paste the code at the bottom of the file
+
+![image](https://user-images.githubusercontent.com/79029257/185492619-98009f68-31c4-4a59-a8dc-e515d22b4363.png)
+
+### HorizontalServerList
 
 ```css
 
@@ -73,5 +79,21 @@ This code make HSL compatible with the theme
     height: calc(100% - 60px);
     top: unset;
     bottom: 0;
+}
+```
+
+### DisplayServersAsChannels
+
+```css
+
+:root {
+    --server-display-as-channels-width: 240px;
+}
+.styledGuildsAsChannels-DNHtg_ .wrapper-1_HaEi .scroller-3X7KbA::before {
+    width: var(--server-display-as-channels-width) !important;
+}
+.standardSidebarView-E9Pc3j {
+    left: var(--server-display-as-channels-width) !important;
+    width: calc(100% - var(--server-display-as-channels-width)) !important;
 }
 ```
