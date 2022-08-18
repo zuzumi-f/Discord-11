@@ -4641,9 +4641,9 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
 .layers-OrUESM>.layer-86YKbF.animating-1rIrGV {pointer-events: auto !important;will-change: unset;}
 .animating-1rIrGV.stop-animations {z-index: 100 !important;}
-.platform-win .layer-86YKbF {top: unset;padding-top: unset;display: contents;}
+.layer-86YKbF {top: unset;padding-top: unset;display: contents;}
 
-.platform-win .standardSidebarView-E9Pc3j {
+.standardSidebarView-E9Pc3j {
     top: 0;
     left: 72px;
     width: calc(100% - 72px);
@@ -4803,14 +4803,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .theme-light .ChannelDms-channelpopout-popout {
     color: hsl(0, 0%, 13%);
-}
-
-/* When error */
-#app-mount .errorPage-2pZ2Kq {
-    -webkit-app-region: no-drag;
-}
-.platform-win .container-2RRFHK {
-    top: -34px;
 }
 
 /* Always bottom server list buttons by Gibbu [edit] */
