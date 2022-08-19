@@ -1,6 +1,5 @@
 /* Fluent Icons */
 @import url('https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css');
-@import url("https://stickfab.github.io/pc-fluenticons/src/fluenticons-settings.css");
 /* Discolored by Nyri4 */
 @import url("https://nyri4.github.io/Discolored/main.css");
 
@@ -232,13 +231,6 @@
     --deprecated-text-input-border-hover: #b9bbbe;
     --deprecated-text-input-border-disabled: #dcddde;
     --deprecated-text-input-prefix: #b9bbbe;
-}
-
-/* Fix Settings Icons */
-[aria-controls="delete-tab"] svg,
-[aria-controls="logout-tab"] svg,
-.closeButton-30b1gR svg{
-    display: none;
 }
 
 /* Cursor */
@@ -3295,6 +3287,31 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* New unreads */
+.container-24rGVp > div[style*="transform: translateY"] {
+    width: 100%;
+}
+.bar-wDIGjg {
+    justify-content: center;
+    width: calc(100% - 34px);
+    margin-left: 8px;
+}
+.mentionsDot-lLfrj1 {
+    background-color: var(--info-danger-foreground);
+}
+
+.theme-dark .bar-wDIGjg {
+    background-color: var(--windark-acrylic);
+    border: var(--windarkborder2);
+    border-radius: var(--winrad1);
+}
+
+.theme-light .bar-wDIGjg {
+    background-color: var(--winlight-acrylic);
+    border: var(--winlightborder2);
+    border-radius: var(--winrad1);
+}
+
+/* ServerList unreads */
 .theme-dark .unread-2wipsx {
     background-color: var(--windark-acrylic);
     border: var(--windarkborder2);
@@ -3369,6 +3386,9 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* Badges */
+.channel-1Shao0 .baseShapeRound-3epLEv {
+    margin-right: 2px;
+}
 .baseShapeRound-3epLEv:not(.textBadge-1fdDPJ) {
     font-weight: 400;
     transform: scale(1.14);
@@ -3853,6 +3873,16 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 /* Better NSFW Tag */
 .nsfwTag-666omg.iconBase-2G48Fc {
     margin-left: 4px;
+}
+
+/* Selected Setting Option */
+#bd-settings-sidebar .ui-tab-bar-item,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG {
+    display: flex;
+    align-items: center;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG svg {
+    margin-left: 8px;
 }
 
 /* Settings */
