@@ -4473,6 +4473,13 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--blue-button-hover) !important;
 }
 
+/* Role Style */
+.role-2TIOKu {
+    border: 1px solid var(--background-modifier-accent);
+    background-color: var(--background-modifier-accent);
+    border-radius: 3.5px;
+}
+
 /* View as Role */
 #app-mount .notice-2olXi7 {
     background-color: var(--focus-primary);
