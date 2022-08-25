@@ -4,6 +4,8 @@
 
 A theme based in windows 11 new UI
 
+Theme by [zuzumi](https://github.com/zuzumi-f)
+
 * [Requirements](#requirements)
 * [Preview](#preview)
 * [Message Style](#message-style)
