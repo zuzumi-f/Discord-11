@@ -234,14 +234,15 @@
 }
 
 /* Cursor */
-#app-mount *:not(.searchBar-2aylmZ *, .search-39IXmY *, .addFriendInputWrapper-kkoSV9 *, .searchBar-14YqL- .searchBarComponent-18D6hD *, .searchBar-2M9mRP *, .header-uVCAlo *, .header-2TLOnc *, .inputWrapper-1YNMmM *, .form-3gdLxP *, .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil, .channelTextArea-3TZH74 *, .scrollableContainer-15eg7h *, .note-3M15gE *, .searchBar-3OIGe3 *, .searchContainer-16qhPt *, .searchContainer-2kJ46v *, .searchContainer-23hFke *, .searchContainer-1cOciB *, .searchBar-3joS_I *, .searchBar-20o6Cf *, .resizeHandle-PBRzPC, .inner-2pOSmK *, [class="quickswitcher-pKcM9U"] .input-3r5zZY),
+#app-mount *:not(.searchBar-2aylmZ *, .search-39IXmY *, .addFriendInputWrapper-kkoSV9 *, .searchBar-14YqL- .searchBarComponent-18D6hD *, .searchBar-2M9mRP *, .header-uVCAlo *, .header-2TLOnc *, .inputWrapper-1YNMmM *, .form-3gdLxP *, .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil, .channelTextArea-3TZH74 *, .scrollableContainer-15eg7h *, .note-3M15gE *, .searchBar-3OIGe3 *, .searchContainer-16qhPt *, .searchContainer-2kJ46v *, .searchContainer-23hFke *, .searchContainer-1cOciB *, .searchBar-3joS_I *, .searchBar-20o6Cf *, .resizeHandle-PBRzPC, .inner-2pOSmK *, [class="quickswitcher-pKcM9U"] .input-3r5zZY, .section-3FmfOT .textarea-_59yqs),
 .container-2nx-BQ,
 .input-2XRLou {
     cursor: default !important;
 }
 
 #app-mount .form-3gdLxP *,
-#app-mount .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil {
+#app-mount .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil,
+#app-mount .section-3FmfOT .textarea-_59yqs {
     cursor: auto !important;
 }
 
@@ -586,10 +587,6 @@
 }
 
 /* Small Profile */
-#app-mount .userPopout-2j1gM4 {
-    max-height: calc(100vh - 32px);
-}
-
 .theme-dark .userPopout-2j1gM4 {
     border: var(--windarkborder1);
     background: var(--noise256), var(--windark-box1);
@@ -668,26 +665,55 @@
     width: calc(100% - 32px);
 }
 
-.activity-1gTu-L {
+.activity-1gTu-L,
+.activity-E0U09Y {
     border-radius: var(--winrad3);
     padding: 8px;
     margin-bottom: 6px;
 }
 
-.theme-dark .activity-1gTu-L {
+.theme-dark .activity-1gTu-L,
+.theme-dark .activity-E0U09Y {
     background-color: var(--windark-acrylic);
-}
-
-.theme-light .activity-1gTu-L {
-    background-color: var(--winlight-acrylic);
-}
-
-.theme-dark .activity-1gTu-L {
     border: var(--windarkborder4);
 }
 
-.theme-light .activity-1gTu-L {
+.theme-light .activity-1gTu-L,
+.theme-light .activity-E0U09Y {
+    background-color: var(--winlight-acrylic);
     border: var(--winlightborder2);
+}
+
+#app-mount .messageInputContainer-2rGDH8 {
+    border: none;
+}
+
+#app-mount .activity-E0U09Y [type="button"] {
+    opacity: 1;
+}
+
+.theme-dark .activity-E0U09Y [type="button"] {
+    background-color: var(--windark-button-bg) !important;
+    color: #fff !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-dark .activity-E0U09Y [type="button"]:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light .activity-E0U09Y [type="button"] {
+    background-color: var(--winlight-button-bg) !important;
+    color: #000 !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-light .activity-E0U09Y [type="button"]:hover {
+    background-color: var(--winlight-button-hover) !important;
 }
 
 /* No NOTE section */
@@ -697,10 +723,6 @@
 }
 
 /* Big Profile */
-.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] {
-    height: 100%;
-}
-
 #app-mount .body-1Ukv50 {
     padding-left: 260px;
 }
@@ -774,8 +796,6 @@
 #app-mount .userProfileActivity-sal5no .bodyAlignCenter-3E27PU {
     padding: 8px;
     border-radius: var(--winrad3);
-    flex-direction: column;
-    align-items: unset;
     box-shadow: var(--elevation-low);
 }
 
