@@ -665,11 +665,15 @@
     width: calc(100% - 32px);
 }
 
-.activity-1gTu-L,
-.activity-E0U09Y {
+.activity-1gTu-L {
     border-radius: var(--winrad3);
     padding: 8px;
     margin-bottom: 6px;
+}
+
+.activity-E0U09Y {
+    border-radius: var(--winrad3);
+    padding: 8px;
 }
 
 .theme-dark .activity-1gTu-L,
@@ -682,6 +686,11 @@
 .theme-light .activity-E0U09Y {
     background-color: var(--winlight-acrylic);
     border: var(--winlightborder2);
+}
+
+#app-mount .activity-E0U09Y .platformIcon-k3yytQ {
+    top: 8px;
+    right: 8px;
 }
 
 #app-mount .messageInputContainer-2rGDH8 {
@@ -792,11 +801,35 @@
     padding-bottom: 8px;
     padding-top: 8px;
 }
+#app-mount .userProfileActivity-sal5no .platformIcon-k3yytQ {
+    top: 4px;
+}
 #app-mount .userProfileActivity-sal5no .bodyNormal-250CQK,
 #app-mount .userProfileActivity-sal5no .bodyAlignCenter-3E27PU {
     padding: 8px;
+    flex-flow: wrap;
     border-radius: var(--winrad3);
     box-shadow: var(--elevation-low);
+}
+#app-mount .actionsProfile-31n1ca {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 8px;
+}
+#app-mount .buttonsWrapper-2ARRp1:empty {
+    margin: 0 !important;
+}
+#app-mount .actionsProfile-31n1ca [type="button"] {
+    width: -webkit-fill-available;
+}
+
+#app-mount .contentImagesActivityFeed-2rPjYe,
+#app-mount .contentImagesProfile-27BIzt,
+#app-mount .contentImagesStreamPreview-38HyRm,
+#app-mount .contentImagesUserPopout-Kqai8z,
+#app-mount .contentImagesUserPopoutV2-2Mcg9w,
+#app-mount .contentImagesVoiceChannel-OHm3LY {
+    width: 0;
 }
 
 .theme-dark .userProfileActivity-sal5no .bodyNormal-250CQK,
@@ -815,48 +848,13 @@
     top: 40px;
 }
 
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .connectedAccount-1xKpli {
-    width: 100%;
-}
-
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .timeBarProfile-1z_HH- {
-    margin-top: 4px;
-}
-
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .gameIcon-1mDo1J.desaturate-_Twf3u.medium-1vKkpm.gameIcon-1siQqm,
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .assetsSmallImageProfileWithoutLargeImage-35nix-.assetsLargeImage-8U5dlz.noUserDrag-2HbVzE{
-    transform: translateX(24px);
-}
-
-#app-mount .assetsLargeImageProfileTwitch-1SbNkP {
-    width: 90px;
-}
-
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .content-tXPNDw {
-    min-width: 188px;
-    max-width: 188px;
-    position: absolute;
-    left: 115px;
-}
-
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .buttonsWrapper-2ARRp1 {
-    width: 100%;
-    margin: 8px 0 0 0;
-}
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .buttonsWrapper-2ARRp1 button {
-    width: 100%;
-}
-#app-mount .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[data-user-id] .buttonsWrapper-2ARRp1:empty {
-    display: none;
-}
-
 #app-mount .UserDetails-dates-container .UserDetails-dates-errorIcon {
     fill: var(--info-danger-foreground) !important;
 }
 
 #app-mount .UserDetails-dates-container.UserDetails-dates-icons.UserDetails-dates-userProfile {
     margin-top: -12px;
-    margin-bottom: 6px;
+    margin-bottom: 0;
     padding-left: 11px;
 }
 
