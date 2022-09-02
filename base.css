@@ -4159,6 +4159,16 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     width: 100%;
 }
 
+.contentColumnWide-2CgNjO[id="profile-customization-tab"] {
+    padding-left: 70px;
+    padding-right: 70px;
+    border-top-left-radius: 8px;
+}
+.standardSidebarView-E9Pc3j .contentRegion-3HkfJJ,
+.standardSidebarView-E9Pc3j .contentRegionHiddenSidebar-GvtLIC {
+    border-top-left-radius: 8px;
+}
+
 /* Privacy & Safety */
 .theme-dark .itemFilled-1cPbtg:not(.itemFilled-1cPbtg[aria-checked=true]):not(:hover) {
     background-color: var(--windark3);
