@@ -21,14 +21,16 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
 ## Preview
 
 ### Dark Mode
-![image](https://user-images.githubusercontent.com/79029257/183246536-b696e1dd-ad92-4804-9ef1-dea38c225a75.png)
-![image](https://user-images.githubusercontent.com/79029257/183246569-ff33efae-e051-485f-8a77-d6cc796e0e6e.png)
+![image](https://user-images.githubusercontent.com/79029257/188325714-39efdaaf-4232-45d1-924e-e53fa8ba1f42.png)
+![image](https://user-images.githubusercontent.com/79029257/188325724-d8b0e1b6-5b5e-4e34-a978-c3a08bcae89a.png)
 
 ### Light Mode + Glass Effect
-![image](https://user-images.githubusercontent.com/79029257/183246599-3d61919c-3a0f-4b84-9062-02458f239de1.png)
-![image](https://user-images.githubusercontent.com/79029257/183246629-6051c0d1-aeef-412d-b271-9a5b6364cc93.png)
+![image](https://user-images.githubusercontent.com/79029257/188325744-ac33aca2-698d-4934-a065-0b5c534950c3.png)
+![image](https://user-images.githubusercontent.com/79029257/188325754-70d06837-33af-4780-a558-621c5e2e6694.png)
 
 ## Message Style
+
+(Messages in RightSide are not working at the moment sorry)
 
 ### Left Message bubble
 ![image](https://user-images.githubusercontent.com/79029257/183246736-7c229bb6-c064-4870-a6eb-744d4bd8d951.png)
@@ -60,7 +62,6 @@ For better customization please use [ThemeSettings](https://betterdiscord.app/pl
 * BearableInbox by **[Disease](https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css)**
 
 ## Requirements
-* [BDFDB](https://betterdiscord.app/plugin/BDFDB)
 * [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings)
 
 ## Compatibility
