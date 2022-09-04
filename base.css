@@ -3964,8 +3964,9 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     display: flex;
     align-items: center;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG svg {
-    margin-left: 8px;
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG svg,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .base-3IDx3L {
+    margin-left: 4px;
 }
 
 /* Settings */
