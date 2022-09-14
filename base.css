@@ -4124,11 +4124,13 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 /* Banner Code by MintLily */
 #app-mount .accountProfileCard-lbN7n- {
     background-color: transparent;
+    border: var(--windarkborder1);
 }
 
 #app-mount .accountProfileCard-lbN7n- .banner-1YaD3N[style^="background-color: "] {
     height: 126px;
-    border-radius: 8px;
+    border-top-left-radius: var(--winrad4);
+    border-top-right-radius: var(--winrad4);
 }
 #app-mount .accountProfileCard-lbN7n- .banner-1YaD3N[style^="background-image: "] {
     height: 500px;
@@ -4150,10 +4152,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 #app-mount .userInfo-regn9W {
     padding: 16px 33px 0 33px;
-    margin-top: 8px;
     background-color: var(--background-tertiary);
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
 }
 
 #app-mount .background-3d_SjE,
@@ -4164,7 +4163,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     padding: 8px 16px 16px;
 }
 #app-mount .background-3d_SjE {
-    border-radius: 0 0 7px 7px;
+    border-radius: 0 0 var(--winrad4) var(--winrad4);
 }
 #app-mount .fieldSpacer-cxjVL1 {
     margin-top: 4px;
@@ -4246,19 +4245,23 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* Connections */
-.theme-dark .accountList-Wii_T5 {
+.theme-dark .accountList-Wii_T5,
+.theme-dark .connectContainer-1hylYM {
     background-color: var(--windark-acrylic);
     border: var(--windarkborder2);
     border-radius: var(--winrad1);
 }
 
-.theme-light .accountList-Wii_T5 {
+.theme-light .accountList-Wii_T5,
+.theme-light .connectContainer-1hylYM {
     background-color: var(--winlight-acrylic);
     border: var(--winlightborder2);
     border-radius: var(--winrad1);
 }
 
-.theme-dark .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
+.theme-dark .accountBtn-3pgcgr .accountBtnInner-3ttD-i,
+.theme-dark .accountButton-234qAZ button,
+.theme-dark .accountBtn-2-ALzM button {
     background-color: var(--windark-button-bg) !important;
     color: #fff !important;
     border: 1px solid var(--windark-button-border) !important;
@@ -4266,11 +4269,15 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-bottom-color: var(--windark-button-bottom) !important;
     border-radius: var(--winrad2) !important;
 }
-.theme-dark .accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover {
+.theme-dark .accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover,
+.theme-dark .accountButton-234qAZ button:hover,
+.theme-dark .accountBtn-2-ALzM button:hover {
     background-color: var(--windark-button-hover) !important;
 }
 
-.theme-light .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
+.theme-light .accountBtn-3pgcgr .accountBtnInner-3ttD-i,
+.theme-light .accountButton-234qAZ button,
+.theme-light .accountBtn-2-ALzM button {
     background-color: var(--winlight-button-bg) !important;
     color: #000 !important;
     border: 1px solid var(--winlight-button-border) !important;
@@ -4278,12 +4285,14 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-bottom-color: var(--winlight-button-bottom) !important;
     border-radius: var(--winrad2) !important;
 }
-.theme-light .accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover {
+.theme-light .accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover,
+.theme-light .accountButton-234qAZ button:hover,
+.theme-light .accountBtn-2-ALzM button:hover {
     background-color: var(--winlight-button-hover) !important;
 }
 
 .theme-dark .connection-YOVI9j {
-    background-color: var(--windark3);
+    background-color: var(--windark-button-bg);
     border: var(--windarkborder3);
     border-radius: var(--winrad1);
 }
