@@ -835,6 +835,11 @@
     width: -webkit-fill-available;
 }
 
+.listenAlongIcon-aXq1MH {
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
 #app-mount .contentImagesActivityFeed-2rPjYe,
 #app-mount .contentImagesProfile-27BIzt,
 #app-mount .contentImagesStreamPreview-38HyRm,
@@ -3168,6 +3173,11 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     position: fixed;
     border-top-left-radius: var(--winrad3);
     border-top-right-radius: var(--winrad3);
+    z-index: 1;
+}
+
+#account.menu-1QACrS .avatarWrapperNormal-ahVUaC {
+    z-index: 2;
 }
 
 #account.menu-1QACrS [aria-label="Click to copy username"] {
