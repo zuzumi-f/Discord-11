@@ -677,6 +677,10 @@
     width: calc(100% - 32px);
 }
 
+.section-3FmfOT {
+    padding-right: 12px !important;
+}
+
 .activity-1gTu-L {
     border-radius: var(--winrad3);
     padding: 8px;
@@ -746,6 +750,9 @@
 /* Big Profile */
 #app-mount .body-1Ukv50 {
     padding-left: 260px;
+}
+.infoScroller-1QMpon {
+    padding-right: 20px !important;
 }
 
 #app-mount [class="connectedAccounts-fvr7-7 userInfoSection-2u2hir"] {
@@ -1050,17 +1057,13 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--background-modifier-selected);
     color: var(--text-normal);
 }
-#app-mount .colorDefault-CDqZdO:active {
+#app-mount .colorDefault-CDqZdO:active:not([id="account-info"]) {
     background-color: var(--background-modifier-active);
     color: var(--text-normal);
 }
 
-.scroller-1bVxF5::-webkit-scrollbar {
-    width: 6px;
-}
 #app-mount .scroller-1bVxF5 {
-    padding: 6px;
-    padding-right: 0 !important;
+    padding: 4px 6px !important;
 }
 #app-mount .scroller-1bVxF5 .separator-1So4YB {
     margin-left: 0;
@@ -1308,13 +1311,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .theme-light .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui {
     color: #000;
-}
-
-.scroller-3j5xK2::-webkit-scrollbar {
-    width: 10px;
-}
-#app-mount .scroller-3j5xK2 {
-    padding-right: 24px !important;
 }
 
 .theme-dark .card-2TuZPZ,
@@ -2318,6 +2314,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--blue-button-bg);
 }
 
+.wrapperCommon-I1TMDb {
+    padding-right: 16px !important;
+}
+
 .sidebar-1tnWFu {
     border-right: var(--windarkborder1);
 }
@@ -2353,7 +2353,11 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     width: 227px;
 }
 #app-mount .channel-1Shao0 {
-    max-width: 241px;
+    max-width: 244px;
+}
+.privateChannelsHeaderContainer-1UWASm {
+    padding-right: 8px !important;
+    padding-left: 8px !important;
 }
 
 .content-1gYQeQ:before {
@@ -2442,6 +2446,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     padding-top: 4px;
     width: auto;
     border: var(--windarkborder1);
+    margin-right: 8px;
 }
 
 .theme-dark .container-2giAcK {
@@ -2456,167 +2461,78 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     display: none;
 }
 
-/* Scrollers */
-.scroller-kQBbkU::-webkit-scrollbar {
-    width: 10px;
+/* Forums */
+#app-mount .container-3wLKDe {
+    background-color: var(--background-secondary);
 }
 
-.scroller-29cQFV::-webkit-scrollbar {
-    width: 10px;
-}
-#app-mount .applicationStore-2nk7Lo .scroller-29cQFV, #app-mount .applicationStore-2nk7Lo .container-ZMc96U.themed-Hp1KC_ {
-    background-color: var(--background-secondary-alt);
-}
-#app-mount .applicationStore-2nk7Lo .premiumContainer-3GGa8Q {
-    max-width: none;
+/* Scrollbar CSS */
+.theme-dark {
+    --scroll-color: hsl(0, 0%, 20%);
 }
 
-.scroller-1ox3I2::-webkit-scrollbar {
-    width: 6px;
-}
-.scroller-1ox3I2 {
-    padding-right: 3px !important;
+.theme-light {
+    --scroll-color: hsl(0, 0%, 80%);
 }
 
-.members-3WRCEx::-webkit-scrollbar {
-    width: 6px;
+.scroller-kQBbkU,
+.auto-2K3UW5,
+.peopleColumn-1wMU14,
+.members-3WRCEx,
+.thin-31rlnD {
+    overflow-y: overlay !important;
 }
-.contentRegionScroller-2_GT_N::-webkit-scrollbar {
-    width: 10px;
+.scroller-kQBbkU::-webkit-scrollbar,
+.auto-2K3UW5::-webkit-scrollbar,
+.peopleColumn-1wMU14::-webkit-scrollbar {
+    width: 13px;
 }
-.sidebarRegionScroller-FXiQOh::-webkit-scrollbar {
-    width: 6px;
+.scroller-kQBbkU::-webkit-scrollbar-track,
+.auto-2K3UW5::-webkit-scrollbar-track,
+.peopleColumn-1wMU14::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 1px var(--background-primary);
+    background-color: var(--scroll-color);
+    border-radius: 1.5px;
 }
-.scroller-3nFW5p::-webkit-scrollbar {
-    width: 6px;
-}
-
-.scroller-MIi2ab::-webkit-scrollbar {
-    width: 6px;
-}
-.scroller-145h9c::-webkit-scrollbar {
-    width: 6px;
-}
-#app-mount .scroller-MIi2ab, #app-mount .scroller-145h9c {
-    padding-left: 14px;
-}
-
-.scroller-3iiyhZ::-webkit-scrollbar {
-    width: 6px;
-}
-#app-mount .scroller-3iiyhZ {
-    padding-left: 14px;
+.scroller-kQBbkU::-webkit-scrollbar-thumb,
+.auto-2K3UW5::-webkit-scrollbar-thumb,
+.thin-31rlnD::-webkit-scrollbar-thumb,
+.peopleColumn-1wMU14::-webkit-scrollbar-thumb {
+    border-radius: 8.5px;
 }
 
-.infoScroller-1QMpon::-webkit-scrollbar {
-    width: 6px;
+.nowPlayingColumn-1eCBCN .scroller-hE2gWq {
+    padding-right: 16px !important;
 }
-#app-mount .infoScroller-1QMpon {
-    padding-left: 18px;
-}
-
-.peopleList-2VBrVI::-webkit-scrollbar {
-    width: 10px;
-}
-.scroller-WSmht3::-webkit-scrollbar {
-    width: 6px;
+.content-1gYQeQ {
+    margin-right: 8px
 }
 
-.scroller-hE2gWq::-webkit-scrollbar {
-    width: 6px;
+[class="thin-31rlnD scrollerBase-_bVAAt"] > h2 {
+    margin-right: 16px;
 }
-#app-mount .scroller-hE2gWq {
-    padding-left: 14px;
+[class="thin-31rlnD scrollerBase-_bVAAt"] .categoryItem-Kc_HK_ {
+    margin: 2px 8px;
+    padding: 0;
 }
-
-.scroller-1Kbkqa::-webkit-scrollbar {
-    width: 6px;
-}
-
-.content-2hZxGK::-webkit-scrollbar {
-    width: 6px;
-}
-#app-mount .content-2hZxGK {
-    padding-left: 14px;
+.pageWrapper-2PwDoS [class="scroller-3j5xK2 auto-2K3UW5 scrollerBase-_bVAAt"] {
+    padding: 32px !important;
 }
 
-.messagesPopout-eVzQcI::-webkit-scrollbar {
-    width: 6px;
-}
-.messagesPopout-eVzQcI {
-    padding-right: 2px !important;
+.popout-3gby1q .friendWrapper-2x5j0A {
+    margin-right: 12px;
 }
 
-.scroller-2GkvCq::-webkit-scrollbar {
-    width: 6px;
-}
-.scroller-2GkvCq {
-    padding-right: 2px !important;
+.searchResultsWrap-5RVOkx .scroller-3iiyhZ {
+    padding-right: 16px !important;
 }
 
-.reactors-1VXca7::-webkit-scrollbar {
-    width: 6px;
-}
-.reactors-1VXca7 {
-    padding-right: 2px !important;
+.scroller-2M3eAB {
+    padding-right: 16px !important;
 }
 
-.scroller-14hecM::-webkit-scrollbar {
-    width: 10px;
-}
-.scroller-14hecM {
-    margin-right: 10px;
-}
-
-.listScroller-entkMk::-webkit-scrollbar {
-    width: 6px;
-}
-.listScroller-entkMk {
-    padding-right: 2px !important;
-}
-
-.popout-1KHNAq.thin-31rlnD::-webkit-scrollbar {
-    width: 6px;
-}
-.popout-1KHNAq.searchableSelect-3JyTyn.auto-2K3UW5::-webkit-scrollbar {
-    width: 10px;
-}
-
-.sourceScroller-3wC9he::-webkit-scrollbar {
-    width: 6px;
-}
-
-.emojiPicker-6YCk8a .scroller-2MALzE::-webkit-scrollbar {
-    width: 6px;
-}
-.emojiPicker-6YCk8a .scroller-2MALzE .listItems-6eZzQ1 {
-    padding-right: 2px !important;
-}
-
-.contentWrapper-3vHNP2 .scroller-2MALzE::-webkit-scrollbar {
-    width: 6px;
-}
-.contentWrapper-3vHNP2 .scroller-2MALzE .listItems-6eZzQ1 {
-    padding-right: 2px !important;
-}
-
-[id="gif-picker-tab-panel"] .container-3eG4QA::-webkit-scrollbar,
-[id="gif-picker-tab-panel"] .results-2CQlZp::-webkit-scrollbar {
-    width: 6px;
-}
-
-.scroller-39BnzZ {
-    margin-right: 10px;
-}
-.scroller-39BnzZ::-webkit-scrollbar {
-    width: 10px;
-}
-
-.list-38_JVu {
-    margin-right: 10px;
-}
-.list-38_JVu::-webkit-scrollbar {
-    width: 10px;
+.content-2hZxGK {
+    padding-right: 16px !important;
 }
 
 /* BearableInbox [by Disease] edited */
@@ -2647,7 +2563,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 .recentMentionsPopout-2bI1ZN .messagesPopout-eVzQcI {
-    padding: 16px;
+    padding: 16px !important;
+}
+.recentMentionsPopout-2bI1ZN .scroller-145h9c {
+    padding-right: 16px !important;
 }
 
 .recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
@@ -4087,8 +4006,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 #app-mount .sidebar-nqHbhN {
-    padding: 16px;
-    padding-right: 10px;
+    padding: 16px 8px;
 }
 #app-mount .contentColumnDefault-3eyv5o {
     padding: 16px 40px 24px;
@@ -4213,6 +4131,26 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .theme-light .field-21XZwa {
     background-color: var(--winlight-button-bg);
+    border: var(--winlightborder2);
+}
+
+/* PhoneField */
+#app-mount .phoneField-3NAPDv {
+    box-shadow: none;
+}
+
+#app-mount .phoneFieldPopout-uW3DlO {
+    border-radius: var(--winrad3);
+    backdrop-filter: blur(var(--winblur1));
+}
+
+.theme-dark .phoneFieldPopout-uW3DlO {
+    background: var(--noise256), var(--windark-box1);
+    border: var(--windarkborder3);
+}
+
+.theme-light .phoneFieldPopout-uW3DlO {
+    background: var(--noise256), var(--winlight-box1);
     border: var(--winlightborder2);
 }
 
