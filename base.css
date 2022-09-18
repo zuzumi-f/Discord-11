@@ -2527,6 +2527,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     padding-right: 16px !important;
 }
 
+.messagesPopout-eVzQcI {
+    padding-right: 8px !important;
+}
+
 /* BearableInbox [by Disease] edited */
 #app-mount .recentMentionsPopout-2bI1ZN .container-iA3Qrz,
 #app-mount .recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
@@ -3522,6 +3526,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* In Call */
+.list-2x9Cl9 {
+    padding-right: 8px;
+}
+
 .theme-dark .avatarSpeaking-2pCGrZ,
 .theme-dark .border-2BJQjd.speaking-3RWJBr,
 .theme-dark .border-2Vy6FN.speaking-7QZEkv,
@@ -4317,6 +4325,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--background-secondary-alt);
 }
 
+.upsellContainer-22N_CL {
+    background-size: cover;
+}
+
 /* Voice & Video */
 #app-mount .wrapper-UvA17F,
 #app-mount .container-3NTP7o,
@@ -4774,14 +4786,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     margin-bottom: 8px;
     font-size: 12px;
     font-family: var(--font-display);
-}
-
-/* Show All Activities */
-#app-mount .ShowAllActivities-wrapper-wrapper .ShowAllActivities-wrapper-controls {
-    background-color: var(--background-secondary);
-    border: var(--windarkborder1);
-    border-radius: var(--winrad2);
-    margin-top: 0;
 }
 
 /* disable discord's laggy settings animation by Xyhlo [edit] */
