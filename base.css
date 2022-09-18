@@ -816,7 +816,6 @@
 }
 
 #app-mount .userProfileActivity-sal5no {
-    padding-right: 8px;
     padding-bottom: 8px;
     padding-top: 8px;
 }
@@ -2467,14 +2466,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* Scrollbar CSS */
-.theme-dark {
-    --scroll-color: hsl(0, 0%, 20%);
-}
-
-.theme-light {
-    --scroll-color: hsl(0, 0%, 80%);
-}
-
 .scroller-kQBbkU,
 .auto-2K3UW5,
 .peopleColumn-1wMU14,
@@ -2485,14 +2476,15 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .scroller-kQBbkU::-webkit-scrollbar,
 .auto-2K3UW5::-webkit-scrollbar,
 .peopleColumn-1wMU14::-webkit-scrollbar {
-    width: 13px;
+    width: 10px !important;
+}
+.scrollerBase-_bVAAt::-webkit-scrollbar {
+    width: 6px;
 }
 .scroller-kQBbkU::-webkit-scrollbar-track,
 .auto-2K3UW5::-webkit-scrollbar-track,
 .peopleColumn-1wMU14::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 0 1px var(--background-primary);
-    background-color: var(--scroll-color);
-    border-radius: 1.5px;
+    border-radius: 3.5px;
 }
 .scroller-kQBbkU::-webkit-scrollbar-thumb,
 .auto-2K3UW5::-webkit-scrollbar-thumb,
@@ -3716,7 +3708,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .peopleColumn-1wMU14 {
     padding-top: 40px;
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
     padding-bottom: 20px;
 }
 .peopleColumn-1wMU14 .scrollerBase-_bVAAt {
@@ -3727,7 +3719,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     overflow: hidden scroll;
 }
 
-.peopleColumn-1wMU14::-webkit-scrollbar {width:10px;height:16px}
 .peopleColumn-1wMU14::-webkit-scrollbar-corner{background-color:transparent}
 .peopleColumn-1wMU14::-webkit-scrollbar-thumb{background-color:var(--scrollbar-auto-thumb);min-height:40px}
 .peopleColumn-1wMU14::-webkit-scrollbar-thumb,.peopleColumn-1wMU14::-webkit-scrollbar-track{border:4px solid transparent;background-clip:padding-box}
