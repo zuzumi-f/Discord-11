@@ -237,7 +237,10 @@
 .closeButton-30b1gR svg {
     display: none;
 }
-
+/* Link Acount Icon */
+#app-mount [class*="connectedAccountOpenIcon-"] {
+    transform: scale(0.92);
+}
 #app-mount [points="13 20 11 20 11 8 5.5 13.5 4.08 12.08 12 4.16 19.92 12.08 18.5 13.5 13 8"] {
     clip-path: unset;
     stroke: unset;
@@ -2463,6 +2466,14 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 /* Forums */
 #app-mount .container-3wLKDe {
     background-color: var(--background-secondary);
+}
+
+.list-1MBHYC.scroller-3HgAcr {
+    padding-right: 8px !important;
+}
+
+.tagsContainer-2bBw1x .sort-37NWdz {
+    padding: 4px;
 }
 
 /* Scrollbar CSS */
