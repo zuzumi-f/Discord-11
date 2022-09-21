@@ -3111,13 +3111,27 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #account.menu-1QACrS .popoutBanner-3cqRD9 {
     display: block;
     position: fixed;
+    width: max-content;
     border-top-left-radius: var(--winrad3);
     border-top-right-radius: var(--winrad3);
     z-index: 1;
 }
+#account.menu-1QACrS .bannerSVGWrapper-qc0szY foreignObject {
+    mask: none;
+}
 
 #account.menu-1QACrS .avatarWrapperNormal-ahVUaC {
     z-index: 2;
+}
+
+.theme-dark #account.menu-1QACrS .avatarWrapper-eenWra {
+    background: var(--windark-box1);
+    border: 6px solid transparent;
+}
+
+.theme-light #account.menu-1QACrS .avatarWrapper-eenWra {
+    background: var(--winlight-box1);
+    border: 6px solid transparent;
 }
 
 #account.menu-1QACrS [aria-label="Click to copy username"] {
