@@ -602,6 +602,20 @@
 }
 
 /* Small Profile */
+#app-mount .userPopoutInner-PA9zkU .bannerSVGWrapper-qc0szY foreignObject {
+    mask: none;
+}
+
+.theme-dark .avatarWrapper-3y0KZ1 {
+    background: var(--windark-box1);
+    border: 6px solid transparent;
+}
+
+.theme-light .avatarWrapper-3y0KZ1 {
+    background: var(--winlight-box1);
+    border: 6px solid transparent;
+}
+
 .theme-dark .userPopout-2j1gM4 {
     border: var(--windarkborder1);
     background: var(--noise256), var(--windark-box1);
@@ -621,12 +635,12 @@
 
 .theme-dark .avatar-2Vndt_ {
     border-color: transparent;
-    background-color: rgba(58, 58, 58, 0.3);
+    background: var(--windark-box1);
 }
 
 .theme-light .avatar-2Vndt_ {
     border-color: transparent;
-    background-color: rgba(255, 255, 255, 0.5);
+    background: var(--winlight-box1);
 }
 
 .userPopout-2j1gM4 .avatarWrapper-eenWra {
@@ -758,15 +772,15 @@
     padding-right: 20px !important;
 }
 
-#app-mount [class="connectedAccounts-fvr7-7 userInfoSection-2u2hir"] {
+#app-mount [class="connectedAccounts-2R5M4w userInfoSection-2u2hir"] {
     display: grid;
 }
 
-#app-mount .connectedAccountsColumn-2LgTkZ+.connectedAccountsColumn-2LgTkZ {
+#app-mount .connectedAccountsColumn-1zdyyx+.connectedAccountsColumn-1zdyyx {
     margin-left: 0;
 }
 
-#app-mount .connectedAccountContainer-SlCC-S {
+#app-mount .connectedAccountContainer-3aLMHJ {
     width: auto;
     border: var(--windarkborder1);
 }
@@ -898,7 +912,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* Linked Account */
-#app-mount .connectedAccountsColumn-2LgTkZ .connectedAccountOpenIcon-QgWKH8 {
+#app-mount .connectedAccountsColumn-1zdyyx [class*="connectedAccountOpenIcon-"] {
     color: var(--focus-primary);
 }
 
