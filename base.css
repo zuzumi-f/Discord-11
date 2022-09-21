@@ -3171,6 +3171,12 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     display: none;
 }
 
+.avatarUploader-CHGwK7 {
+    background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-primary-color) 60px,var(--profile-gradient-secondary-color));
+    border: 6px solid transparent;
+    border-radius: 50%;
+}
+
 /* Gray Buttons */
 .theme-dark .colorGrey-2iAG-B,
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
