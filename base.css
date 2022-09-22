@@ -602,14 +602,14 @@
 }
 
 /* Small Profile */
-#app-mount .userPopoutInner-PA9zkU .bannerSVGWrapper-qc0szY foreignObject {
+#app-mount [class*="userPopout"] .bannerSVGWrapper-qc0szY > foreignObject {
     mask: none;
 }
-#app-mount .userPopoutInner-PA9zkU .bannerSVGWrapper-qc0szY > mask {
+#app-mount [class*="userPopout"] .bannerSVGWrapper-qc0szY > mask {
     display: none;
 }
 
-.userPopoutInner-PA9zkU .mask-1FEkla > circle {
+[class*="userPopout"] .mask-1FEkla > circle {
     display: none;
 }
 
@@ -623,13 +623,13 @@
     border: 6px solid transparent;
 }
 
-.theme-dark .userPopout-2j1gM4 {
+.theme-dark .userPopout-29jUdN {
     border: var(--windarkborder1);
     background: var(--noise256), var(--windark-box1);
     backdrop-filter: blur(var(--winblur1));
 }
 
-.theme-light .userPopout-2j1gM4 {
+.theme-light .userPopout-29jUdN {
     border: var(--winlightborder1);
     background: var(--noise256), var(--winlight-box1);
     backdrop-filter: blur(var(--winblur1));
