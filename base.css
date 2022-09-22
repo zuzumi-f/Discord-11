@@ -804,9 +804,10 @@
 }
 #app-mount .topSection-13QKHs .top-K_jibn .item-3XjbnG {
     margin: 0;
-    padding: 8px;
+    padding: 8px 8px 8px 14px;
     margin-bottom: 4px;
     border-bottom: 0;
+    font-size: 14px;
     border-radius: var(--winrad2);
 }
 .topSection-13QKHs .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
