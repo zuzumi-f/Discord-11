@@ -3122,9 +3122,17 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     width: max-content;
     max-height: 60px !important;
     min-height: 60px !important;
+    max-width: 300px !important;
+    min-width: 300px !important;
     border-top-left-radius: var(--winrad3);
     border-top-right-radius: var(--winrad3);
     z-index: 1;
+}
+#account.menu-1QACrS .bannerSVGWrapper-qc0szY .popoutBanner-3cqRD9 {
+    width: 300px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
 }
 #account.menu-1QACrS .bannerSVGWrapper-qc0szY foreignObject {
     mask: none;
