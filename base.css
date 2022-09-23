@@ -3117,6 +3117,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-top-right-radius: var(--winrad3);
 }
 
+#app-mount .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L {
+    margin-right: 0;
+}
+
 .panels-3wFtMD .nameTag-sc-gpq {
     max-width: calc(100% - 44px);
 }
