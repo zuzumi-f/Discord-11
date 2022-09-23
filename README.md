@@ -8,7 +8,7 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
 
 * [Requirements](#requirements)
 * [Preview](#preview)
-* [Message Style](#message-style)
+* [Message Style (Not working)](#message-style)
     * [Default Style](#left-message-bubble)
     * [Right (No Autor)](#default-message-bubble)
     * [Right (Autor)](#new-message-bubble)
@@ -21,12 +21,12 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
 ## Preview
 
 ### Dark Mode
-![image](https://user-images.githubusercontent.com/79029257/188325714-39efdaaf-4232-45d1-924e-e53fa8ba1f42.png)
-![image](https://user-images.githubusercontent.com/79029257/188325724-d8b0e1b6-5b5e-4e34-a978-c3a08bcae89a.png)
+![image](https://user-images.githubusercontent.com/79029257/192063455-1880f1c3-435a-4836-b952-23ac73637cc9.png)
+![image](https://user-images.githubusercontent.com/79029257/192063481-44bb679c-0db9-4a5f-9461-136f22c0ebec.png)
 
 ### Light Mode + Glass Effect
-![image](https://user-images.githubusercontent.com/79029257/188325744-ac33aca2-698d-4934-a065-0b5c534950c3.png)
-![image](https://user-images.githubusercontent.com/79029257/188325754-70d06837-33af-4780-a558-621c5e2e6694.png)
+![image](https://user-images.githubusercontent.com/79029257/192063611-3f965167-715a-4c5d-8d03-ae7789feb8ba.png)
+![image](https://user-images.githubusercontent.com/79029257/192063652-83518755-beb8-4527-a1ef-51b0ab3a2e7a.png)
 
 ## Message Style
 
