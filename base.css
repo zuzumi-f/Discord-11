@@ -609,7 +609,8 @@
     display: none;
 }
 
-[class*="userPopout"] .mask-1FEkla > circle {
+[class*="userPopout"] .mask-1FEkla > circle,
+[class*="userPopout"] .mask-1FEkla > rect[style="opacity: 0.45;"] {
     display: none;
 }
 
@@ -621,18 +622,6 @@
 .theme-light .avatarWrapper-3y0KZ1 {
     background: var(--winlight-box1);
     border: 6px solid transparent;
-}
-
-.theme-dark .userPopout-29jUdN {
-    border: var(--windarkborder1);
-    background: var(--noise256), var(--windark-box1);
-    backdrop-filter: blur(var(--winblur1));
-}
-
-.theme-light .userPopout-29jUdN {
-    border: var(--winlightborder1);
-    background: var(--noise256), var(--winlight-box1);
-    backdrop-filter: blur(var(--winblur1));
 }
 
 .bodyInnerWrapper-2bQs1k,
@@ -1114,7 +1103,18 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     color: var(--text-normal);
 }
 
-#app-mount .scroller-1bVxF5:not(#account.menu-1QACrS .scroller-1bVxF5) {
+#account.menu-1QACrS {
+    margin: 12px 12px 0 12px;
+    border-radius: var(--winrad3);
+}
+#account.menu-1QACrS > .scroller-1bVxF5 {
+    padding-right: 3px !important;
+}
+#account.menu-1QACrS #account-divider-1 {
+    display: none;
+}
+
+#app-mount .scroller-1bVxF5:not(#account.menu-1QACrS > .scroller-1bVxF5) {
     padding: 4px 6px !important;
 }
 #app-mount .scroller-1bVxF5 .separator-1So4YB {
@@ -3119,80 +3119,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .panels-3wFtMD .nameTag-sc-gpq {
     max-width: calc(100% - 44px);
-}
-
-/* New UserBar Update */
-[class="avatarWrapper-1B9FTW withTagAsButton-OsgQ9L"] {
-    margin: 0;
-    width: -webkit-fill-available;
-    padding-left: 4px;
-}
-[class="avatarWrapper-1B9FTW withTagAsButton-OsgQ9L"]:hover {
-    background-color: var(--background-modifier-hover);
-}
-
-#account.menu-1QACrS .profileBody-3QbfPe,
-#account.menu-1QACrS .profileBadges-2pItdR.container-1gYwHN,
-#account.menu-1QACrS [id="account-style-your-profile"] {
-    display: none;
-}
-#account.menu-1QACrS .UserDetails-dates-container.UserDetails-dates-icons {
-    display: none;
-}
-
-#account.menu-1QACrS .scroller-1bVxF5 {
-    padding-right: 3px !important;
-}
-
-#account.menu-1QACrS .headerTop-3GPUSF {
-    padding: 124px 16px 16px !important;
-}
-
-#account.menu-1QACrS .bannerSVGWrapper-qc0szY {
-    --the-height: 60px;
-    --the-width: 298px;
-    display: block;
-    position: fixed;
-    width: max-content;
-    max-height: var(--the-height) !important;
-    min-height: var(--the-height) !important;
-    max-width: var(--the-width) !important;
-    min-width: var(--the-width) !important;
-    border-top-left-radius: var(--winrad3);
-    border-top-right-radius: var(--winrad3);
-    z-index: 1;
-}
-#account.menu-1QACrS .bannerSVGWrapper-qc0szY .popoutBanner-3cqRD9 {
-    background-size: cover;
-    background-position: center;
-}
-#account.menu-1QACrS .bannerSVGWrapper-qc0szY foreignObject {
-    mask: none;
-}
-
-#account.menu-1QACrS .avatarWrapperNormal-ahVUaC {
-    top: 16px;
-    z-index: 2;
-}
-
-.theme-dark #account.menu-1QACrS .avatarWrapper-eenWra {
-    background: var(--windark-box1);
-    border: 6px solid transparent;
-}
-
-.theme-light #account.menu-1QACrS .avatarWrapper-eenWra {
-    background: var(--winlight-box1);
-    border: 6px solid transparent;
-}
-
-#account.menu-1QACrS [aria-label="Click to copy username"] {
-    border-radius: var(--winrad2);
-    background-color: var(--background-secondary-alt);
-}
-
-#account.menu-1QACrS .copyIcon-3HI-E4 {
-    visibility: visible !important;
-    padding-right: 4px;
 }
 
 /* Profiles Settings */
