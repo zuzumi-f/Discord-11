@@ -789,7 +789,17 @@
 
 #app-mount .connectedAccountContainer-3aLMHJ {
     width: auto;
-    border: var(--windarkborder1);
+    margin-top: 8px;
+}
+
+.theme-dark .connectedAccountContainer-3aLMHJ {
+    background: var(--windark-box1) var(--noise256);
+    border: var(--windarkborder3);
+}
+
+.theme-light .connectedAccountContainer-3aLMHJ {
+    background: var(--winlight-box1) var(--noise256);
+    border: var(--winlightborder3);
 }
 
 #app-mount .topSection-13QKHs .tabBar-2hXqzU {
@@ -919,6 +929,22 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--background-primary);
 }
 
+#app-mount .body-1Ukv50 .listRow-2nO1T6 {
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.theme-dark .body-1Ukv50 .listRow-2nO1T6 {
+    background: var(--windark-box1) var(--noise256);
+    border: var(--windarkborder3);
+}
+
+.theme-light .body-1Ukv50 .listRow-2nO1T6 {
+    background: var(--winlight-box1) var(--noise256);
+    border: var(--winlightborder3);
+}
+
 /* Linked Account */
 #app-mount .connectedAccountsColumn-1zdyyx [class*="connectedAccountOpenIcon-"] {
     color: var(--focus-primary);
@@ -1019,12 +1045,14 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--info-positive-background) !important;
     border: 1px solid var(--info-positive-foreground) !important;
     color: var(--info-positive-text) !important;
+    border-radius: var(--winrad2) !important;
 }
 
 .tooltipRed-2z14Wl {
     background-color: var(--info-danger-background) !important;
     border: 1px solid var(--info-danger-foreground) !important;
     color: var(--info-danger-text) !important;
+    border-radius: var(--winrad2) !important;
 }
 
 .bd-toast {
@@ -1086,7 +1114,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     color: var(--text-normal);
 }
 
-#app-mount .scroller-1bVxF5 {
+#app-mount .scroller-1bVxF5:not(#account.menu-1QACrS .scroller-1bVxF5) {
     padding: 4px 6px !important;
 }
 #app-mount .scroller-1bVxF5 .separator-1So4YB {
@@ -3112,25 +3140,29 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     display: none;
 }
 
+#account.menu-1QACrS .scroller-1bVxF5 {
+    padding-right: 3px !important;
+}
+
 #account.menu-1QACrS .headerTop-3GPUSF {
     padding: 124px 16px 16px !important;
 }
 
 #account.menu-1QACrS .bannerSVGWrapper-qc0szY {
+    --the-height: 60px;
+    --the-width: 298px;
     display: block;
     position: fixed;
     width: max-content;
-    max-height: 60px !important;
-    min-height: 60px !important;
-    max-width: 300px !important;
-    min-width: 300px !important;
+    max-height: var(--the-height) !important;
+    min-height: var(--the-height) !important;
+    max-width: var(--the-width) !important;
+    min-width: var(--the-width) !important;
     border-top-left-radius: var(--winrad3);
     border-top-right-radius: var(--winrad3);
     z-index: 1;
 }
 #account.menu-1QACrS .bannerSVGWrapper-qc0szY .popoutBanner-3cqRD9 {
-    width: 300px;
-    height: 60px;
     background-size: cover;
     background-position: center;
 }
@@ -3667,6 +3699,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 /* Spectators Call */
 #app-mount .memberListItem-3V-x8Q:not(.popoutDisabled-PP2QdB):hover {
     background-color: var(--background-modifier-hover);
+}
+
+.popoutWrapper-3ks_kl .scroller-3b1p7z {
+    padding-right: 16px !important;
 }
 
 .theme-dark .popoutWrapper-3ks_kl .scroller-3b1p7z {
