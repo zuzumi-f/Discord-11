@@ -1,4 +1,6 @@
-![0 2 Banner Centered Main](https://user-images.githubusercontent.com/79029257/192118961-92d320f4-73ed-41d9-bec5-778ef903ef1b.gif)
+<p align="center">
+        <img src="https://user-images.githubusercontent.com/79029257/192118961-92d320f4-73ed-41d9-bec5-778ef903ef1b.gif" /></a>
+</p>
 
 ## Discord 11
 
