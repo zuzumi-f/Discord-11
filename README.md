@@ -1,3 +1,5 @@
+![0 2 Banner Centered Main](https://tenor.com/es/ver/windows-windows11-microsoft-windows10-gif-21881281)
+
 ## Discord 11
 
 ### [Version 2.2.2!!!](https://github.com/zuzumi-f/Discord-11/releases)
@@ -98,5 +100,8 @@ Copy and paste the code at the bottom of the file
 .standardSidebarView-E9Pc3j {
     left: var(--server-display-as-channels-width) !important;
     width: calc(100% - var(--server-display-as-channels-width)) !important;
+}
+.styledGuildsAsChannels-DNHtg_ .wrapper-1_HaEi .wrapper-38slSD {
+    margin-right: 8px;
 }
 ```
