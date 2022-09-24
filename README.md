@@ -1,4 +1,4 @@
-![0 2 Banner Centered Main](https://tenor.com/es/ver/windows-windows11-microsoft-windows10-gif-21881281)
+![0 2 Banner Centered Main](https://user-images.githubusercontent.com/79029257/192118961-92d320f4-73ed-41d9-bec5-778ef903ef1b.gif)
 
 ## Discord 11
 
