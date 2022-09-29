@@ -707,7 +707,7 @@
 }
 
 #app-mount .connectedAccountContainer-3aLMHJ {
-    width: auto;
+    width: calc(100% - 134px);
     margin-top: 8px;
 }
 
