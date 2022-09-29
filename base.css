@@ -624,11 +624,6 @@
     border: 6px solid transparent;
 }
 
-.bodyInnerWrapper-2bQs1k,
-.footer-3naVBw {
-    background-color: transparent;
-}
-
 .theme-dark .avatar-2Vndt_ {
     border-color: transparent;
     background: var(--windark-box1);
@@ -639,65 +634,8 @@
     background: var(--winlight-box1);
 }
 
-.userPopout-2j1gM4 .avatarWrapper-eenWra {
-    left: calc(50% - 92px/2);
-}
-
-.profileBadges-2pItdR.container-1gYwHN {
-    max-width: 100%;
-    justify-content: center;
-    position: relative;
-    top: 6px;
-    right: 0;
-}
-.headerText-1-WmDq {
-    display: grid;
-    justify-items: center;
-    text-align: center;
-}
-.customStatus-3XAoF9 {
-    margin-top: 2px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    word-break: break-all;
-}
-
-.userPopout-2j1gM4 .body-2wLx-E::-webkit-scrollbar {
-    width: 6px;
-}
-.userPopout-2j1gM4 .body-2wLx-E {
-    padding: 0 !important;
-}
-.userPopout-2j1gM4 .body-2wLx-E > div {
-    padding-left: 16px;
-    padding-right: 10px;
-}
-
-.userPopout-2j1gM4 .note-Go5ZP2 {
-    padding-bottom: 8px;
-}
-
-.rolesList-3uZoaa {
-    margin-bottom: 0;
-    padding-bottom: 8px;
-}
-
-.applicationInstallButton-taCWKH {
-    margin-left: 16px;
-    margin-right: 16px;
-    width: calc(100% - 32px);
-}
-
 .section-3FmfOT {
     padding-right: 12px !important;
-}
-
-.activity-1gTu-L {
-    border-radius: var(--winrad3);
-    padding: 8px;
-    margin-bottom: 6px;
 }
 
 .activity-E0U09Y {
@@ -705,13 +643,11 @@
     padding: 8px;
 }
 
-.theme-dark .activity-1gTu-L,
 .theme-dark .activity-E0U09Y {
     background-color: var(--windark-acrylic);
     border: var(--windarkborder4);
 }
 
-.theme-light .activity-1gTu-L,
 .theme-light .activity-E0U09Y {
     background-color: var(--winlight-acrylic);
     border: var(--winlightborder2);
@@ -752,12 +688,6 @@
 }
 .theme-light .activity-E0U09Y [type="button"]:hover {
     background-color: var(--winlight-button-hover) !important;
-}
-
-/* No NOTE section */
-.bodyTitle-2Az3VQ:last-of-type,
-.note-Go5ZP2 {
-    display: none;
 }
 
 /* Big Profile */
@@ -2590,6 +2520,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .messagesPopout-eVzQcI {
     padding-right: 8px !important;
+}
+
+.container-8Futzw {
+    padding-right: 16px !important;
 }
 
 /* BearableInbox [by Disease] edited */
