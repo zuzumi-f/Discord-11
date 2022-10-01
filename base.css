@@ -995,6 +995,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .menu-1QACrS {
     border-radius: var(--winrad3);
     background-color: transparent;
+    background: transparent;
 }
 
 .theme-dark .menu-1QACrS {
@@ -1033,15 +1034,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     color: var(--text-normal);
 }
 
-#account.menu-1QACrS {
-    margin: 12px 12px 0 12px;
-    border-radius: var(--winrad3);
-}
 #account.menu-1QACrS > .scroller-1bVxF5 {
     padding-right: 3px !important;
-}
-#account.menu-1QACrS #account-divider-1 {
-    display: none;
 }
 
 #app-mount .scroller-1bVxF5:not(#account.menu-1QACrS > .scroller-1bVxF5) {
@@ -3058,6 +3052,34 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .panels-3wFtMD .nameTag-sc-gpq {
     max-width: calc(100% - 44px);
+}
+
+/* Normal Status Picker */
+.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
+.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
+.accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
+.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
+.accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
+    display: none;
+}
+.accountProfilePopoutWrapper-3GskID {
+    left: 0;
+}
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+    margin: 0;
+    border-radius: var(--winrad3);
+}
+.accountProfilePopoutWrapper-3GskID > div,
+.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 .submenu-1apzyU {
+    border-radius: var(--winrad3);
+    width: 220px;
+}
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda,
+.accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY,
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
+    background: transparent;
+    background-color: transparent;
 }
 
 /* Profiles Settings */
