@@ -3059,23 +3059,54 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
 .accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
 .accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
-.accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *, .section-3FmfOT:first-child, .section-3FmfOT:first-child *),
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda > .menu-1QACrS::before {
     display: none;
 }
+
 .accountProfilePopoutWrapper-3GskID {
     left: 0;
 }
+
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
     margin: 0;
     border-radius: var(--winrad3);
 }
+
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(var(--winblur1));
+    z-index: -1;
+    border-radius: var(--winrad3);
+}
+
+.theme-dark .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+    background: var(--noise256), var(--windark-box1);
+    border: var(--windarkborder4);
+}
+
+.theme-light .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+    background: var(--noise256), var(--winlight-box1);
+    border: var(--winlightborder1);
+}
+
+.accountProfilePopoutWrapper-3GskID .copiableField-1r8Z0C {
+    padding-left: 8px;
+}
+
 .accountProfilePopoutWrapper-3GskID > div,
 .accountProfilePopoutWrapper-3GskID .menu-KSaHL1 .submenu-1apzyU {
     border-radius: var(--winrad3);
     width: 220px;
 }
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda,
+
+.accountProfilePopoutWrapper-3GskID .menu-1QACrS {
+    border: none;
+}
+
 .accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY,
 .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
     background: transparent;
