@@ -37,6 +37,41 @@ div#app-mount.appMount-2yBXZl::before {
     background-size: cover;
 }
 
+.standardSidebarView-E9Pc3j::before {
+    content: '';
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    filter: blur(var(--blur-size));
+    background-image: var(--wallpaper-is);
+    opacity: var(--opacity-thing);
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.theme-dark .sidebarRegionScroller-FXiQOh {
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
+}
+
+.theme-light .sidebarRegionScroller-FXiQOh {
+    background-color: hsla(0, 0%, 96%, 0.3) !important;
+}
+
+.contentRegionShownSidebar-fHXkEg {
+    background: transparent  !important;
+}
+
+.theme-dark .contentRegion-3HkfJJ {
+    background-color: hsla(0, 0%, 6%, 0.6) !important;
+}
+
+.theme-light .contentRegion-3HkfJJ {
+    background-color: hsla(0, 0%, 96%, 0.3) !important;
+}
+
 .theme-dark .container-2cd8Mz,
 .theme-dark .applicationStore-2nk7Lo {
     background-color: hsla(0, 0%, 6%, 0.6) !important;
@@ -249,14 +284,14 @@ div#app-mount.appMount-2yBXZl::before {
 .theme-dark .activityPanel-9icbyU,
 .theme-dark .container-1zzFcN,
 .theme-dark .container-6sXIoE {
-    background-color: hsla(0, 0%, 0%, 0.28) !important;
+    background-color: hsla(0, 0%, 0%, 0.2) !important;
 }
 
 .theme-light .container-YkUktl,
 .theme-light .activityPanel-9icbyU,
 .theme-light .container-1zzFcN,
 .theme-light .container-6sXIoE {
-    background-color: hsla(0, 0%, 90%, 0.14) !important;
+    background-color: hsla(0, 0%, 90%, 0.1) !important;
 }
 
 .scroller-29cQFV {
