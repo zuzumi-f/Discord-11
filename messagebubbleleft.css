@@ -9,7 +9,7 @@
     padding: 8px;
     padding-bottom: 4px;
 }
-#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .messageContent-2t3eCI:not(:empty) {
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .messageContent-2t3eCI:not(:empty, :first-child) {
     padding-top: 0;
 }
 #app-mount .cozy-VmLDNB .contents-2MsGLg > .messageContent-2t3eCI:not(:empty) {
