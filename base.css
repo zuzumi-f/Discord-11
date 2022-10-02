@@ -4693,6 +4693,12 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: var(--winrad1) !important;
 }
 
+/* Blocked message */
+.blockedSystemMessage-3FmE9n {
+    padding: 8px;
+    opacity: 0.8;
+}
+
 /* Loader */
 #app-mount .wanderingCubesItem-3Us-UG {
     border-radius: 50%;
