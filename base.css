@@ -4023,10 +4023,11 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 #app-mount .sidebar-nqHbhN {
+    width: 260px;
     padding: 16px 8px;
 }
 #app-mount .contentColumnDefault-3eyv5o {
-    padding: 16px 40px 24px;
+    padding: 16px 20vh 24px;
 }
 
 /* Server Upload Image */
@@ -4194,13 +4195,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 .contentColumnWide-2CgNjO[id="profile-customization-tab"] {
-    padding-left: 70px;
-    padding-right: 70px;
-    border-top-left-radius: 8px;
-}
-.standardSidebarView-E9Pc3j .contentRegion-3HkfJJ,
-.standardSidebarView-E9Pc3j .contentRegionHiddenSidebar-GvtLIC {
-    border-top-left-radius: 8px;
+    padding-left: 20vh;
+    padding-right: 20vh;
 }
 
 /* Privacy & Safety */
