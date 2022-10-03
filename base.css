@@ -2407,14 +2407,9 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background: none;
 }
 
-.containerDefault-YUSmu3 .content-1gYQeQ {
-    height: 34px;
-}
-
 [class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"],
 [class="container-1-ERn5 clickable-vvKY2q selected-1GtAC5 hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"] {
-    height: 137px;
-    margin-bottom: 49px;
+    height: 90px;
 }
 
 #app-mount .container-2giAcK {
@@ -2423,6 +2418,11 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     width: auto;
     border: var(--windarkborder1);
     margin-right: 8px;
+    margin-bottom: 0;
+}
+
+.hasBanner-2IrYih ~ .scroller-1ox3I2 .container-2giAcK {
+    margin-top: 26px;
 }
 
 .theme-dark .container-2giAcK {
@@ -2972,11 +2972,9 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--background-secondary);
 }
 .container-YkUktl {
-    margin: 4px 4px 0 4px;
-    padding-top: 4px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom: none !important;
+    margin: 4px;
+    padding: 3px 6px;
+    border-radius: var(--winrad3);
     height: 84px;
     display: flex;
     flex-wrap: wrap;
@@ -3020,7 +3018,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .container-1zzFcN,
 .container-6sXIoE {
     margin: 4px 4px 0 4px;
-    border-radius: 5px;
+    border-radius: var(--winrad3);
     border-bottom: none;
 }
 
@@ -3048,6 +3046,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .avatarWrapper-1B9FTW.withTagAsButton-OsgQ9L {
     margin-right: 0;
     margin-left: 0;
+    padding-left: 4px;
 }
 
 .panels-3wFtMD .nameTag-sc-gpq {
@@ -3978,6 +3977,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG {
     display: flex;
     align-items: center;
+    height: 36px;
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG svg,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .base-3IDx3L {
@@ -3985,6 +3985,23 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* Settings */
+.platform-win .bg-1QIAus {
+    top: -34px;
+}
+.platform-win .layer-86YKbF {
+    top: -34px;
+    padding-top: 34px;
+    overflow: visible;
+}
+.platform-win .standardSidebarView-E9Pc3j {
+    top: 34px;
+}
+.layers-OrUESM > [class="layer-86YKbF"] {
+    position: fixed;
+    padding-top: 34px;
+    top: 0;
+}
+
 #app-mount .contentColumn-1C7as6,
 #app-mount .customColumn-2n-oKU,
 #app-mount .repoHeader-2KfNvH > * {
@@ -4016,15 +4033,17 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--blue-button-bg);
 }
 
+.layers-OrUESM > [class="layer-86YKbF"],
 #app-mount .contentRegionScroller-2_GT_N,
+#app-mount .sidebarRegionScroller-FXiQOh,
 #app-mount .repoHeader-2KfNvH,
 #app-mount .sidebarScrollable-2mW9Ls .scroller-3_YDR2 {
     background: var(--background-secondary-alt);
 }
 
 #app-mount .sidebar-nqHbhN {
-    width: 260px;
-    padding: 16px 8px;
+    width: 312px;
+    padding: 16px;
 }
 #app-mount .contentColumnDefault-3eyv5o {
     padding: 16px 20vh 24px;
@@ -4584,6 +4603,12 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--background-secondary-alt);
 }
 
+#app-mount .customScroller-m1-jZn > div {
+    max-width: unset;
+    min-width: unset;
+    margin: 0 20vh;
+}
+
 /* Role Image Upload */
 .theme-dark .rolePreviewArea-3eeTql .lookOutlined-3yKVGo.colorWhite-1H92hK {
     background-color: var(--brand-experiment) !important;
@@ -4704,99 +4729,21 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: 50%;
 }
 
-/* Esc */
-#app-mount .closeButton-PCZcma path {
-    d: path("M 20 10.9378 H 14.2199 H 8.06628 L 10.502 8.50202 L 9 7 L 4 12 L 9 17 L 10.502 15.498 L 8.06628 13.0622 H 20 V 10.9378 Z");
-    transform: scale(0.6666);
-    transform-origin: center;
+/* Go Back */
+#app-mount .toolsContainer-25FL6V {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
-#app-mount .closeButton-PCZcma svg {
-    width: 28px;
-    height: 28px;
-    margin-left: 80px;
-    margin-top: 4px;
-    border-radius: 5px;
-    -webkit-app-region: no-drag;
+#app-mount .toolsContainer-25FL6V .container-O54IuJ {
+    flex-direction: row-reverse;
 }
-#app-mount .closeButton-PCZcma svg:hover {
-    background-color: var(--background-modifier-hover);
-}
-
-#app-mount .container-O54IuJ .keybind-13vtq8 {
-    display: none;
-}
-
-/* Added code from Zseni */
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V,
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma {
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	background: transparent !important;
-	border: none !important;
-	border-radius: 0 !important;
-	width: 100% !important;
-	max-width: unset !important;
-	height: 100% !important;
-	max-height: unset !important;
-	margin: 0 !important;
-	padding: 0 !important;
-}
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V,
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma svg {
-	position: absolute !important;
-	top: 0 !important;
-	left: 0 !important;
-}
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V {
-	position: fixed !important;
-	top: 0 !important;
-	z-index: -1 !important;
+#app-mount .keybind-13vtq8 {
+    margin-top: 0;
+    margin-right: 4px;
 }
 
 /* Server Boost fix */
-#app-mount .closeContent-1uXQiy,
-#app-mount .closeWrapper-1aVqeP,
-#app-mount .container-O54IuJ.closeIcon-11-ihs,
-#app-mount .container-O54IuJ.closeIcon-11-ihs .closeButton-PCZcma {
-    position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	background: transparent !important;
-	border: none !important;
-	border-radius: 0 !important;
-	width: 100% !important;
-	max-width: unset !important;
-	height: 100% !important;
-	max-height: unset !important;
-	margin: 0 !important;
-	padding: 0 !important;
-    z-index: -1 !important;
-}
-#app-mount .container-O54IuJ.closeIcon-11-ihs .keybind-13vtq8 {
-    display: block !important;
-    position: fixed !important;
-    left: 82px !important;
-    top: 4px !important;
-    color: var(--text-normal) !important;
-    background-color: var(--background-modifier-accent) !important;
-    border-radius: var(--winrad1) !important;
-    width: 28px !important;
-    height: 28px !important;
-    margin-top: 0 !important;
-    line-height: 28px !important;
-}
-#app-mount .closeButton-PCZcma {
-    border-color: transparent;
-}
 
 /* Make PermissionViewers text more consistent with Discords [by christian] */
 .member-perms-title {
@@ -4806,39 +4753,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     margin-bottom: 8px;
     font-size: 12px;
     font-family: var(--font-display);
-}
-
-/* disable discord's laggy settings animation by Xyhlo [edit] */
-.layer-86YKbF {transform: none !important;opacity: 1 !important;}
-.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
-.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {pointer-events: auto !important;will-change: unset;}
-.animating-1rIrGV.stop-animations {z-index: 100 !important;}
-.platform-win .layer-86YKbF {top: unset;padding-top: unset;display: contents;}
-
-.platform-win .standardSidebarView-E9Pc3j {
-    top: 0;
-    left: 72px;
-    width: calc(100% - 72px);
-    border-top-left-radius: var(--winrad4);
-    border-left: var(--windarkborder1);
-    border-top: var(--windarkborder1);
-}
-.sidebarRegionScroller-FXiQOh {
-    border-top-left-radius: 8px;
-}
-
-/* Server Boost */
-#app-mount .perksModal-CLcR1c {
-    height: calc(100% - 34px);
-    width: calc(100% - 72px);
-    top: 34px;
-    left: 72px;
-    border-top-left-radius: 8px;
-    border-left: var(--windarkborder1);
-    border-top: var(--windarkborder1);
-}
-.perksModal-CLcR1c::-webkit-scrollbar {
-    width: 10px;
 }
 
 /* Status colors */
