@@ -924,6 +924,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--windark-acrylic);
     border-radius: var(--winrad1);
     border: var(--windarkborder1);
+    color: var(--text-normal);
 }
 
 .theme-light .communityInfoPill-2Mll66,
@@ -931,6 +932,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--winlight-acrylic);
     border-radius: var(--winrad1);
     border: var(--windarkborder1);
+    color: var(--text-normal);
 }
 
 /* Tooltips */
@@ -2409,7 +2411,13 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 [class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"],
 [class="container-1-ERn5 clickable-vvKY2q selected-1GtAC5 hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"] {
-    height: 90px;
+    height: 100px;
+    display: table;
+}
+
+#app-mount .bannerVisible-Vkyg1I .headerContent-2SNbie {
+    color: var(--text-normal);
+    filter: none;
 }
 
 #app-mount .container-2giAcK {
@@ -2419,10 +2427,6 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border: var(--windarkborder1);
     margin-right: 8px;
     margin-bottom: 0;
-}
-
-.hasBanner-2IrYih ~ .scroller-1ox3I2 .container-2giAcK {
-    margin-top: 26px;
 }
 
 .theme-dark .container-2giAcK {
