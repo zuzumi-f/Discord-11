@@ -63,6 +63,10 @@
     display: none;
 }
 
+#app-mount .contents-2MsGLg > .messageContent-2t3eCI {
+    overflow: visible;
+}
+
 #app-mount .contents-2MsGLg pre {
     max-width: 100%;
 }
