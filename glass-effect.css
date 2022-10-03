@@ -46,7 +46,7 @@ div#app-mount.appMount-2yBXZl::before {
     top: 0;
     filter: blur(var(--blur-size));
     background-image: var(--wallpaper-is);
-    opacity: var(--opacity-thing);
+    opacity: calc(var(--opacity-thing)*-2);
     background-position: center;
     background-size: cover;
     pointer-events: none;
