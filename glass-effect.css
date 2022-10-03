@@ -52,24 +52,19 @@ div#app-mount.appMount-2yBXZl::before {
     pointer-events: none;
 }
 
-.theme-dark .sidebarRegionScroller-FXiQOh {
+.theme-dark .layers-OrUESM > [class="layer-86YKbF"] {
     background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
 
-.theme-light .sidebarRegionScroller-FXiQOh {
-    background-color: hsla(0, 0%, 96%, 0.3) !important;
+.theme-light .layers-OrUESM > [class="layer-86YKbF"] {
+    background-color: hsla(0, 0%, 96%, 0.4) !important;
 }
 
+.standardSidebarView-E9Pc3j,
+.sidebarRegionScroller-FXiQOh,
+.contentRegion-3HkfJJ,
 .contentRegionShownSidebar-fHXkEg {
     background: transparent  !important;
-}
-
-.theme-dark .contentRegion-3HkfJJ {
-    background-color: hsla(0, 0%, 6%, 0.6) !important;
-}
-
-.theme-light .contentRegion-3HkfJJ {
-    background-color: hsla(0, 0%, 96%, 0.3) !important;
 }
 
 .theme-dark .container-2cd8Mz,
