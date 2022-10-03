@@ -16,6 +16,10 @@
     margin-left: auto;
 }
 
+#app-mount .contents-2MsGLg > .messageContent-2t3eCI {
+    overflow: visible;
+}
+
 #app-mount .replying-eZ7p5z[data-is-author-self="true"]:before,
 #app-mount .mentioned-Tre-dv[data-is-author-self="true"]:before {
     left: unset;
