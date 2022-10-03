@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+#app-mount .contents-2MsGLg > .messageContent-2t3eCI {
+    overflow: visible;
+}
+
 #app-mount .cozy-VmLDNB.wrapper-30-Nkg .contents-2MsGLg .header-2jRmjb {
     padding: 8px;
     padding-bottom: 4px;
