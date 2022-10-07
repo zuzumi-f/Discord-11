@@ -706,8 +706,11 @@
     margin-left: 0;
 }
 
+#app-mount .connectedAccountsColumn-1zdyyx {
+    width: -webkit-fill-available;
+}
+
 #app-mount .connectedAccountContainer-3aLMHJ {
-    width: 282px;
     margin-top: 8px;
 }
 
@@ -866,6 +869,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 /* Linked Account */
 #app-mount .connectedAccountsColumn-1zdyyx [class*="connectedAccountOpenIcon-"] {
+    width: fit-content;
+    height: fit-content;
     color: var(--focus-primary);
 }
 
@@ -4743,6 +4748,52 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 .theme-light .bd-button:hover:not(.bd-controls .bd-button) {
     background-color: var(--blue-button-hover) !important;
+}
+
+.bd-controls > .bd-addon-button:not(.bd-controls > .bd-addon-button:first-of-type) {
+    margin-left: 3px;
+}
+
+.theme-dark .bd-controls > .bd-addon-button {
+    background-color: var(--windark-button-bg) !important;
+    color: #fff !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-dark .bd-controls > .bd-addon-button:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light .bd-controls > .bd-addon-button {
+    background-color: var(--winlight-button-bg) !important;
+    color: #000 !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-light .bd-controls > .bd-addon-button:hover {
+    background-color: var(--winlight-button-hover) !important;
+}
+
+[d='M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z'] {
+    d: path('M12.013 2.25c.734.008 1.465.093 2.181.253a.75.75 0 0 1 .582.649l.17 1.527a1.384 1.384 0 0 0 1.928 1.116l1.4-.615a.75.75 0 0 1 .85.174 9.793 9.793 0 0 1 2.204 3.792.75.75 0 0 1-.271.825l-1.242.916a1.38 1.38 0 0 0 .001 2.226l1.243.915a.75.75 0 0 1 .271.826 9.798 9.798 0 0 1-2.203 3.792.75.75 0 0 1-.849.175l-1.406-.617a1.38 1.38 0 0 0-1.927 1.114l-.169 1.526a.75.75 0 0 1-.572.647 9.518 9.518 0 0 1-4.405 0 .75.75 0 0 1-.572-.647l-.17-1.524a1.382 1.382 0 0 0-1.924-1.11l-1.407.616a.75.75 0 0 1-.849-.175 9.798 9.798 0 0 1-2.203-3.796.75.75 0 0 1 .271-.826l1.244-.916a1.38 1.38 0 0 0 0-2.226l-1.243-.914a.75.75 0 0 1-.272-.826 9.793 9.793 0 0 1 2.205-3.792.75.75 0 0 1 .849-.174l1.4.615a1.387 1.387 0 0 0 1.93-1.118l.17-1.526a.75.75 0 0 1 .583-.65c.718-.159 1.45-.243 2.202-.252Zm0 1.5a9.135 9.135 0 0 0-1.355.117l-.109.977A2.886 2.886 0 0 1 6.525 7.17l-.898-.394a8.293 8.293 0 0 0-1.348 2.317l.798.587a2.881 2.881 0 0 1 0 4.643l-.798.588c.32.842.775 1.626 1.347 2.322l.906-.397a2.882 2.882 0 0 1 4.017 2.318l.108.984c.89.15 1.799.15 2.689 0l.108-.984a2.88 2.88 0 0 1 4.02-2.322l.904.396a8.299 8.299 0 0 0 1.347-2.318l-.798-.588a2.88 2.88 0 0 1 0-4.643l.796-.587a8.293 8.293 0 0 0-1.348-2.317l-.896.393a2.884 2.884 0 0 1-4.023-2.324l-.11-.976a8.99 8.99 0 0 0-1.333-.117ZM12 8.25a3.75 3.75 0 1 1 0 7.5 3.75 3.75 0 0 1 0-7.5Zm0 1.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z');
+    transform: translate(-2px, -2px) scale(1);
+}
+
+[d='M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z'] {
+    d: path('M13.416 2.584a1.992 1.992 0 0 1 0 2.817L6.058 12.76a2.48 2.48 0 0 1-1.156.655l-2.283.57a.498.498 0 0 1-.604-.603l.57-2.283a2.49 2.49 0 0 1 .656-1.156l7.358-7.358a1.992 1.992 0 0 1 2.817 0ZM9.894 4.697l-5.949 5.949a1.495 1.495 0 0 0-.393.694l-.369 1.477 1.477-.37c.263-.065.503-.2.694-.392l5.949-5.95-1.409-1.408Zm1.41-1.41-.705.705 1.408 1.409.705-.704a.996.996 0 0 0-1.409-1.41Z');
+    transform: translate(-4px, -4px) scale(2);
+}
+
+[d='M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z'] {
+    d: path('M6.5 7v4a.5.5 0 0 0 1 0V7a.5.5 0 0 0-1 0ZM9 6.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5ZM10 4h3a.5.5 0 0 1 0 1h-.553l-.752 6.776A2.5 2.5 0 0 1 9.21 14H6.79a2.5 2.5 0 0 1-2.485-2.224L3.552 5H3a.5.5 0 0 1 0-1h3a2 2 0 1 1 4 0ZM8 3a1 1 0 0 0-1 1h2a1 1 0 0 0-1-1ZM4.559 5l.74 6.666A1.5 1.5 0 0 0 6.79 13h2.42a1.5 1.5 0 0 0 1.49-1.334L11.442 5H4.56Z');
+    transform: translate(-4px, -4px) scale(2);
+}
+.bd-controls > .bd-button.bd-addon-button.bd-button-danger svg {
+    fill: var(--info-danger-foreground);
 }
 
 /* RepoCards */
