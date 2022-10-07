@@ -852,9 +852,34 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 #app-mount .body-1Ukv50 .listRow-2nO1T6 {
-    margin-right: 8px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin: 8px 20px;
+    padding: 8px 16px;
+    height: 30px;
+}
+
+#app-mount .body-1Ukv50 .listRow-2nO1T6 .icon-1zKOXL {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.body-1Ukv50 .listRow-2nO1T6 .wrapper-1VLyxH,
+.body-1Ukv50 .listRow-2nO1T6 .wrapper-1VLyxH svg {
+    width: 30px !important;
+    height: 30px !important;
+}
+.body-1Ukv50 .listRow-2nO1T6 .wrapper-1VLyxH svg foreignObject {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    mask: none;
+}
+.body-1Ukv50 .listRow-2nO1T6 .wrapper-1VLyxH svg rect {
+    display: none;
+}
+
+.body-1Ukv50 .listRow-2nO1T6 .listRowContent-PEmSWj,
+.body-1Ukv50 .listRow-2nO1T6 .listName-PwbeHL {
+    font-weight: 600;
 }
 
 .theme-dark .body-1Ukv50 .listRow-2nO1T6 {
