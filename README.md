@@ -21,12 +21,12 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
 ## Preview
 
 ### Dark Mode
-![image](https://user-images.githubusercontent.com/79029257/192063455-1880f1c3-435a-4836-b952-23ac73637cc9.png)
-![image](https://user-images.githubusercontent.com/79029257/192063481-44bb679c-0db9-4a5f-9461-136f22c0ebec.png)
+![image](https://user-images.githubusercontent.com/79029257/194544225-f1cd4f8b-20fa-447e-a32f-3baddd741335.png)
+![image](https://user-images.githubusercontent.com/79029257/194544283-ca71f051-c371-431c-bf76-6eab7c65e0b3.png)
 
 ### Light Mode + Glass Effect
-![image](https://user-images.githubusercontent.com/79029257/192063611-3f965167-715a-4c5d-8d03-ae7789feb8ba.png)
-![image](https://user-images.githubusercontent.com/79029257/192063652-83518755-beb8-4527-a1ef-51b0ab3a2e7a.png)
+![image](https://user-images.githubusercontent.com/79029257/194544490-36ae2c96-7bd1-4e0e-8692-4b672fc7f351.png)
+![image](https://user-images.githubusercontent.com/79029257/194544575-55d28816-d855-4b4f-8087-5a75dc7b3e7b.png)
 
 ## Message Style
 
