@@ -853,8 +853,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 #app-mount .body-1Ukv50 .listRow-2nO1T6 {
     margin: 8px 20px;
-    padding: 8px 16px;
-    height: 30px;
+    padding: 12px 8px;
+    height: 24px;
 }
 
 #app-mount .body-1Ukv50 .listRow-2nO1T6 .icon-1zKOXL {
@@ -2126,14 +2126,12 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 .theme-dark .container-2McqkF {
-    background: var(--noise256);
-    background-color: var(--windark-box1);
+    background: var(--noise256), var(--windark-box1);
     border: var(--windarkborder4);
 }
 
 .theme-light .container-2McqkF {
-    background: var(--noise256);
-    background-color: var(--winlight-box1);
+    background: var(--noise256), var(--winlight-box1);
     border: var(--winlightborder2);
 }
 
@@ -4013,8 +4011,9 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     align-items: center;
     height: 36px;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG svg,
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .base-3IDx3L {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG > svg,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG > div > .base-3IDx3L,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG > div > .premiumTrialBadge-pEqntF {
     margin-left: 4px;
 }
 
@@ -4490,6 +4489,16 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* Activity Status */
+.theme-dark .notDetected-M3Ghh2 {
+    background-color: var(--windark-acrylic);
+    border: var(--windarkborder2);
+}
+
+.theme-light .notDetected-M3Ghh2 {
+    background-color: var(--winlight-acrylic);
+    border: var(--winlightborder3);
+}
+
 #app-mount .game-2f2vPC {
     border-radius: var(--winrad1);
     padding: 16px;
@@ -4503,12 +4512,12 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 .theme-dark .game-2f2vPC {
-    background-color: var(--windark3);
+    background-color: var(--windark-acrylic);
     border: var(--windarkborder3);
 }
 
 .theme-light .game-2f2vPC {
-    background-color: var(--winlight-button-bg);
+    background-color: var(--winlight-acrylic);
     border: var(--winlightborder2);
 }
 
@@ -4585,6 +4594,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--winlight-mica);
     border: var(--winlightborder2);
     border-radius: var(--winrad1);
+}
+
+.bd-addon-list .bd-addon-header {
+    background: var(--background-tertiary);
 }
 
 /* BD Title fix */
