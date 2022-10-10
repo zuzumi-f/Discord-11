@@ -1832,11 +1832,26 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* See Reactions Popout */
-.theme-dark .scroller-2GkvCq {
+#app-mount .scroller-2GkvCq {
     background: var(--background-secondary);
 }
-.theme-dark .reactors-1VXca7 {
+#app-mount .reactors-1VXca7 {
     background-color: var(--background-primary);
+}
+
+.scroller-2GkvCq {
+    padding-right: 8px !important;
+}
+
+#app-mount .reactionSelected-1aMb2K {
+    background-color: var(--background-modifier-selected);
+}
+#app-mount .reactionDefault-1Sjj1f:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+#app-mount .reactors-1VXca7 .reactor-1J25Qp {
+    margin-right: 10px;
 }
 
 /* Add Roles Setting */
@@ -3128,8 +3143,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     padding-left: 8px;
 }
 
-.accountProfilePopoutWrapper-3GskID > div,
-.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 .submenu-1apzyU {
+.accountProfilePopoutWrapper-3GskID > div {
     border-radius: var(--winrad3);
     width: 220px;
 }
@@ -4012,6 +4026,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     height: 36px;
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG > svg,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG > div > svg,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG > div > .base-3IDx3L,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG > div > .premiumTrialBadge-pEqntF {
     margin-left: 4px;
@@ -4251,7 +4266,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 .theme-dark .itemFilled-1cPbtg {
     border: var(--windarkborder3);
-    border-radius: var(--winrad1);
+    border-radius: var(--winrad2);
 }
 
 .theme-light .itemFilled-1cPbtg:not(.itemFilled-1cPbtg[aria-checked=true]):not(:hover) {
@@ -4259,7 +4274,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 .theme-light .itemFilled-1cPbtg {
     border: var(--winlightborder2);
-    border-radius: var(--winrad1);
+    border-radius: var(--winrad2);
 }
 
 /* Authorized Apps */
@@ -4565,7 +4580,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 /* On Off */
 #app-mount .container-1zDvAE {
-    border-radius: var(--winrad1);
+    border-radius: var(--winrad2);
     padding: 16px;
     margin-bottom: 8px;
     margin-top: 2px;
@@ -4839,16 +4854,74 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     fill: var(--info-danger-foreground);
 }
 
+/* BD Settings */
+.bd-settings-group.collapsible {
+    margin-bottom: 8px;
+    border-radius: var(--winrad2);
+}
+
+.theme-dark .bd-settings-group.collapsible {
+    background-color: var(--windark-mica);
+    border: var(--windarkborder3);
+}
+
+.theme-light .bd-settings-group.collapsible {
+    background-color: var(--winlight-mica);
+    border: var(--winlightborder2);
+}
+
+.bd-settings-group.collapsible .bd-settings-title {
+    padding: 16px;
+    margin-bottom: 0;
+}
+.bd-settings-group.collapsible.expanded .bd-settings-title {
+    border-bottom: thin solid var(--background-modifier-accent);
+    margin-bottom: 10px;
+}
+.bd-settings-group ~ .bd-settings-group .bd-settings-title {
+    margin-top: 0;
+}
+
+#app-mount .bd-settings-group.collapsed .bd-settings-title::after {
+    transition: transform .3s ease;
+    transform: rotate(270deg);
+}
+.bd-settings-group.collapsible .bd-settings-title::after {
+    transform: rotate(360deg);
+}
+
+.bd-settings-group.collapsible .bd-setting-item > *:not(.bd-setting-divider) {
+    padding: 0 16px;
+}
+
+.bd-settings-group.collapsible .bd-settings-title::before,
+.bd-settings-group.collapsible .bd-setting-item:last-of-type .bd-setting-divider {
+    display: none;
+}
+
+#app-mount .bd-filled-checkmark {
+    background: var(--info-positive-foreground);
+    border-radius: var(--winrad4);
+}
+#app-mount .bd-empty-updates svg {
+    fill: var(--info-positive-foreground);
+}
+
+.bd-settings-group.collapsible .bd-empty-updates {
+    margin-bottom: 24px;
+}
+
 /* RepoCards */
 .theme-dark .card-x5zW6z {
-    background-color: var(--windark3) !important;
+    background-color: var(--windark-acrylic) !important;
     border: var(--windarkborder3) !important;
-    border-radius: var(--winrad1) !important;
+    border-radius: var(--winrad2) !important;
 }
+
 .theme-light .card-x5zW6z {
-    background-color: var(--winlight-button-bg) !important;
+    background-color: var(--winlight-acrylic) !important;
     border: var(--winlightborder2) !important;
-    border-radius: var(--winrad1) !important;
+    border-radius: var(--winrad2) !important;
 }
 
 /* Blocked message */
