@@ -3096,8 +3096,9 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     padding-left: 4px;
 }
 
-.panels-3wFtMD .nameTag-sc-gpq {
-    max-width: calc(100% - 44px);
+.panels-3wFtMD .avatarWrapper-1B9FTW {
+    max-width: calc(100% - 4px);
+    min-width: calc(100% - 4px);
 }
 
 /* Normal Status Picker */
