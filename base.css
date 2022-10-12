@@ -2366,6 +2366,11 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     padding-bottom: 40px;
 }
 
+#app-mount .member-48YF_l,
+#app-mount .members-3WRCEx {
+    background-color: transparent;
+}
+
 #app-mount .member-2gU6Ar {
     margin-right: 8px;
     max-width: 254px;
