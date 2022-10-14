@@ -2864,8 +2864,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     top: -78px;
 }
 #app-mount .mediaBarInteractionVolume-zGrOSh {
-    border-radius: var(--winrad2);
-    padding: 8px 10px;
+    border-radius: var(--winrad1);
+    padding: 12px;
     backdrop-filter: blur(var(--winblur1));
     box-shadow: var(--elevation-low);
 }
@@ -5230,4 +5230,34 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 .theme-light [class="listItem-3SmSlK frame-oXWS21"] div.childWrapper-1j_1ub.button-Jt-tIg:hover {
     background-color: var(--winlight-button-hover) !important;
+}
+
+/* SpotifyControls */
+[class="popout-xwjvsX themedPopout-1TrfdI popoutArrow-g8f4Ss popoutArrowTop-lK9F3a"] {
+    border-radius: var(--winrad1);
+    padding: 10px;
+}
+
+[class="popout-xwjvsX themedPopout-1TrfdI popoutArrow-g8f4Ss popoutArrowTop-lK9F3a"]::before {
+    display: none;
+}
+
+.theme-dark [class="popout-xwjvsX themedPopout-1TrfdI popoutArrow-g8f4Ss popoutArrowTop-lK9F3a"] {
+    background: var(--noise256), var(--windark-box1);
+    border: var(--windarkborder3);
+}
+
+.theme-light [class="popout-xwjvsX themedPopout-1TrfdI popoutArrow-g8f4Ss popoutArrowTop-lK9F3a"] {
+    background: var(--noise256), var(--winlight-box1);
+    border: var(--winlightborder3);
+}
+
+[class="popout-xwjvsX themedPopout-1TrfdI popoutArrow-g8f4Ss popoutArrowTop-lK9F3a"] .grabber-2GQyvM {
+    margin-top: -13px;
+}
+
+[class="popout-xwjvsX themedPopout-1TrfdI popoutArrow-g8f4Ss popoutArrowTop-lK9F3a"] .grabber-2GQyvM::before {
+    top: 5px !important;
+    left: 5px !important;
+    background-color: var(--SC-spotify-green) !important;
 }
