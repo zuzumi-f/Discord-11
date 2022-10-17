@@ -652,6 +652,11 @@
     border: var(--windarkborder2);
 }
 
+.theme-light .contentWarningPopout-WKdbDG {
+    background: var(--noise256), var(--winlight-box1);
+    border: var(--winlightborder1);
+}
+
 #app-mount .footer-2aeMle {
     background-color: var(--background-secondary);
     border-radius: 0 0 var(--winrad3) var(--winrad3);
