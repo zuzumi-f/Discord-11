@@ -531,12 +531,17 @@
 /* Invite Popout */
 #app-mount .inviteRow-3vmB7i {
     margin-right: 6px;
+    padding-right: 8px;
 }
 #app-mount .separator-2lLxgC {
     box-shadow: none;
 }
 #app-mount .contentWrapper-3oy4Xo {
     background: none;
+}
+
+#app-mount .inviteRow-3vmB7i:hover {
+    background-color: var(--background-modifier-hover);
 }
 
 .theme-dark .separator-2lLxgC {
@@ -557,6 +562,41 @@
     color: var(--text-link);
     border-color: var(--text-link);
     border-radius: var(--winrad2);
+}
+
+.resultWrapper-3ra6t7 {
+    margin-right: 8px;
+}
+
+.resultWrapper-3ra6t7 .result-2NVfgj {
+    overflow: visible;
+}
+
+.resultWrapper-3ra6t7 .resultAvatar-2eow6c {
+    margin-bottom: 2px;
+}
+
+.resultWrapperSelected-3trExS {
+    background-color: var(--background-modifier-selected);
+}
+
+/* Invite Preview */
+.theme-dark .invite-3uuHYQ {
+    background-color: var(--windark-acrylic);
+    border: var(--windarkborder1);
+}
+
+.theme-light .invite-3uuHYQ {
+    background-color: var(--winlight-acrylic);
+    border: var(--winlightborder3);
+}
+
+#app-mount .invite-3uuHYQ .horizontal-112GEH > .flex-2S1XBF {
+    margin-right: 46px;
+}
+
+#app-mount .partyMembers-3cd-7x {
+    overflow: visible;
 }
 
 /* Invite Popout Text Box */
@@ -599,6 +639,22 @@
 #app-mount .searchBar-20o6Cf {
     -webkit-transition: var(--wintransition);
     transition: var(--wintransition);
+}
+
+/* Everyone warning */
+#app-mount .contentWarningPopout-WKdbDG {
+    border-radius: var(--winrad3);
+    backdrop-filter: blur(var(--winblur1));
+}
+
+.theme-dark .contentWarningPopout-WKdbDG {
+    background: var(--noise256), var(--windark-box1);
+    border: var(--windarkborder2);
+}
+
+#app-mount .footer-2aeMle {
+    background-color: var(--background-secondary);
+    border-radius: 0 0 var(--winrad3) var(--winrad3);
 }
 
 /* Small Profile */
