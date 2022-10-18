@@ -249,7 +249,7 @@
 }
 
 /* Cursor */
-#app-mount *:not(.searchBar-2aylmZ *, .search-39IXmY *, .addFriendInputWrapper-kkoSV9 *, .searchBar-14YqL- .searchBarComponent-18D6hD *, .searchBar-2M9mRP *, .header-uVCAlo *, .header-2TLOnc *, .inputWrapper-1YNMmM *, .form-3gdLxP *, .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil, .channelTextArea-3TZH74 *, .scrollableContainer-15eg7h *, .note-3M15gE *, .searchBar-3OIGe3 *, .searchContainer-16qhPt *, .searchContainer-2kJ46v *, .searchContainer-23hFke *, .searchContainer-1cOciB *, .searchBar-3joS_I *, .searchBar-20o6Cf *, .resizeHandle-PBRzPC, .inner-2pOSmK *, [class="quickswitcher-pKcM9U"] .input-3r5zZY, .section-3FmfOT .textarea-_59yqs),
+#app-mount *:not(.searchBar-2aylmZ *, .search-39IXmY *, .addFriendInputWrapper-kkoSV9 *, .searchBar-14YqL- .searchBarComponent-18D6hD *, .searchBar-2M9mRP *, .header-uVCAlo *, .header-2TLOnc *, .inputWrapper-1YNMmM *, .form-3gdLxP *, .textArea-2CLwUE.textAreaSlate-9-y-k2.slateContainer-3x9zil, .channelTextArea-3TZH74 *, .scrollableContainer-15eg7h *, .note-3M15gE *, .searchBar-3OIGe3 *, .searchContainer-16qhPt *, .searchContainer-2kJ46v *, .searchContainer-23hFke *, .searchContainer-1cOciB *, .searchBar-3joS_I *, .searchBar-20o6Cf *, .resizeHandle-PBRzPC, .inner-2pOSmK *, [class="quickswitcher-pKcM9U"] .input-3r5zZY, .section-3FmfOT .textarea-_59yqs, .note-3TX9O7 *),
 .container-2nx-BQ,
 .input-2XRLou {
     cursor: default !important;
@@ -734,6 +734,7 @@
     text-align: center;
     line-height: unset;
     border-radius: var(--winrad2);
+    transition: var(--wintransition);
 }
 
 .theme-dark .profileColors-3Y0XaR .tabBar-2StdUa .item-3XjbnG {
@@ -890,6 +891,7 @@
 
 #app-mount .actionsProfileV2-2xJe2L [type="button"] {
     width: -webkit-fill-available;
+    transition: var(--wintransition);
 }
 
 .theme-dark .actionsProfileV2-2xJe2L [type="button"] {
@@ -2792,6 +2794,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .container-8Futzw {
     padding-right: 16px !important;
+}
+
+.scroller-2qwVWY {
+    margin-right: 0;
 }
 
 /* BearableInbox [by Disease] edited */
