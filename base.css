@@ -693,6 +693,7 @@
 
 #app-mount .activity-E0U09Y [type="button"] {
     opacity: 1;
+    transition: var(--wintransition);
 }
 
 .theme-dark .activity-E0U09Y [type="button"] {
@@ -887,6 +888,10 @@
     width: 100%;
     margin-left: 0;
     margin-top: 8px;
+}
+
+#app-mount .actionColor-3JIzOn:hover {
+    opacity: 1;
 }
 
 #app-mount .actionsProfileV2-2xJe2L [type="button"] {
@@ -4827,6 +4832,29 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     margin-right: 4px;
 }
 
+/* App Directory */
+#app-mount .directoryModal-YJsOMv {
+    background-color: var(--background-primary);
+}
+
+#app-mount .searchBox-pyIJJj {
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none;
+    padding-right: 0;
+}
+
+#app-mount .searchBox-pyIJJj svg {
+    display: none;
+}
+
+.headerBanner-ZCUdfQ {
+    border-radius: 8px 8px 0 0;
+}
+.smallCarouselImage-1RYPZu {
+    border-radius: 8px;
+}
+
 /* KeyBindIcon */
 .theme-light .editIcon-e7sZ3b {
     filter: invert(1);
@@ -4951,7 +4979,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 /* Roles Settings */
 #app-mount .titleContainer-3fPic2,
 #app-mount .header-JUTO-g {
-    background-color: var(--background-secondary-alt);
+    background-color: var(--background-secondary);
 }
 
 #app-mount .customScroller-m1-jZn > div {
