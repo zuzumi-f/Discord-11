@@ -6,7 +6,6 @@ A theme based in windows 11 new UI
 
 Theme by [zuzumi](https://github.com/zuzumi-f)
 
-* [Requirements](#requirements)
 * [Preview](#preview)
 * [Message Style (Not working)](#message-style)
     * [Default Style](#left-message-bubble)
@@ -46,9 +45,11 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
 
 ## Customization
 
-For better customization please use [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings)
+For customization follow the next steps
 
-![image](https://user-images.githubusercontent.com/79029257/183246831-7820dbef-89a6-439e-a640-56d50a9e3019.png)
+![image](https://user-images.githubusercontent.com/79029257/196771736-bf0421c8-1d16-490e-8003-6c04086224e9.png)
+
+![image](https://user-images.githubusercontent.com/79029257/196772831-6f14281e-2731-47ee-b02e-90eef7e656e1.png)
 
 ## Addons
 * Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
@@ -60,9 +61,6 @@ For better customization please use [ThemeSettings](https://betterdiscord.app/pl
 * FriendGrid by **[CorellanStoma](https://github.com/CreArts-Community/Friends-Grid)**
 
 * BearableInbox by **[Disease](https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css)**
-
-## Requirements
-* [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings)
 
 ## Compatibility
 
