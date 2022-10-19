@@ -3468,6 +3468,31 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--winlight-button-hover) !important;
 }
 
+/* Red Buttons */
+.theme-dark .lookFilled-yCfaCM.colorRed-rQXKgM {
+    background-color: var(--windark-button-bg) !important;
+    color: var(--info-danger-foreground) !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-dark .lookFilled-yCfaCM.colorRed-rQXKgM:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light .lookFilled-yCfaCM.colorRed-rQXKgM {
+    background-color: var(--winlight-button-bg) !important;
+    color: var(--info-danger-foreground) !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-light .lookFilled-yCfaCM.colorRed-rQXKgM:hover {
+    background-color: var(--winlight-button-hover) !important;
+}
+
 /* Green Buttons */
 .theme-dark .lookFilled-yCfaCM.colorGreen-3y-Z79 {
     background-color: var(--brand-experiment) !important;
