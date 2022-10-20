@@ -12,9 +12,6 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
     * [Right (No Autor)](#default-message-bubble)
     * [Right (Autor)](#new-message-bubble)
 * [Customization](#customization)
-* [Compatibility](#compatibility)
-    * [Compatibility HSL](#horizontalserverlist)
-    * [Compatibility DSC](#displayserversaschannels)
 * [Addons](#addons)
 
 ## Preview
@@ -51,6 +48,10 @@ For customization follow the next steps
 
 ![image](https://user-images.githubusercontent.com/79029257/196772831-6f14281e-2731-47ee-b02e-90eef7e656e1.png)
 
+You can write any other code at the bottom of the file
+
+![image](https://user-images.githubusercontent.com/79029257/185492619-98009f68-31c4-4a59-a8dc-e515d22b4363.png)
+
 ## Addons
 * Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
 
@@ -61,43 +62,3 @@ For customization follow the next steps
 * FriendGrid by **[CorellanStoma](https://github.com/CreArts-Community/Friends-Grid)**
 
 * BearableInbox by **[Disease](https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css)**
-
-## Compatibility
-
-Copy and paste the code at the bottom of the file
-
-![image](https://user-images.githubusercontent.com/79029257/185492619-98009f68-31c4-4a59-a8dc-e515d22b4363.png)
-
-### HorizontalServerList
-
-```css
-
-#app-mount .standardSidebarView-E9Pc3j {
-    border-radius: 0;
-    border-left: none;
-    width: 100%;
-    left: 0;
-    height: calc(100% - 60px);
-    top: unset;
-    bottom: 0;
-}
-```
-
-### DisplayServersAsChannels
-
-```css
-
-:root {
-    --server-display-as-channels-width: 240px;
-}
-.styledGuildsAsChannels-DNHtg_ .wrapper-1_HaEi .scroller-3X7KbA::before {
-    width: var(--server-display-as-channels-width) !important;
-}
-.standardSidebarView-E9Pc3j {
-    left: var(--server-display-as-channels-width) !important;
-    width: calc(100% - var(--server-display-as-channels-width)) !important;
-}
-.styledGuildsAsChannels-DNHtg_ .wrapper-1_HaEi .wrapper-38slSD {
-    margin-right: 8px;
-}
-```
