@@ -828,18 +828,18 @@
     border-radius: 50%;
 }
 
-.body-_QAKrE .listRow-Y5zoF8 .wrapper-1VLyxH,
-.body-_QAKrE .listRow-Y5zoF8 .wrapper-1VLyxH svg {
+.body-_QAKrE .listRow-Y5zoF8 > .wrapper-1VLyxH,
+.body-_QAKrE .listRow-Y5zoF8 > .wrapper-1VLyxH svg {
     width: 30px !important;
     height: 30px !important;
 }
-.body-_QAKrE .listRow-Y5zoF8 .wrapper-1VLyxH svg foreignObject {
+.body-_QAKrE .listRow-Y5zoF8 > .wrapper-1VLyxH svg foreignObject {
     width: 49px;
     height: 49px;
     border-radius: 50%;
     mask: none;
 }
-.body-_QAKrE .listRow-Y5zoF8 .wrapper-1VLyxH svg rect {
+.body-_QAKrE .listRow-Y5zoF8 > .wrapper-1VLyxH svg rect {
     display: none;
 }
 
