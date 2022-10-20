@@ -31,7 +31,7 @@
 #app-mount .contents-2MsGLg code {
     min-width: max-content;
     max-width: 100%;
-    display: table-cell;
+    display: inline-table;
 }
 
 #app-mount .contents-2MsGLg {
