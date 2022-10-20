@@ -1201,6 +1201,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .theme-dark .tooltipPrimary-3qLMbS,
 .theme-dark .tooltipBlack-vMYxvw,
 .theme-dark .tooltipGrey-lpLZjh,
+.theme-dark .bd-tooltip-content,
 .theme-dark .bd-toast:not(.toast-success):not(.toast-danger):not(.toast-error) {
     background: var(--noise256), var(--windark-box1);
     color: #fff;
@@ -1212,6 +1213,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .theme-light .tooltipPrimary-3qLMbS,
 .theme-light .tooltipBlack-vMYxvw,
 .theme-light .tooltipGrey-lpLZjh,
+.theme-light .bd-tooltip-content,
 .theme-light .bd-toast:not(.toast-success):not(.toast-danger):not(.toast-error) {
     background: var(--noise256), var(--winlight-box1);
     color: #000;
@@ -1220,6 +1222,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: var(--winrad2);
 }
 
+.bd-tooltip-pointer,
 .tooltipPointer-3L49xb {
     display: none;
 }
@@ -2141,6 +2144,7 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 #app-mount .bf-toolbar::before {
     border-radius: var(--winrad3);
     backdrop-filter: blur(var(--winblur1));
+    box-shadow: var(--elevation-low);
     width: calc(100% - 2px) !important;
     height: 40px;
     top: 4px;
