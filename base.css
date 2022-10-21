@@ -3145,6 +3145,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background: var(--noise256), var(--windark-box1);
 }
 
+.theme-light .mediaBarInteractionVolume-zGrOSh {
+    background: var(--noise256), var(--winlight-box1);
+}
+
 .theme-light .metadata-3IncIG {
     background: var(--noise256), var(--winlight-box1);
     color: #000;
@@ -3163,6 +3167,17 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 .theme-light .videoControls-2NzHnF {
     background: var(--noise256), var(--winlight-box1);
     color: #000;
+}
+
+.theme-light [class*="iconPlay-3weMmb icon-23NjRH"] {
+    background-color: #000;
+}
+.theme-light [points="0 0 0 14 11 7"] {
+    stroke: #000;
+}
+
+.theme-light .controlIcon-10O-4h {
+    color: #555555;
 }
 
 .theme-light .mediaBarWrapper-33h1oY,
