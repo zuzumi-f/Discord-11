@@ -28,11 +28,6 @@
 #app-mount .contents-2MsGLg pre {
     max-width: 100%;
 }
-#app-mount .contents-2MsGLg code {
-    min-width: max-content;
-    max-width: 100%;
-    display: inline-table;
-}
 
 #app-mount .contents-2MsGLg {
     background-color: var(--background-secondary);
