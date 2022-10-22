@@ -5332,17 +5332,40 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 29px;
-}
-#app-mount .toolsContainer-25FL6V .container-O54IuJ {
-    flex-direction: row-reverse;
+    margin-right: 32px;
 }
 #app-mount .keybind-13vtq8 {
-    margin-top: 0;
-    margin-right: 4px;
+    display: none;
 }
 
-/* Server Boost fix */
+#app-mount .closeButton-PCZcma {
+    width: 72px;
+    transition: var(--wintransition);
+}
+
+.theme-dark .closeButton-PCZcma {
+    background-color: var(--windark-button-bg) !important;
+    color: var(--info-danger-foreground) !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-dark .closeButton-PCZcma:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light .closeButton-PCZcma {
+    background-color: var(--winlight-button-bg) !important;
+    color: var(--info-danger-foreground) !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+    border-radius: var(--winrad2) !important;
+}
+.theme-light .closeButton-PCZcma:hover {
+    background-color: var(--winlight-button-hover) !important;
+}
 
 /* Make PermissionViewers text more consistent with Discords [by christian] */
 .member-perms-title {
