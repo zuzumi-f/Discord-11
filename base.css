@@ -1241,6 +1241,13 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: var(--winrad2) !important;
 }
 
+#app-mount .tooltipBrand-20XsMA {
+    backdrop-filter: blur(var(--winblur1));
+    border-radius: var(--winrad2);
+    background-color: var(--brand-experiment-30a);
+    border: 1px solid var(--brand-experiment);
+}
+
 .bd-toast {
     box-shadow: var(--elevation-low);
 }
@@ -2066,6 +2073,12 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: var(--winrad2);
 }
 
+/* Reactions */
+.reaction-3vwAF2 {
+    border: var(--windarkborder1);
+    border-radius: 100px;
+}
+
 /* See Reactions Popout */
 #app-mount .scroller-2GkvCq {
     background: var(--background-secondary);
@@ -2221,39 +2234,21 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* Emoji, sticker and gif picker */
-#app-mount .contentWrapper-3vHNP2 {
-    width: calc(100% + 2px);
-    height: calc(100% + 2px);
-    backdrop-filter: blur(var(--winblur1));
-}
-.emojiPicker-6YCk8a:not(.contentWrapper-3vHNP2 .emojiPicker-6YCk8a) {
-    border-radius: var(--winrad3);
-    width: 424px;
-    height: 424px;
-    backdrop-filter: blur(var(--winblur1));
-}
-
 #app-mount .emojiItem-277VFM.emojiItemSelected-2Lg50V,
 #app-mount .stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {
-    background-color: var(--background-modifier-active);
+    background-color: var(--background-modifier-selected);
 }
 
-.theme-dark .contentWrapper-3vHNP2 {
-    background: var(--noise256), var(--windark-box1);
-    border: var(--windarkborder1);
-}
-.theme-dark .emojiPicker-6YCk8a:not(.contentWrapper-3vHNP2 .emojiPicker-6YCk8a) {
-    background: var(--noise256), var(--windark-box1);
-    border: var(--windarkborder1);
+#app-mount .contentWrapper-3vHNP2,
+#app-mount .emojiPicker-6YCk8a:not(.contentWrapper-3vHNP2 .emojiPicker-6YCk8a) {
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--winrad2);
+    box-shadow: var(--elevation-medium);
 }
 
-.theme-light .contentWrapper-3vHNP2 {
-    background: var(--noise256), var(--winlight-box1);
-    border: var(--winlightborder1);
-}
-.theme-light .emojiPicker-6YCk8a:not(.contentWrapper-3vHNP2 .emojiPicker-6YCk8a) {
-    background: var(--noise256), var(--winlight-box1);
-    border: var(--winlightborder1);
+#app-mount .emojiPicker-6YCk8a .wrapper-1NNaWG,
+#app-mount [id="emoji-picker-tab-panel"] .header-11eigE {
+    background-color: var(--background-secondary-alt);
 }
 
 #app-mount .contentWrapper-3vHNP2 .navButtonActive-1EqC5l {
@@ -2261,43 +2256,14 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     color: var(--text-normal);
 }
 
-#app-mount .contentWrapper-3vHNP2 .categoryList-2qRrlj,
-#app-mount .contentWrapper-3vHNP2 .categoryList-2GgCrD {
-    height: calc(100% - 53px);
-    top: 53px;
-}
-.wrapper-3u51GQ .categoryList-2qRrlj:not(.contentWrapper-3vHNP2 .categoryList-2qRrlj) {
-    height: calc(100% - 63px);
-    top: 62px;
-}
-
-.theme-dark .header-11eigE,
-.theme-dark .header-2TLOnc,
-.theme-dark .header-uVCAlo {
+#app-mount .header-11eigE,
+#app-mount .header-2TLOnc,
+#app-mount .header-uVCAlo {
     box-shadow: none;
-    border-bottom: var(--windarkborder2);
-}
-.theme-light .header-11eigE,
-.theme-light .header-2TLOnc,
-.theme-light .header-uVCAlo {
-    box-shadow: none;
-    border-bottom: var(--winlightborder2);
 }
 
-.wrapper-3u51GQ .categoryList-2qRrlj:not(.contentWrapper-3vHNP2 .categoryList-2qRrlj) {
-    border-bottom: var(--windarkborder1);
-    border-left: var(--windarkborder1);
-    border-bottom-left-radius: var(--winrad3);
-}
-
-.contentWrapper-3vHNP2 .wrapper-1NNaWG,
-.emojiPicker-6YCk8a .wrapper-1NNaWG {
-    border-radius: var(--winrad3);
-    margin-bottom: 4px;
-}
-.contentWrapper-3vHNP2 .wrapper-1NNaWG:after,
-.emojiPicker-6YCk8a .wrapper-1NNaWG:after {
-    display: none;
+[id="emoji-picker-tab-panel"] .categoryList-2qRrlj .listItems-6eZzQ1 {
+    width: 100%;
 }
 
 /* The searchbar */
@@ -5609,6 +5575,19 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 .theme-dark .UserDetails-connections-connections [src="/assets/ffa3415a151587879c5537015fa59521.svg"] {
     content: url("https://discord.com/assets/db9e2406158133f91e1fe24bb56425c2.svg");
+}
+
+/* Show Connections */
+#app-mount .connection-9Gh4sa {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px 4px 0;
+}
+
+#app-mount .connectionIcon-888F4s {
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Channel details popout */
