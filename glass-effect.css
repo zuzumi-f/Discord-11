@@ -7,11 +7,11 @@ body,
     background-color: transparent;
 }
 .scroller-3X7KbA {
-    height: calc(100% - 124px) !important;
+    height: calc(100% - ((var(--server-size)*2) + 16px)) !important;
 }
 .scroller-3X7KbA::before {
     background: none !important;
-    height: 124px;
+    height: calc((var(--server-size)*2) + 16px));
 }
 #app-mount .bg-1QIAus {
     top: -56px;
