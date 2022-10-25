@@ -11,7 +11,7 @@ body,
 }
 .scroller-3X7KbA::before {
     background: none !important;
-    height: calc((var(--server-size)*2) + 16px));
+    height: calc((var(--server-size)*2) + 16px);
 }
 #app-mount .bg-1QIAus {
     top: -56px;
