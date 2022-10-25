@@ -17,12 +17,12 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
 ## Preview
 
 ### Dark Mode
-![image](https://user-images.githubusercontent.com/79029257/194544225-f1cd4f8b-20fa-447e-a32f-3baddd741335.png)
-![image](https://user-images.githubusercontent.com/79029257/194544283-ca71f051-c371-431c-bf76-6eab7c65e0b3.png)
+![Discord_nv3jrt8L82](https://user-images.githubusercontent.com/79029257/197858304-c3c77148-603b-4ed2-88b3-7821efcc1e3f.png)
+![Discord_P0hhYwfz8r](https://user-images.githubusercontent.com/79029257/197858332-522f1da4-6349-4081-a471-635910cdc6c3.png)
 
 ### Light Mode + Glass Effect
-![image](https://user-images.githubusercontent.com/79029257/194544490-36ae2c96-7bd1-4e0e-8692-4b672fc7f351.png)
-![image](https://user-images.githubusercontent.com/79029257/194544575-55d28816-d855-4b4f-8087-5a75dc7b3e7b.png)
+![Discord_1KWD7oM0T0](https://user-images.githubusercontent.com/79029257/197858375-bf1e7ff4-f586-43ca-8c96-187660c4c7af.png)
+![Discord_u7DFNFaSOp](https://user-images.githubusercontent.com/79029257/197858393-2fe8acfb-86ca-456d-a53e-5af5a80de481.png)
 
 ## Message Style
 
