@@ -12,6 +12,8 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
     * [Right (No Autor)](#default-message-bubble)
     * [Right (Autor)](#new-message-bubble)
 * [Customization](#customization)
+* [Compatibility](#compatibility)
+    * [Horizontal Server List](#hsl)
 * [Addons](#addons)
 
 ## Preview
@@ -51,6 +53,38 @@ For customization follow the next steps
 You can write any other code at the bottom of the file
 
 ![image](https://user-images.githubusercontent.com/79029257/185492619-98009f68-31c4-4a59-a8dc-e515d22b4363.png)
+
+## Compatibility
+
+### HSL
+
+```css
+
+#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+    border-radius: var(--winrad2) !important;
+    left: calc(var(--server-size)/2) !important;
+}
+#app-mount .guilds-2JjMmN .wrapper-z5ab_q {
+    height: auto !important;
+    width: 0px !important;
+    top: calc(-50% + 1px) !important;
+    margin-left: 0px !important;
+}
+#app-mount .guilds-2JjMmN [class*=pill] span {
+    border-radius: 1.5px !important;
+}
+#app-mount .listItem-3SmSlK {
+    width: fit-content !important;
+    margin: 0 12px 6px !important;
+}
+.tutorialContainer-2jwoiB + .listItem-3SmSlK {
+    position: fixed !important;
+}
+#app-mount .base-2jDfDU {
+    border-left: none;
+    border-top-left-radius: 0px;
+}
+```
 
 ## Addons
 * Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
