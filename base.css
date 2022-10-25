@@ -3464,6 +3464,11 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 }
 
 /* WinButton */
+.platform-win .container-2RRFHK {
+    padding-top: 34px;
+    top: -34px;
+}
+
 .winButton-3UMjdg {
     top: 0;
     height: 34px;
