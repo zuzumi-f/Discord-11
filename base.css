@@ -943,8 +943,13 @@ html {
     border: var(--winlightborder3);
 }
 
+#app-mount .contentGameImageProfileV2-2dewzu,
 #app-mount .contentImagesProfileV2-2Z-K9I {
     width: 0;
+}
+
+.assets-3PQvAh {
+    align-self: center;
 }
 
 #app-mount .userProfileActivity-1JPDhh .platformIcon-k3yytQ {
@@ -3682,7 +3687,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
 
 /* Gray Buttons */
 .theme-dark .colorGrey-2iAG-B,
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.theme-dark .lookFilled-yCfaCM.colorTransparent-13Bvvi {
     background-color: var(--windark-button-bg) !important;
     color: #fff !important;
     border: 1px solid var(--windark-button-border) !important;
@@ -3691,12 +3697,14 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: var(--winrad2) !important;
 }
 .theme-dark .colorGrey-2iAG-B:hover,
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
+.theme-dark .lookFilled-yCfaCM.colorTransparent-13Bvvi:hover {
     background-color: var(--windark-button-hover) !important;
 }
 
 .theme-light .colorGrey-2iAG-B,
-.theme-light .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+.theme-light .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.theme-light .lookFilled-yCfaCM.colorTransparent-13Bvvi {
     background-color: var(--winlight-button-bg) !important;
     color: #000 !important;
     border: 1px solid var(--winlight-button-border) !important;
@@ -3705,7 +3713,8 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     border-radius: var(--winrad2) !important;
 }
 .theme-light .colorGrey-2iAG-B:hover,
-.theme-light .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+.theme-light .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
+.theme-light .lookFilled-yCfaCM.colorTransparent-13Bvvi:hover {
     background-color: var(--winlight-button-hover) !important;
 }
 
@@ -3804,6 +3813,10 @@ div.userInfoSection-2u2hir.colorStandard-1Xxp1s .role-2TIOKu {
     background-color: var(--focus-primary);
     border-color: var(--focus-primary);
     color: var(--status-warning-text);
+}
+
+.button-35nmN9 {
+    background: currentColor;
 }
 
 /* Add Friend */
