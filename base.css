@@ -5934,5 +5934,19 @@ html {
     width: var(--server-size);
 }
 .listItem-1d8GP4 {
-    margin: 0 12px 4px;
+    margin: 0 12px 6px;
+}
+
+/* Just a BG for theme card [by Gibbu] */
+[id="Discord 11-card"] {
+    position: relative;
+}
+[id="Discord 11-card"]::before {
+    content: "";
+    background: url(https://user-images.githubusercontent.com/79029257/198170059-a9911f9c-2088-43de-a700-b5536e907e6f.png) center/cover;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    opacity: 0.1;
+    pointer-events: none;
 }
