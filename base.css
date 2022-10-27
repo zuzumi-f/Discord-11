@@ -543,6 +543,31 @@ html {
     fill: var(--winlight-toggle-off) !important;
 }
 
+.bd-addon-modal-settings .container-2nx-BQ rect {
+    width: 16px;
+    height: 16px;
+    y: 1.8;
+    x: 8.6;
+}
+.bd-addon-modal-settings .container-2nx-BQ:hover rect {
+    width: 18px;
+    height: 18px;
+    y: 1;
+    x: 8.6;
+}
+.bd-addon-modal-settings .container-2nx-BQ .slider-32CRPX[style*="left: -3px"] rect {
+    width: 14px !important;
+    height: 14px !important;
+    y: 3.2;
+    x: 3.8 !important;
+}
+.bd-addon-modal-settings .container-2nx-BQ:hover .slider-32CRPX[style*="left: -3px"] rect {
+    width: 16px !important;
+    height: 16px !important;
+    y: 1.8;
+    x: 2.4 !important;
+}
+
 /* CheckBox */
 .contentRegion-3HkfJJ .checkboxWrapper-2fDzaA {
     margin-bottom: 8px;
@@ -960,6 +985,10 @@ html {
 #app-mount .contentGameImageProfileV2-2dewzu,
 #app-mount .contentImagesProfileV2-2Z-K9I {
     width: 0;
+}
+
+.buttonsWrapper-2ARRp1:empty {
+    margin-top: 0 !important;
 }
 
 .assets-3PQvAh {
@@ -4007,6 +4036,17 @@ html {
 }
 
 /* In Call */
+#app-mount .wrapper-1_HaEi.hidden-10MsGQ {
+    width: 0;
+}
+#app-mount .wrapper-1_HaEi.guilds-2JjMmN.hidden-10MsGQ~.base-2jDfDU {
+    border: none;
+    border-top-left-radius: 0px;
+}
+#app-mount .sidebar-1tnWFu.hidden-38rxp9 {
+    border: none;
+}
+
 .list-2x9Cl9 {
     padding-right: 8px;
 }
@@ -4027,26 +4067,53 @@ html {
 
 #app-mount .controlButton-2PMNom,
 #app-mount .actionButton-2S7dMn {
-    border-radius: 1.5px;
+    border-radius: var(--winrad2);
 }
-#app-mount .wrapper-3t3Yqv .colorable-3rVGna.primaryDark-2UJt1G {
-    background: var(--background-secondary);
+
+.theme-dark .wrapper-3t3Yqv .colorable-3rVGna.primaryDark-2UJt1G {
+    background-color: var(--windark-button-bg) !important;
+    color: #fff !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
 }
+.theme-dark .wrapper-3t3Yqv .colorable-3rVGna.primaryDark-2UJt1G:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light .wrapper-3t3Yqv .colorable-3rVGna.primaryDark-2UJt1G {
+    background-color: var(--winlight-button-bg) !important;
+    color: #000 !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+}
+.theme-light .wrapper-3t3Yqv .colorable-3rVGna.primaryDark-2UJt1G:hover {
+    background-color: var(--winlight-button-hover) !important;
+}
+
 #app-mount .controlButton-2PMNom.contextMenuContainer-1RO4DQ foreignObject,
 #app-mount .actionButton-2S7dMn foreignObject {
     mask: none;
 }
 #app-mount .controlButton-2PMNom.contextMenuContainer-1RO4DQ button,
 #app-mount .actionButton-2S7dMn.contextMenuContainer-1RO4DQ button {
-    border-radius: 1.5px;
+    border-top-left-radius: var(--winrad2);
+    border-top-right-radius: var(--winrad2);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 0px;
     height: 38px;
-    margin-bottom: 1px;
+    width: 56px;
 }
 #app-mount .contextMenuContainer-1RO4DQ .contextMenuNub-NuTZ_U {
-    border-radius: 1.5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: var(--winrad2);
+    border-bottom-right-radius: var(--winrad2);
+    border-top: 0px;
     height: 12px;
-    width: 52px;
-    margin-top: 1px;
+    width: 50px;
 }
 
 .theme-dark .button-3Vyz67,
@@ -4081,6 +4148,30 @@ html {
     background-color: var(--winlight-button-hover) !important;
 }
 
+.theme-dark .wrapper-3t3Yqv .colorable-3rVGna.red-3T8maV {
+    background-color: var(--windark-button-bg) !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
+}
+.theme-dark .wrapper-3t3Yqv .colorable-3rVGna.red-3T8maV:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light .wrapper-3t3Yqv .colorable-3rVGna.red-3T8maV {
+    background-color: var(--winlight-button-bg) !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+}
+.theme-light .wrapper-3t3Yqv .colorable-3rVGna.red-3T8maV:hover {
+    background-color: var(--winlight-button-hover) !important;
+}
+
+.colorable-3rVGna.red-3T8maV .centerIcon-JYpTUi {
+    color: var(--info-danger-foreground) !important;
+}
+
 /* Spectators Call */
 #app-mount .memberListItem-3V-x8Q:not(.popoutDisabled-PP2QdB):hover {
     background-color: var(--background-modifier-hover);
@@ -4103,20 +4194,67 @@ html {
 }
 
 /* Stage */
-#app-mount .container-a_NK-C .colorable-3rVGna.primaryDark-2UJt1G {
-    background: var(--background-mobile-secondary);
-}
-#app-mount .leaveQuietlyButton-3Vhswc,
-#app-mount .container-a_NK-C .centerButton-1IShs7 {
-    border-radius: 1.5px;
-}
-#app-mount .contextMenuContainer-1RO4DQ foreignObject {
+#app-mount .container-a_NK-C .contextMenuContainer-1RO4DQ foreignObject {
     mask: none;
 }
-#app-mount .contextMenuContainer-1RO4DQ button {
-    border-radius: 1.5px;
+
+.theme-dark .container-a_NK-C .colorable-3rVGna.primaryDark-2UJt1G {
+    background-color: var(--windark-button-bg) !important;
+    color: #fff !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
+}
+.theme-dark .container-a_NK-C .colorable-3rVGna.primaryDark-2UJt1G:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light .container-a_NK-C .colorable-3rVGna.primaryDark-2UJt1G {
+    background-color: var(--winlight-button-bg) !important;
+    color: #000 !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+}
+.theme-light .container-a_NK-C .colorable-3rVGna.primaryDark-2UJt1G:hover {
+    background-color: var(--winlight-button-hover) !important;
+}
+
+#app-mount .container-a_NK-C .contextMenuContainer-1RO4DQ button {
+    border-top-left-radius: var(--winrad2);
+    border-top-right-radius: var(--winrad2);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     height: 38px;
-    margin-bottom: 1px;
+    width: 56px;
+}
+
+.theme-dark .container-a_NK-C .colorable-3rVGna.red-3T8maV {
+    background-color: var(--windark-button-bg) !important;
+    color: var(--info-danger-foreground) !important;
+    border: 1px solid var(--windark-button-border) !important;
+    border-top-color: var(--windark-button-top) !important;
+    border-bottom-color: var(--windark-button-bottom) !important;
+    border-radius: var(--winrad2);
+}
+.theme-dark .container-a_NK-C .colorable-3rVGna.red-3T8maV:hover {
+    background-color: var(--windark-button-hover) !important;
+}
+
+.theme-light .container-a_NK-C .colorable-3rVGna.red-3T8maV {
+    background-color: var(--winlight-button-bg) !important;
+    color: var(--info-danger-foreground) !important;
+    border: 1px solid var(--winlight-button-border) !important;
+    border-top-color: var(--winlight-button-top) !important;
+    border-bottom-color: var(--winlight-button-bottom) !important;
+    border-radius: var(--winrad2);
+}
+.theme-light .container-a_NK-C .colorable-3rVGna.red-3T8maV:hover {
+    background-color: var(--winlight-button-hover) !important;
+}
+
+.container-a_NK-C .colorable-3rVGna.red-3T8maV path {
+    fill: var(--info-danger-foreground) !important;
 }
 
 .container-lqPArA,
@@ -5605,7 +5743,7 @@ html {
 
 /* Always bottom server list buttons by Gibbu [edit] */
 .wrapper-1_HaEi {
-    height: calc(100% - ((var(--server-size)*2) + 16px));
+    height: calc(100% - ((var(--server-size)*2) + 8px));
 }
 .scroller-3X7KbA {
     contain: unset;
