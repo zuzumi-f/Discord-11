@@ -612,12 +612,85 @@ html {
     border-color: var(--blue-button-bg) !important;
 }
 
-.theme-dark .radioIconForeground-2BMavi {
-    color: var(--brand-experiment);
+#app-mount .radioBar-3w9XY- > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    border: 1px solid var(--text-muted);
 }
 
-.theme-light .radioIconForeground-2BMavi {
-    color: var(--blue-button-bg);
+#app-mount .radioBar-3w9XY- > div:first-child * {
+    display: none;
+}
+
+.theme-dark .item-2idW98[aria-checked=true] .radioBar-3w9XY- > div:first-child {
+    background: var(--control-brand-foreground);
+    border-color: var(--control-brand-foreground) !important;
+}
+
+.theme-light .item-2idW98[aria-checked=true] .radioBar-3w9XY- > div:first-child {
+    background: var(--blue-button-bg);
+    border-color: var(--blue-button-bg) !important;
+}
+
+#app-mount .item-2idW98[aria-checked=true] .radioBar-3w9XY- > div:first-child::before {
+    background: var(--status-warning-text);
+}
+
+#app-mount .radioBar-3w9XY-:hover > div:first-child::before {
+    transform: scale(1.14);
+    transform-origin: center;
+}
+
+#app-mount .radioBar-3w9XY- > div:first-child::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transition: var(--wintransition);
+}
+
+#app-mount [role=menuitemradio] .iconContainer-1-SsTR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid var(--text-muted);
+}
+
+#app-mount [role=menuitemradio] .iconContainer-1-SsTR * {
+    display: none;
+}
+
+.theme-dark [role=menuitemradio][aria-checked=true] .iconContainer-1-SsTR {
+    background: var(--control-brand-foreground);
+    border-color: var(--control-brand-foreground) !important;
+}
+
+.theme-light [role=menuitemradio][aria-checked=true] .iconContainer-1-SsTR {
+    background: var(--blue-button-bg);
+    border-color: var(--blue-button-bg) !important;
+}
+
+#app-mount [role=menuitemradio] .iconContainer-1-SsTR::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--status-warning-text);
+    opacity: 0;
+    transition: var(--wintransition);
+}
+#app-mount [role=menuitemradio]:hover .iconContainer-1-SsTR::before {
+    transform: scale(1.16);
+    transform-origin: center;
+}
+#app-mount [role=menuitemradio][aria-checked=true] .iconContainer-1-SsTR::before {
+    opacity: 1;
 }
 
 /* ColorPicker */
@@ -3401,6 +3474,7 @@ html {
 
 .container-YkUktl .directionRow-2Iu2A9 button {
     width: 100%;
+    transition: var(--wintransition);
 }
 .container-YkUktl .directionRow-2Iu2A9 button:not(:first-child) {
     margin-left: 4px;
@@ -4862,9 +4936,15 @@ html {
     border-radius: var(--winrad1);
 }
 
+.accountBtn-3pgcgr .accountBtnInner-3ttD-i,
+.accountButton-234qAZ button,
+.accountBtn-1-d0rV button {
+    transition: var(--wintransition);
+}
+
 .theme-dark .accountBtn-3pgcgr .accountBtnInner-3ttD-i,
 .theme-dark .accountButton-234qAZ button,
-.theme-dark .accountBtn-2-ALzM button {
+.theme-dark .accountBtn-1-d0rV button {
     background-color: var(--windark-button-bg) !important;
     color: #fff !important;
     border: 1px solid var(--windark-button-border) !important;
@@ -4874,13 +4954,13 @@ html {
 }
 .theme-dark .accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover,
 .theme-dark .accountButton-234qAZ button:hover,
-.theme-dark .accountBtn-2-ALzM button:hover {
+.theme-dark .accountBtn-1-d0rV button:hover {
     background-color: var(--windark-button-hover) !important;
 }
 
 .theme-light .accountBtn-3pgcgr .accountBtnInner-3ttD-i,
 .theme-light .accountButton-234qAZ button,
-.theme-light .accountBtn-2-ALzM button {
+.theme-light .accountBtn-1-d0rV button {
     background-color: var(--winlight-button-bg) !important;
     color: #000 !important;
     border: 1px solid var(--winlight-button-border) !important;
@@ -4890,7 +4970,7 @@ html {
 }
 .theme-light .accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover,
 .theme-light .accountButton-234qAZ button:hover,
-.theme-light .accountBtn-2-ALzM button:hover {
+.theme-light .accountBtn-1-d0rV button:hover {
     background-color: var(--winlight-button-hover) !important;
 }
 
@@ -5193,49 +5273,78 @@ html {
 
 /* Grabber */
 #app-mount .grabber-2GQyvM {
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    margin-left: -12px;
+    margin-bottom: -2px;
+    margin-left: -10px;
     border: 1px solid var(--background-primary);
 }
 #app-mount .grabber-2GQyvM::before {
     content: "";
-    height: 12px;
-    width: 12px;
+    height: 8px;
+    width: 8px;
     border-radius: 50%;
     position: absolute;
     left: 4px;
     top: 4px;
-    border: 1px solid var(--background-primary);
+    border: 1px solid;
+    transition: var(--wintransition);
+}
+#app-mount .grabber-2GQyvM:hover:before {
+    transform: scale(1.2);
+    transform-origin: center;
 }
 
 .theme-dark .grabber-2GQyvM {
     background-color: #454545;
 }
 .theme-dark .grabber-2GQyvM::before {
-    background-color: var(--brand-experiment);
+    background-color: var(--control-brand-foreground);
+    border-color: var(--control-brand-foreground-new) !important;
 }
-.theme-dark .bar-1Bhnl9 {
+.theme-dark .barFill-2Bh7CX {
+    background: var(--control-brand-foreground);
+}
+.theme-dark .bar-1Bhnl9,
+.theme-dark .mark-2iakCT .markDash-yk2kJ- {
     background: #989898;
 }
 
 .theme-light .grabber-2GQyvM::before {
     background-color: var(--blue-button-bg);
+    border-color: var(--blue-button-hover) !important;
 }
 .theme-light .barFill-2Bh7CX {
     background: var(--blue-button-bg);
 }
-.theme-light .bar-1Bhnl9 {
+.theme-light .bar-1Bhnl9,
+.theme-light .mark-2iakCT .markDash-yk2kJ- {
     background: #8b8b8b;
+}
+
+#app-mount .bar-1Bhnl9 {
+    height: 4px;
+}
+
+#app-mount .mark-2iakCT .markDash-yk2kJ- {
+    height: 12px;
+}
+
+.theme-dark .mark-2iakCT .markValue-2U_-UG {
+    color: #989898;
+}
+
+.theme-light .mark-2iakCT .markValue-2U_-UG {
+    color: #8b8b8b;
 }
 
 #app-mount .menu-1QACrS .grabber-2GQyvM {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    margin-left: -8px;
-    margin-top: -1px;
+    margin-left: -7px;
+    margin-top: -2px;
     border: 1px solid var(--background-primary);
 }
 #app-mount .menu-1QACrS .grabber-2GQyvM::before {
