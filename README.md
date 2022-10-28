@@ -2,7 +2,7 @@
 
 ### [Version 2.3.0!!!](https://github.com/zuzumi-f/Discord-11/releases)
 
-A theme based in windows 11 new UI
+A theme based on Windows 11's UI
 
 Theme by [zuzumi](https://github.com/zuzumi-f)
 
