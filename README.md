@@ -24,7 +24,7 @@ A theme based on Windows 11's UI - by [zuzumi](https://github.com/zuzumi-f)
 
 ### Third party Discord clients
 
-- BandagedDB
+- BandagedBD
     - Install from https://betterdiscord.app/theme/Discord%2011
 - Goosemod, Powercord, Replugged
     - Go to Settings > Plugins > Custom CSS
