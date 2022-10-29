@@ -8,7 +8,7 @@
 @preprocessor   stylus
 
 @var select   messageBuble    "Message Buble Style" ["left:Message bubbles in left side*", "default:Default message bubbles", "new:New message bubbles"]
-@var checkbox win11Emojis     "Enable Windows 11 emojis" 0
+@var checkbox win11Emojis     "Enable Windows 11 emojis" 1
 @var checkbox glassEffect     "Enable glass effect (for desktop transparency, the option below must be set to none)" 0
 @var text     wallpaperImage  "Custom wallpaper link (put link inside single quotes)" "'https://wallpapercave.com/wp/wp6051467.jpg'"
 @var text     blurAmount      "Blur amount" 24px
