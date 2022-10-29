@@ -34,7 +34,7 @@ A theme based on Windows 11's UI - by [zuzumi](https://github.com/zuzumi-f)
 
 - Open https://github.com/zuzumi-f/Discord-11/raw/main/Discord11.user.css
 - Customize for your needs and click install
-> Note: You need to enable CSP patching from your extension's settings, and ake sure you don't have anohter extension that patches CSP. Otherwise theme won't work.
+> Note: You need to enable CSP patching from your extension's settings, and make sure you don't have anohter extension that patches CSP. Otherwise theme won't work.
 
 ## Screenshots
 
