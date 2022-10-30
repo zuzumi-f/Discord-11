@@ -5,6 +5,7 @@
 A theme based on Windows 11's UI - by [zuzumi](https://github.com/zuzumi-f)
 
 - [Discord 11](#discord-11)
+    - [Windows 11 UI](#design)
     - [Install](#install)
         - Third party Discord clients
         - UserStyle (Stylus, Stylish etc.)
@@ -19,6 +20,12 @@ A theme based on Windows 11's UI - by [zuzumi](https://github.com/zuzumi-f)
         - [Third party Discord clients](#customization-third-party)
         - [UserStyle (Stylus)](#customization-userstyle-stylus)
     - [Used Addons](#used-addons)
+
+## Design
+
+You can find all the values of Windows 11's UI [here](https://www.figma.com/community/file/1159947337437047524)
+
+[![image](https://user-images.githubusercontent.com/79029257/198903356-9c6463b9-dc84-420e-a932-98f647408000.png)](https://www.figma.com/community/file/1159947337437047524)
 
 ## Install
 
