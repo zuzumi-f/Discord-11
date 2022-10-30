@@ -96,11 +96,12 @@ You can write any other code at the bottom of the file
 
 ## Compatibility
 
-### Horizontial Server List plugin
+### [Horizontial Server List](https://betterdiscord.app/theme/Horizontal%20Server%20List)
 
 You need to add the following CSS to the theme's CSS for it to work. [Check here for how customize the CSS](#customization).
 
 ```css
+/* HSL on Top */
 #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
     border-radius: var(--winrad2) !important;
     left: calc(var(--server-size)/2) !important;
