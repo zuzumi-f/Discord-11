@@ -91,8 +91,7 @@ You can write any other code at the bottom of the file
 <details id="customization-userstyle-stylus">
     <summary>UserStyle (Stylus)</summary>
 
-![Customize theme step 1](https://i.imgur.com/KQ9bEnh.png)
-![Customize theme step 2](https://i.imgur.com/G88mLLd.png)
+![Customize theme step 1](https://i.imgur.com/G88mLLd.png)
 </details>
 
 ## Compatibility
