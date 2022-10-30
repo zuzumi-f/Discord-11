@@ -48,11 +48,13 @@ A theme based on Windows 11's UI - by [zuzumi](https://github.com/zuzumi-f)
 <details id="light-mode-glass-details">
     <summary>Light mode + glass effect</summary>
 
-[Light mode + glass effect screenshot](https://user-images.githubusercontent.com/79029257/197858375-bf1e7ff4-f586-43ca-8c96-187660c4c7af.png)
+![Light mode + glass effect screenshot](https://user-images.githubusercontent.com/79029257/197858375-bf1e7ff4-f586-43ca-8c96-187660c4c7af.png)
 ![Light mode + glass effect screenshot 2](https://user-images.githubusercontent.com/79029257/197858393-2fe8acfb-86ca-456d-a53e-5af5a80de481.png)
 </details>
 
 ### Message styles
+
+> Note: Self Messages in Right side are not working at the moment
 
 <details id="left-message-bubble">
     <summary>Left message buble</summary>
