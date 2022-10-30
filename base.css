@@ -301,6 +301,12 @@ html {
 }
 
 /* Fix Fluent Icon */
+[d='M21.707 20.293L16.314 14.9C17.403 13.504 18 11.799 18 10C18 7.863 17.167 5.854 15.656 4.344C14.146 2.832 12.137 2 10 2C7.863 2 5.854 2.832 4.344 4.344C2.833 5.854 2 7.863 2 10C2 12.137 2.833 14.146 4.344 15.656C5.854 17.168 7.863 18 10 18C11.799 18 13.504 17.404 14.9 16.314L20.293 21.706L21.707 20.293ZM10 16C8.397 16 6.891 15.376 5.758 14.243C4.624 13.11 4 11.603 4 10C4 8.398 4.624 6.891 5.758 5.758C6.891 4.624 8.397 4 10 4C11.603 4 13.109 4.624 14.242 5.758C15.376 6.891 16 8.398 16 10C16 11.603 15.376 13.11 14.242 14.243C13.109 15.376 11.603 16 10 16Z'] {
+    d: path('M547 1249 c-176 -25 -331 -182 -356 -361 -20 -141 28 -278 130 -372 151 -140 358 -159 531 -49 l40 25 157 -156 c87 -86 162 -156 168 -156 12 0 43 33 43 45 0 5 -70 79 -156 166 l-156 157 25 40 c82 128 93 287 30 420 -80 171 -264 268 -456 241z m218 -110 c63 -30 134 -100 165 -164 21 -43 25 -64 25 -150 0 -118 -21 -171 -95 -245 -74 -74 -127 -95 -245 -95 -118 0 -171 21 -245 95 -64 63 -92 128 -98 222 -10 163 76 297 228 352 67 24 199 17 265 -15z') !important;
+    transform-origin: center;
+    transform: scale(0.01398) rotate(90deg) translateX(-710px) translateY(-680px);
+}
+
 .closeButton-30b1gR svg {
     display: none;
 }
@@ -353,6 +359,24 @@ html {
 
 #app-mount .separator-2OaeRP {
     background-color: transparent !important;
+}
+
+/* Notice Normal */
+.notice-2HEN-u.colorDanger-2YLzLC {
+    border-bottom: var(--windarkborder1);
+    box-shadow: none;
+}
+
+.notice-2HEN-u.colorDanger-2YLzLC .button-1iHNQ2 {
+    border: none;
+    color: var(--status-danger-text);
+}
+.notice-2HEN-u.colorDanger-2YLzLC .button-1iHNQ2:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.theme-light .closeButton-30b1gR {
+    filter: none !important;
 }
 
 /* Notice BD */
@@ -2138,6 +2162,9 @@ html {
 }
 
 /* Add Roles Setting */
+.row-1Ib2uD {
+    padding-right: 8px !important;
+}
 .positionBottom-1pd-ap .autocompleteArrowWrapper-Kr4DnW {
     display: none;
 }
@@ -3644,6 +3671,49 @@ html {
     display: none;
 }
 
+.fakeActivityLayout-2kcbMs {
+    border-radius: var(--winrad2);
+    padding: 8px;
+}
+
+.profileColors-3Y0XaR.theme-dark .fakeActivityLayout-2kcbMs {
+    background: var(--noise256), var(--windark-box1);
+    border: var(--windarkborder2);
+}
+
+.profileColors-3Y0XaR.theme-light .fakeActivityLayout-2kcbMs {
+    background: var(--noise256), var(--winlight-box1);
+    border: var(--winlightborder3);
+}
+
+#app-mount .buttonColor-1u-3JF {
+    opacity: 1;
+    transition: var(--wintransition);
+}
+
+.profileColors-3Y0XaR.theme-dark .buttonColor-1u-3JF {
+    background-color: var(--brand-experiment) !important;
+    border: 1px solid var(--brand-experiment-430) !important;
+    border-bottom-color: var(--brand-experiment-560) !important;
+    color: #000 !important;
+}
+.profileColors-3Y0XaR.theme-dark .buttonColor-1u-3JF:hover {
+    background-color: var(--brand-experiment-530) !important;
+    border-color: var(--brand-experiment-500) !important;
+    border-bottom-color: var(--brand-experiment-600) !important;
+}
+
+.profileColors-3Y0XaR.theme-light .buttonColor-1u-3JF {
+    background-color: var(--blue-button-bg) !important;
+    border: 1px solid var(--blue-button-border) !important;
+    border-top-color: var(--blue-button-top) !important;
+    border-bottom-color: var(--blue-button-bottom) !important;
+    color: #fff !important;
+}
+.profileColors-3Y0XaR.theme-light .buttonColor-1u-3JF:hover {
+    background-color: var(--blue-button-hover) !important;
+}
+
 /* Gray Buttons */
 .theme-dark .colorGrey-2iAG-B,
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,
@@ -4177,7 +4247,7 @@ html {
     border-top-right-radius: var(--winrad2);
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    border-bottom: 0px;
+    border-bottom: none !important;
     height: 38px;
     width: 56px;
 }
@@ -4186,7 +4256,6 @@ html {
     border-top-right-radius: 0px;
     border-bottom-left-radius: var(--winrad2);
     border-bottom-right-radius: var(--winrad2);
-    border-top: 0px;
     height: 12px;
     width: 50px;
 }
@@ -4243,8 +4312,58 @@ html {
     background-color: var(--winlight-button-hover) !important;
 }
 
-.colorable-3rVGna.red-3T8maV .centerIcon-JYpTUi {
-    color: var(--info-danger-foreground) !important;
+.theme-dark .colorable-3rVGna.primaryDark-2UJt1G,
+.theme-dark .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi {
+    color: #fff !important;
+}
+
+.theme-light .colorable-3rVGna.primaryDark-2UJt1G,
+.theme-light .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi {
+    color: #000 !important;
+}
+
+.theme-dark .colorable-3rVGna.red-3T8maV .centerIcon-JYpTUi {
+    color: #FF99A4 !important;
+}
+
+.theme-light .colorable-3rVGna.red-3T8maV .centerIcon-JYpTUi {
+    color: #C42B1C !important;
+}
+
+.theme-dark .colorable-3rVGna.white-11auuQ {
+    background-color: var(--brand-experiment) !important;
+    border: 1px solid var(--brand-experiment-430) !important;
+    border-bottom-color: var(--brand-experiment-560) !important;
+}
+.theme-dark .colorable-3rVGna.white-11auuQ:hover {
+    background-color: var(--brand-experiment-530) !important;
+    border-color: var(--brand-experiment-500) !important;
+    border-bottom-color: var(--brand-experiment-600) !important;
+}
+.theme-dark .colorable-3rVGna.white-11auuQ,
+.theme-dark .colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi {
+    color: #000 !important;
+}
+
+.theme-light .colorable-3rVGna.white-11auuQ {
+    background-color: var(--blue-button-bg) !important;
+    border: 1px solid var(--blue-button-border) !important;
+    border-top-color: var(--blue-button-top) !important;
+    border-bottom-color: var(--blue-button-bottom) !important;
+}
+.theme-light .colorable-3rVGna.white-11auuQ:hover {
+    background-color: var(--blue-button-hover) !important;
+    border: 1px solid var(--blue-button-border) !important;
+    border-top-color: var(--blue-button-top) !important;
+    border-bottom-color: var(--blue-button-bottom) !important;
+}
+.theme-light .colorable-3rVGna.white-11auuQ,
+.theme-light .colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi {
+    color: #fff !important;
+}
+
+.theme-light .callContainer-HtHELf .controlIcon-10O-4h {
+    color: #cccccc;
 }
 
 /* Spectators Call */
