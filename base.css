@@ -3257,6 +3257,10 @@ html {
     font-size: 12px;
 }
 
+#app-mount .mediaBarWrapper-33h1oY {
+    height: 4px;
+}
+
 #app-mount .mediaBarGrabber-FvJKJg {
     height: 18px;
     width: 18px;
@@ -3273,14 +3277,19 @@ html {
     position: absolute;
     left: 4px;
     top: 4px;
-    border: 1px solid var(--background-primary);
+    transition: var(--wintransition);
+}
+#app-mount .mediaBarGrabber-FvJKJg:hover::before {
+    transform: scale(1.2);
+    transform-origin: center;
 }
 
 .theme-dark .mediaBarGrabber-FvJKJg {
     background-color: #454545 !important;
 }
 .theme-dark .mediaBarGrabber-FvJKJg::before {
-    background-color: var(--brand-experiment) !important;
+    background-color: var(--control-brand-foreground) !important;
+    border: 1px solid var(--control-brand-foreground-new);
 }
 
 .theme-light .mediaBarGrabber-FvJKJg {
@@ -3288,6 +3297,19 @@ html {
 }
 .theme-light .mediaBarGrabber-FvJKJg::before {
     background-color: var(--blue-button-bg) !important;
+    border: 1px solid var(--blue-button-hover);
+}
+
+.theme-dark .mediaBarProgress-38I317,
+.theme-dark .mediaBarProgress-38I317:after,
+.theme-dark .mediaBarProgress-38I317:before {
+    background-color: var(--control-brand-foreground);
+}
+
+.theme-light .mediaBarProgress-38I317,
+.theme-light .mediaBarProgress-38I317:after,
+.theme-light .mediaBarProgress-38I317:before {
+    background-color: var(--blue-button-bg);
 }
 
 #app-mount .mediaBarInteraction-tUE5dq:hover .mediaBarWrapper-33h1oY,
@@ -3309,10 +3331,10 @@ html {
     top: -78px;
 }
 #app-mount .mediaBarInteractionVolume-zGrOSh {
-    border-radius: var(--winrad1);
-    padding: 12px;
+    border-radius: var(--winrad3);
+    padding: 14px;
     backdrop-filter: blur(var(--winblur1));
-    box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-medium);
 }
 
 .theme-dark .metadata-3IncIG {
@@ -5460,17 +5482,17 @@ html {
 }
 
 #app-mount .menu-1QACrS .grabber-2GQyvM {
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     border-radius: 50%;
-    margin-left: -7px;
-    margin-top: -2px;
+    margin-left: -6px;
+    margin-top: -1px;
     border: 1px solid var(--background-primary);
 }
 #app-mount .menu-1QACrS .grabber-2GQyvM::before {
     content: "";
-    height: 10px;
-    width: 10px;
+    height: 8px;
+    width: 8px;
     border-radius: 50%;
     position: absolute;
     left: 4px;
