@@ -140,8 +140,6 @@ You need to add the following CSS to the theme's CSS for it to work. [Check here
 
 ## Used Addons
 
-- Discolored by **[Nyri4](https://github.com/NYRI4/Discolored)**
-
 - Fluent Icons by **[Stickfab](https://github.com/stickfab/pc-fluenticons)**
 
 - Emoji Replace by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/EmojiReplace/EmojiReplace.theme.css)**
