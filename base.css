@@ -870,18 +870,10 @@ html {
 }
 
 .activity-E0U09Y {
+    background: var(--background-modifier-accent);
+    border: 1px solid var(--background-modifier-accent);
     border-radius: var(--winrad2);
     padding: 8px;
-}
-
-.profileColors-3Y0XaR.theme-dark .activity-E0U09Y {
-    background: var(--noise256), var(--windark-box1);
-    border: var(--windarkborder2);
-}
-
-.profileColors-3Y0XaR.theme-light .activity-E0U09Y {
-    background: var(--noise256), var(--winlight-box1);
-    border: var(--winlightborder3);
 }
 
 #app-mount .activity-E0U09Y .platformIcon-k3yytQ {
@@ -927,6 +919,7 @@ html {
 }
 
 .profileColors-3Y0XaR .tabBar-2StdUa {
+    justify-content: center;
     gap: 8px;
 }
 
@@ -1006,6 +999,8 @@ html {
 }
 
 .body-_QAKrE .listRow-Y5zoF8 {
+    background: var(--background-modifier-accent);
+    border: 1px solid var(--background-modifier-accent);
     margin-top: 8px;
     margin-left: 0;
     margin-bottom: 0;
@@ -1013,16 +1008,6 @@ html {
     border-radius: 4px;
     height: 24px;
     width: 250px;
-}
-
-.profileColors-3Y0XaR.theme-dark .body-_QAKrE .listRow-Y5zoF8 {
-    background: var(--noise256), var(--windark-box1);
-    border: var(--windarkborder3);
-}
-
-.profileColors-3Y0XaR.theme-light .body-_QAKrE .listRow-Y5zoF8 {
-    background: var(--noise256), var(--winlight-box1);
-    border: var(--winlightborder3);
 }
 
 .listRow-Y5zoF8 .icon-1zKOXL {
@@ -1062,29 +1047,16 @@ html {
 }
 
 .userProfileActivity-1JPDhh .body-u1Y8uL {
+    background: var(--background-modifier-accent);
+    border: 1px solid var(--background-modifier-accent);
     padding: 8px;
     flex-flow: wrap;
     border-radius: var(--winrad2);
-    box-shadow: var(--elevation-low);
-}
-
-.profileColors-3Y0XaR.theme-dark .userProfileActivity-1JPDhh .body-u1Y8uL {
-    background: var(--noise256), var(--windark-box1);
-    border: var(--windarkborder2);
-}
-
-.profileColors-3Y0XaR.theme-light .userProfileActivity-1JPDhh .body-u1Y8uL {
-    background: var(--noise256), var(--winlight-box1);
-    border: var(--winlightborder3);
 }
 
 #app-mount .contentGameImageProfileV2-2dewzu,
 #app-mount .contentImagesProfileV2-2Z-K9I {
     width: 0;
-}
-
-.buttonsWrapper-2ARRp1:empty {
-    margin-top: 0 !important;
 }
 
 .assets-3PQvAh {
@@ -1094,6 +1066,10 @@ html {
 #app-mount .userProfileActivity-1JPDhh .platformIcon-k3yytQ {
     top: -4px;
     right: 0;
+}
+
+.buttonsWrapper-2ARRp1:empty {
+    margin-top: 0 !important;
 }
 
 #app-mount .actionsProfileV2-2xJe2L {
@@ -1135,17 +1111,9 @@ html {
 }
 
 #app-mount .connectedAccountContainer-3aLMHJ {
+    background: var(--background-modifier-accent);
+    border: 1px solid var(--background-modifier-accent);
     margin-top: 8px;
-}
-
-.profileColors-3Y0XaR.theme-dark .connectedAccountContainer-3aLMHJ {
-    background: var(--windark-box1) var(--noise256);
-    border: var(--windarkborder3);
-}
-
-.profileColors-3Y0XaR.theme-light .connectedAccountContainer-3aLMHJ {
-    background: var(--winlight-box1) var(--noise256);
-    border: var(--winlightborder3);
 }
 
 .listenAlongIcon-aXq1MH {
@@ -2931,8 +2899,16 @@ html {
     padding-right: 8px !important;
 }
 
-.tagsContainer-2bBw1x .sort-37NWdz {
-    padding: 4px;
+.mainCard-3KBsBI.header-1Uy0p6 {
+    background: var(--background-modifier-active);
+    border: 1px solid var(--background-modifier-active);
+    border-radius: var(--winrad4);
+}
+
+.container-3wLKDe .title-1v5ZfI {
+    margin: 0;
+    padding: 4px 0 0 8px;
+    height: 36px;
 }
 
 /* Scrollbar CSS */
@@ -4654,6 +4630,11 @@ html {
     right: 16px;
 }
 
+.emptyState-30PyIN {
+    width: 100%;
+    height: 100%;
+}
+
 /* FriendList Button */
 .peopleListItem-u6dGxF.active-2UF8Zh,
 .peopleListItem-u6dGxF:hover {
@@ -5355,6 +5336,16 @@ html {
 /* App Directory */
 #app-mount .directoryModal-YJsOMv {
     background-color: var(--background-primary);
+}
+
+#app-mount .directoryModal-YJsOMv .search-2RHhW6 {
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+.directoryModal-YJsOMv .search-2RHhW6 svg {
+    display: none;
 }
 
 .headerBanner-ZCUdfQ {
