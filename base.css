@@ -51,7 +51,7 @@
     --winlight-button-bottom: #dbdbdb;
 
     --winlight-box1: rgba(252, 252, 252, 0.85);
-	
+
     --wintransition: all 200ms;
 
     --winrad1: 3px;
@@ -3668,18 +3668,10 @@ html {
 }
 
 .fakeActivityLayout-2kcbMs {
+    background: var(--background-modifier-accent);
+    border: 1px solid var(--background-modifier-accent);
     border-radius: var(--winrad2);
     padding: 8px;
-}
-
-.profileColors-3Y0XaR.theme-dark .fakeActivityLayout-2kcbMs {
-    background: var(--noise256), var(--windark-box1);
-    border: var(--windarkborder2);
-}
-
-.profileColors-3Y0XaR.theme-light .fakeActivityLayout-2kcbMs {
-    background: var(--noise256), var(--winlight-box1);
-    border: var(--winlightborder3);
 }
 
 #app-mount .buttonColor-1u-3JF {
@@ -4843,7 +4835,8 @@ html {
 }
 #app-mount .contentColumnDefault-3eyv5o {
     max-width: 50vw;
-    margin: auto;
+    margin: 0px 0px 0px auto;
+    padding: 16px 0px 24px;
 }
 
 /* Server Upload Image */
@@ -4989,30 +4982,21 @@ html {
 }
 
 /* User Profile */
-.profileCustomizationSection-2OOT4p .customizationSection-IGy2fS:not(.preview-Z55SA3) {
-    border-radius: var(--winrad1);
-    padding: 16px;
-    margin-bottom: unset;
-    margin-top: 8px;
-}
-
-.theme-dark .profileCustomizationSection-2OOT4p .customizationSection-IGy2fS:not(.preview-Z55SA3) {
-    background-color: var(--windark-acrylic);
-    border: var(--windarkborder3);
-}
-
-.theme-light .profileCustomizationSection-2OOT4p .customizationSection-IGy2fS:not(.preview-Z55SA3) {
-    background-color: var(--winlight-acrylic);
-    border: var(--winlightborder2);
-}
-
-.profileCustomizationSection-2OOT4p .baseLayout-8AMrwn > div:first-child {
-    width: 100%;
-}
-
 .contentColumnWide-2CgNjO[id="profile-customization-tab"] {
-    padding-left: 30vh;
-    padding-right: 30vh;
+    max-width: 50vw !important;
+    margin: 0px 0px 0px auto;
+    padding: 16px 0px 24px;
+}
+.contentColumnWide-2CgNjO[id="profile-customization-tab"] .tryItOutSection-W9qeGH {
+    max-width: 50vw;
+    margin: 32px 0px 0px;
+}
+.contentColumnWide-2CgNjO[id="profile-customization-tab"] .tryItOutLayout-2ypO8Z {
+    gap: 7px;
+}
+.contentColumnWide-2CgNjO[id="profile-customization-tab"] .editor-328F1U {
+    min-width: 273px;
+    width: 50vw;
 }
 
 /* Privacy & Safety */
@@ -5556,7 +5540,7 @@ html {
 #app-mount .customScroller-m1-jZn > div {
     max-width: unset;
     min-width: unset;
-    margin: 0 30vh;
+    margin: 0 20vh;
 }
 
 #app-mount .sidebar-3K3Z4C {
@@ -5798,10 +5782,8 @@ html {
 
 /* Go Back */
 #app-mount .toolsContainer-25FL6V {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 20vh;
+    margin-right: auto;
+    padding-left: 8px;
 }
 #app-mount .keybind-13vtq8 {
     display: none;
