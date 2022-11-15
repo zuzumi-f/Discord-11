@@ -2875,7 +2875,6 @@ html {
     width: auto;
     border: var(--windarkborder1);
     margin-right: 8px;
-    margin-bottom: 0;
 }
 
 .theme-dark .container-2giAcK {
@@ -3085,6 +3084,10 @@ html {
     margin-left: 4px;
     line-height: 20px;
     width: fit-content;
+}
+
+#app-mount .sectionDivider-189lqb {
+    width: calc(100% - 16px);
 }
 
 /* buttons */
