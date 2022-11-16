@@ -1,0 +1,152 @@
+#app-mount .message-2CShn3[data-is-author-self="true"] {
+    margin-left: auto;
+    width: auto;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg {
+    display: block;
+}
+#app-mount .message-2CShn3.selected-2LX7Jy[data-is-author-self=true] .contents-2MsGLg {
+    width: 100%;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .timestamp-p1Df1m {
+    left: unset;
+    right: -4px;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .repliedMessage-3Z6XBG {
+    margin-left: auto;
+}
+
+#app-mount .contents-2MsGLg > .messageContent-2t3eCI {
+    overflow: visible;
+}
+
+#app-mount .replying-eZ7p5z[data-is-author-self="true"]:before,
+#app-mount .mentioned-Tre-dv[data-is-author-self="true"]:before {
+    left: unset;
+    right: 4px !important;
+}
+
+#app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg {
+    margin-left: auto;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI {
+    overflow: visible;
+}
+
+#app-mount .message-2CShn3[data-is-author-self="true"] a:not(.embed-hKpSrO .embedAuthorNameLink-1NK1y6) {
+    margin-left: auto;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .avatar-2e8lTP {
+    display: none;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .headerText-2z4IhQ {
+    display: none;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .header-2jRmjb {
+    text-align: end;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .repliedMessage-3Z6XBG:before {
+    display: none;
+}
+
+#app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya {
+    direction: rtl;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .embedAuthor-TJIHp5 {
+    direction: ltr;
+}
+
+#app-mount .cozy-VmLDNB.wrapper-30-Nkg .contents-2MsGLg .header-2jRmjb {
+    padding: 8px;
+    padding-bottom: 4px;
+}
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .messageContent-2t3eCI:not(:empty, :first-child) {
+    padding-top: 0;
+}
+#app-mount .cozy-VmLDNB .contents-2MsGLg > .messageContent-2t3eCI:not(:empty) {
+    margin-left: 0;
+    padding: 8px;
+}
+
+#app-mount .compact-2Nkcau .contents-2MsGLg {
+    padding: 8px;
+}
+
+#app-mount .contents-2MsGLg pre {
+    max-width: 100%;
+}
+
+#app-mount .contents-2MsGLg {
+    background-color: var(--background-secondary);
+    border-radius: 3px;
+    width: fit-content;
+}
+#app-mount .contents-2MsGLg {
+    display: inline-block;
+    max-width: 100%;
+}
+#app-mount .message-2CShn3 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#app-mount .message-2CShn3:hover .contents-2MsGLg,
+#app-mount .message-2CShn3.selected-2LX7Jy .contents-2MsGLg {
+    background-color: var(--background-secondary-alt);
+}
+
+#app-mount .compact-2Nkcau .contents-2MsGLg {
+    margin-left: -64px;
+    padding-left: 4rem;
+}
+#app-mount .mentioned-Tre-dv.compact-2Nkcau .contents-2MsGLg .messageContent-2t3eCI::before {
+    left: -4px;
+}
+#app-mount .replying-eZ7p5z.compact-2Nkcau .contents-2MsGLg .messageContent-2t3eCI::before {
+    left: -4px;
+}
+
+#app-mount .mentioned-Tre-dv .contents-2MsGLg {
+    background-color: var(--background-mentioned);
+}
+#app-mount .mentioned-Tre-dv:hover .contents-2MsGLg,
+#app-mount .mentioned-Tre-dv.selected-2LX7Jy .contents-2MsGLg {
+    background-color: var(--background-mentioned-hover);
+}
+
+#app-mount .repliedMessage-3Z6XBG {
+    background-color: var(--background-message-hover);
+    margin-bottom: 0;
+    padding: 6px;
+    border-radius: 3px;
+    width: fit-content;
+    max-width: 100%;
+}
+.repliedMessage-3Z6XBG:before {
+    display: none;
+}
+
+#app-mount .replying-eZ7p5z .contents-2MsGLg {
+    background-color: var(--brand-experiment-05a);
+}
+#app-mount .replying-eZ7p5z:hover .contents-2MsGLg,
+#app-mount .replying-eZ7p5z.selected-2LX7Jy .contents-2MsGLg {
+    background-color: var(--brand-experiment-10a);
+}
+
+#app-mount .replying-eZ7p5z:before {
+    background-color: var(--brand-experiment);
+}
+
+#app-mount .mentioned-Tre-dv:before,
+#app-mount .replying-eZ7p5z:before {
+    width: 3px;
+    height: calc(100% - 12px);
+    border-radius: 1.5px;
+    left: 4px;
+    top: 6px;
+}
+
+.a11y-font-scaled-down .cozy-VmLDNB .header-2jRmjb {
+    margin-left: 0 !important;
+}
