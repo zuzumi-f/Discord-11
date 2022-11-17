@@ -1,6 +1,6 @@
 # Discord 11
 
-### [Version 2.3.0 is out!](https://github.com/zuzumi-f/Discord-11/releases)
+### [Version 2.4.0 is out!](https://github.com/zuzumi-f/Discord-11/releases)
 
 A theme based on Windows 11's UI - by [zuzumi](https://github.com/zuzumi-f)
 
