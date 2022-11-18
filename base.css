@@ -3439,11 +3439,11 @@
     border-bottom-color: var(--blue-button-hover-bottom) !important;
 }
 
-.theme-dark .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+.theme-dark #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ {
     color: #000 !important;
 }
 
-.theme-light .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+.theme-light #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ {
     color: #fff !important;
 }
 
@@ -3653,6 +3653,28 @@
 
 .theme-light .baseShapeRound-3epLEv:not(.textBadge-1fdDPJ) {
     color: #fff !important;
+}
+
+#app-mount [class="textBadge-1fdDPJ base-3IDx3L baseShapeRound-3epLEv"][style="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"] {
+    background-color: var(--brand-experiment) !important;
+    color: var(--status-warning-text);
+    font-weight: 400;
+}
+
+#app-mount .statusTagRed-1uG_z8,
+#app-mount .invalidIndicator-3iumEX {
+    background-color: var(--info-danger-foreground);
+    color: var(--status-warning-text);
+    font-weight: 500;
+    border-radius: 100px;
+}
+
+#app-mount [class="textBadge-1fdDPJ base-3IDx3L baseShapeRound-3epLEv"][style="background-color: var(--status-danger);"],
+#app-mount [class="newBadge-1bHewI badgeSpacing-2uYkGw textBadge-1fdDPJ base-3IDx3L baseShapeRound-3epLEv"][style="background-color: var(--status-danger);"] {
+    background-color: var(--info-danger-foreground) !important;
+    color: var(--status-warning-text);
+    font-weight: 500;
+    border-radius: 100px;
 }
 
 /* Live Shape Round */
@@ -4429,7 +4451,7 @@
 #app-mount .contentColumn-1C7as6,
 #app-mount .customColumn-2n-oKU,
 #app-mount .repoHeader-2KfNvH > * {
-    max-width: unset;
+    max-width: max-width: calc(100% - 150px);
 }
 
 #app-mount .sidebarRegion-1VBisG {
@@ -5209,15 +5231,19 @@
 
 /* View as Role */
 #app-mount .notice-2olXi7 {
-    background-color: var(--focus-primary);
 }
 
-/* Fix in roles */
+/* Fix in Permissions roles */
 .role-3pGE29 {
     margin-bottom: 2px !important;
 }
 .role-3pGE29.item-3XjbnG.selected-g-kMVV.themed-2-lozF::after {
     top: 8px !important;
+}
+
+.role-3pGE29 .wrapper-1VLyxH > *{
+    width: 20px !important;
+    height: 20px !important;
 }
 
 /* Audit Log */
