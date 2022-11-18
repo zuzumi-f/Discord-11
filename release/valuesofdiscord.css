@@ -174,6 +174,9 @@
     --deprecated-text-input-border-hover: #040405;
     --deprecated-text-input-border-disabled: var(--windark2);
     --deprecated-text-input-prefix: #dcddde;
+    
+    --background-message-highlight: hsla(var(--brand-360-rgb),0.08);
+    --background-message-highlight-hover: hsla(var(--brand-360-rgb),0.06);
 }
 
 .theme-light {
@@ -241,6 +244,9 @@
     --deprecated-text-input-border-hover: #b9bbbe;
     --deprecated-text-input-border-disabled: #dcddde;
     --deprecated-text-input-prefix: #b9bbbe;
+    
+    --background-message-highlight: hsla(var(--brand-360-rgb),0.1);
+    --background-message-highlight-hover: hsla(var(--brand-360-rgb),0.2);
 }
 
 /* Blue */
@@ -298,6 +304,62 @@
     --brand-new-830-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.24*var(--L));
     --brand-new-860-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.16*var(--L));
     --brand-new-900-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0*var(--L));
+}
+
+:root {
+    --brand-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
+    --brand-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
+    --brand-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
+    --brand-200: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L)));
+    --brand-230: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L)));
+    --brand-260: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L)));
+    --brand-300: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L)));
+    --brand-330: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L)));
+    --brand-345: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L)));
+    --brand-360: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L)));
+    --brand-400: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L)));
+    --brand-430: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L)));
+    --brand-460: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L)));
+    --brand-500: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L)));
+    --brand-530: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.75*var(--S))), calc(0.99*var(--L)));
+    --brand-560: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.60*var(--S))), calc(0.91*var(--L)));
+    --brand-600: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.83*var(--L)));
+    --brand-630: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.74*var(--L)));
+    --brand-660: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.66*var(--L)));
+    --brand-700: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.58*var(--L)));
+    --brand-730: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.49*var(--L)));
+    --brand-760: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.41*var(--L)));
+    --brand-800: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.33*var(--L)));
+    --brand-830: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.24*var(--L)));
+    --brand-860: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.16*var(--L)));
+    --brand-900: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0*var(--L)));
+
+    --brand-100-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L));
+    --brand-130-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L));
+    --brand-160-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L));
+    --brand-200-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L));
+    --brand-230-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L));
+    --brand-260-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L));
+    --brand-300-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L));
+    --brand-330-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L));
+    --brand-345-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L));
+    --brand-360-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L));
+    --brand-400-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L));
+    --brand-430-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L));
+    --brand-460-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L));
+    --brand-500-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L));
+    --brand-530-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.99*var(--L));
+    --brand-560-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.91*var(--L));
+    --brand-600-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.83*var(--L));
+    --brand-630-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.74*var(--L));
+    --brand-660-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.66*var(--L));
+    --brand-700-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.58*var(--L));
+    --brand-730-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.49*var(--L));
+    --brand-760-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.41*var(--L));
+    --brand-800-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.33*var(--L));
+    --brand-830-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.24*var(--L));
+    --brand-860-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.16*var(--L));
+    --brand-900-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0*var(--L));
 }
 
 [data-popout-root], html {
