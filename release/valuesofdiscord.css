@@ -174,7 +174,9 @@
     --deprecated-text-input-border-hover: #040405;
     --deprecated-text-input-border-disabled: var(--windark2);
     --deprecated-text-input-prefix: #dcddde;
-    
+
+    --info-help-background: hsla(var(--link-500-rgb),0.1);
+
     --background-message-highlight: hsla(var(--brand-360-rgb),0.08);
     --background-message-highlight-hover: hsla(var(--brand-360-rgb),0.06);
 }
@@ -244,7 +246,9 @@
     --deprecated-text-input-border-hover: #b9bbbe;
     --deprecated-text-input-border-disabled: #dcddde;
     --deprecated-text-input-prefix: #b9bbbe;
-    
+
+    --info-help-background: hsla(var(--link-light-500-rgb),0.1);
+
     --background-message-highlight: hsla(var(--brand-360-rgb),0.1);
     --background-message-highlight-hover: hsla(var(--brand-360-rgb),0.2);
 }
@@ -360,6 +364,230 @@
     --brand-830-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.24*var(--L));
     --brand-860-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.16*var(--L));
     --brand-900-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0*var(--L));
+}
+
+:root {
+    --focus-primary-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
+    --focus-primary-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
+    --focus-primary-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
+    --focus-primary-200: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L)));
+    --focus-primary-230: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L)));
+    --focus-primary-260: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L)));
+    --focus-primary-300: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L)));
+    --focus-primary-330: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L)));
+    --focus-primary-345: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L)));
+    --focus-primary-360: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L)));
+    --focus-primary-400: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L)));
+    --focus-primary-430: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L)));
+    --focus-primary-460: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L)));
+    --focus-primary-500: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L)));
+    --focus-primary-530: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.75*var(--S))), calc(0.99*var(--L)));
+    --focus-primary-560: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.60*var(--S))), calc(0.91*var(--L)));
+    --focus-primary-600: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.83*var(--L)));
+    --focus-primary-630: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.74*var(--L)));
+    --focus-primary-660: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.66*var(--L)));
+    --focus-primary-700: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.58*var(--L)));
+    --focus-primary-730: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.49*var(--L)));
+    --focus-primary-760: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.41*var(--L)));
+    --focus-primary-800: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.33*var(--L)));
+    --focus-primary-830: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.24*var(--L)));
+    --focus-primary-860: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.16*var(--L)));
+    --focus-primary-900: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0*var(--L)));
+
+    --focus-primary-100-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L));
+    --focus-primary-130-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L));
+    --focus-primary-160-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L));
+    --focus-primary-200-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L));
+    --focus-primary-230-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L));
+    --focus-primary-260-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L));
+    --focus-primary-300-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L));
+    --focus-primary-330-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L));
+    --focus-primary-345-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L));
+    --focus-primary-360-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L));
+    --focus-primary-400-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L));
+    --focus-primary-430-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L));
+    --focus-primary-460-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L));
+    --focus-primary-500-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L));
+    --focus-primary-530-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.99*var(--L));
+    --focus-primary-560-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.91*var(--L));
+    --focus-primary-600-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.83*var(--L));
+    --focus-primary-630-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.74*var(--L));
+    --focus-primary-660-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.66*var(--L));
+    --focus-primary-700-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.58*var(--L));
+    --focus-primary-730-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.49*var(--L));
+    --focus-primary-760-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.41*var(--L));
+    --focus-primary-800-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.33*var(--L));
+    --focus-primary-830-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.24*var(--L));
+    --focus-primary-860-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.16*var(--L));
+    --focus-primary-900-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0*var(--L));
+}
+
+:root {
+    --link-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
+    --link-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
+    --link-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
+    --link-200: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L)));
+    --link-230: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L)));
+    --link-260: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L)));
+    --link-300: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L)));
+    --link-330: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L)));
+    --link-345: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L)));
+    --link-360: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L)));
+    --link-400: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L)));
+    --link-430: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L)));
+    --link-460: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L)));
+    --link-500: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L)));
+    --link-530: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.75*var(--S))), calc(0.99*var(--L)));
+    --link-560: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.60*var(--S))), calc(0.91*var(--L)));
+    --link-600: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.83*var(--L)));
+    --link-630: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.74*var(--L)));
+    --link-660: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.66*var(--L)));
+    --link-700: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.58*var(--L)));
+    --link-730: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.49*var(--L)));
+    --link-760: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.41*var(--L)));
+    --link-800: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.33*var(--L)));
+    --link-830: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.24*var(--L)));
+    --link-860: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.16*var(--L)));
+    --link-900: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0*var(--L)));
+
+    --link-100-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L));
+    --link-130-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L));
+    --link-160-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L));
+    --link-200-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L));
+    --link-230-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L));
+    --link-260-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L));
+    --link-300-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L));
+    --link-330-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L));
+    --link-345-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L));
+    --link-360-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L));
+    --link-400-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L));
+    --link-430-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L));
+    --link-460-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L));
+    --link-500-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L));
+    --link-530-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.99*var(--L));
+    --link-560-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.91*var(--L));
+    --link-600-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.83*var(--L));
+    --link-630-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.74*var(--L));
+    --link-660-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.66*var(--L));
+    --link-700-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.58*var(--L));
+    --link-730-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.49*var(--L));
+    --link-760-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.41*var(--L));
+    --link-800-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.33*var(--L));
+    --link-830-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.24*var(--L));
+    --link-860-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.16*var(--L));
+    --link-900-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0*var(--L));
+}
+
+:root {
+    --link-low-saturation-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
+    --link-low-saturation-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
+    --link-low-saturation-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
+    --link-low-saturation-200: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L)));
+    --link-low-saturation-230: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L)));
+    --link-low-saturation-260: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L)));
+    --link-low-saturation-300: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L)));
+    --link-low-saturation-330: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L)));
+    --link-low-saturation-345: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L)));
+    --link-low-saturation-360: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L)));
+    --link-low-saturation-400: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L)));
+    --link-low-saturation-430: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L)));
+    --link-low-saturation-460: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L)));
+    --link-low-saturation-500: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L)));
+    --link-low-saturation-530: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.75*var(--S))), calc(0.99*var(--L)));
+    --link-low-saturation-560: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.60*var(--S))), calc(0.91*var(--L)));
+    --link-low-saturation-600: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.83*var(--L)));
+    --link-low-saturation-630: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.74*var(--L)));
+    --link-low-saturation-660: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.66*var(--L)));
+    --link-low-saturation-700: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.58*var(--L)));
+    --link-low-saturation-730: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.49*var(--L)));
+    --link-low-saturation-760: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.41*var(--L)));
+    --link-low-saturation-800: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.33*var(--L)));
+    --link-low-saturation-830: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.24*var(--L)));
+    --link-low-saturation-860: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.16*var(--L)));
+    --link-low-saturation-900: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0*var(--L)));
+
+    --link-low-saturation-100-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L));
+    --link-low-saturation-130-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L));
+    --link-low-saturation-160-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L));
+    --link-low-saturation-200-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L));
+    --link-low-saturation-230-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L));
+    --link-low-saturation-260-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L));
+    --link-low-saturation-300-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L));
+    --link-low-saturation-330-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L));
+    --link-low-saturation-345-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L));
+    --link-low-saturation-360-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L));
+    --link-low-saturation-400-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L));
+    --link-low-saturation-430-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L));
+    --link-low-saturation-460-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L));
+    --link-low-saturation-500-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L));
+    --link-low-saturation-530-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.99*var(--L));
+    --link-low-saturation-560-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.91*var(--L));
+    --link-low-saturation-600-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.83*var(--L));
+    --link-low-saturation-630-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.74*var(--L));
+    --link-low-saturation-660-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.66*var(--L));
+    --link-low-saturation-700-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.58*var(--L));
+    --link-low-saturation-730-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.49*var(--L));
+    --link-low-saturation-760-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.41*var(--L));
+    --link-low-saturation-800-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.33*var(--L));
+    --link-low-saturation-830-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.24*var(--L));
+    --link-low-saturation-860-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.16*var(--L));
+    --link-low-saturation-900-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0*var(--L));
+}
+
+:root {
+    --link-light-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
+    --link-light-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
+    --link-light-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
+    --link-light-200: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L)));
+    --link-light-230: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L)));
+    --link-light-260: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L)));
+    --link-light-300: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L)));
+    --link-light-330: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L)));
+    --link-light-345: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L)));
+    --link-light-360: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L)));
+    --link-light-400: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L)));
+    --link-light-430: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L)));
+    --link-light-460: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L)));
+    --link-light-500: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L)));
+    --link-light-530: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.75*var(--S))), calc(0.99*var(--L)));
+    --link-light-560: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.60*var(--S))), calc(0.91*var(--L)));
+    --link-light-600: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.83*var(--L)));
+    --link-light-630: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.74*var(--L)));
+    --link-light-660: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.66*var(--L)));
+    --link-light-700: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.58*var(--L)));
+    --link-light-730: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.49*var(--L)));
+    --link-light-760: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.41*var(--L)));
+    --link-light-800: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.33*var(--L)));
+    --link-light-830: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.24*var(--L)));
+    --link-light-860: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.16*var(--L)));
+    --link-light-900: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0*var(--L)));
+
+    --link-light-100-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L));
+    --link-light-130-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L));
+    --link-light-160-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L));
+    --link-light-200-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L));
+    --link-light-230-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L));
+    --link-light-260-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L));
+    --link-light-300-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L));
+    --link-light-330-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L));
+    --link-light-345-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L));
+    --link-light-360-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L));
+    --link-light-400-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L));
+    --link-light-430-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L));
+    --link-light-460-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L));
+    --link-light-500-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L));
+    --link-light-530-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.99*var(--L));
+    --link-light-560-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.91*var(--L));
+    --link-light-600-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.83*var(--L));
+    --link-light-630-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.74*var(--L));
+    --link-light-660-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.66*var(--L));
+    --link-light-700-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.58*var(--L));
+    --link-light-730-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.49*var(--L));
+    --link-light-760-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.41*var(--L));
+    --link-light-800-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.33*var(--L));
+    --link-light-830-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.24*var(--L));
+    --link-light-860-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0.16*var(--L));
+    --link-light-900-rgb: var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(0*var(--L));
 }
 
 [data-popout-root], html {
