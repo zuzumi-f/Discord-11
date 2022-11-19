@@ -826,6 +826,10 @@
     background-color: var(--link-460);
 }
 
+#app-mount [points="13 20 11 20 11 8 5.5 13.5 4.08 12.08 12 4.16 19.92 12.08 18.5 13.5 13 8"] {
+    stroke: none;
+}
+
 /* In Guild Profile */
 #app-mount .guild-profile .guild-profile-body {
     min-height: 240px;
@@ -4560,12 +4564,12 @@
     border: var(--windarkborder1);
 }
 
-#app-mount .accountProfileCard-lbN7n- .banner-1YaD3N[style^="background-color: "] {
+#app-mount .accountProfileCard-lbN7n- .banner-2boKnS[style^="background-color: "] {
     height: 126px;
     border-top-left-radius: var(--winrad4);
     border-top-right-radius: var(--winrad4);
 }
-#app-mount .accountProfileCard-lbN7n- .banner-1YaD3N[style^="background-image: "] {
+#app-mount .accountProfileCard-lbN7n- .banner-2boKnS[style^="background-image: "] {
     height: 500px;
 }
 
@@ -4670,6 +4674,18 @@
 .theme-light .itemFilled-1cPbtg {
     border: var(--winlightborder2);
     border-radius: var(--winrad2);
+}
+
+[class="radioBar-3w9XY-"][style="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); padding: 10px;"] {
+    --radio-bar-accent-color: var(--info-positive-foreground) !important;
+}
+
+[class="radioBar-3w9XY-"][style="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%); padding: 10px;"] {
+    --radio-bar-accent-color: var(--info-warning-foreground) !important;
+}
+
+[class="radioBar-3w9XY-"][style="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); padding: 10px;"] {
+    --radio-bar-accent-color: var(--info-danger-foreground) !important;
 }
 
 /* Authorized Apps */
