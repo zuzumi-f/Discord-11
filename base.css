@@ -2561,6 +2561,11 @@
     fill: var(--status-warning-text);
 }
 
+#app-mount .newBadge-1LcB6t[style="background-color: hsl(235, calc(var(--saturation-factor, 1) * 86.2%), 88.6%);"] {
+    background-color: var(--brand-500) !important;
+    color: var(--status-warning-text);
+}
+
 /* Scrollbar CSS */
 .scroller-kQBbkU,
 .auto-2K3UW5,
