@@ -648,6 +648,11 @@
     width: 268px;
 }
 
+.profileColors-3Y0XaR .connectedAccountContainer-2TWiXT {
+    border: 1px solid var(--background-modifier-accent);
+    background: var(--background-modifier-accent);
+}
+
 .profileColors-3Y0XaR .body-_QAKrE .listScroller-XCVa1H {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -809,7 +814,7 @@
 
 /* Link Acount Icon */
 #app-mount .connectedAccountOpenIcon-OngaxI {
-    transform: unset;
+    transform: translateX(-2px);
     -webkit-mask-position: center;
 }
 
