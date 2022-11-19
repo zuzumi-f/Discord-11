@@ -1823,13 +1823,15 @@
     border: var(--winlightborder2);
 }
 
-/* Bot Popout */
+/* Bots Info */
 #app-mount .botTag-7aX5WZ {
     background-color: var(--brand-experiment);
+    color: var(--status-warning-text);
+    border-radius: 100px;
 }
 
 .theme-dark .popout-AVsFMl,
-.theme-dark .guildPopout-G6M0fK {
+.theme-dark .guildPopout-1PxOP0 {
     background: var(--noise256), var(--windark-box1);
     border: var(--windarkborder2);
     border-radius: var(--winrad2);
@@ -1837,7 +1839,7 @@
 }
 
 .theme-light .popout-AVsFMl,
-.theme-light .guildPopout-G6M0fK {
+.theme-light .guildPopout-1PxOP0 {
     background: var(--noise256), var(--winlight-box1);
     border: var(--winlightborder2);
     border-radius: var(--winrad2);
@@ -2553,6 +2555,10 @@
     margin: 0;
     padding: 4px 0 0 8px;
     height: 36px;
+}
+
+.pinIcon-3I5-gm path {
+    fill: var(--status-warning-text);
 }
 
 /* Scrollbar CSS */
