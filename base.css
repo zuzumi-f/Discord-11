@@ -1026,6 +1026,10 @@
     border-bottom: var(--winlightborder3);
 }
 
+.submenu-1apzyU.menu-1QACrS[aria-activedescendant] .listItems-6eZzQ1[style="inset: 6px 0px 6px 8px;"] {
+    inset: 4px 6px !important;
+}
+
 .optionIcon-1Ft8w0 {
     width: 20px;
     height: 20px;
@@ -3415,12 +3419,12 @@
 }
 
 .lookOutlined-3yKVGo.colorRed-rQXKgM {
-    border-color: var(--info-danger-foreground);
+    border-color: var(--info-danger-foreground) !important;
     color: var(--info-danger-foreground);
 }
 .lookOutlined-3yKVGo.colorRed-rQXKgM:hover {
     background-color: var(--info-danger-foreground);
-    border-color: var(--info-danger-foreground);
+    border-color: var(--info-danger-foreground) !important;
     color: var(--info-danger-background);
 }
 
@@ -3445,6 +3449,16 @@
 
 .theme-light .lookFilled-yCfaCM.colorGreen-3y-Z79 {
     color: #fff !important;
+}
+
+/* Green elements */
+[style="color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] {
+    color: var(--info-positive-foreground) !important;
+}
+
+#app-mount .enableCircle-2fytPW,
+#app-mount .dotOnline-3uN0x9 {
+    background-color: var(--info-positive-foreground);
 }
 
 /* Brand Buttons */
@@ -3678,10 +3692,15 @@
     color: #fff !important;
 }
 
-#app-mount [class="textBadge-1fdDPJ base-3IDx3L baseShapeRound-3epLEv"][style="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"] {
+#app-mount [class*="textBadge-1fdDPJ "][style="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"] {
     background-color: var(--brand-experiment) !important;
     color: var(--status-warning-text);
     font-weight: 400;
+}
+
+#app-mount [class*="textBadge-1fdDPJ "][style="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"] .automodText-azqvwf {
+    color: var(--status-warning-text);
+    font-weight: 600;
 }
 
 #app-mount .statusTagRed-1uG_z8,
