@@ -175,6 +175,8 @@
     --deprecated-text-input-prefix: #dcddde;
 
     --info-help-background: hsla(var(--link-500-rgb),0.1);
+    
+    --mention-background: hsla(var(--brand-500-rgb),0.3);
 
     --background-message-highlight: hsla(var(--brand-360-rgb),0.08);
     --background-message-highlight-hover: hsla(var(--brand-360-rgb),0.06);
@@ -246,6 +248,8 @@
     --deprecated-text-input-prefix: #b9bbbe;
 
     --info-help-background: hsla(var(--link-light-500-rgb),0.1);
+    
+    --mention-background: hsla(var(--brand-500-rgb),0.15);
 
     --background-message-highlight: hsla(var(--brand-360-rgb),0.1);
     --background-message-highlight-hover: hsla(var(--brand-360-rgb),0.2);
