@@ -256,7 +256,7 @@
 }
 
 /* Blue */
-:root {
+.default-colors, :root {
     --brand-new-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
     --brand-new-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
     --brand-new-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
@@ -310,9 +310,7 @@
     --brand-new-830-rgb: var(--H), calc(0.54*var(--S)), calc(0.24*var(--L));
     --brand-new-860-rgb: var(--H), calc(0.54*var(--S)), calc(0.16*var(--L));
     --brand-new-900-rgb: var(--H), calc(0.54*var(--S)), calc(0*var(--L));
-}
 
-:root {
     --brand-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
     --brand-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
     --brand-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
@@ -366,9 +364,7 @@
     --brand-830-rgb: var(--H), calc(0.54*var(--S)), calc(0.24*var(--L));
     --brand-860-rgb: var(--H), calc(0.54*var(--S)), calc(0.16*var(--L));
     --brand-900-rgb: var(--H), calc(0.54*var(--S)), calc(0*var(--L));
-}
 
-:root {
     --focus-primary-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
     --focus-primary-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
     --focus-primary-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
@@ -422,9 +418,7 @@
     --focus-primary-830-rgb: var(--H), calc(0.54*var(--S)), calc(0.24*var(--L));
     --focus-primary-860-rgb: var(--H), calc(0.54*var(--S)), calc(0.16*var(--L));
     --focus-primary-900-rgb: var(--H), calc(0.54*var(--S)), calc(0*var(--L));
-}
 
-:root {
     --link-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
     --link-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
     --link-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
@@ -478,9 +472,7 @@
     --link-830-rgb: var(--H), calc(0.54*var(--S)), calc(0.24*var(--L));
     --link-860-rgb: var(--H), calc(0.54*var(--S)), calc(0.16*var(--L));
     --link-900-rgb: var(--H), calc(0.54*var(--S)), calc(0*var(--L));
-}
 
-:root {
     --link-low-saturation-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
     --link-low-saturation-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
     --link-low-saturation-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
@@ -534,9 +526,7 @@
     --link-low-saturation-830-rgb: var(--H), calc(0.54*var(--S)), calc(0.24*var(--L));
     --link-low-saturation-860-rgb: var(--H), calc(0.54*var(--S)), calc(0.16*var(--L));
     --link-low-saturation-900-rgb: var(--H), calc(0.54*var(--S)), calc(0*var(--L));
-}
 
-:root {
     --link-light-100: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
     --link-light-130: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
     --link-light-160: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
