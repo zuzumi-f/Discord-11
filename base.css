@@ -545,8 +545,43 @@
     border-radius: 0 0 var(--winrad3) var(--winrad3);
 }
 
+/* DM Profile */
+.profilePanel-2PWEok {
+    background-color: var(--background-primary);
+    height: calc(100% - 32px);
+    width: 360px;
+}
+
+.profilePanel-2PWEok .profileColors-3Y0XaR {
+    margin: 8px;
+    border-radius: var(--winrad4);
+}
+
+.profilePanel-2PWEok .profileColors-3Y0XaR .userProfileInner-3F03PX {
+    border-radius: var(--winrad4);
+}
+
+.profilePanel-2PWEok .profileColors-3Y0XaR > div::before {
+    width: calc(100% - 20px);
+    border-radius: var(--winrad4);
+}
+
+.profilePanel-2PWEok .profileColors-3Y0XaR > div > .scrollerBase-_bVAAt {
+    overflow-y: overlay !important;
+    border: 4px solid var(--profile-gradient-primary-color);
+    border-radius: var(--winrad4);
+}
+
+.profilePanel-2PWEok .profileColors-3Y0XaR .bannerSVGWrapper-qc0szY {
+    border-radius: var(--winrad2) var(--winrad2) 0 0;
+}
+
+.profilePanel-2PWEok .profileColors-3Y0XaR .section-3FmfOT {
+    padding-right: 0 !important;
+}
+
 /* Small Profile */
-.section-3FmfOT {
+.profileColors-3Y0XaR .scroller-1jBQYo {
     padding-right: 12px !important;
 }
 
