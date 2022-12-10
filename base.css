@@ -565,7 +565,7 @@
     width: calc(100% - 24px);
     height: calc(100% - 8px);
     margin: 4px;
-    border-radius: var(--winrad4);
+    border-radius: var(--winrad2);
 }
 
 .profilePanel-2PWEok .profileColors-3Y0XaR > div > .scrollerBase-_bVAAt {
