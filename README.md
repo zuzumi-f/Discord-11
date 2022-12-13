@@ -148,4 +148,4 @@ You need to add the following CSS to the theme's CSS for it to work. [Check here
 
 - BearableInbox by **[Disease](https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css)**
 
-- Fluent Icons by **[stickfab](https://github.com/stickfab/pc-fluenticons)**
+
