@@ -2438,10 +2438,6 @@
     padding-right: 16px !important;
 }
 
-.sidebar-1tnWFu {
-    border-right: var(--windarkborder1);
-}
-
 .membersWrap-3NUR2t {
     border-left: var(--windarkborder1);
 }
@@ -4704,6 +4700,11 @@
 }
 
 /* My account */
+#app-mount .accountProfileCard-lbN7n- foreignObject,
+#app-mount .accountProfileCard-lbN7n- mask {
+    mask: none;
+}
+
 /* Banner Code by MintLily */
 #app-mount .accountProfileCard-lbN7n- {
     background-color: transparent;
@@ -4711,17 +4712,15 @@
 }
 
 #app-mount .accountProfileCard-lbN7n- .banner-2boKnS[style^="background-color: "] {
-    height: 126px;
     border-top-left-radius: var(--winrad4);
     border-top-right-radius: var(--winrad4);
 }
 #app-mount .accountProfileCard-lbN7n- .banner-2boKnS[style^="background-image: "] {
-    height: 500px;
 }
 
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
-    top: 22px;
-    left: 22px;
+    top: 32px;
+    left: 32px;
     border: 1px solid #fff;
     background-color: transparent;
     filter: drop-shadow(0px 0px 6px hsla(0, 0%, 0%, 0.1));
