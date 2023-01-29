@@ -283,7 +283,34 @@
     --brand-new-830: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.24*var(--L)));
     --brand-new-860: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.16*var(--L)));
     --brand-new-900: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0*var(--L)));
-
+    
+    --brand-new-100-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(2*var(--L)));
+    --brand-new-130-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.92*var(--L)));
+    --brand-new-160-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.85*var(--L)));
+    --brand-new-200-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.78*var(--L)));
+    --brand-new-230-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.71*var(--L)));
+    --brand-new-260-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.63*var(--L)));
+    --brand-new-300-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.56*var(--L)));
+    --brand-new-330-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.49*var(--L)));
+    --brand-new-345-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.42*var(--L)));
+    --brand-new-360-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.35*var(--L)));
+    --brand-new-400-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.28*var(--L)));
+    --brand-new-430-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.21*var(--L)));
+    --brand-new-460-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1.14*var(--L)));
+    --brand-new-500-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*var(--S)), calc(1*var(--L)));
+    --brand-new-530-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.75*var(--S))), calc(0.99*var(--L)));
+    --brand-new-560-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.60*var(--S))), calc(0.91*var(--L)));
+    --brand-new-600-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.83*var(--L)));
+    --brand-new-630-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.74*var(--L)));
+    --brand-new-660-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.66*var(--L)));
+    --brand-new-700-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.58*var(--L)));
+    --brand-new-730-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.49*var(--L)));
+    --brand-new-760-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.41*var(--L)));
+    --brand-new-800-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.33*var(--L)));
+    --brand-new-830-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.24*var(--L)));
+    --brand-new-860-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0.16*var(--L)));
+    --brand-new-900-hsl: hsl(var(--H), calc(var(--saturation-factor, 1)*(0.54*var(--S))), calc(0*var(--L)));
+    
     --brand-new-100-rgb: var(--H), var(--S), calc(2*var(--L));
     --brand-new-130-rgb: var(--H), var(--S), calc(1.92*var(--L));
     --brand-new-160-rgb: var(--H), var(--S), calc(1.85*var(--L));
