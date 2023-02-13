@@ -33,7 +33,7 @@ Message bubble styles [If you don't want any place a /* in all]
 /*--------------------------------------------------------------
                            Fluent Icons
 /* Fluent Icons */
-/* @import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css"); */
+@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
 /*--------------------------------------------------------------
                            Glass effect
          [To see your desk put "none" in --wallpaper-is:
@@ -41,7 +41,7 @@ Message bubble styles [If you don't want any place a /* in all]
                enable Transparency in BD Settings]
 ---------------------------------------------------------------*/
 /*--Yes you can enable/disable this--*/
-/* @import url(https://zuzumi-f.github.io/Discord-11/release/glasseffect.css); */
+@import url(https://zuzumi-f.github.io/Discord-11/release/glasseffect.css);
 
 /*--------------------------------------------------------------
                            Settings
