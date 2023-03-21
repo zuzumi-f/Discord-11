@@ -43,13 +43,13 @@ Message bubble styles [If you don't want any place a /* in all]
                            Settings
 ---------------------------------------------------------------*/
 :root {
-    --wallpaper-is: "none"; /* Wallpaper - Replace de url only */
+    --wallpaper-is: (none) ; /* Wallpaper - Replace de url only */
     --blur-size: 24px; /* Amount of blur in pixels [24px is default] */
     --opacity-thing: 0.6; /* Value from 0 to 1 [0.6 is default] */
     --server-size: 48px; /* The size of the server icons [48px is default] */
       
     /* HSL(Hue, Saturation, Lightness). This values will change the accent color (That blue color in most buttons) */
-    --H: 199; /* Value only number [199 is default] */
+    --H: 273; /* Value only number [199 is default] */
     --S: 100%; /* Value in % [100% is default] */
     --L: 69%; /* Value in % [69% is default] */
 }
