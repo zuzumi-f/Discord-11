@@ -763,11 +763,6 @@
     border-radius: var(--winrad2);
 }
 
-#app-mount .contentGameImageProfileV2-2dewzu,
-#app-mount .contentImagesProfileV2-2Z-K9I {
-    width: 0;
-}
-
 .assets-3PQvAh {
     align-self: center;
 }
@@ -779,12 +774,6 @@
 
 .buttonsWrapper-2ARRp1:empty {
     margin-top: 0 !important;
-}
-
-#app-mount .actionsProfileV2-2xJe2L {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 8px;
 }
 
 #app-mount .actionColor-3JIzOn:hover {
