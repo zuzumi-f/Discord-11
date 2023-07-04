@@ -1,3 +1,4 @@
+/* Message Bubble */
 #app-mount .message-2CShn3[data-is-author-self="true"] {
     margin-left: auto;
     width: auto;
@@ -89,6 +90,8 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
+
+    border-radius: 3px;
 }
 #app-mount .message-2CShn3:hover .contents-2MsGLg,
 #app-mount .message-2CShn3.selected-2LX7Jy .contents-2MsGLg {
@@ -149,4 +152,17 @@
 
 .a11y-font-scaled-down .cozy-VmLDNB .header-2jRmjb {
     margin-left: 0 !important;
+}
+
+#app-mount .contents-2MsGLg .scrollableContainer-15eg7h,
+#app-mount .contents-2MsGLg .operations-3q3u6E {
+    margin: 0 12px;
+}
+
+/* CharCounter Added */
+#app-mount .contents-2MsGLg .editCounter-pNT1Xe {
+    margin: 0 12px;
+}
+#app-mount .contents-2MsGLg .charCounterAdded-zz9O4t .scrollableContainer-15eg7h {
+    margin-bottom: 12px !important;
 }
