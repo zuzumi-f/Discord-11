@@ -1,9 +1,9 @@
 /**
  * @name Discord 11
  * @description Based on Windows 11's UI
- * @author zuzumi#8097
- * @authorId 403725623161257984
- * @version 2.4.0
+ * @author zuzumi
+ * @authorId 437579806616322049
+ * @version 3
  * @invite PsNtzGeHuW
  * @donate https://www.paypal.me/hurtyoutube
  * @website https://github.com/zuzumi-f
@@ -20,15 +20,16 @@
 --------------------------------------------------------------------------------------------------*/
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
 
+/*--------------------------------------------------------------------------------
+                              Windows 11 Font (Segoe UI)
+---------------------------------------------------------------------------------*/
+@import url(https://zuzumi-f.github.io/Discord-11/release/font/windows11font.css);
+
 /*--------------------------------------------------------------
-Message bubble styles [If you don't want any place a /* in all]
+                        Message bubble style
 ----------------------------------------------------------------*/
-/* Message Bubble in Left Side */
-@import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css);
 /* Default Message Bubble */
-/* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css); */
-/* New Message Bubble */
-/* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubblenew.css); */
+@import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css);
 
 /*--------------------------------------------------------------
                            Glass effect
@@ -43,7 +44,7 @@ Message bubble styles [If you don't want any place a /* in all]
                            Settings
 ---------------------------------------------------------------*/
 :root {
-    --wallpaper-is: url(https://zuzumi-f.github.io/Discord-11/release/img19.jpg); /* Wallpaper - Replace de url only */
+    --wallpaper-is: none; /* Wallpaper - Replace de url only */
     --blur-size: 24px; /* Amount of blur in pixels [24px is default] */
     --opacity-thing: 0.6; /* Value from 0 to 1 [0.6 is default] */
     --server-size: 48px; /* The size of the server icons [48px is default] */
