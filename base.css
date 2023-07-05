@@ -1,4 +1,7 @@
-@import url(https://zuzumi-f.github.io/Discord-11/release/valuesofdiscord.css)
+/* Discord Defaults */
+@import url('https://zuzumi-f.github.io/Discord-11/release/valuesofdiscord.css');
+/* Fluent Icons */
+@import url('https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css');
 
 /* Color fix */
 #app-mount .container-3wLKDe /* Forums */,
