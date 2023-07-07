@@ -1,6 +1,6 @@
 # Discord 11
 
-### [Version 2.4.0 is out!](https://github.com/zuzumi-f/Discord-11/releases)
+### [Version 3 is out!](https://github.com/zuzumi-f/Discord-11/blob/main/Discord11.theme.css)
 
 A theme based on Windows 11's UI - by [zuzumi](https://github.com/zuzumi-f)
 
@@ -48,8 +48,9 @@ You can find all the values of Windows 11's UI [here](https://www.figma.com/comm
 <details id="dark-mode-details">
     <summary>Dark mode</summary>
 
-![Dark mode screenshot](https://user-images.githubusercontent.com/79029257/197858304-c3c77148-603b-4ed2-88b3-7821efcc1e3f.png)
-![Dark mode screenshot 2](https://user-images.githubusercontent.com/79029257/197858332-522f1da4-6349-4081-a471-635910cdc6c3.png)
+![Dark mode screenshot](https://github.com/zuzumi-f/Discord-11/assets/79029257/5a00561f-db3a-4614-a7eb-1a90ab200035)
+![Dark mode screenshot 2](https://github.com/zuzumi-f/Discord-11/assets/79029257/64cd1323-c353-4e0a-b74f-34de8895a501)
+
 </details>
 
 <details id="light-mode-glass-details">
