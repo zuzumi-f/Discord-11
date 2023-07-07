@@ -2324,6 +2324,13 @@ div[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg
 }
 
 /* Calls */
+.wrapper-1_HaEi.hidden-10MsGQ {
+    width: 0 !important;
+}
+.wrapper-1_HaEi.hidden-10MsGQ ~ .base-2jDfDU {
+    border: none !important;
+}
+
 #app-mount .chat-2ZfjoI.threadSidebarOpen-1LSXvU,
 #app-mount .content-1SgpWY .container-3XgAHv,
 #app-mount .wrapper-1gVUIN.chatSidebarOpen--YCxhs .container-3XgAHv,
