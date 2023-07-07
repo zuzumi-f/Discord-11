@@ -1327,7 +1327,11 @@ div[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg
     max-width: 100%;
 }
 
-.content-1gYQeQ:before {
+.wrapper-NhbLHG .link-1_kTxV {
+    justify-content: center;
+}
+
+.wrapper-NhbLHG .link-1_kTxV:before {
     content: "";
     position: absolute;
     width: 3px;
@@ -1336,14 +1340,14 @@ div[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg
     border-radius: 1.5px;
     transition: var(--wintransition);
 }
-.modeSelected-3DmyhH .content-1gYQeQ:before {
+.modeSelected-3DmyhH .link-1_kTxV:before {
     height: 16px;
 }
-#app-mount .modeSelected-3DmyhH .content-1gYQeQ:before {
+#app-mount .modeSelected-3DmyhH .link-1_kTxV:before {
     background-color: var(--brand-experiment);
 }
 
-.modeUnread-3Cxepe .content-1gYQeQ:before {
+.modeUnread-3Cxepe .link-1_kTxV:before {
     height: 8px;
     background-color: var(--channels-default);
 }
