@@ -1,16 +1,17 @@
 /* ==UserStyle==
 @name           Discord 11
 @namespace      github.com/zuzumi-f/Discord-11
-@version        2.4.0
+@version        3
 @description    Based on Windows 11's UI
 @author         Zuzumi
 @updateURL      https://github.com/zuzumi-f/Discord-11/raw/main/Discord11.user.css
 @preprocessor   stylus
 
-@var select   messageBuble     "Message Buble Style" ["left:Message bubbles in left side*", "default:Default message bubbles", "new:New message bubbles"]
+@var checkbox messageBuble     "Enable Message Bubble Style" 1
 @var checkbox win11Emojis      "Enable Windows 11 emojis" 1
 @var checkbox glassEffect      "Enable glass effect (for desktop transparency, the option below must be set to none)" 0
-@var text     wallpaperImage   "Custom wallpaper link (put link inside single quotes)" "'https://zuzumi-f.github.io/Discord-11/release/img19.jpg'"
+@var checkbox win11Font        "Enable Windows 11 font Segoe UI" 1
+@var text     wallpaperImage   "Custom wallpaper link (put link inside single quotes)" "'https://raw.githubusercontent.com/zuzumi-f/Discord-11/main/release/wallpapers/WindowsDark.jpg'"
 @var text     blurAmount       "Blur amount" 24px
 @var number   opacityAmount    "Opacity" [0.6, 0.0, 1.0, 0.1]
 @var text     serverIconsSize  "Server icons size" 48px
@@ -23,20 +24,18 @@
     /* Theme base */
     @import url(https://zuzumi-f.github.io/Discord-11/base.css);
 
-    /* Message bubles */
-    if messageBuble==left {
-        @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css);
-    }
-    else if messageBuble==default {
+    /* Message bubble style */
+    if messageBubble==default {
         @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css);
-    }
-    else if messageBuble==new {
-        @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubblenew.css);
-    }
 
     /* Windows 11 emojis */
     if win11Emojis {
         @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
+    }
+
+    /* Windows 11 font */
+    if win11Font {
+        @import url(https://zuzumi-f.github.io/Discord-11/release/font/windows11font.css);
     }
 
     /* Glass effect () */
