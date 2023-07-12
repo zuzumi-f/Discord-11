@@ -1327,12 +1327,9 @@ div[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg
     max-width: 100%;
 }
 
-.wrapper-NhbLHG .link-1_kTxV {
-    justify-content: center;
-}
-
 .wrapper-NhbLHG .link-1_kTxV:before {
     content: "";
+    top: calc(50%/2);
     position: absolute;
     width: 3px;
     height: 0;
