@@ -1327,24 +1327,28 @@ div[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg
     max-width: 100%;
 }
 
-.wrapper-NhbLHG .link-1_kTxV:before {
+.link-1_kTxV {
+    display: grid;
+}
+
+.wrapper-NhbLHG .link-1_kTxV::after {
     content: "";
-    top: calc(50%/2);
-    position: absolute;
     width: 3px;
+    position: absolute;
+    align-self: center;
     height: 0;
     left: 0;
     border-radius: 1.5px;
     transition: var(--wintransition);
 }
-.modeSelected-3DmyhH .link-1_kTxV:before {
+.modeSelected-3DmyhH .link-1_kTxV::after {
     height: 16px;
 }
-#app-mount .modeSelected-3DmyhH .link-1_kTxV:before {
+#app-mount .modeSelected-3DmyhH .link-1_kTxV::after {
     background-color: var(--brand-experiment);
 }
 
-.modeUnread-3Cxepe .link-1_kTxV:before {
+.modeUnread-3Cxepe .link-1_kTxV::after {
     height: 8px;
     background-color: var(--channels-default);
 }
