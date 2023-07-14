@@ -1250,17 +1250,17 @@
 }
 
 /* Linked Account */
-#app-mount .connectedAccount-1oLIrm [class*="connectedAccountOpenIcon-"] {
+/* #app-mount .connectedAccount-1oLIrm [class*="connectedAccountOpenIcon-"] {
     width: fit-content;
     height: fit-content;
     color: var(--focus-primary);
-}
+} */
 
 /* Link Acount Icon */
-#app-mount .connectedAccountOpenIcon-3i81Tz {
+/* #app-mount .connectedAccountOpenIcon-3i81Tz {
     transform: translateX(-2px);
     -webkit-mask-position: center;
-}
+} */
 
 #app-mount .connectedAccountOpenIcon-3i81Tz {
     color: var(--blue-500) !important;
