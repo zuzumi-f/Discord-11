@@ -1515,11 +1515,6 @@ div[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg
     margin-top: unset;
 }
 
-.buttons-uaqb-5 > .expression-picker-chat-input-button.buttonContainer-2lnNiN:nth-child(2),
-.buttons-uaqb-5 > .expression-picker-chat-input-button.buttonContainer-2lnNiN:nth-child(3) {
-    display: none;
-}
-
 .sprite-2lxwfc {
     transform: scale(1) !important;
     filter: grayscale(0) !important;
