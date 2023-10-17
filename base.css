@@ -799,7 +799,7 @@
 .panels-3wFtMD {
     background-color: var(--background-secondary);
 }
-.container-YkUktl {
+.container-1CH86i {
     margin: 0px 4px 4px;
     padding: 3px 6px;
     border-radius: var(--winrad3);
@@ -807,19 +807,19 @@
     display: flex;
     flex-wrap: wrap;
 }
-.container-YkUktl > div:has(button) {
+.container-1CH86i > div:has(button) {
     width: 100%;
 }
 
-.container-YkUktl .button-12Fmur {
+.container-1CH86i .button-12Fmur {
     width: 100%;
     transition: var(--wintransition);
 }
-.container-YkUktl .button-12Fmur:not(:first-child) {
+.container-1CH86i .button-12Fmur:not(:first-child) {
     margin-left: 4px;
 }
 
-.panels-3wFtMD .avatarWrapper-1B9FTW {
+.panels-3wFtMD .avatarWrapper-12uuu4 {
     max-width: calc(100% - 4px);
     min-width: calc(100% - 4px);
     margin-right: 0;
@@ -830,7 +830,7 @@
     cursor: pointer;
 }
 
-.theme-dark .container-YkUktl .button-12Fmur {
+.theme-dark .container-1CH86i .button-12Fmur {
     background-color: var(--windark-button-bg) !important;
     border: 1px solid var(--windark-button-border) !important;
     border-top-color: var(--windark-button-top) !important;
@@ -838,14 +838,14 @@
     color: #fff !important;
     border-radius: var(--winrad2) !important;
 }
-.theme-dark .container-YkUktl .button-12Fmur:hover {
+.theme-dark .container-1CH86i .button-12Fmur:hover {
     background-color: var(--windark-button-hover) !important;
     border-color: var(--windark-button-hover-border) !important;
     border-top-color: var(--windark-button-hover-top) !important;
     border-bottom-color: var(--windark-button-hover-bottom) !important;
 }
 
-.theme-light .container-YkUktl .button-12Fmur {
+.theme-light .container-1CH86i .button-12Fmur {
     background-color: var(--winlight-button-bg) !important;
     border: 1px solid var(--winlight-button-border) !important;
     border-top-color: var(--winlight-button-top) !important;
@@ -853,7 +853,7 @@
     color: #000 !important;
     border-radius: var(--winrad2) !important;
 }
-.theme-light .container-YkUktl .button-12Fmur:hover {
+.theme-light .container-1CH86i .button-12Fmur:hover {
     background-color: var(--winlight-button-hover) !important;
     border-color: var(--winlight-button-hover-border) !important;
     border-top-color: var(--winlight-button-hover-top) !important;
@@ -861,23 +861,23 @@
 }
 
 .activityPanel-9icbyU,
-.container-1zzFcN,
+.container-2NLBJg,
 .container-6sXIoE {
     margin: 0px 4px 4px;
     border-radius: var(--winrad3);
     border-bottom: none;
 }
 
-.theme-dark .container-YkUktl,
+.theme-dark .container-1CH86i,
 .theme-dark .activityPanel-9icbyU,
-.theme-dark .container-1zzFcN,
+.theme-dark .container-2NLBJg,
 .theme-dark .container-6sXIoE {
     border: var(--windarkborder2);
 }
 
-.theme-light .container-YkUktl,
+.theme-light .container-1CH86i,
 .theme-light .activityPanel-9icbyU,
-.theme-light .container-1zzFcN,
+.theme-light .container-2NLBJg,
 .theme-light .container-6sXIoE {
     border: var(--winlightborder2);
 }
