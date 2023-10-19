@@ -40,14 +40,14 @@
 } */
 
 /* Top drag */
-.wordmarkWindows-2dq6rw {
+.wordmarkWindows-1rsity {
     padding: 0;
     width: 0;
 }
-.wordmarkWindows-2dq6rw svg {
+.wordmarkWindows-1rsity svg {
     display: none;
 }
-.wordmarkWindows-2dq6rw::after {
+.wordmarkWindows-1rsity::after {
     content: "Discord 11";
     font-family: var(--font-display);
     width: 70px;
@@ -59,15 +59,15 @@
     left: 8px;
 }
 
-.theme-dark .wordmarkWindows-2dq6rw::after {
+.theme-dark .wordmarkWindows-1rsity::after {
     color: hsla(0, 0%, 78%, 0.98);
 }
 
-.theme-light .wordmarkWindows-2dq6rw::after {
+.theme-light .wordmarkWindows-1rsity::after {
     color: hsla(0, 0%, 0%, 0.98);
 }
 
-.withFrame-2dL45i {
+.withFrame-1sEfxu {
     margin-top: 0;
     height: 34px;
     position: relative;
@@ -82,13 +82,13 @@
     top: -34px;
 }
 
-.winButton-3UMjdg {
+.winButton-3SigSb {
     top: 0;
     height: 34px;
     width: 48px;
 }
 
-.winButton-3UMjdg > svg > rect[y="1.5"] {
+.winButton-3SigSb > svg > rect[y="1.5"] {
     rx: 2;
     ry: 2;
 }
@@ -883,36 +883,36 @@
 }
 
 /* Normal Status Picker */
-.accountProfilePopoutWrapper-3GskID .nickname-3P1RuO,
-.accountProfilePopoutWrapper-3GskID .pronouns-17_QV6,
-.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-2CLfzN,
-.accountProfilePopoutWrapper-3GskID .avatarWrapper-eenWra,
-.accountProfilePopoutWrapper-3GskID .profileBadges-2pItdR,
-.accountProfilePopoutWrapper-3GskID .customStatusSection-2_fKRl,
-.accountProfilePopoutWrapper-3GskID .divider-1QVlfF,
-.accountProfilePopoutWrapper-3GskID .scroller-15bIdk,
-.accountProfilePopoutWrapper-3GskID .divider-on9OTV,
-.accountProfilePopoutWrapper-3GskID .userPopoutInner-nv9Y92:before {
+.accountProfilePopoutWrapper-Ag_Fip .nickname-3P1RuO,
+.accountProfilePopoutWrapper-Ag_Fip .pronouns-17_QV6,
+.accountProfilePopoutWrapper-Ag_Fip .bannerSVGWrapper-2CLfzN,
+.accountProfilePopoutWrapper-Ag_Fip .avatarWrapper-eenWra,
+.accountProfilePopoutWrapper-Ag_Fip .profileBadges-2pItdR,
+.accountProfilePopoutWrapper-Ag_Fip .customStatusSection-2_fKRl,
+.accountProfilePopoutWrapper-Ag_Fip .divider-1QVlfF,
+.accountProfilePopoutWrapper-Ag_Fip .scroller-15bIdk,
+.accountProfilePopoutWrapper-Ag_Fip .divider-on9OTV,
+.accountProfilePopoutWrapper-Ag_Fip .userPopoutInner-nv9Y92:before {
     display: none;
 }
 
-.accountProfilePopoutWrapper-3GskID {
+.accountProfilePopoutWrapper-Ag_Fip {
     left: -1px;
 }
-.accountProfilePopoutWrapper-3GskID .profileColors-2AgAV4 {
+.accountProfilePopoutWrapper-Ag_Fip .profileColors-2AgAV4 {
     width: 220px;
 }
 
-.accountProfilePopoutWrapper-3GskID .userPopoutInner-nv9Y92 {
+.accountProfilePopoutWrapper-Ag_Fip .userPopoutInner-nv9Y92 {
     max-height: 100%;
 }
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz {
+.accountProfilePopoutWrapper-Ag_Fip .userPopoutOverlayBackground-3A0Pcz {
     margin: 0px;
     max-height: 100%;
     /* background-color: var(--background-floating); */
 }
 
-.accountProfilePopoutWrapper-3GskID .info-3ddo6z {
+.accountProfilePopoutWrapper-Ag_Fip .info-3ddo6z {
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
@@ -924,20 +924,20 @@
 }
 
 /* Status Picker Mica */
-.accountProfilePopoutWrapper-3GskID .usernameSection-3FppkT  {
+.accountProfilePopoutWrapper-Ag_Fip .usernameSection-3FppkT  {
     z-index: 2;
 }
 
-.accountProfilePopoutWrapper-3GskID .profileColors-2AgAV4,
-.accountProfilePopoutWrapper-3GskID .userPopoutInner-nv9Y92 {
+.accountProfilePopoutWrapper-Ag_Fip .profileColors-2AgAV4,
+.accountProfilePopoutWrapper-Ag_Fip .userPopoutInner-nv9Y92 {
     background: transparent;
 }
 
-.theme-dark .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz {
+.theme-dark .accountProfilePopoutWrapper-Ag_Fip .userPopoutOverlayBackground-3A0Pcz {
     background: var(--noise-dark);
 }
 
-.theme-light .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz {
+.theme-light .accountProfilePopoutWrapper-Ag_Fip .userPopoutOverlayBackground-3A0Pcz {
     background: var(--noise-light);
 }
 
@@ -1004,10 +1004,10 @@
 }
 
 /* Small Profile */
-.userProfileInnerThemedNonPremium-2AJg-H .overlayBackground-2aa7wt:not(.accountProfilePopoutWrapper-3GskID .overlayBackground-2aa7wt) {
+.userProfileInnerThemedNonPremium-2AJg-H .overlayBackground-2aa7wt:not(.accountProfilePopoutWrapper-Ag_Fip .overlayBackground-2aa7wt) {
     background-color: transparent;
 }
-.userProfileInnerThemedNonPremium-2AJg-H .overlayBackground-2aa7wt:not(.accountProfilePopoutWrapper-3GskID .overlayBackground-2aa7wt)::before {
+.userProfileInnerThemedNonPremium-2AJg-H .overlayBackground-2aa7wt:not(.accountProfilePopoutWrapper-Ag_Fip .overlayBackground-2aa7wt)::before {
     display: block;
     position: sticky;
     content: "";
