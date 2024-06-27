@@ -3,6 +3,7 @@
 ### [Version 4 is out!](https://github.com/zuzumi-f/Discord-11/blob/main/Discord11.theme.css)
 
 A theme based on Windows 11's UI - by [zuzumi](https://github.com/zuzumi-f)
+Special thanks to [Agentseed](https://github.com/agent-seed) for maintaining the theme while I wasn't here
 
 - [Discord 11](#discord-11)
     - [Windows 11 UI](#design)
