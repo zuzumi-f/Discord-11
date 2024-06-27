@@ -1,12 +1,12 @@
 /**
  * @name Discord 11
  * @description Based on Windows 11's UI
- * @author zuzumi
+ * @author zuzumi-f
  * @authorId 437579806616322049
- * @version 3
+ * @version 4
  * @invite PsNtzGeHuW
- * @donate https://www.paypal.me/hurtyoutube
- * @website https://github.com/zuzumi-f
+ * @donate https://www.paypal.me/konazumi
+ * @website https://github.com/zuzumi-f/Discord-11
  * @source https://github.com/zuzumi-f/Discord-11/blob/main/base.css
 */
 
@@ -34,8 +34,7 @@
 /*--------------------------------------------------------------
                            Glass effect
          [To see your desk put "none" in --wallpaper-is:
-                               and
-               enable Transparency in BD Settings]
+            and enable Transparency in BD Settings]
 ---------------------------------------------------------------*/
 /*--Yes you can enable/disable this--*/
 /* @import url(https://zuzumi-f.github.io/Discord-11/release/glasseffect.css); */
@@ -44,7 +43,7 @@
                            Settings
 ---------------------------------------------------------------*/
 :root {
-    --wallpaper-is: none; /* Wallpaper - Replace de url only */
+    --wallpaper-is: none; /* Write the image url, example url("your url") [none is default]*/
     --blur-size: 24px; /* Amount of blur in pixels [24px is default] */
     --opacity-thing: 0.6; /* Value from 0 to 1 [0.6 is default] */
     --server-size: 48px; /* The size of the server icons [48px is default] */
