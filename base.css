@@ -1067,6 +1067,9 @@
 #app-mount .botTag_a02df3 svg path {
     fill: var(--status-warning-text);
 }
+#app-mount .botText_a02df3 {
+    font-size: .6rem !important;
+}
 
 /* Server Banner */
 #app-mount .header_fd6364 {
@@ -1342,12 +1345,12 @@ div[class="container_fd6364 clickable_fd6364 hasBanner_fd6364 bannerVisible_fd63
 
 /* Embeds */
 .theme-dark .embedFull_ad0b71 {
-    border: 2px solid;
+    border-left: 2px solid;
     background: var(--windark-acrylic);
 }
 .theme-light .embedFull_ad0b71 {
     background: var(--winlight-acrylic);
-    border: 2px solid;
+    border-left: 2px solid;
 }
 
 /* Everyone warning */
