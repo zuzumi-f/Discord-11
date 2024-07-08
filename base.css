@@ -3075,3 +3075,22 @@ div[class="container_fd6364 clickable_fd6364 hasBanner_fd6364 bannerVisible_fd63
     border: 1px solid var(--info-danger-foreground);
     color: var(--info-danger-text);
 }
+
+/* Just a BG for theme card [by Gibbu] */
+[id="Discord 11-card"] {
+    position: relative;
+}
+[id="Discord 11-card"]::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    opacity: 0.1;
+    pointer-events: none;
+}
+.theme-dark [id="Discord 11-card"]::before {
+    background: url(https://github.com/zuzumi-f/Discord-11/blob/main/release/wallpapers/WindowsDark.jpg?raw=true) center/cover;
+}
+.theme-light [id="Discord 11-card"]::before {
+    background: url(https://github.com/zuzumi-f/Discord-11/blob/main/release/wallpapers/WindowsLight.jpg?raw=true) center/cover;
+}
