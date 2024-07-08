@@ -166,7 +166,33 @@
 }
 
 /* Blue */
-.default-colors, :root {
+:root {
+    --blue-100: hsl(var(--H) var(--S) calc(2*var(--L)) / 1);
+    --blue-130: hsl(var(--H) var(--S) calc(1.92*var(--L)) / 1);
+    --blue-160: hsl(var(--H) var(--S) calc(1.85*var(--L)) / 1);
+    --blue-200: hsl(var(--H) var(--S) calc(1.78*var(--L)) / 1);
+    --blue-230: hsl(var(--H) var(--S) calc(1.71*var(--L)) / 1);
+    --blue-260: hsl(var(--H) var(--S) calc(1.63*var(--L)) / 1);
+    --blue-300: hsl(var(--H) var(--S) calc(1.56*var(--L)) / 1);
+    --blue-330: hsl(var(--H) var(--S) calc(1.49*var(--L)) / 1);
+    --blue-345: hsl(var(--H) var(--S) calc(1.42*var(--L)) / 1);
+    --blue-360: hsl(var(--H) var(--S) calc(1.35*var(--L)) / 1);
+    --blue-400: hsl(var(--H) var(--S) calc(1.28*var(--L)) / 1);
+    --blue-430: hsl(var(--H) var(--S) calc(1.21*var(--L)) / 1);
+    --blue-460: hsl(var(--H) var(--S) calc(1.14*var(--L)) / 1);
+    --blue-500: hsl(var(--H) var(--S) calc(1*var(--L)) / 1);
+    --blue-530: hsl(var(--H) calc(0.75*var(--S)) calc(0.99*var(--L)) / 1);
+    --blue-560: hsl(var(--H) calc(0.60*var(--S)) calc(0.91*var(--L)) / 1);
+    --blue-600: hsl(var(--H) calc(0.54*var(--S)) calc(0.83*var(--L)) / 1);
+    --blue-630: hsl(var(--H) calc(0.54*var(--S)) calc(0.74*var(--L)) / 1);
+    --blue-660: hsl(var(--H) calc(0.54*var(--S)) calc(0.66*var(--L)) / 1);
+    --blue-700: hsl(var(--H) calc(0.54*var(--S)) calc(0.58*var(--L)) / 1);
+    --blue-730: hsl(var(--H) calc(0.54*var(--S)) calc(0.49*var(--L)) / 1);
+    --blue-760: hsl(var(--H) calc(0.54*var(--S)) calc(0.41*var(--L)) / 1);
+    --blue-800: hsl(var(--H) calc(0.54*var(--S)) calc(0.33*var(--L)) / 1);
+    --blue-830: hsl(var(--H) calc(0.54*var(--S)) calc(0.24*var(--L)) / 1);
+    --blue-860: hsl(var(--H) calc(0.54*var(--S)) calc(0.16*var(--L)) / 1);
+    --blue-900: hsl(var(--H) calc(0.54*var(--S)) calc(0*var(--L)) / 1);
     --blue-100-hsl: var(--H) var(--S) calc(2*var(--L));
     --blue-130-hsl: var(--H) var(--S) calc(1.92*var(--L));
     --blue-160-hsl: var(--H) var(--S) calc(1.85*var(--L));
@@ -194,6 +220,32 @@
     --blue-860-hsl: var(--H) calc(0.54*var(--S)) calc(0.16*var(--L));
     --blue-900-hsl: var(--H) calc(0.54*var(--S)) calc(0*var(--L));
 
+    --brand-100: hsl(var(--H) var(--S) calc(2*var(--L)) / 1);
+    --brand-130: hsl(var(--H) var(--S) calc(1.92*var(--L)) / 1);
+    --brand-160: hsl(var(--H) var(--S) calc(1.85*var(--L)) / 1);
+    --brand-200: hsl(var(--H) var(--S) calc(1.78*var(--L)) / 1);
+    --brand-230: hsl(var(--H) var(--S) calc(1.71*var(--L)) / 1);
+    --brand-260: hsl(var(--H) var(--S) calc(1.63*var(--L)) / 1);
+    --brand-300: hsl(var(--H) var(--S) calc(1.56*var(--L)) / 1);
+    --brand-330: hsl(var(--H) var(--S) calc(1.49*var(--L)) / 1);
+    --brand-345: hsl(var(--H) var(--S) calc(1.42*var(--L)) / 1);
+    --brand-360: hsl(var(--H) var(--S) calc(1.35*var(--L)) / 1);
+    --brand-400: hsl(var(--H) var(--S) calc(1.28*var(--L)) / 1);
+    --brand-430: hsl(var(--H) var(--S) calc(1.21*var(--L)) / 1);
+    --brand-460: hsl(var(--H) var(--S) calc(1.14*var(--L)) / 1);
+    --brand-500: hsl(var(--H) var(--S) calc(1*var(--L)) / 1);
+    --brand-530: hsl(var(--H) calc(0.75*var(--S)) calc(0.99*var(--L)) / 1);
+    --brand-560: hsl(var(--H) calc(0.60*var(--S)) calc(0.91*var(--L)) / 1);
+    --brand-600: hsl(var(--H) calc(0.54*var(--S)) calc(0.83*var(--L)) / 1);
+    --brand-630: hsl(var(--H) calc(0.54*var(--S)) calc(0.74*var(--L)) / 1);
+    --brand-660: hsl(var(--H) calc(0.54*var(--S)) calc(0.66*var(--L)) / 1);
+    --brand-700: hsl(var(--H) calc(0.54*var(--S)) calc(0.58*var(--L)) / 1);
+    --brand-730: hsl(var(--H) calc(0.54*var(--S)) calc(0.49*var(--L)) / 1);
+    --brand-760: hsl(var(--H) calc(0.54*var(--S)) calc(0.41*var(--L)) / 1);
+    --brand-800: hsl(var(--H) calc(0.54*var(--S)) calc(0.33*var(--L)) / 1);
+    --brand-830: hsl(var(--H) calc(0.54*var(--S)) calc(0.24*var(--L)) / 1);
+    --brand-860: hsl(var(--H) calc(0.54*var(--S)) calc(0.16*var(--L)) / 1);
+    --brand-900: hsl(var(--H) calc(0.54*var(--S)) calc(0*var(--L)) / 1);
     --brand-100-hsl: var(--H) var(--S) calc(2*var(--L));
     --brand-130-hsl: var(--H) var(--S) calc(1.92*var(--L));
     --brand-160-hsl: var(--H) var(--S) calc(1.85*var(--L));
