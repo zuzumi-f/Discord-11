@@ -5,7 +5,7 @@ body,
 .scroller_fea3ef,
 .wrapper_fea3ef,
 .membersWrap_cbd271 {
-    background-color: transparent;
+    background: transparent;
 }
 .scroller_fea3ef {
     height: calc(100% - ((var(--server-size)*2) + 16px)) !important;
@@ -15,8 +15,7 @@ body,
     height: calc((var(--server-size)*2) + 16px);
 }
 #app-mount .bg_d4b6c5 {
-    top: -56px;
-    opacity: var(--background-opacity);
+    background: transparent;
 }
 
 .theme-dark .bg_d4b6c5 {
@@ -53,11 +52,11 @@ div#app-mount.appMount_ea7e65::before {
     pointer-events: none;
 }
 
-.theme-dark .layers_d4b6c5 > [class="layer_d4b6c5 "] {
+.theme-dark .layers_d4b6c5 > [class="layer_d4b6c5"] {
     background-color: hsla(0, 0%, 6%, 0.6) !important;
 }
 
-.theme-light .layers_d4b6c5 > [class="layer_d4b6c5 "] {
+.theme-light .layers_d4b6c5 > [class="layer_d4b6c5"] {
     background-color: hsla(0, 0%, 96%, 0.4) !important;
 }
 
